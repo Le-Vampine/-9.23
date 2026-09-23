@@ -1,0 +1,725 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "env-check",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"cd /d \"e:\\数学建模\\code\" && python _env_check.py > _env_check.log 2>&1"
+			],
+			"group": "test"
+		},
+		{
+			"label": "pip-install-q2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"cd /d \"e:\\数学建模\\code\" && python -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple > _pip.log 2>&1 && echo DONE >> _pip.log"
+			],
+			"group": "build"
+		},
+		{
+			"label": "step1-deps-dummy",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step1.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "step1b",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step1.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "smoke-train",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "smoke-train2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "smoke-train3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "learnability",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step3.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "kd-compare",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step4.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "infer-att3-test",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_step5.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "housekeeping",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_cleanup.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "inspect-real-data",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_inspect.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "inspect-real-data2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_inspect.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "inspect-real-data3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_inspect.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "timing-real",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_timing.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "smoke-final",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\run_smoke_test.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "tidy-final",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_tidy.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "verify-final",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_verify.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "audit-q2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_audit.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "validate-new-scripts",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_val.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "validate-new-scripts2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_val.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "validate-new-scripts3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_val.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "validate-new-scripts4",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_val.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "compile-check2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_compile.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "final-audit",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_audit.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "inspect-att34",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"cd /d \"e:\\数学建模\\code\" && set \"PYTHONUTF8=1\" && python -u inspect_att34.py --dir \"e:\\数学建模\\附件3-模态缺失特征样本\\对齐版本\" > _att3.log 2>&1 & python -u inspect_att34.py --dir \"e:\\数学建模\\附件4-可解释专项视频样本与特征文件\\附件4-可解释专项视频样本与特征文件\\对齐版本\" --max_files 2 >> _att3.log 2>&1 & echo FINISHED >> _att3.log"
+			],
+			"group": "test"
+		},
+		{
+			"label": "inspect-att34b",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_att.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "probe-att34",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_probe.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "probe-text",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_probe2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "hf-setup",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_hf.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "bert-download",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_hf2.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "verify-text-encoder",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_verifytext.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "train-q2-2seeds",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_train2seeds.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "encode-att-text",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_enc.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "encode-att4-calib",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_enc.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "infer-draft-real",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_infer_draft.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "diagnose-nan",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_diag.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "diagnose-nan2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_diag2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "train-q2-final",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_train2seeds.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "train-q2-final2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_train_final.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "check-train-status",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "check-train-status2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "kill-orphan-seed43",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_kill_orphan.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "check-train-status3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "check-progress-now",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "monitor-once-test",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_monitor_test.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "monitor-once-test2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_monitor_test.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "live-monitor",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\monitor.cmd 20"
+			],
+			"group": "test"
+		},
+		{
+			"label": "train-v2-loss",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_train_v2.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "status-v2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status3.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "status-v2b",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status3.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "status-v2c",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status4.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "live-monitor-v2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\monitor.cmd 20"
+			],
+			"group": "test"
+		},
+		{
+			"label": "monitor-once-3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_monitor_test.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "status-check-now",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status4.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "train-v3-regularized",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_train_v3.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "status-v3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_status5.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "deliverables-v2",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_deliver_v2.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "error-analysis-fix",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_err2.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "live-monitor-v3",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\monitor.cmd 20"
+			],
+			"group": "test"
+		},
+		{
+			"label": "live-monitor-v4",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\monitor.cmd 20"
+			],
+			"group": "test"
+		},
+		{
+			"label": "live-monitor-v5",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\monitor.cmd 20"
+			],
+			"group": "test"
+		},
+		{
+			"label": "metrics-check",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_metrics_check.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "pause-training",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_pause.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "verify-frozen",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_frozen.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "confirm-suspended",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_frozen.cmd"
+			],
+			"group": "test"
+		},
+		{
+			"label": "migration-audit",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_migrate.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "migration-package",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_migrate.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "terminate-training",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_killfinal.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "finalize-package",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_final.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "kill-orphan-final",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_orphan2.cmd"
+			],
+			"group": "build"
+		},
+		{
+			"label": "regen-package",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"e:\\数学建模\\code\\_regen.cmd"
+			],
+			"group": "build"
+		}
+	]
+}

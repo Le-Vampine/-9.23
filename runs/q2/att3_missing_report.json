@@ -1,0 +1,68 @@
+{
+  "pkl": "e:\\数学建模\\code\\..\\data_att\\att3_aligned.pkl",
+  "splits": {
+    "test": {
+      "N": 30,
+      "text": {
+        "n_with_missing": 0,
+        "frac_with_missing": 0.0,
+        "mean_missing_ratio": 0.0,
+        "p50": 0.0,
+        "p90": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "audio": {
+        "n_with_missing": 17,
+        "frac_with_missing": 0.5666666666666667,
+        "mean_missing_ratio": 0.10111687554491151,
+        "p50": 0.09722222222222221,
+        "p90": 0.2235294117647059,
+        "p99": 0.3607647058823531,
+        "max": 0.4
+      },
+      "vision": {
+        "n_with_missing": 18,
+        "frac_with_missing": 0.6,
+        "mean_missing_ratio": 0.10717748160551757,
+        "p50": 0.11805555555555555,
+        "p90": 0.2235294117647059,
+        "p99": 0.3607647058823531,
+        "max": 0.4
+      },
+      "combo": {
+        "text": 0,
+        "audio": 0,
+        "vision": 1,
+        "text+audio": 0,
+        "text+vision": 0,
+        "audio+vision": 17,
+        "text+audio+vision": 0,
+        "none": 12
+      },
+      "interval": {
+        "count": 54,
+        "len_min": 2,
+        "len_mean": 2.5185185185185186,
+        "len_p50": 2.0,
+        "len_max": 4,
+        "head": 0.37037037037037035,
+        "middle": 0.5555555555555556,
+        "tail": 0.07407407407407407,
+        "ratio_p5": 0.041666666666666664,
+        "ratio_p95": 0.2222222222222222
+      },
+      "suggest_train_params": {
+        "rho_min": 0.042,
+        "rho_max": 0.222,
+        "mode": "double",
+        "pos_modes_weights": {
+          "head": 0.37,
+          "middle": 0.56,
+          "tail": 0.07
+        },
+        "note": "把 rho_min/rho_max 覆盖到测试集缺失率区间，curric 第三阶段的 rho 上限应不低于测试集 p95"
+      }
+    }
+  }
+}

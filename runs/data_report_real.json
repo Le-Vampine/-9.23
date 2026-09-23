@@ -1,0 +1,103 @@
+{
+  "pkl": "e:\\数学建模\\附件2\\aligned_50.pkl",
+  "size_mb": 993.84,
+  "top_keys": [
+    "train",
+    "valid",
+    "test"
+  ],
+  "fields": {
+    "train": {
+      "raw_text": "(3395,) <U1662",
+      "audio": "(3395, 50, 74) float64",
+      "vision": "(3395, 50, 35) float64",
+      "id": "(3395,) <U16 (list)",
+      "text_bert": "(3395, 3, 50) int64",
+      "classification_labels": "(3395,) float64",
+      "regression_labels": "(3395,) float64",
+      "text": "(3395, 50, 768) float32"
+    },
+    "valid": {
+      "raw_text": "(728,) <U1570",
+      "audio": "(728, 50, 74) float64",
+      "vision": "(728, 50, 35) float64",
+      "id": "(728,) <U16 (list)",
+      "text_bert": "(728, 3, 50) int64",
+      "classification_labels": "(728,) float64",
+      "regression_labels": "(728,) float64",
+      "text": "(728, 50, 768) float32"
+    },
+    "test": {
+      "raw_text": "(727,) <U1479",
+      "audio": "(727, 50, 74) float64",
+      "vision": "(727, 50, 35) float64",
+      "id": "(727,) <U16 (list)",
+      "text_bert": "(727, 3, 50) int64",
+      "classification_labels": "(727,) float64",
+      "regression_labels": "(727,) float64",
+      "text": "(727, 50, 768) float32"
+    }
+  },
+  "parsed": {
+    "train": {
+      "N": 3395,
+      "D": {
+        "text": 768,
+        "audio": 74,
+        "vision": 35
+      },
+      "L": {
+        "text": 50,
+        "audio": 50,
+        "vision": 50
+      },
+      "has_labels": true,
+      "n_with_missing": 197,
+      "ids_sample": [
+        "-3g5yACwYnA$_$4",
+        "-HwX2H8Z4hY$_$3",
+        "-HwX2H8Z4hY$_$9"
+      ]
+    },
+    "valid": {
+      "N": 728,
+      "D": {
+        "text": 768,
+        "audio": 74,
+        "vision": 35
+      },
+      "L": {
+        "text": 50,
+        "audio": 50,
+        "vision": 50
+      },
+      "has_labels": true,
+      "n_with_missing": 48,
+      "ids_sample": [
+        "-UacrmKiTn4$_$7",
+        "-qDkUB0GgYY$_$5",
+        "0utROiKxejc$_$1"
+      ]
+    },
+    "test": {
+      "N": 727,
+      "D": {
+        "text": 768,
+        "audio": 74,
+        "vision": 35
+      },
+      "L": {
+        "text": 50,
+        "audio": 50,
+        "vision": 50
+      },
+      "has_labels": true,
+      "n_with_missing": 40,
+      "ids_sample": [
+        "-AUZQgSxyPQ$_$2",
+        "-HeZS2-Prhc$_$2",
+        "-MeTTeMJBNc$_$0"
+      ]
+    }
+  }
+}

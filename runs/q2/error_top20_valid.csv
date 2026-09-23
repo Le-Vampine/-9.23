@@ -1,0 +1,21 @@
+﻿id,y_reg,y_cls,pred,pred_cls,err,rho_text,rho_audio,rho_vision,len_text,len_audio,len_vision,abs_y,strength_bucket,text_len_bucket,vision_len_bucket,polarity,any_missing,raw_text
+266791$_$23,-2.6666667,0,0.4213906,2,3.0880573,0.0,0.0,0.0,36,35,35,2.6666667,|y|>1.5,长,长,Negative,无缺失,As you're watching the movie it looks like they're actually looking at cue cards and reading these words for the first t
+102858$_$6,2.6666667,2,-0.38651147,0,3.0531783,0.0,0.0,0.0,28,27,27,2.6666667,|y|>1.5,中,中,Positive,无缺失,It's probably three of the best (stutter) holiday specials made in the last (uhh) let's see
+f_ZJ7L14oYQ$_$21,2.0,2,-0.90102696,0,2.901027,0.0,0.0,0.0,24,23,23,2.0,|y|>1.5,中,中,Positive,无缺失,They just so much more convenient than stupid boots that take forever to put on and just aren't comfortable!
+102858$_$20,2.0,2,-0.72859836,0,2.7285984,0.0,0.0,0.0,26,25,25,2.0,|y|>1.5,中,中,Positive,无缺失,"This thing, if you guys don't have it, you're going to need it for your holiday DVD list"
+130456$_$11,1.6666666,2,-0.9822211,0,2.6488876,0.0,0.0,0.0,36,35,35,1.6666666,|y|>1.5,长,长,Positive,无缺失,"It it (stutter) involves like, (uhh) theoretical physics and just so much stuff and Donnie Darko no matter how weird he "
+121128$_$5,3.0,2,0.39062336,2,2.6093767,0.0,0.0,0.0,9,8,8,3.0,|y|>1.5,短,短,Positive,无缺失,(umm) This movie was excellent
+102858$_$4,3.0,2,0.55574113,2,2.444259,0.0,0.0,0.0,50,49,49,3.0,|y|>1.5,长,长,Positive,无缺失,"This one disc contains not only Garfield, not only Garfield's Halloween, Halloween (stutter) Adventure, a special I've I"
+237009$_$11,-3.0,0,-0.6813227,0,2.3186774,0.0,0.0,0.0,11,10,10,3.0,|y|>1.5,短,短,Negative,无缺失,"(umm), it should be rated junk"
+247318$_$3,-2.3333333,0,-0.10640961,1,2.2269237,0.0,0.0,0.0,7,6,6,2.3333333,|y|>1.5,短,短,Negative,无缺失,B here standing for bad
+rojyUp4FPSg$_$9,2.0,2,-0.21857655,1,2.2185764,0.0,0.0,0.0,28,27,27,2.0,|y|>1.5,中,长,Positive,无缺失,"So if you have a really overpowering scent, it will clash and just create something that's really not what we wanted."
+2S00zYaVrtc$_$10,-2.6666667,0,-0.46424437,0,2.2024224,0.0,0.0,0.0,20,19,19,2.6666667,|y|>1.5,中,中,Negative,无缺失,The pepper spray incident was one that I will deeply regret for the rest of my life.
+130456$_$3,2.3333333,2,0.13442197,1,2.1989112,0.0,0.0,0.0,21,20,15,2.3333333,|y|>1.5,中,短,Positive,无缺失,"(uhh) It's, out of five stars, I would give it a five"
+H1DpVwktfDQ$_$0,1.6666666,2,-0.5025617,0,2.1692283,0.0,0.0,0.0,15,14,1,1.6666666,|y|>1.5,短,短,Positive,无缺失,going to head back to my room and start watching some YouTube videos
+rojyUp4FPSg$_$18,2.5,2,0.36058766,2,2.1394124,0.0,0.0,0.0,19,18,18,2.5,|y|>1.5,中,中,Positive,无缺失,This could be your primary scent to wear after you go to the gym or something.
+241629$_$3,2.3333333,2,0.20399435,1,2.129339,0.0,0.0,0.0,30,29,29,2.3333333,|y|>1.5,长,长,Positive,无缺失,(uhh) Knocked Up was a hilarious movie that I really enjoyed and (uhh) was expecting something along that lines for this
+252998$_$7,1.3333334,2,-0.7157808,0,2.0491142,0.0,0.0,0.0,39,38,38,1.3333334,0.5<|y|<=1.5,长,长,Positive,无缺失,(uhh) I think the best line in the movie comes from Tori Spelling when she looks at Parker Posey and says no you're not 
+102858$_$21,1.0,2,-1.0034076,0,2.0034075,0.0,0.0,0.0,29,28,28,1.0,0.5<|y|<=1.5,中,长,Positive,无缺失,"I'm giving this beast a four out of, (stutter) I mean, (uhh) wait, four, no"
+HGicRLwgtkM$_$6,2.3333333,2,0.35005933,2,1.983274,0.0,0.0,0.77272725,23,22,22,2.3333333,|y|>1.5,中,中,Positive,含缺失,And researchers from Kyoto University showed that dogs can match their owner’s face to their owner’s voice
+32681$_$5,0.33333334,2,-1.6433136,0,1.976647,0.0,0.0,0.0,41,40,40,0.33333334,|y|<=0.5,长,长,Positive,无缺失,"(umm) The only time I did laugh was at the the (stutter) pretty dirty stuff which they usually don't put in movies but, "
+Z7L3V5bwzI0$_$2,2.3333333,2,0.38876808,2,1.9445652,0.0,0.0,0.0,29,28,28,2.3333333,|y|>1.5,长,长,Positive,无缺失,"&gt;&gt; I want to get rid of the federal government monopoly on student loans, and give our students more options."
