@@ -1,0 +1,103 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-HwX2H8Z4hY$_$2.wav",
+  "audio_sha256": "9bb6f76b1659a4cd5e0d44635e7256012a421a76401f81071761f20ff8b9584c",
+  "audio_duration_s": 3.9158125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "mediocrity. Look at the record.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.8,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.8,
+      "text": " mediocrity.",
+      "no_speech_probability": 0.03582572191953659,
+      "average_log_probability": -0.4370710402727127
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 2.8000000000000003,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 2.8000000000000003,
+      "end_time_source_s": 3.3,
+      "text": " Look at the record.",
+      "no_speech_probability": 0.03582572191953659,
+      "average_log_probability": -0.4370710402727127
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "mediocrity.",
+      "surface": " mediocrity.",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.8,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.8,
+      "probability": 0.8431897163391113
+    },
+    {
+      "word_index": 2,
+      "word": "Look",
+      "surface": " Look",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.82,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.82,
+      "probability": 0.9563334584236145
+    },
+    {
+      "word_index": 3,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 2.82,
+      "end_time_wav_s": 2.92,
+      "start_time_source_s": 2.82,
+      "end_time_source_s": 2.92,
+      "probability": 0.9965698719024658
+    },
+    {
+      "word_index": 4,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 2.92,
+      "end_time_wav_s": 3.04,
+      "start_time_source_s": 2.92,
+      "end_time_source_s": 3.04,
+      "probability": 0.9965872764587402
+    },
+    {
+      "word_index": 5,
+      "word": "record.",
+      "surface": " record.",
+      "start_time_wav_s": 3.04,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 3.04,
+      "end_time_source_s": 3.3,
+      "probability": 0.9943323135375977
+    }
+  ],
+  "word_count": 5,
+  "mean_word_probability": 0.9574025273323059,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,293 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$9",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-HwX2H8Z4hY$_$9.wav",
+  "audio_sha256": "9ac42bc216fe8232568d52e3559cbdf602e188daa8491095888f989e41737506",
+  "audio_duration_s": 7.6363125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "It is a word with which the administrator uses when he turns around anything which he doesn't like the teacher is doing he says you",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.6,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.6,
+      "text": " It is a word with which the administrator uses when he turns around anything which he doesn't like the teacher is doing he says you",
+      "no_speech_probability": 0.25447192788124084,
+      "average_log_probability": -0.25043420544986067
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "It",
+      "surface": " It",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.62,
+      "probability": 0.5422265529632568
+    },
+    {
+      "word_index": 2,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.74,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.74,
+      "probability": 0.98908931016922
+    },
+    {
+      "word_index": 3,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 0.74,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.74,
+      "end_time_source_s": 0.88,
+      "probability": 0.8854701519012451
+    },
+    {
+      "word_index": 4,
+      "word": "word",
+      "surface": " word",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.14,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.14,
+      "probability": 0.9882196187973022
+    },
+    {
+      "word_index": 5,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 1.14,
+      "end_time_wav_s": 1.38,
+      "start_time_source_s": 1.14,
+      "end_time_source_s": 1.38,
+      "probability": 0.8396892547607422
+    },
+    {
+      "word_index": 6,
+      "word": "which",
+      "surface": " which",
+      "start_time_wav_s": 1.38,
+      "end_time_wav_s": 1.58,
+      "start_time_source_s": 1.38,
+      "end_time_source_s": 1.58,
+      "probability": 0.9678369760513306
+    },
+    {
+      "word_index": 7,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 1.58,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.58,
+      "end_time_source_s": 1.76,
+      "probability": 0.9844915270805359
+    },
+    {
+      "word_index": 8,
+      "word": "administrator",
+      "surface": " administrator",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 2.3,
+      "probability": 0.9731279611587524
+    },
+    {
+      "word_index": 9,
+      "word": "uses",
+      "surface": " uses",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.78,
+      "probability": 0.6432522535324097
+    },
+    {
+      "word_index": 10,
+      "word": "when",
+      "surface": " when",
+      "start_time_wav_s": 2.78,
+      "end_time_wav_s": 4.42,
+      "start_time_source_s": 2.78,
+      "end_time_source_s": 4.42,
+      "probability": 0.5357121229171753
+    },
+    {
+      "word_index": 11,
+      "word": "he",
+      "surface": " he",
+      "start_time_wav_s": 4.42,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.42,
+      "end_time_source_s": 4.54,
+      "probability": 0.9848886728286743
+    },
+    {
+      "word_index": 12,
+      "word": "turns",
+      "surface": " turns",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 4.72,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 4.72,
+      "probability": 0.9723146557807922
+    },
+    {
+      "word_index": 13,
+      "word": "around",
+      "surface": " around",
+      "start_time_wav_s": 4.72,
+      "end_time_wav_s": 5.06,
+      "start_time_source_s": 4.72,
+      "end_time_source_s": 5.06,
+      "probability": 0.9288570880889893
+    },
+    {
+      "word_index": 14,
+      "word": "anything",
+      "surface": " anything",
+      "start_time_wav_s": 5.06,
+      "end_time_wav_s": 5.38,
+      "start_time_source_s": 5.06,
+      "end_time_source_s": 5.38,
+      "probability": 0.7024426460266113
+    },
+    {
+      "word_index": 15,
+      "word": "which",
+      "surface": " which",
+      "start_time_wav_s": 5.38,
+      "end_time_wav_s": 5.6,
+      "start_time_source_s": 5.38,
+      "end_time_source_s": 5.6,
+      "probability": 0.7253822088241577
+    },
+    {
+      "word_index": 16,
+      "word": "he",
+      "surface": " he",
+      "start_time_wav_s": 5.6,
+      "end_time_wav_s": 5.76,
+      "start_time_source_s": 5.6,
+      "end_time_source_s": 5.76,
+      "probability": 0.9816341996192932
+    },
+    {
+      "word_index": 17,
+      "word": "doesn't",
+      "surface": " doesn't",
+      "start_time_wav_s": 5.76,
+      "end_time_wav_s": 6.02,
+      "start_time_source_s": 5.76,
+      "end_time_source_s": 6.02,
+      "probability": 0.9932103455066681
+    },
+    {
+      "word_index": 18,
+      "word": "like",
+      "surface": " like",
+      "start_time_wav_s": 6.02,
+      "end_time_wav_s": 6.18,
+      "start_time_source_s": 6.02,
+      "end_time_source_s": 6.18,
+      "probability": 0.9942666888237
+    },
+    {
+      "word_index": 19,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 6.18,
+      "end_time_wav_s": 6.38,
+      "start_time_source_s": 6.18,
+      "end_time_source_s": 6.38,
+      "probability": 0.5216295719146729
+    },
+    {
+      "word_index": 20,
+      "word": "teacher",
+      "surface": " teacher",
+      "start_time_wav_s": 6.38,
+      "end_time_wav_s": 6.7,
+      "start_time_source_s": 6.38,
+      "end_time_source_s": 6.7,
+      "probability": 0.8433690071105957
+    },
+    {
+      "word_index": 21,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 6.7,
+      "end_time_wav_s": 6.88,
+      "start_time_source_s": 6.7,
+      "end_time_source_s": 6.88,
+      "probability": 0.7576192617416382
+    },
+    {
+      "word_index": 22,
+      "word": "doing",
+      "surface": " doing",
+      "start_time_wav_s": 6.88,
+      "end_time_wav_s": 7.06,
+      "start_time_source_s": 6.88,
+      "end_time_source_s": 7.06,
+      "probability": 0.9334284663200378
+    },
+    {
+      "word_index": 23,
+      "word": "he",
+      "surface": " he",
+      "start_time_wav_s": 7.06,
+      "end_time_wav_s": 7.22,
+      "start_time_source_s": 7.06,
+      "end_time_source_s": 7.22,
+      "probability": 0.5528401732444763
+    },
+    {
+      "word_index": 24,
+      "word": "says",
+      "surface": " says",
+      "start_time_wav_s": 7.22,
+      "end_time_wav_s": 7.38,
+      "start_time_source_s": 7.22,
+      "end_time_source_s": 7.38,
+      "probability": 0.9687085151672363
+    },
+    {
+      "word_index": 25,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 7.38,
+      "end_time_wav_s": 7.6,
+      "start_time_source_s": 7.38,
+      "end_time_source_s": 7.6,
+      "probability": 0.864395022392273
+    }
+  ],
+  "word_count": 25,
+  "mean_word_probability": 0.8429640901088714,
+  "issues": [],
+  "official_transcript_loaded": false
+}

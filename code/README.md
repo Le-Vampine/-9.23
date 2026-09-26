@@ -177,6 +177,47 @@ python code\02_model\analyze_sweep.py --csv runs\q2\sweep_valid_s42.csv
 | 验证集基础性能 / 可视化 / 错误归因 | `metrics_*.json` + 用 `pred` 数组自行出图（散点、混淆矩阵、分层统计） |
 | 训练/验证/测试同一版本、同一接口 | `config.version` 单点控制；`infer_att3.py` 读取 ckpt 内配置，天然一致 |
 
+## 6.5 指标口径与 P0 评估（`report_p0.py`）
+
+赛题规定（原文"说明"）：模型参数在**训练集**学习，**模型结构、超参数与决策阈值**在**验证集**上选择；
+极性用 Accuracy/F1，强度用 MAE/Pearson。据此固化如下口径：
+
+| 约定 | 说明 |
+|---|---|
+| 主报集合 | **valid（728 条）**；附件2 的 `test` 划分（727 条）仅作泛化核验，只在最终评一次 |
+| 极性主口径 | **单一对称 θ**：`score<−θ`→负、`\|score\|≤θ`→中、`score>θ`→正，θ 在 valid 上按 Macro-F1 选 |
+| 对照口径 | 分类头 argmax（`acc_head` / `f1_head`），仅作对照，不作提交标签 |
+| 校准 / 融合 | 系数（仿射 `a,b`、融合 `α`）一律在 valid 上拟合；附件3/4 无标签，不参与任何选择 |
+| 附件3/4 | 只推理、只交 CSV，不报指标；CSV 内 `pred_label`(θ) 与 `pred_label_head`(head) 并列写出 |
+
+```powershell
+# 口径统一 + θ 敏感性 + valid 上校准 + 统计检验（不重训，直接用现成 ckpt）
+python 02_model\report_p0.py --ckpt_dir ..\runs\q2 --out_dir ..\runs\q2 --figs_dir ..\figs
+```
+
+产出：`runs/q2/report_p0.json`（全部数值）、`runs/q2/report_p0.md`（论文可用表）、
+`figs/theta_sweep_q2.png`、`figs/calibration_q2.png`。
+
+**P0 实测结论（v2 单种子，θ=0.30）**：
+
+| 口径 | valid（主报） | test（附加核验） |
+|---|---|---|
+| MAE / Pearson / CCC | 0.5873 / 0.6610 / 0.6162 | 0.6521 / 0.6646 / 0.6130 |
+| **ACC / Macro-F1（θ 口径，与提交一致）** | **0.6195 / 0.6082** | **0.6149 / 0.5918** |
+| ACC / Macro-F1（分类头口诀，仅对照） | 0.5962 / 0.5862 | 0.6135 / 0.5935 |
+
+> ⚠️ **历史遗留口径错误已修正**：旧 `metrics_s42.json` 把**分类头口径**写进了 `acc`/`f1`
+> （其每类 F1 与分类头口径完全一致）。已用 `report_p0.py --write_metrics` 重算写回
+> （θ 口径进 `acc/f1`，分类头口径进 `acc_head/f1_head`），旧文件备份为 `metrics_s42_legacy.json`。
+>
+> 其他结论：θ=0.30 同时为 Macro-F1 与 ACC 最优；双头融合 α=0（无增益）；非对称阈值退化为对称（不采用）；
+> 仿射校准（OLS, a=0.9503, b=+0.1002, θ=0.32）在 test 上明显更好（MAE 0.6521→0.6485、
+> ACC 0.6149→0.6341、Macro-F1 0.5918→0.6091）但在 valid 上分类指标略降，故**主口径保持不校准**。
+
+
+> `make_tables.py` 默认剔除合成数据/调试/早期试跑目录（`smoke`、`learn`、`timing`、
+> `cmp_*`、`*check`、`baseline`），避免污染论文表格；需要时用 `--keep_debug` 关闭剔除。
+
 ## 7. 消融实验怎么做
 
 `config.py` 里把对应损失权重置 0，或在 `model.py` 里关掉对应模块，然后重跑同一 seed：

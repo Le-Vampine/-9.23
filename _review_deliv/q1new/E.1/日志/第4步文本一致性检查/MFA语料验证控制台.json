@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-09-25T10:14:58.434254+00:00",
+  "command": [
+    "C:\\Users\\Administrator\\miniforge3\\envs\\mfa\\Scripts\\mfa.exe",
+    "validate",
+    "Z:\\MFA\\corpus\\audio",
+    "Z:\\MFA\\models\\dictionary\\english_us_arpa.dict",
+    "--acoustic_model_path",
+    "Z:\\MFA\\models\\acoustic\\english_us_arpa.zip",
+    "--output_directory",
+    "Z:\\MFA\\validation",
+    "--temporary_directory",
+    "Z:\\MFA\\work_validate_parallel",
+    "--num_jobs",
+    "4",
+    "--single_speaker"
+  ],
+  "mfa_executable": "C:\\Users\\Administrator\\miniforge3\\envs\\mfa\\Scripts\\mfa.exe",
+  "mfa_environment": "C:\\Users\\Administrator\\miniforge3\\envs\\mfa",
+  "mfa_root_dir": "Z:\\MFA\\work",
+  "return_code": 4294967295,
+  "stdout": "  29% ---------                          29/100  [ 0:00:02 < -:--:-- , ? it/s ]\n 100% ----------------------------------- 29/29  [ 0:00:01 < 0:00:00 , ? it/s ]\n",
+  "stderr": " INFO     Setting up corpus information...                                     \n INFO     Loading corpus from source files...                                  \n INFO     Found 1 speaker across 29 files, average number of utterances per    \n          speaker: 29.0                                                        \n INFO     Initializing multiprocessing jobs...                                 \n INFO     Normalizing text...                                                  \n INFO     Generating MFCCs...                                                  \n"
+}

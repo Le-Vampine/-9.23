@@ -1,0 +1,1133 @@
+{
+  "generated_at_utc": "2026-09-25T18:15:51.174279+08:00",
+  "step": "第4步：原始文本与Whisper自动比对、MFA词时间戳映射与规则核查",
+  "sample_count": 100,
+  "gate_counts": {
+    "text_mismatch_no_align": 69,
+    "candidate_for_mfa_auto_screen": 29,
+    "asr_empty_no_align": 2
+  },
+  "mfa_candidate_count": 29,
+  "mfa_candidate_sample_ids": [
+    "-3g5yACwYnA$_$2",
+    "-HwX2H8Z4hY$_$5",
+    "-THoVjtIkeU$_$2",
+    "-UuX1xuaiiE$_$1",
+    "-UuX1xuaiiE$_$0",
+    "-UuX1xuaiiE$_$3",
+    "-a55Q6RWvTA$_$3",
+    "-aNfi7CP8vM$_$7",
+    "-dxfTGcXJoc$_$2",
+    "-dxfTGcXJoc$_$6",
+    "-egA8-b7-3M$_$17",
+    "-egA8-b7-3M$_$18",
+    "-egA8-b7-3M$_$16",
+    "-egA8-b7-3M$_$13",
+    "-egA8-b7-3M$_$6",
+    "-egA8-b7-3M$_$9",
+    "-egA8-b7-3M$_$20",
+    "-mqbVkbCndg$_$0",
+    "-t217m2on-s$_$2",
+    "-t217m2on-s$_$7",
+    "-vxjVxOeScU$_$4",
+    "-wMB_hJL-3o$_$7",
+    "-wny0OAz3g8$_$5",
+    "-571d8cVauQ$_$0",
+    "-I_e4mIh0yE$_$1",
+    "-UacrmKiTn4$_$10",
+    "-9y-fZ3swSY$_$4",
+    "-MeTTeMJBNc$_$0",
+    "-RfYyzHpjk4$_$11"
+  ],
+  "source_workbook": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\原始标签\\label-100.xlsx",
+  "source_workbook_info": {
+    "sheet": "label",
+    "data_rows": 100,
+    "columns": [
+      "video_id",
+      "clip_id",
+      "text",
+      "label",
+      "annotation"
+    ]
+  },
+  "normalization": {
+    "case_insensitive": true,
+    "ignores_punctuation": true,
+    "normalizes_unicode_apostrophes": true,
+    "splits_hyphenated_words": true,
+    "expands_contractions": false,
+    "number_spellings_are_equated": false
+  },
+  "mfa_gate_rule": "MFA对98条非空Whisper转写强制对齐，再只映射官方原文与Whisper、Whisper与MFA中所有最优LCS下唯一必选的精确同词。完全匹配样本标A层，文本不一致样本中的唯一同词标B层。B层不表示整句已验证。",
+  "whisper_timestamp_rules": {
+    "invalid_flags": [
+      "missing/nonfinite",
+      "negative start",
+      "nonpositive duration",
+      "beyond WAV duration by more than 0.05 s",
+      "out of order",
+      "overlap by more than 0.05 s"
+    ],
+    "review_only_flags": [
+      "duration below 0.02 s",
+      "duration above 1.5 s"
+    ],
+    "note": "Whisper边界是估计值。规则标记用于机器筛查，不是精度证明；时间差异不取平均。"
+  },
+  "files": {
+    "summary_csv": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\日志\\第4步文本一致性检查\\100条原始文本与Whisper比对汇总.csv",
+    "token_comparison_csv": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\日志\\第4步文本一致性检查\\逐词对照与Whisper初步时间.csv",
+    "whisper_time_audit_csv": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\日志\\第4步文本一致性检查\\Whisper词时间戳自动核查.csv",
+    "provisional_official_word_times_csv": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\日志\\第4步文本一致性检查\\原文词级时间候选_Whisper估计.csv",
+    "final_mfa_word_times_csv": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\日志\\第4步文本一致性检查\\原文词级时间_MFA候选及最终采用.csv",
+    "mfa_mapping_summary_json": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\日志\\第4步文本一致性检查\\MFA原文时间映射汇总.json"
+  },
+  "mfa_execution_status": "MFA 3.4.2批量对齐98条非空Whisper转写；95条导出JSON，3条失败（sample_0022、sample_0054、sample_0098）。将NUMBA_CACHE_DIR重定向到E.1后，解决此前缓存初始化停滞。",
+  "provisional_timestamp_policy": "For exact normalized text matches, retain Whisper estimates only when all automatic boundary checks pass. Flagged times are null. Original transcript times are null for text mismatch and empty ASR cases. These estimates are not gold boundaries and no numeric accuracy guarantee is made.",
+  "final_timestamp_policy": "最终主时间使用MFA对齐时间。仅保留官方词到Whisper词、Whisper词到MFA词均为所有最优LCS下唯一必选的精确同词，且MFA时间区间通过检查；可比对时，MFA与Whisper任一边界差超过0.5秒则主时间留空。Whisper只用于差异筛查，不作为最终时间。A层为整句文本一致，B层为不一致样本中的唯一同词。",
+  "final_timestamp_counts": {
+    "official_words": 1934,
+    "mfa_mapped_candidates_before_discrepancy_screen": 1520,
+    "final_mfa_timestamps": 1421,
+    "coverage": 0.734746639089969,
+    "null_words": 513,
+    "tier_A_exact_transcript": 520,
+    "tier_B_unique_word_overlap_in_mismatched_transcript": 901,
+    "mfa_whisper_discrepancy_over_0_5s": 99,
+    "unmatched_or_ambiguous_in_asr": 272,
+    "words_in_three_mfa_failed_samples": 77,
+    "words_in_two_empty_asr_samples": 65,
+    "accuracy_claim_without_gold_boundaries": false
+  },
+  "provisional_word_time_counts": {
+    "total_official_words": 1934,
+    "whisper_estimates_retained": 553,
+    "null_or_unmapped": 1381,
+    "by_status": {
+      "asr_empty_no_original_time": 65,
+      "text_mismatch_no_original_time": 1314,
+      "whisper_estimate_auto_qc_pass": 553,
+      "whisper_time_flagged_null": 2
+    }
+  },
+  "rows": [
+    {
+      "sample_id": "-3g5yACwYnA$_$13",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.3333333333333333,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$3",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.20689655172413793,
+      "edit_count": 6,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$2",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$9",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.043478260869565216,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-3nNcZdcdvU$_$5",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.1111111111111111,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.42857142857142855,
+      "edit_count": 3,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$5",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.14285714285714285,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$9",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.22727272727272727,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-NFrJFQijFE$_$1",
+      "gate": "asr_empty_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 16,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-NFrJFQijFE$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 18,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$12",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.05128205128205128,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$2",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.2,
+      "edit_count": 6,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$1",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$0",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$3",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.09090909090909091,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-a55Q6RWvTA$_$3",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-aNfi7CP8vM$_$7",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-aqamKhZ1Ec$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.14285714285714285,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$1",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.027777777777777776,
+      "edit_count": 1,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.21428571428571427,
+      "edit_count": 9,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 5,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$2",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$6",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$26",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.13333333333333333,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$17",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$18",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$16",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$13",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$1",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.05,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$6",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$9",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$20",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$3",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.75,
+      "edit_count": 14,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$7",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.2222222222222223,
+      "edit_count": 11,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.8,
+      "edit_count": 9,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$9",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$8",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0476190476190477,
+      "edit_count": 22,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-lzEya4AM_4$_$5",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.05263157894736842,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-lzEya4AM_4$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.046511627906976744,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$1",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 13,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 11,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.4,
+      "edit_count": 7,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$9",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.9545454545454546,
+      "edit_count": 21,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$8",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.2727272727272727,
+      "edit_count": 14,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-mqbVkbCndg$_$0",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-t217m2on-s$_$2",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-t217m2on-s$_$7",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-tANM6ETl_M$_$3",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.045454545454545456,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$11",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.47058823529411764,
+      "edit_count": 8,
+      "critical_mismatch_count": 4,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$10",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.4166666666666667,
+      "edit_count": 5,
+      "critical_mismatch_count": 2,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$12",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.2692307692307692,
+      "edit_count": 7,
+      "critical_mismatch_count": 2,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$16",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.3125,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$18",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.5,
+      "edit_count": 8,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 4,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-vxjVxOeScU$_$4",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wMB_hJL-3o$_$7",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$1",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.18181818181818182,
+      "edit_count": 4,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.4444444444444444,
+      "edit_count": 4,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$3",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.1,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.08695652173913043,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$5",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$7",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.06896551724137931,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$9",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.05,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-571d8cVauQ$_$0",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-571d8cVauQ$_$5",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.11627906976744186,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-I_e4mIh0yE$_$1",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-I_e4mIh0yE$_$3",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.13636363636363635,
+      "edit_count": 3,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UacrmKiTn4$_$10",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UacrmKiTn4$_$4",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.07142857142857142,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-hnBHBN8p5A$_$7",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0769230769230769,
+      "edit_count": 14,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-hnBHBN8p5A$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.9230769230769231,
+      "edit_count": 12,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-qDkUB0GgYY$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.3125,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-uywlfIYOS8$_$4",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.1111111111111111,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-6rXp3zJ3kc$_$8",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.11764705882352941,
+      "edit_count": 4,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.45454545454545453,
+      "edit_count": 10,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$4",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$8",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.08333333333333333,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-AUZQgSxyPQ$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.1951219512195122,
+      "edit_count": 8,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-HeZS2-Prhc$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.25,
+      "edit_count": 4,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$0",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$13",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.14285714285714285,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$7",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.06451612903225806,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$11",
+      "gate": "candidate_for_mfa_auto_screen",
+      "exact_match": true,
+      "wer": 0.0,
+      "edit_count": 0,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$8",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.058823529411764705,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.04,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-UUCSKoHeMA$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.05555555555555555,
+      "edit_count": 1,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 8,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$2",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 16,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$5",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.75,
+      "edit_count": 14,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$1",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.36363636363636365,
+      "edit_count": 4,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$0",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.25,
+      "edit_count": 6,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 1,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$5",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.15789473684210525,
+      "edit_count": 3,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$4",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.5555555555555556,
+      "edit_count": 5,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$7",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.10714285714285714,
+      "edit_count": 3,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.4,
+      "edit_count": 2,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$8",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 0.3333333333333333,
+      "edit_count": 4,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$1",
+      "gate": "asr_empty_no_align",
+      "exact_match": false,
+      "wer": 1.0,
+      "edit_count": 49,
+      "critical_mismatch_count": 0,
+      "whisper_time_flag_count": 0,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$5",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.44,
+      "edit_count": 36,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 11,
+      "timed_word_sequence_matches_asr_text": true
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$6",
+      "gate": "text_mismatch_no_align",
+      "exact_match": false,
+      "wer": 1.736842105263158,
+      "edit_count": 33,
+      "critical_mismatch_count": 1,
+      "whisper_time_flag_count": 14,
+      "timed_word_sequence_matches_asr_text": true
+    }
+  ],
+  "historical_whisper_estimate_recovery_superseded_by_mfa": {
+    "generated_at": "2026-09-25",
+    "mapping_method": "mandatory unique exact-token pair in every optimal LCS alignment",
+    "total_official_words": 1934,
+    "timestamps_passing_automatic_rules": 1568,
+    "null_words": 366,
+    "estimated_timestamp_coverage": 0.8107549120992761,
+    "exact_text_whisper_estimates": 553,
+    "partial_whisper_estimates": 1015,
+    "unmatched_or_ambiguous": 289,
+    "flagged_word_times": 12,
+    "empty_asr_words": 65,
+    "timestamp_source": "Whisper small.en estimates only; retained as historical comparison and superseded by final MFA mapping",
+    "summary_json": "逐词保守恢复汇总.json",
+    "word_time_csv": "原文词级时间_逐词保守恢复.csv",
+    "per_sample_csv": "逐词恢复逐样本统计.csv"
+  }
+}

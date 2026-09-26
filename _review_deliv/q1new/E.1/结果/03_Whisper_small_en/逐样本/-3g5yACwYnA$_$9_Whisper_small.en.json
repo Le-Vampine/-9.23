@@ -1,0 +1,293 @@
+{
+  "sample_id": "-3g5yACwYnA$_$9",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-3g5yACwYnA$_$9.wav",
+  "audio_sha256": "8ce26ae8910e28c50a976593c6444a629d86585d6b9ddada9b8f53ee4e303a8d",
+  "audio_duration_s": 8.696,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Like, we have many new opportunities through the way things have changed through the years, looking for new niche, high-end value-added products.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.84,
+      "text": " Like, we have many new opportunities through the way things have changed through the years,",
+      "no_speech_probability": 0.01112478319555521,
+      "average_log_probability": -0.3347638896533421
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.58,
+      "end_time_wav_s": 7.98,
+      "start_time_source_s": 5.58,
+      "end_time_source_s": 7.98,
+      "text": " looking for new niche, high-end value-added products.",
+      "no_speech_probability": 0.01112478319555521,
+      "average_log_probability": -0.3347638896533421
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Like,",
+      "surface": " Like,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.08,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.08,
+      "probability": 0.17190369963645935
+    },
+    {
+      "word_index": 2,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 0.58,
+      "end_time_wav_s": 0.92,
+      "start_time_source_s": 0.58,
+      "end_time_source_s": 0.92,
+      "probability": 0.992073655128479
+    },
+    {
+      "word_index": 3,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 0.92,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.92,
+      "end_time_source_s": 1.06,
+      "probability": 0.9968152642250061
+    },
+    {
+      "word_index": 4,
+      "word": "many",
+      "surface": " many",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.32,
+      "probability": 0.9846484661102295
+    },
+    {
+      "word_index": 5,
+      "word": "new",
+      "surface": " new",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.84,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.84,
+      "probability": 0.9687299132347107
+    },
+    {
+      "word_index": 6,
+      "word": "opportunities",
+      "surface": " opportunities",
+      "start_time_wav_s": 1.84,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 1.84,
+      "end_time_source_s": 2.3,
+      "probability": 0.9929100871086121
+    },
+    {
+      "word_index": 7,
+      "word": "through",
+      "surface": " through",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.76,
+      "probability": 0.9045207500457764
+    },
+    {
+      "word_index": 8,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 3.46,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 3.46,
+      "probability": 0.9763025045394897
+    },
+    {
+      "word_index": 9,
+      "word": "way",
+      "surface": " way",
+      "start_time_wav_s": 3.46,
+      "end_time_wav_s": 3.6,
+      "start_time_source_s": 3.46,
+      "end_time_source_s": 3.6,
+      "probability": 0.9750462770462036
+    },
+    {
+      "word_index": 10,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 3.6,
+      "end_time_wav_s": 3.84,
+      "start_time_source_s": 3.6,
+      "end_time_source_s": 3.84,
+      "probability": 0.9923880100250244
+    },
+    {
+      "word_index": 11,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 3.84,
+      "end_time_wav_s": 4.0,
+      "start_time_source_s": 3.84,
+      "end_time_source_s": 4.0,
+      "probability": 0.9900826811790466
+    },
+    {
+      "word_index": 12,
+      "word": "changed",
+      "surface": " changed",
+      "start_time_wav_s": 4.0,
+      "end_time_wav_s": 4.2,
+      "start_time_source_s": 4.0,
+      "end_time_source_s": 4.2,
+      "probability": 0.9919368028640747
+    },
+    {
+      "word_index": 13,
+      "word": "through",
+      "surface": " through",
+      "start_time_wav_s": 4.2,
+      "end_time_wav_s": 4.42,
+      "start_time_source_s": 4.2,
+      "end_time_source_s": 4.42,
+      "probability": 0.6275418400764465
+    },
+    {
+      "word_index": 14,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.42,
+      "end_time_wav_s": 4.56,
+      "start_time_source_s": 4.42,
+      "end_time_source_s": 4.56,
+      "probability": 0.9966932535171509
+    },
+    {
+      "word_index": 15,
+      "word": "years,",
+      "surface": " years,",
+      "start_time_wav_s": 4.56,
+      "end_time_wav_s": 4.84,
+      "start_time_source_s": 4.56,
+      "end_time_source_s": 4.84,
+      "probability": 0.9946276545524597
+    },
+    {
+      "word_index": 16,
+      "word": "looking",
+      "surface": " looking",
+      "start_time_wav_s": 5.58,
+      "end_time_wav_s": 5.8,
+      "start_time_source_s": 5.58,
+      "end_time_source_s": 5.8,
+      "probability": 0.9197472333908081
+    },
+    {
+      "word_index": 17,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 5.8,
+      "end_time_wav_s": 6.02,
+      "start_time_source_s": 5.8,
+      "end_time_source_s": 6.02,
+      "probability": 0.994914174079895
+    },
+    {
+      "word_index": 18,
+      "word": "new",
+      "surface": " new",
+      "start_time_wav_s": 6.02,
+      "end_time_wav_s": 6.18,
+      "start_time_source_s": 6.02,
+      "end_time_source_s": 6.18,
+      "probability": 0.9886981248855591
+    },
+    {
+      "word_index": 19,
+      "word": "niche,",
+      "surface": " niche,",
+      "start_time_wav_s": 6.18,
+      "end_time_wav_s": 6.46,
+      "start_time_source_s": 6.18,
+      "end_time_source_s": 6.46,
+      "probability": 0.9864843487739563
+    },
+    {
+      "word_index": 20,
+      "word": "high",
+      "surface": " high",
+      "start_time_wav_s": 6.74,
+      "end_time_wav_s": 6.82,
+      "start_time_source_s": 6.74,
+      "end_time_source_s": 6.82,
+      "probability": 0.9966727495193481
+    },
+    {
+      "word_index": 21,
+      "word": "-end",
+      "surface": "-end",
+      "start_time_wav_s": 6.82,
+      "end_time_wav_s": 7.0,
+      "start_time_source_s": 6.82,
+      "end_time_source_s": 7.0,
+      "probability": 0.9090807139873505
+    },
+    {
+      "word_index": 22,
+      "word": "value",
+      "surface": " value",
+      "start_time_wav_s": 7.0,
+      "end_time_wav_s": 7.34,
+      "start_time_source_s": 7.0,
+      "end_time_source_s": 7.34,
+      "probability": 0.9069240689277649
+    },
+    {
+      "word_index": 23,
+      "word": "-added",
+      "surface": "-added",
+      "start_time_wav_s": 7.34,
+      "end_time_wav_s": 7.52,
+      "start_time_source_s": 7.34,
+      "end_time_source_s": 7.52,
+      "probability": 0.9017904102802277
+    },
+    {
+      "word_index": 24,
+      "word": "products.",
+      "surface": " products.",
+      "start_time_wav_s": 7.52,
+      "end_time_wav_s": 7.98,
+      "start_time_source_s": 7.52,
+      "end_time_source_s": 7.98,
+      "probability": 0.996623158454895
+    }
+  ],
+  "word_count": 24,
+  "mean_word_probability": 0.9232148267328739,
+  "issues": [],
+  "official_transcript_loaded": false
+}

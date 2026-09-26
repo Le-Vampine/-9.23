@@ -1,0 +1,48 @@
+{
+  "theta": 0.325,
+  "model": "runs/ens_top2 (2 ckpt)",
+  "report": {
+    "att3": {
+      "n": 30,
+      "label_changed": 7,
+      "label_changed_ratio": 0.2333,
+      "score_absdiff_mean": 0.2392,
+      "score_absdiff_max": 0.8011,
+      "mean_score_old": 0.3106,
+      "mean_score_new": 0.2451,
+      "dist_old": {
+        "Positive": 13,
+        "Neutral": 11,
+        "Negative": 6
+      },
+      "dist_new": {
+        "Neutral": 14,
+        "Positive": 10,
+        "Negative": 6
+      },
+      "mean_conf_old": 0.6517,
+      "mean_conf_new": 0.584
+    },
+    "att4": {
+      "n": 20,
+      "label_changed": 1,
+      "label_changed_ratio": 0.05,
+      "score_absdiff_mean": 0.0909,
+      "score_absdiff_max": 0.4149,
+      "mean_score_old": -0.0902,
+      "mean_score_new": -0.054,
+      "dist_old": {
+        "Negative": 7,
+        "Positive": 7,
+        "Neutral": 6
+      },
+      "dist_new": {
+        "Positive": 8,
+        "Negative": 7,
+        "Neutral": 5
+      },
+      "mean_conf_old": 0.7004,
+      "mean_conf_new": 0.6814
+    }
+  }
+}

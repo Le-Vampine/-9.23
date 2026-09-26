@@ -1,0 +1,433 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-yRb-Jum7EQ$_$6.wav",
+  "audio_sha256": "c515db67652b946227a3ea156378730c805d7f15926aacb7d590dc5620c40940",
+  "audio_duration_s": 11.242,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "We will be able to make sure that our country is safe in Israel, and that we will be able to make sure that our country is safe in Israel. Thank you very much. Thank you.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.84,
+      "text": " We will be able to make sure that our country is safe in Israel,",
+      "no_speech_probability": 0.3527846336364746,
+      "average_log_probability": -1.0773590632847376
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 7.8,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 7.8,
+      "text": " and that we will be able to make sure that our country is safe in Israel.",
+      "no_speech_probability": 0.3527846336364746,
+      "average_log_probability": -1.0773590632847376
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 8.36,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.36,
+      "end_time_source_s": 8.48,
+      "text": " Thank you very much.",
+      "no_speech_probability": 0.3527846336364746,
+      "average_log_probability": -1.0773590632847376
+    },
+    {
+      "segment_index": 4,
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 9.92,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 9.92,
+      "text": " Thank you.",
+      "no_speech_probability": 0.3527846336364746,
+      "average_log_probability": -1.0773590632847376
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "We",
+      "surface": " We",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.52,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.52,
+      "probability": 0.10024525225162506
+    },
+    {
+      "word_index": 2,
+      "word": "will",
+      "surface": " will",
+      "start_time_wav_s": 0.52,
+      "end_time_wav_s": 0.58,
+      "start_time_source_s": 0.52,
+      "end_time_source_s": 0.58,
+      "probability": 0.2400638312101364
+    },
+    {
+      "word_index": 3,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 0.58,
+      "end_time_wav_s": 0.86,
+      "start_time_source_s": 0.58,
+      "end_time_source_s": 0.86,
+      "probability": 0.1164405569434166
+    },
+    {
+      "word_index": 4,
+      "word": "able",
+      "surface": " able",
+      "start_time_wav_s": 0.86,
+      "end_time_wav_s": 0.86,
+      "start_time_source_s": 0.86,
+      "end_time_source_s": 0.86,
+      "probability": 0.09342839568853378
+    },
+    {
+      "word_index": 5,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.86,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 0.86,
+      "end_time_source_s": 1.4,
+      "probability": 0.9913163185119629
+    },
+    {
+      "word_index": 6,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.4,
+      "probability": 0.06408065557479858
+    },
+    {
+      "word_index": 7,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.4,
+      "probability": 0.11775001883506775
+    },
+    {
+      "word_index": 8,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.4,
+      "probability": 0.585844874382019
+    },
+    {
+      "word_index": 9,
+      "word": "our",
+      "surface": " our",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.4,
+      "probability": 0.09657465666532516
+    },
+    {
+      "word_index": 10,
+      "word": "country",
+      "surface": " country",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.4,
+      "probability": 0.10528221726417542
+    },
+    {
+      "word_index": 11,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.7,
+      "probability": 0.2750352621078491
+    },
+    {
+      "word_index": 12,
+      "word": "safe",
+      "surface": " safe",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 2.02,
+      "probability": 0.16669917106628418
+    },
+    {
+      "word_index": 13,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.36,
+      "probability": 0.34451037645339966
+    },
+    {
+      "word_index": 14,
+      "word": "Israel,",
+      "surface": " Israel,",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.84,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.84,
+      "probability": 0.82113116979599
+    },
+    {
+      "word_index": 15,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.82,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.82,
+      "probability": 0.21836130321025848
+    },
+    {
+      "word_index": 16,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 3.82,
+      "end_time_wav_s": 3.92,
+      "start_time_source_s": 3.82,
+      "end_time_source_s": 3.92,
+      "probability": 0.6291488409042358
+    },
+    {
+      "word_index": 17,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 3.92,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 3.92,
+      "end_time_source_s": 4.68,
+      "probability": 0.18909360468387604
+    },
+    {
+      "word_index": 18,
+      "word": "will",
+      "surface": " will",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 5.1,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 5.1,
+      "probability": 0.3327442705631256
+    },
+    {
+      "word_index": 19,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 5.1,
+      "end_time_wav_s": 5.28,
+      "start_time_source_s": 5.1,
+      "end_time_source_s": 5.28,
+      "probability": 0.14067454636096954
+    },
+    {
+      "word_index": 20,
+      "word": "able",
+      "surface": " able",
+      "start_time_wav_s": 5.28,
+      "end_time_wav_s": 5.38,
+      "start_time_source_s": 5.28,
+      "end_time_source_s": 5.38,
+      "probability": 0.5341035723686218
+    },
+    {
+      "word_index": 21,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 5.38,
+      "end_time_wav_s": 5.54,
+      "start_time_source_s": 5.38,
+      "end_time_source_s": 5.54,
+      "probability": 0.9917392730712891
+    },
+    {
+      "word_index": 22,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 5.54,
+      "end_time_wav_s": 5.54,
+      "start_time_source_s": 5.54,
+      "end_time_source_s": 5.54,
+      "probability": 0.04149693250656128
+    },
+    {
+      "word_index": 23,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 5.54,
+      "end_time_wav_s": 5.54,
+      "start_time_source_s": 5.54,
+      "end_time_source_s": 5.54,
+      "probability": 0.49848657846450806
+    },
+    {
+      "word_index": 24,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 5.54,
+      "end_time_wav_s": 6.58,
+      "start_time_source_s": 5.54,
+      "end_time_source_s": 6.58,
+      "probability": 0.6344543099403381
+    },
+    {
+      "word_index": 25,
+      "word": "our",
+      "surface": " our",
+      "start_time_wav_s": 6.58,
+      "end_time_wav_s": 6.58,
+      "start_time_source_s": 6.58,
+      "end_time_source_s": 6.58,
+      "probability": 0.18828627467155457
+    },
+    {
+      "word_index": 26,
+      "word": "country",
+      "surface": " country",
+      "start_time_wav_s": 6.58,
+      "end_time_wav_s": 6.96,
+      "start_time_source_s": 6.58,
+      "end_time_source_s": 6.96,
+      "probability": 0.11646009981632233
+    },
+    {
+      "word_index": 27,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 6.96,
+      "end_time_wav_s": 7.22,
+      "start_time_source_s": 6.96,
+      "end_time_source_s": 7.22,
+      "probability": 0.5732213854789734
+    },
+    {
+      "word_index": 28,
+      "word": "safe",
+      "surface": " safe",
+      "start_time_wav_s": 7.22,
+      "end_time_wav_s": 7.22,
+      "start_time_source_s": 7.22,
+      "end_time_source_s": 7.22,
+      "probability": 0.5998600721359253
+    },
+    {
+      "word_index": 29,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 7.22,
+      "end_time_wav_s": 7.48,
+      "start_time_source_s": 7.22,
+      "end_time_source_s": 7.48,
+      "probability": 0.3681725859642029
+    },
+    {
+      "word_index": 30,
+      "word": "Israel.",
+      "surface": " Israel.",
+      "start_time_wav_s": 7.48,
+      "end_time_wav_s": 7.8,
+      "start_time_source_s": 7.48,
+      "end_time_source_s": 7.8,
+      "probability": 0.6373544335365295
+    },
+    {
+      "word_index": 31,
+      "word": "Thank",
+      "surface": " Thank",
+      "start_time_wav_s": 8.36,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.36,
+      "end_time_source_s": 8.48,
+      "probability": 0.30147111415863037
+    },
+    {
+      "word_index": 32,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 8.48,
+      "probability": 0.9708418846130371
+    },
+    {
+      "word_index": 33,
+      "word": "very",
+      "surface": " very",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 8.48,
+      "probability": 0.3382483422756195
+    },
+    {
+      "word_index": 34,
+      "word": "much.",
+      "surface": " much.",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 8.48,
+      "probability": 0.9458591341972351
+    },
+    {
+      "word_index": 35,
+      "word": "Thank",
+      "surface": " Thank",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 8.48,
+      "probability": 0.1709541380405426
+    },
+    {
+      "word_index": 36,
+      "word": "you.",
+      "surface": " you.",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 9.92,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 9.92,
+      "probability": 0.9800969958305359
+    }
+  ],
+  "word_count": 36,
+  "mean_word_probability": 0.4033203458206521,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,183 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-iRBcNs9oI8$_$3.wav",
+  "audio_sha256": "0e87de9764def5a4b8ce6ab91bc7aab7d5317fa8b90b005c9af29af89f0f96c0",
+  "audio_duration_s": 5.538,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "is going to help you on your tests, such as TOEFL, IELTS, or university.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.3,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.3,
+      "text": " is going to help you on your tests, such as TOEFL, IELTS, or university.",
+      "no_speech_probability": 0.07522018998861313,
+      "average_log_probability": -0.22353567123413087
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.48,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.48,
+      "probability": 0.5802612900733948
+    },
+    {
+      "word_index": 2,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 0.48,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.48,
+      "end_time_source_s": 0.68,
+      "probability": 0.9987578392028809
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.84,
+      "probability": 0.9992349147796631
+    },
+    {
+      "word_index": 4,
+      "word": "help",
+      "surface": " help",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.06,
+      "probability": 0.9984208345413208
+    },
+    {
+      "word_index": 5,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.32,
+      "probability": 0.9962186217308044
+    },
+    {
+      "word_index": 6,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 2.04,
+      "probability": 0.9951741099357605
+    },
+    {
+      "word_index": 7,
+      "word": "your",
+      "surface": " your",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.22,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.22,
+      "probability": 0.9976925849914551
+    },
+    {
+      "word_index": 8,
+      "word": "tests,",
+      "surface": " tests,",
+      "start_time_wav_s": 2.22,
+      "end_time_wav_s": 2.66,
+      "start_time_source_s": 2.22,
+      "end_time_source_s": 2.66,
+      "probability": 0.8939075469970703
+    },
+    {
+      "word_index": 9,
+      "word": "such",
+      "surface": " such",
+      "start_time_wav_s": 3.22,
+      "end_time_wav_s": 3.48,
+      "start_time_source_s": 3.22,
+      "end_time_source_s": 3.48,
+      "probability": 0.9980208873748779
+    },
+    {
+      "word_index": 10,
+      "word": "as",
+      "surface": " as",
+      "start_time_wav_s": 3.48,
+      "end_time_wav_s": 3.7,
+      "start_time_source_s": 3.48,
+      "end_time_source_s": 3.7,
+      "probability": 0.9973371624946594
+    },
+    {
+      "word_index": 11,
+      "word": "TOEFL,",
+      "surface": " TOEFL,",
+      "start_time_wav_s": 3.7,
+      "end_time_wav_s": 4.16,
+      "start_time_source_s": 3.7,
+      "end_time_source_s": 4.16,
+      "probability": 0.9871434171994528
+    },
+    {
+      "word_index": 12,
+      "word": "IELTS,",
+      "surface": " IELTS,",
+      "start_time_wav_s": 4.4,
+      "end_time_wav_s": 4.78,
+      "start_time_source_s": 4.4,
+      "end_time_source_s": 4.78,
+      "probability": 0.9841676950454712
+    },
+    {
+      "word_index": 13,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 4.84,
+      "end_time_wav_s": 4.96,
+      "start_time_source_s": 4.84,
+      "end_time_source_s": 4.96,
+      "probability": 0.9985378980636597
+    },
+    {
+      "word_index": 14,
+      "word": "university.",
+      "surface": " university.",
+      "start_time_wav_s": 4.96,
+      "end_time_wav_s": 5.3,
+      "start_time_source_s": 4.96,
+      "end_time_source_s": 5.3,
+      "probability": 0.5634418725967407
+    }
+  ],
+  "word_count": 14,
+  "mean_word_probability": 0.9277369053590865,
+  "issues": [],
+  "official_transcript_loaded": false
+}

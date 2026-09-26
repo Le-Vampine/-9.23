@@ -1,0 +1,723 @@
+{
+  "sample_id": "-a55Q6RWvTA$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-a55Q6RWvTA$_$3.wav",
+  "audio_sha256": "8b85cd9e18f0656e0e4aefc49f03ff83e12394aef1114ed2ff8feaa0b090be5b",
+  "audio_duration_s": 22.0833125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "And if you clip coupons, if you don't go out for dinner and movies and things of that nature, and try to take up things in life that, well, they always say, the best things in life are free. Reading a book, going for a nice walk, and of course combining exercise and various things of that nature, where you're not spending money, per se.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.26,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.26,
+      "text": " And if you clip coupons, if you don't go out for dinner and movies and things of that nature,",
+      "no_speech_probability": 0.019896186888217926,
+      "average_log_probability": -0.13552684448231225
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 6.82,
+      "end_time_wav_s": 11.7,
+      "start_time_source_s": 6.82,
+      "end_time_source_s": 11.7,
+      "text": " and try to take up things in life that, well, they always say, the best things in life are free.",
+      "no_speech_probability": 0.019896186888217926,
+      "average_log_probability": -0.13552684448231225
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 12.42,
+      "end_time_wav_s": 18.5,
+      "start_time_source_s": 12.42,
+      "end_time_source_s": 18.5,
+      "text": " Reading a book, going for a nice walk, and of course combining exercise and various things of that nature,",
+      "no_speech_probability": 0.019896186888217926,
+      "average_log_probability": -0.13552684448231225
+    },
+    {
+      "segment_index": 4,
+      "start_time_wav_s": 18.88,
+      "end_time_wav_s": 21.46,
+      "start_time_source_s": 18.88,
+      "end_time_source_s": 21.46,
+      "text": " where you're not spending money, per se.",
+      "no_speech_probability": 0.019896186888217926,
+      "average_log_probability": -0.13552684448231225
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "And",
+      "surface": " And",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.84,
+      "probability": 0.3996802866458893
+    },
+    {
+      "word_index": 2,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.14,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.14,
+      "probability": 0.5783118605613708
+    },
+    {
+      "word_index": 3,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.14,
+      "end_time_wav_s": 1.34,
+      "start_time_source_s": 1.14,
+      "end_time_source_s": 1.34,
+      "probability": 0.9984138011932373
+    },
+    {
+      "word_index": 4,
+      "word": "clip",
+      "surface": " clip",
+      "start_time_wav_s": 1.34,
+      "end_time_wav_s": 1.68,
+      "start_time_source_s": 1.34,
+      "end_time_source_s": 1.68,
+      "probability": 0.9692965149879456
+    },
+    {
+      "word_index": 5,
+      "word": "coupons,",
+      "surface": " coupons,",
+      "start_time_wav_s": 1.68,
+      "end_time_wav_s": 2.22,
+      "start_time_source_s": 1.68,
+      "end_time_source_s": 2.22,
+      "probability": 0.9850081205368042
+    },
+    {
+      "word_index": 6,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 2.74,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.74,
+      "end_time_source_s": 2.78,
+      "probability": 0.9731130599975586
+    },
+    {
+      "word_index": 7,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 2.78,
+      "end_time_wav_s": 2.92,
+      "start_time_source_s": 2.78,
+      "end_time_source_s": 2.92,
+      "probability": 0.9976734519004822
+    },
+    {
+      "word_index": 8,
+      "word": "don't",
+      "surface": " don't",
+      "start_time_wav_s": 2.92,
+      "end_time_wav_s": 3.24,
+      "start_time_source_s": 2.92,
+      "end_time_source_s": 3.24,
+      "probability": 0.9935489594936371
+    },
+    {
+      "word_index": 9,
+      "word": "go",
+      "surface": " go",
+      "start_time_wav_s": 3.24,
+      "end_time_wav_s": 3.44,
+      "start_time_source_s": 3.24,
+      "end_time_source_s": 3.44,
+      "probability": 0.9973006844520569
+    },
+    {
+      "word_index": 10,
+      "word": "out",
+      "surface": " out",
+      "start_time_wav_s": 3.44,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.44,
+      "end_time_source_s": 3.68,
+      "probability": 0.996203601360321
+    },
+    {
+      "word_index": 11,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.88,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.88,
+      "probability": 0.9960116147994995
+    },
+    {
+      "word_index": 12,
+      "word": "dinner",
+      "surface": " dinner",
+      "start_time_wav_s": 3.88,
+      "end_time_wav_s": 4.14,
+      "start_time_source_s": 3.88,
+      "end_time_source_s": 4.14,
+      "probability": 0.9988960027694702
+    },
+    {
+      "word_index": 13,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.14,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.14,
+      "end_time_source_s": 4.54,
+      "probability": 0.669916033744812
+    },
+    {
+      "word_index": 14,
+      "word": "movies",
+      "surface": " movies",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 5.06,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 5.06,
+      "probability": 0.9926510453224182
+    },
+    {
+      "word_index": 15,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 5.06,
+      "end_time_wav_s": 5.32,
+      "start_time_source_s": 5.06,
+      "end_time_source_s": 5.32,
+      "probability": 0.9553324580192566
+    },
+    {
+      "word_index": 16,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 5.32,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 5.32,
+      "end_time_source_s": 5.52,
+      "probability": 0.9977450966835022
+    },
+    {
+      "word_index": 17,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 5.52,
+      "end_time_wav_s": 5.66,
+      "start_time_source_s": 5.52,
+      "end_time_source_s": 5.66,
+      "probability": 0.9743398427963257
+    },
+    {
+      "word_index": 18,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 5.66,
+      "end_time_wav_s": 5.8,
+      "start_time_source_s": 5.66,
+      "end_time_source_s": 5.8,
+      "probability": 0.9981655478477478
+    },
+    {
+      "word_index": 19,
+      "word": "nature,",
+      "surface": " nature,",
+      "start_time_wav_s": 5.8,
+      "end_time_wav_s": 6.26,
+      "start_time_source_s": 5.8,
+      "end_time_source_s": 6.26,
+      "probability": 0.9985338449478149
+    },
+    {
+      "word_index": 20,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.82,
+      "end_time_wav_s": 7.06,
+      "start_time_source_s": 6.82,
+      "end_time_source_s": 7.06,
+      "probability": 0.9277091026306152
+    },
+    {
+      "word_index": 21,
+      "word": "try",
+      "surface": " try",
+      "start_time_wav_s": 7.06,
+      "end_time_wav_s": 7.32,
+      "start_time_source_s": 7.06,
+      "end_time_source_s": 7.32,
+      "probability": 0.9928584098815918
+    },
+    {
+      "word_index": 22,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 7.32,
+      "end_time_wav_s": 7.46,
+      "start_time_source_s": 7.32,
+      "end_time_source_s": 7.46,
+      "probability": 0.9955798983573914
+    },
+    {
+      "word_index": 23,
+      "word": "take",
+      "surface": " take",
+      "start_time_wav_s": 7.46,
+      "end_time_wav_s": 7.64,
+      "start_time_source_s": 7.46,
+      "end_time_source_s": 7.64,
+      "probability": 0.9905412793159485
+    },
+    {
+      "word_index": 24,
+      "word": "up",
+      "surface": " up",
+      "start_time_wav_s": 7.64,
+      "end_time_wav_s": 7.8,
+      "start_time_source_s": 7.64,
+      "end_time_source_s": 7.8,
+      "probability": 0.990276575088501
+    },
+    {
+      "word_index": 25,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 7.8,
+      "end_time_wav_s": 8.18,
+      "start_time_source_s": 7.8,
+      "end_time_source_s": 8.18,
+      "probability": 0.9914559721946716
+    },
+    {
+      "word_index": 26,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 8.18,
+      "end_time_wav_s": 8.44,
+      "start_time_source_s": 8.18,
+      "end_time_source_s": 8.44,
+      "probability": 0.9874027967453003
+    },
+    {
+      "word_index": 27,
+      "word": "life",
+      "surface": " life",
+      "start_time_wav_s": 8.44,
+      "end_time_wav_s": 8.76,
+      "start_time_source_s": 8.44,
+      "end_time_source_s": 8.76,
+      "probability": 0.9984517097473145
+    },
+    {
+      "word_index": 28,
+      "word": "that,",
+      "surface": " that,",
+      "start_time_wav_s": 8.76,
+      "end_time_wav_s": 9.0,
+      "start_time_source_s": 8.76,
+      "end_time_source_s": 9.0,
+      "probability": 0.9538617134094238
+    },
+    {
+      "word_index": 29,
+      "word": "well,",
+      "surface": " well,",
+      "start_time_wav_s": 9.06,
+      "end_time_wav_s": 9.28,
+      "start_time_source_s": 9.06,
+      "end_time_source_s": 9.28,
+      "probability": 0.9935723543167114
+    },
+    {
+      "word_index": 30,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 9.5,
+      "end_time_wav_s": 9.58,
+      "start_time_source_s": 9.5,
+      "end_time_source_s": 9.58,
+      "probability": 0.9952709078788757
+    },
+    {
+      "word_index": 31,
+      "word": "always",
+      "surface": " always",
+      "start_time_wav_s": 9.58,
+      "end_time_wav_s": 9.86,
+      "start_time_source_s": 9.58,
+      "end_time_source_s": 9.86,
+      "probability": 0.9982359409332275
+    },
+    {
+      "word_index": 32,
+      "word": "say,",
+      "surface": " say,",
+      "start_time_wav_s": 9.86,
+      "end_time_wav_s": 10.14,
+      "start_time_source_s": 9.86,
+      "end_time_source_s": 10.14,
+      "probability": 0.9981335997581482
+    },
+    {
+      "word_index": 33,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 10.22,
+      "end_time_wav_s": 10.32,
+      "start_time_source_s": 10.22,
+      "end_time_source_s": 10.32,
+      "probability": 0.8874228596687317
+    },
+    {
+      "word_index": 34,
+      "word": "best",
+      "surface": " best",
+      "start_time_wav_s": 10.32,
+      "end_time_wav_s": 10.5,
+      "start_time_source_s": 10.32,
+      "end_time_source_s": 10.5,
+      "probability": 0.9994070529937744
+    },
+    {
+      "word_index": 35,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 10.5,
+      "end_time_wav_s": 10.72,
+      "start_time_source_s": 10.5,
+      "end_time_source_s": 10.72,
+      "probability": 0.9938026666641235
+    },
+    {
+      "word_index": 36,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 10.72,
+      "end_time_wav_s": 10.9,
+      "start_time_source_s": 10.72,
+      "end_time_source_s": 10.9,
+      "probability": 0.9957030415534973
+    },
+    {
+      "word_index": 37,
+      "word": "life",
+      "surface": " life",
+      "start_time_wav_s": 10.9,
+      "end_time_wav_s": 11.12,
+      "start_time_source_s": 10.9,
+      "end_time_source_s": 11.12,
+      "probability": 0.9986334443092346
+    },
+    {
+      "word_index": 38,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 11.12,
+      "end_time_wav_s": 11.32,
+      "start_time_source_s": 11.12,
+      "end_time_source_s": 11.32,
+      "probability": 0.9806973934173584
+    },
+    {
+      "word_index": 39,
+      "word": "free.",
+      "surface": " free.",
+      "start_time_wav_s": 11.32,
+      "end_time_wav_s": 11.7,
+      "start_time_source_s": 11.32,
+      "end_time_source_s": 11.7,
+      "probability": 0.9967643022537231
+    },
+    {
+      "word_index": 40,
+      "word": "Reading",
+      "surface": " Reading",
+      "start_time_wav_s": 12.42,
+      "end_time_wav_s": 12.62,
+      "start_time_source_s": 12.42,
+      "end_time_source_s": 12.62,
+      "probability": 0.9844334125518799
+    },
+    {
+      "word_index": 41,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 12.62,
+      "end_time_wav_s": 12.86,
+      "start_time_source_s": 12.62,
+      "end_time_source_s": 12.86,
+      "probability": 0.9989979863166809
+    },
+    {
+      "word_index": 42,
+      "word": "book,",
+      "surface": " book,",
+      "start_time_wav_s": 12.86,
+      "end_time_wav_s": 13.18,
+      "start_time_source_s": 12.86,
+      "end_time_source_s": 13.18,
+      "probability": 0.9996659755706787
+    },
+    {
+      "word_index": 43,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 13.8,
+      "end_time_wav_s": 14.54,
+      "start_time_source_s": 13.8,
+      "end_time_source_s": 14.54,
+      "probability": 0.979328989982605
+    },
+    {
+      "word_index": 44,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 14.54,
+      "end_time_wav_s": 14.76,
+      "start_time_source_s": 14.54,
+      "end_time_source_s": 14.76,
+      "probability": 0.9982445240020752
+    },
+    {
+      "word_index": 45,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 14.76,
+      "end_time_wav_s": 14.86,
+      "start_time_source_s": 14.76,
+      "end_time_source_s": 14.86,
+      "probability": 0.9971873164176941
+    },
+    {
+      "word_index": 46,
+      "word": "nice",
+      "surface": " nice",
+      "start_time_wav_s": 14.86,
+      "end_time_wav_s": 15.04,
+      "start_time_source_s": 14.86,
+      "end_time_source_s": 15.04,
+      "probability": 0.9981653094291687
+    },
+    {
+      "word_index": 47,
+      "word": "walk,",
+      "surface": " walk,",
+      "start_time_wav_s": 15.04,
+      "end_time_wav_s": 15.46,
+      "start_time_source_s": 15.04,
+      "end_time_source_s": 15.46,
+      "probability": 0.999264657497406
+    },
+    {
+      "word_index": 48,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 15.54,
+      "end_time_wav_s": 15.62,
+      "start_time_source_s": 15.54,
+      "end_time_source_s": 15.62,
+      "probability": 0.9917280673980713
+    },
+    {
+      "word_index": 49,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 15.62,
+      "end_time_wav_s": 15.68,
+      "start_time_source_s": 15.62,
+      "end_time_source_s": 15.68,
+      "probability": 0.7744097113609314
+    },
+    {
+      "word_index": 50,
+      "word": "course",
+      "surface": " course",
+      "start_time_wav_s": 15.68,
+      "end_time_wav_s": 15.84,
+      "start_time_source_s": 15.68,
+      "end_time_source_s": 15.84,
+      "probability": 0.9993966817855835
+    },
+    {
+      "word_index": 51,
+      "word": "combining",
+      "surface": " combining",
+      "start_time_wav_s": 15.84,
+      "end_time_wav_s": 16.36,
+      "start_time_source_s": 15.84,
+      "end_time_source_s": 16.36,
+      "probability": 0.7499645948410034
+    },
+    {
+      "word_index": 52,
+      "word": "exercise",
+      "surface": " exercise",
+      "start_time_wav_s": 16.36,
+      "end_time_wav_s": 17.02,
+      "start_time_source_s": 16.36,
+      "end_time_source_s": 17.02,
+      "probability": 0.9938219785690308
+    },
+    {
+      "word_index": 53,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 17.02,
+      "end_time_wav_s": 17.3,
+      "start_time_source_s": 17.02,
+      "end_time_source_s": 17.3,
+      "probability": 0.9719203114509583
+    },
+    {
+      "word_index": 54,
+      "word": "various",
+      "surface": " various",
+      "start_time_wav_s": 17.3,
+      "end_time_wav_s": 17.54,
+      "start_time_source_s": 17.3,
+      "end_time_source_s": 17.54,
+      "probability": 0.9959797859191895
+    },
+    {
+      "word_index": 55,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 17.54,
+      "end_time_wav_s": 17.82,
+      "start_time_source_s": 17.54,
+      "end_time_source_s": 17.82,
+      "probability": 0.9983391761779785
+    },
+    {
+      "word_index": 56,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 17.82,
+      "end_time_wav_s": 17.98,
+      "start_time_source_s": 17.82,
+      "end_time_source_s": 17.98,
+      "probability": 0.974080502986908
+    },
+    {
+      "word_index": 57,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 17.98,
+      "end_time_wav_s": 18.06,
+      "start_time_source_s": 17.98,
+      "end_time_source_s": 18.06,
+      "probability": 0.9958899617195129
+    },
+    {
+      "word_index": 58,
+      "word": "nature,",
+      "surface": " nature,",
+      "start_time_wav_s": 18.06,
+      "end_time_wav_s": 18.5,
+      "start_time_source_s": 18.06,
+      "end_time_source_s": 18.5,
+      "probability": 0.9920256733894348
+    },
+    {
+      "word_index": 59,
+      "word": "where",
+      "surface": " where",
+      "start_time_wav_s": 18.88,
+      "end_time_wav_s": 19.06,
+      "start_time_source_s": 18.88,
+      "end_time_source_s": 19.06,
+      "probability": 0.9078869223594666
+    },
+    {
+      "word_index": 60,
+      "word": "you're",
+      "surface": " you're",
+      "start_time_wav_s": 19.06,
+      "end_time_wav_s": 19.22,
+      "start_time_source_s": 19.06,
+      "end_time_source_s": 19.22,
+      "probability": 0.9832470417022705
+    },
+    {
+      "word_index": 61,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 19.22,
+      "end_time_wav_s": 19.4,
+      "start_time_source_s": 19.22,
+      "end_time_source_s": 19.4,
+      "probability": 0.9994187355041504
+    },
+    {
+      "word_index": 62,
+      "word": "spending",
+      "surface": " spending",
+      "start_time_wav_s": 19.4,
+      "end_time_wav_s": 19.9,
+      "start_time_source_s": 19.4,
+      "end_time_source_s": 19.9,
+      "probability": 0.9993341565132141
+    },
+    {
+      "word_index": 63,
+      "word": "money,",
+      "surface": " money,",
+      "start_time_wav_s": 19.9,
+      "end_time_wav_s": 20.58,
+      "start_time_source_s": 19.9,
+      "end_time_source_s": 20.58,
+      "probability": 0.9988282322883606
+    },
+    {
+      "word_index": 64,
+      "word": "per",
+      "surface": " per",
+      "start_time_wav_s": 20.58,
+      "end_time_wav_s": 21.06,
+      "start_time_source_s": 20.58,
+      "end_time_source_s": 21.06,
+      "probability": 0.9990777969360352
+    },
+    {
+      "word_index": 65,
+      "word": "se.",
+      "surface": " se.",
+      "start_time_wav_s": 21.06,
+      "end_time_wav_s": 21.46,
+      "start_time_source_s": 21.06,
+      "end_time_source_s": 21.46,
+      "probability": 0.8469687700271606
+    }
+  ],
+  "word_count": 65,
+  "mean_word_probability": 0.9579004480288579,
+  "issues": [],
+  "official_transcript_loaded": false
+}

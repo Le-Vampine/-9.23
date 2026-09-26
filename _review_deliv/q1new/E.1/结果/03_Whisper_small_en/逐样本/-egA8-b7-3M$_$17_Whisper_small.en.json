@@ -1,0 +1,203 @@
+{
+  "sample_id": "-egA8-b7-3M$_$17",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$17.wav",
+  "audio_sha256": "5806d44ff8ea4dbca87b283607a818339de620f1a18007ad98a9f2a3a871664e",
+  "audio_duration_s": 7.095,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "As you have more experience, you have more times exhibiting, you get to know more people.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.42,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.42,
+      "text": " As you have more experience, you have more times exhibiting, you get to know more people.",
+      "no_speech_probability": 0.006131147965788841,
+      "average_log_probability": -0.18874933231960644
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "As",
+      "surface": " As",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.7,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.7,
+      "probability": 0.8122665286064148
+    },
+    {
+      "word_index": 2,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 0.7,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.7,
+      "end_time_source_s": 0.88,
+      "probability": 0.998909592628479
+    },
+    {
+      "word_index": 3,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.1,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.1,
+      "probability": 0.996624231338501
+    },
+    {
+      "word_index": 4,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 1.1,
+      "end_time_wav_s": 1.34,
+      "start_time_source_s": 1.1,
+      "end_time_source_s": 1.34,
+      "probability": 0.9986135959625244
+    },
+    {
+      "word_index": 5,
+      "word": "experience,",
+      "surface": " experience,",
+      "start_time_wav_s": 1.34,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.34,
+      "end_time_source_s": 2.02,
+      "probability": 0.995516836643219
+    },
+    {
+      "word_index": 6,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 3.24,
+      "end_time_wav_s": 3.32,
+      "start_time_source_s": 3.24,
+      "end_time_source_s": 3.32,
+      "probability": 0.9769055843353271
+    },
+    {
+      "word_index": 7,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 3.32,
+      "end_time_wav_s": 3.5,
+      "start_time_source_s": 3.32,
+      "end_time_source_s": 3.5,
+      "probability": 0.9035397171974182
+    },
+    {
+      "word_index": 8,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 3.5,
+      "end_time_wav_s": 3.76,
+      "start_time_source_s": 3.5,
+      "end_time_source_s": 3.76,
+      "probability": 0.9960659146308899
+    },
+    {
+      "word_index": 9,
+      "word": "times",
+      "surface": " times",
+      "start_time_wav_s": 3.76,
+      "end_time_wav_s": 4.14,
+      "start_time_source_s": 3.76,
+      "end_time_source_s": 4.14,
+      "probability": 0.837780237197876
+    },
+    {
+      "word_index": 10,
+      "word": "exhibiting,",
+      "surface": " exhibiting,",
+      "start_time_wav_s": 4.14,
+      "end_time_wav_s": 4.7,
+      "start_time_source_s": 4.14,
+      "end_time_source_s": 4.7,
+      "probability": 0.985105037689209
+    },
+    {
+      "word_index": 11,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 5.16,
+      "end_time_wav_s": 5.36,
+      "start_time_source_s": 5.16,
+      "end_time_source_s": 5.36,
+      "probability": 0.993219792842865
+    },
+    {
+      "word_index": 12,
+      "word": "get",
+      "surface": " get",
+      "start_time_wav_s": 5.36,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 5.36,
+      "end_time_source_s": 5.52,
+      "probability": 0.9969622492790222
+    },
+    {
+      "word_index": 13,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 5.52,
+      "end_time_wav_s": 5.66,
+      "start_time_source_s": 5.52,
+      "end_time_source_s": 5.66,
+      "probability": 0.9991440773010254
+    },
+    {
+      "word_index": 14,
+      "word": "know",
+      "surface": " know",
+      "start_time_wav_s": 5.66,
+      "end_time_wav_s": 5.86,
+      "start_time_source_s": 5.66,
+      "end_time_source_s": 5.86,
+      "probability": 0.9993553757667542
+    },
+    {
+      "word_index": 15,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 5.86,
+      "end_time_wav_s": 6.08,
+      "start_time_source_s": 5.86,
+      "end_time_source_s": 6.08,
+      "probability": 0.9992635846138
+    },
+    {
+      "word_index": 16,
+      "word": "people.",
+      "surface": " people.",
+      "start_time_wav_s": 6.08,
+      "end_time_wav_s": 6.42,
+      "start_time_source_s": 6.08,
+      "end_time_source_s": 6.42,
+      "probability": 0.9996341466903687
+    }
+  ],
+  "word_count": 16,
+  "mean_word_probability": 0.9680566564202309,
+  "issues": [],
+  "official_transcript_loaded": false
+}

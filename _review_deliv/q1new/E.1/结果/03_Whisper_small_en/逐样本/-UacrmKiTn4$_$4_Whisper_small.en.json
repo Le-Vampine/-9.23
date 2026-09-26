@@ -1,0 +1,193 @@
+{
+  "sample_id": "-UacrmKiTn4$_$4",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-UacrmKiTn4$_$4.wav",
+  "audio_sha256": "a6777cdcafaad2e1e6fc4beca1cc9baa353338894745ea8e1ec2c48241fea144",
+  "audio_duration_s": 4.681,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "it, just given to their own devices. They are not going to read the textbook.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.02,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.02,
+      "text": " it, just given to their own devices. They are not going to read the textbook.",
+      "no_speech_probability": 0.12126615643501282,
+      "average_log_probability": -0.33040041015261695
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "it,",
+      "surface": " it,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.14,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.14,
+      "probability": 0.13008420169353485
+    },
+    {
+      "word_index": 2,
+      "word": "just",
+      "surface": " just",
+      "start_time_wav_s": 0.44,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.44,
+      "end_time_source_s": 0.68,
+      "probability": 0.9598283767700195
+    },
+    {
+      "word_index": 3,
+      "word": "given",
+      "surface": " given",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.94,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.94,
+      "probability": 0.8442261219024658
+    },
+    {
+      "word_index": 4,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.94,
+      "end_time_wav_s": 1.12,
+      "start_time_source_s": 0.94,
+      "end_time_source_s": 1.12,
+      "probability": 0.99528568983078
+    },
+    {
+      "word_index": 5,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 1.12,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 1.12,
+      "end_time_source_s": 1.26,
+      "probability": 0.9930071830749512
+    },
+    {
+      "word_index": 6,
+      "word": "own",
+      "surface": " own",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.46,
+      "probability": 0.9875850677490234
+    },
+    {
+      "word_index": 7,
+      "word": "devices.",
+      "surface": " devices.",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 1.96,
+      "probability": 0.9922337532043457
+    },
+    {
+      "word_index": 8,
+      "word": "They",
+      "surface": " They",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.3,
+      "probability": 0.9875406622886658
+    },
+    {
+      "word_index": 9,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.44,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.44,
+      "probability": 0.9359033107757568
+    },
+    {
+      "word_index": 10,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 2.44,
+      "end_time_wav_s": 2.66,
+      "start_time_source_s": 2.44,
+      "end_time_source_s": 2.66,
+      "probability": 0.9971460700035095
+    },
+    {
+      "word_index": 11,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 2.66,
+      "end_time_wav_s": 2.94,
+      "start_time_source_s": 2.66,
+      "end_time_source_s": 2.94,
+      "probability": 0.997877836227417
+    },
+    {
+      "word_index": 12,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.94,
+      "end_time_wav_s": 3.16,
+      "start_time_source_s": 2.94,
+      "end_time_source_s": 3.16,
+      "probability": 0.9979362487792969
+    },
+    {
+      "word_index": 13,
+      "word": "read",
+      "surface": " read",
+      "start_time_wav_s": 3.16,
+      "end_time_wav_s": 3.36,
+      "start_time_source_s": 3.16,
+      "end_time_source_s": 3.36,
+      "probability": 0.9965734481811523
+    },
+    {
+      "word_index": 14,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 3.36,
+      "end_time_wav_s": 3.54,
+      "start_time_source_s": 3.36,
+      "end_time_source_s": 3.54,
+      "probability": 0.9964634776115417
+    },
+    {
+      "word_index": 15,
+      "word": "textbook.",
+      "surface": " textbook.",
+      "start_time_wav_s": 3.54,
+      "end_time_wav_s": 4.02,
+      "start_time_source_s": 3.54,
+      "end_time_source_s": 4.02,
+      "probability": 0.9441923499107361
+    }
+  ],
+  "word_count": 15,
+  "mean_word_probability": 0.9170589198668798,
+  "issues": [],
+  "official_transcript_loaded": false
+}

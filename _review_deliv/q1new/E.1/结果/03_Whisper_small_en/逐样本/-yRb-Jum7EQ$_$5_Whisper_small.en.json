@@ -1,0 +1,433 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$5",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-yRb-Jum7EQ$_$5.wav",
+  "audio_sha256": "83235fa0b083581873692d6e9a3ea85c2ae1f3d5ac1019e75dd3e113fcc21b38",
+  "audio_duration_s": 13.044,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "We have to make sure that all of the people in the region have the right to do so. We have to make sure that all of the people in the region have the right to do so.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.54,
+      "text": " We have to make sure that all of the people in the region have the right to do so.",
+      "no_speech_probability": 0.3787078261375427,
+      "average_log_probability": -1.06779908074273
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 7.14,
+      "end_time_wav_s": 11.74,
+      "start_time_source_s": 7.14,
+      "end_time_source_s": 11.74,
+      "text": " We have to make sure that all of the people in the region have the right to do so.",
+      "no_speech_probability": 0.3787078261375427,
+      "average_log_probability": -1.06779908074273
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "We",
+      "surface": " We",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.54,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.54,
+      "probability": 0.06211795285344124
+    },
+    {
+      "word_index": 2,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 0.54,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 0.54,
+      "probability": 0.1463627964258194
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 0.54,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 0.54,
+      "probability": 0.1900625377893448
+    },
+    {
+      "word_index": 4,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 0.62,
+      "probability": 0.05832909792661667
+    },
+    {
+      "word_index": 5,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.66,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.66,
+      "probability": 0.5900157690048218
+    },
+    {
+      "word_index": 6,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 0.66,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.66,
+      "end_time_source_s": 0.72,
+      "probability": 0.6569455862045288
+    },
+    {
+      "word_index": 7,
+      "word": "all",
+      "surface": " all",
+      "start_time_wav_s": 0.72,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.72,
+      "end_time_source_s": 0.72,
+      "probability": 0.060718193650245667
+    },
+    {
+      "word_index": 8,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 0.72,
+      "end_time_wav_s": 0.86,
+      "start_time_source_s": 0.72,
+      "end_time_source_s": 0.86,
+      "probability": 0.2883218824863434
+    },
+    {
+      "word_index": 9,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 0.86,
+      "end_time_wav_s": 1.36,
+      "start_time_source_s": 0.86,
+      "end_time_source_s": 1.36,
+      "probability": 0.3430714011192322
+    },
+    {
+      "word_index": 10,
+      "word": "people",
+      "surface": " people",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 1.36,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 1.36,
+      "probability": 0.09392053633928299
+    },
+    {
+      "word_index": 11,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 3.08,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 3.08,
+      "probability": 0.13447095453739166
+    },
+    {
+      "word_index": 12,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 3.08,
+      "end_time_wav_s": 3.24,
+      "start_time_source_s": 3.08,
+      "end_time_source_s": 3.24,
+      "probability": 0.5268300771713257
+    },
+    {
+      "word_index": 13,
+      "word": "region",
+      "surface": " region",
+      "start_time_wav_s": 3.24,
+      "end_time_wav_s": 3.6,
+      "start_time_source_s": 3.24,
+      "end_time_source_s": 3.6,
+      "probability": 0.2133266031742096
+    },
+    {
+      "word_index": 14,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 3.6,
+      "end_time_wav_s": 3.8,
+      "start_time_source_s": 3.6,
+      "end_time_source_s": 3.8,
+      "probability": 0.11872518062591553
+    },
+    {
+      "word_index": 15,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 3.8,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.8,
+      "end_time_source_s": 3.96,
+      "probability": 0.23346056044101715
+    },
+    {
+      "word_index": 16,
+      "word": "right",
+      "surface": " right",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 3.96,
+      "probability": 0.39448222517967224
+    },
+    {
+      "word_index": 17,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 4.2,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 4.2,
+      "probability": 0.9206250905990601
+    },
+    {
+      "word_index": 18,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 4.2,
+      "end_time_wav_s": 6.36,
+      "start_time_source_s": 4.2,
+      "end_time_source_s": 6.36,
+      "probability": 0.07474298030138016
+    },
+    {
+      "word_index": 19,
+      "word": "so.",
+      "surface": " so.",
+      "start_time_wav_s": 6.36,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.36,
+      "end_time_source_s": 6.54,
+      "probability": 0.1630992740392685
+    },
+    {
+      "word_index": 20,
+      "word": "We",
+      "surface": " We",
+      "start_time_wav_s": 7.14,
+      "end_time_wav_s": 7.52,
+      "start_time_source_s": 7.14,
+      "end_time_source_s": 7.52,
+      "probability": 0.21657361090183258
+    },
+    {
+      "word_index": 21,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 7.52,
+      "end_time_wav_s": 7.64,
+      "start_time_source_s": 7.52,
+      "end_time_source_s": 7.64,
+      "probability": 0.2582258880138397
+    },
+    {
+      "word_index": 22,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 7.64,
+      "end_time_wav_s": 7.82,
+      "start_time_source_s": 7.64,
+      "end_time_source_s": 7.82,
+      "probability": 0.8404807448387146
+    },
+    {
+      "word_index": 23,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 7.82,
+      "end_time_wav_s": 8.12,
+      "start_time_source_s": 7.82,
+      "end_time_source_s": 8.12,
+      "probability": 0.3555746078491211
+    },
+    {
+      "word_index": 24,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 8.12,
+      "end_time_wav_s": 8.18,
+      "start_time_source_s": 8.12,
+      "end_time_source_s": 8.18,
+      "probability": 0.9153871536254883
+    },
+    {
+      "word_index": 25,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 8.18,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.18,
+      "end_time_source_s": 8.48,
+      "probability": 0.7358170747756958
+    },
+    {
+      "word_index": 26,
+      "word": "all",
+      "surface": " all",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 8.6,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 8.6,
+      "probability": 0.19019989669322968
+    },
+    {
+      "word_index": 27,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 8.6,
+      "end_time_wav_s": 8.68,
+      "start_time_source_s": 8.6,
+      "end_time_source_s": 8.68,
+      "probability": 0.6557836532592773
+    },
+    {
+      "word_index": 28,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 8.68,
+      "end_time_wav_s": 8.74,
+      "start_time_source_s": 8.68,
+      "end_time_source_s": 8.74,
+      "probability": 0.5518301129341125
+    },
+    {
+      "word_index": 29,
+      "word": "people",
+      "surface": " people",
+      "start_time_wav_s": 8.74,
+      "end_time_wav_s": 8.98,
+      "start_time_source_s": 8.74,
+      "end_time_source_s": 8.98,
+      "probability": 0.47248008847236633
+    },
+    {
+      "word_index": 30,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 8.98,
+      "end_time_wav_s": 9.5,
+      "start_time_source_s": 8.98,
+      "end_time_source_s": 9.5,
+      "probability": 0.28789547085762024
+    },
+    {
+      "word_index": 31,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 9.5,
+      "end_time_wav_s": 9.64,
+      "start_time_source_s": 9.5,
+      "end_time_source_s": 9.64,
+      "probability": 0.8037116527557373
+    },
+    {
+      "word_index": 32,
+      "word": "region",
+      "surface": " region",
+      "start_time_wav_s": 9.64,
+      "end_time_wav_s": 9.64,
+      "start_time_source_s": 9.64,
+      "end_time_source_s": 9.64,
+      "probability": 0.9797002673149109
+    },
+    {
+      "word_index": 33,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 9.64,
+      "end_time_wav_s": 9.64,
+      "start_time_source_s": 9.64,
+      "end_time_source_s": 9.64,
+      "probability": 0.24733121693134308
+    },
+    {
+      "word_index": 34,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 9.64,
+      "end_time_wav_s": 10.34,
+      "start_time_source_s": 9.64,
+      "end_time_source_s": 10.34,
+      "probability": 0.6668533086776733
+    },
+    {
+      "word_index": 35,
+      "word": "right",
+      "surface": " right",
+      "start_time_wav_s": 10.34,
+      "end_time_wav_s": 10.34,
+      "start_time_source_s": 10.34,
+      "end_time_source_s": 10.34,
+      "probability": 0.9578668475151062
+    },
+    {
+      "word_index": 36,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 10.34,
+      "end_time_wav_s": 10.52,
+      "start_time_source_s": 10.34,
+      "end_time_source_s": 10.52,
+      "probability": 0.9573311805725098
+    },
+    {
+      "word_index": 37,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 10.52,
+      "end_time_wav_s": 11.72,
+      "start_time_source_s": 10.52,
+      "end_time_source_s": 11.72,
+      "probability": 0.8262219429016113
+    },
+    {
+      "word_index": 38,
+      "word": "so.",
+      "surface": " so.",
+      "start_time_wav_s": 11.72,
+      "end_time_wav_s": 11.74,
+      "start_time_source_s": 11.72,
+      "end_time_source_s": 11.74,
+      "probability": 0.826063334941864
+    }
+  ],
+  "word_count": 38,
+  "mean_word_probability": 0.4477620198342361,
+  "issues": [],
+  "official_transcript_loaded": false
+}

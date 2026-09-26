@@ -1,0 +1,17 @@
+% 把问题三流程图编成独立 PDF（供 main.tex 以 \includegraphics 引入）
+% 编译：xelatex -interaction=nonstopmode -halt-on-error _build_Q3_flow.tex
+\documentclass[border=3pt]{standalone}
+\usepackage[fontset=none]{ctex}
+\IfFontExistsTF{SimSun}{\setCJKmainfont{SimSun}[BoldFont=SimHei]}{%
+  \IfFontExistsTF{Songti SC}{\setCJKmainfont{Songti SC}}{%
+    \IfFontExistsTF{Noto Serif CJK SC}{\setCJKmainfont{Noto Serif CJK SC}}{%
+      \setCJKmainfont{FandolSong-Regular}[Extension=.otf]}}}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{Liberation Serif}{\setmainfont{Liberation Serif}}{%
+    \IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{}}}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric}
+\usepackage{graphicx}
+\begin{document}
+\input{Q3_求解流程图_body.tex}
+\end{document}

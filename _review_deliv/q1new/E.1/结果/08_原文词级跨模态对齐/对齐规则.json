@@ -1,0 +1,15 @@
+{
+  "primary_word_time_source": "Step 4 final_primary_start_time_wav_s / final_primary_end_time_wav_s only",
+  "word_interval": "[start, end); frame centers at end go to following interval",
+  "audio_pooling": "mean of valid 10 ms frame centers in interval for 74 dimensions; F0 column 72 uses voiced frames only",
+  "visual_pooling": "mean of face_valid_mask=1 original-frame PTS within interval, no interpolation",
+  "visual_nearest_candidate": "separate optional vector for nearest valid face frame within 0.05 s of an interval; never part of primary visual",
+  "missing_feature_value": "zero placeholder with corresponding valid mask=0",
+  "missing_word_time_value": "NaN with word_time_valid_mask=0",
+  "timestamp_tiers_preserved": [
+    "A_exact_transcript",
+    "B_unique_word_overlap_in_mismatched_transcript"
+  ],
+  "no_whisper_word_time_substitution": true,
+  "no_time_from_feature_presence": true
+}

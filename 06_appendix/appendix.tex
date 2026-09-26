@@ -1,0 +1,138 @@
+% ============================================================
+%  main.pdf 附录补全：B 不确定性与拒识能力分析（补充实验）+ C 核心代码
+%  说明：本文件独立编译后，替换 main.pdf 原第 57 页（B+占位C），页码从 57 起续接。
+%  编译：xelatex -interaction=nonstopmode appendix.tex  （连续两次）
+%  字体：正文宋体 SimSun / 西文 Times New Roman / 标题黑体 SimHei / 代码 Consolas
+% ============================================================
+\documentclass[12pt,a4paper,fontset=windows]{ctexart}
+\usepackage{geometry}
+\geometry{left=2.50cm,right=2.41cm,top=2.55cm,bottom=2.54cm,footskip=34pt}
+\usepackage{amsmath,amssymb}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+\setmainfont{Times New Roman}
+\setmonofont{Consolas}
+\linespread{1.38}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\fontsize{12}{14}\selectfont\thepage}
+
+\lstset{
+  basicstyle=\ttfamily\fontsize{9}{11}\selectfont,
+  numbers=left, numberstyle=\tiny\rmfamily, numbersep=6pt,
+  frame=single, framexleftmargin=6pt, xleftmargin=14pt,
+  breaklines=true, breakatwhitespace=false, showstringspaces=false,
+  tabsize=4, columns=fullflexible, keepspaces=true, extendedchars=true,
+  keywordstyle=\bfseries, commentstyle=\rmfamily, stringstyle=\rmfamily,
+  language=Python,
+}
+
+% 附录大标题：Times 粗体字母 + 黑体标题（对应 main.pdf 中 A/B 的样式）
+\newcommand{\appxhead}[2]{%
+  \par\addvspace{2pt}%
+  {\fontsize{15}{18}\selectfont\bfseries #1}\hspace{0.35em}{\heiti\fontsize{15}{18}\selectfont #2}%
+  \par\addvspace{9pt}%
+}
+% 代码小节标题：Times 粗体编号 + 黑体标题
+\newcommand{\codehead}[2]{%
+  \par\addvspace{10pt}%
+  {\fontsize{12}{15}\selectfont\bfseries #1}\hspace{0.3em}{\heiti\fontsize{12}{15}\selectfont #2}%
+  \par\addvspace{3pt}%
+}
+% 代码文件来源行
+\newcommand{\codefile}[2]{\noindent\texttt{#1}（共 #2 行）\par\vspace{2pt}}
+
+\begin{document}
+\setcounter{page}{57}
+\setcounter{equation}{32}
+
+% ======================== 附录 B ========================
+\appxhead{B}{不确定性与拒识能力分析（补充实验）}
+
+本节为问题二的可选补充实验，不属于题目硬性要求，正文仅保留结论。
+
+模型在式(11) 中已输出预测方差，据此可定义两类不确定度。偶然不确定度取对数方差头输出的指数：
+\begin{equation}
+\sigma_{\mathrm{model}}=\exp\!\left(\frac{\ln\sigma^{2}}{2}\right),
+\end{equation}
+认知不确定度由集成成员的分歧给出：
+\begin{equation}
+\sigma_{\mathrm{ens}}=\sqrt{\frac{1}{K-1}\sum_{k=1}^{K}\left(\mu_{k}-\bar{\mu}\right)^{2}},
+\qquad
+\sigma_{\mathrm{total}}=\sqrt{\sigma_{\mathrm{model}}^{2}+\sigma_{\mathrm{ens}}^{2}}.
+\end{equation}
+另一类与极性判别相关的不确定度取分类头概率熵：
+\begin{equation}
+H=-\sum_{k=0}^{2}\pi_{k}\ln\pi_{k}.
+\end{equation}
+按不确定度升序保留前 $q$ 比例样本，可得风险--覆盖率曲线，其积分即 AURC[7]：
+\begin{equation}
+\mathrm{AURC}=\int_{0}^{1}\mathrm{MAE}_{q}\,\mathrm{d}q.
+\end{equation}
+
+两类不确定度对分类准确率的影响方向并不一致，按总不确定度剔除会使准确率下降，按分类头概率熵剔除则明显上升。就强度回归而言，剔除最不确定的 10\% 样本后平均绝对误差由 0.5866 降至 0.5465，剔除一半后降至 0.4495；风险—覆盖率曲线的曲线下面积（AURC）为 0.4365（随机剔除对应 0.5866、理论下界 0.2258）；总不确定度与绝对误差的斯皮尔曼相关系数为 0.296（验证集）与 0.230（测试划分），均为正。就极性判别而言，按总不确定度剔除的曲线下面积 0.3980 甚至劣于随机的 0.3777，改用分类头概率熵后降至 0.2252。相关曲线见 5.4.5 节的图 21 至图 23。
+
+用单一不确定度同时拒识回归与分类，在本任务上并不成立，原因在于总不确定度与真值强度单调同增（五分位分桶后最确定一桶的真值绝对强度均值 0.411、最不确定一桶 1.233），实质追踪的是强度幅值；分类头概率熵则与强度递减，追踪的是极性模糊度。据此本文把两类不确定度分别用于强度拒识与极性拒识。
+
+% ======================== 附录 C ========================
+\appxhead{C}{核心代码}
+
+本节给出问题二与问题三模型的核心代码，与提交的支撑材料中的 \texttt{code/} 目录为同一份；问题二的代码对应正文 5.3 节，问题三的代码对应正文第 6 章。代码以 Python 3.12 与 PyTorch 编写，运行顺序见 \texttt{code/README.md}。为便于与提交材料核对，每个代码块标注其在支撑材料中的相对路径与总行数。为避免中文字体下缺字形，代码中的少量 Unicode 数学符号（如 $\in$、$\le$、$\to$、$\pi$）在附录中以 ASCII 等价形式给出（如 \texttt{in}、\texttt{<=}、\texttt{->}、\texttt{pi}），仅涉及注释、文档字符串与输出文案，不影响可执行语义；原始文件以提交的 \texttt{code/} 目录为准。问题一的特征提取与时序对齐脚本及其复现说明随问题一材料一并提交（见表 22 备注）。
+
+\codehead{C.1}{问题二：MRF-Net 网络结构与动态专家门控}
+\codefile{code/02\_model/model.py}{285}
+\lstinputlisting[language=Python]{code_appendix/02_model__model.py}
+
+\codehead{C.2}{问题二：损失函数（异方差回归、类别加权、一致性、重建与蒸馏）}
+\codefile{code/02\_model/losses.py}{375}
+\lstinputlisting[language=Python]{code_appendix/02_model__losses.py}
+
+\codehead{C.3}{问题二：训练与推理主流程（缺失课程学习、EMA、早停）}
+\codefile{code/02\_model/train.py}{476}
+\lstinputlisting[language=Python]{code_appendix/02_model__train.py}
+
+\codehead{C.4}{问题三：骨干加载与批构造（三源解释的公共入口）}
+\codefile{code/03\_xai/xai\_common.py}{247}
+\lstinputlisting[language=Python]{code_appendix/03_xai__xai_common.py}
+
+\codehead{C.5}{问题三：精确 Shapley 值（八子集全枚举）}
+\codefile{code/03\_xai/shapley.py}{258}
+\lstinputlisting[language=Python]{code_appendix/03_xai__shapley.py}
+
+\codehead{C.6}{问题三：积分梯度与片段级重要性}
+\codefile{code/03\_xai/ig\_gradcam.py}{134}
+\lstinputlisting[language=Python]{code_appendix/03_xai__ig_gradcam.py}
+
+\codehead{C.7}{问题三：遮挡重要性（窗宽 3 滑窗）}
+\codefile{code/03\_xai/occlusion.py}{116}
+\lstinputlisting[language=Python]{code_appendix/03_xai__occlusion.py}
+
+\codehead{C.8}{问题三：三源融合与 $\gamma$ 单纯形约束}
+\codefile{code/03\_xai/temporal\_fuse.py}{152}
+\lstinputlisting[language=Python]{code_appendix/03_xai__temporal_fuse.py}
+
+\codehead{C.9}{问题三：证据定位（词元对齐、语音时段映射、关键帧抽取）}
+\codefile{code/03\_xai/evidence.py}{326}
+\lstinputlisting[language=Python]{code_appendix/03_xai__evidence.py}
+
+\codehead{C.10}{问题三：并联证据头训练（骨干冻结、忠实性正则）}
+\codefile{code/03\_xai/train\_evidence\_head.py}{205}
+\lstinputlisting[language=Python]{code_appendix/03_xai__train_evidence_head.py}
+
+\codehead{C.11}{问题三：解释卡生成}
+\codefile{code/03\_xai/explain\_card.py}{201}
+\lstinputlisting[language=Python]{code_appendix/03_xai__explain_card.py}
+
+\codehead{C.12}{问题三：附件四全量推理与解释输出}
+\codefile{code/03\_xai/infer\_explain\_att4.py}{230}
+\lstinputlisting[language=Python]{code_appendix/03_xai__infer_explain_att4.py}
+
+\codehead{C.13}{问题三：交付自查（17 项一致性校验）}
+\codefile{code/03\_xai/verify\_q3.py}{150}
+\lstinputlisting[language=Python]{code_appendix/03_xai__verify_q3.py}
+
+\end{document}

@@ -1,0 +1,24 @@
+{
+  "zip": "问题一提交组件.zip",
+  "size_bytes": 35810877,
+  "size_MB_decimal": 35.811,
+  "size_mib": 34.152,
+  "under_50_MB_decimal": true,
+  "zip_sha256": "ea9645216a198d484cef3bb7b76c50023f96f9d3f2e2adf0c9f25e858365f74f",
+  "member_count_excluding_manifest": 486,
+  "per_sample_file_counts": {
+    "主对齐NPZ": 100,
+    "原始声学NPZ": 100,
+    "原始视觉NPZ": 100,
+    "Whisper逐样本JSON": 100
+  },
+  "audit_status": "pass",
+  "excluded": [
+    "原始 MP4",
+    "WAV",
+    "模型权重",
+    "Python 环境",
+    "原始 Excel"
+  ],
+  "note": "问题一提交组件；正式竞赛提交应与问题二、三附件一起按十进制50 MB核算。"
+}

@@ -1,0 +1,113 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-HwX2H8Z4hY$_$6.wav",
+  "audio_sha256": "726d4e0889af8c6604af970fe16fed695b92204e082bce0bd32e9ff78709b99e",
+  "audio_duration_s": 3.256,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "And in part, Al Schenker did too.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.74,
+      "text": " And in part, Al Schenker did too.",
+      "no_speech_probability": 0.04282952845096588,
+      "average_log_probability": -0.3220702473606382
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "And",
+      "surface": " And",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.64,
+      "probability": 0.5303552746772766
+    },
+    {
+      "word_index": 2,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 0.76,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 0.76,
+      "probability": 0.8369653820991516
+    },
+    {
+      "word_index": 3,
+      "word": "part,",
+      "surface": " part,",
+      "start_time_wav_s": 0.76,
+      "end_time_wav_s": 1.12,
+      "start_time_source_s": 0.76,
+      "end_time_source_s": 1.12,
+      "probability": 0.9927663803100586
+    },
+    {
+      "word_index": 4,
+      "word": "Al",
+      "surface": " Al",
+      "start_time_wav_s": 1.58,
+      "end_time_wav_s": 1.62,
+      "start_time_source_s": 1.58,
+      "end_time_source_s": 1.62,
+      "probability": 0.988366425037384
+    },
+    {
+      "word_index": 5,
+      "word": "Schenker",
+      "surface": " Schenker",
+      "start_time_wav_s": 1.62,
+      "end_time_wav_s": 2.1,
+      "start_time_source_s": 1.62,
+      "end_time_source_s": 2.1,
+      "probability": 0.9053872028986613
+    },
+    {
+      "word_index": 6,
+      "word": "did",
+      "surface": " did",
+      "start_time_wav_s": 2.1,
+      "end_time_wav_s": 2.4,
+      "start_time_source_s": 2.1,
+      "end_time_source_s": 2.4,
+      "probability": 0.9866939783096313
+    },
+    {
+      "word_index": 7,
+      "word": "too.",
+      "surface": " too.",
+      "start_time_wav_s": 2.4,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.4,
+      "end_time_source_s": 2.74,
+      "probability": 0.8183441162109375
+    }
+  ],
+  "word_count": 7,
+  "mean_word_probability": 0.8655541085061573,
+  "issues": [],
+  "official_transcript_loaded": false
+}

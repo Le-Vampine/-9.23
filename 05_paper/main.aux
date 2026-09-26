@@ -1,0 +1,320 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {一、}问题重述}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1\,.\,1}问题背景}{2}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1\,.\,2}需要解决的问题}{2}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1\,.\,3}数据说明}{2}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {二、}模型假设}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {三、}符号说明}{3}{section.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 全文主要符号、含义与单位对照。符号按在正文中首次出现的顺序排列，涵盖数据表示、掩码、模型结构与输出四类，其中填充掩码与缺失掩码是两个相互独立的概念，前者标识尾部补齐位、后者标识有效区间内的不可用帧，后续各节的所有公式与产物均沿用本表符号。}}{4}{table.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:sym}{{1}{4}{全文主要符号、含义与单位对照。符号按在正文中首次出现的顺序排列，涵盖数据表示、掩码、模型结构与输出四类，其中填充掩码与缺失掩码是两个相互独立的概念，前者标识尾部补齐位、后者标识有效区间内的不可用帧，后续各节的所有公式与产物均沿用本表符号。}{table.caption.1}{}}
+\newlabel{tab:sym@cref}{{[table][1][]1}{[1][3][]4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {四、}问题分析}{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4\,.\,1}整体分析}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4\,.\,2}关键难点与应对}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 本文总体建模架构。全文自下而上分五层：数据与题面层完成四个附件的结构核查与统一读入；模型构建层为三项任务建立时序对齐、掩码感知鲁棒融合与可解释预测模型；算法求解层实现缺失模拟、课程学习与蒸馏、专家门控、注意力融合与集成推理；结果输出层给出预测文件、指标与消融谱系；结论与推广层完成评价与推广展望。}}{6}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:arch}{{1}{6}{本文总体建模架构。全文自下而上分五层：数据与题面层完成四个附件的结构核查与统一读入；模型构建层为三项任务建立时序对齐、掩码感知鲁棒融合与可解释预测模型；算法求解层实现缺失模拟、课程学习与蒸馏、专家门控、注意力融合与集成推理；结果输出层给出预测文件、指标与消融谱系；结论与推广层完成评价与推广展望。}{figure.caption.2}{}}
+\newlabel{fig:arch@cref}{{[figure][1][]1}{[1][5][]6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {五、}模型建立与求解}{6}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5\,.\,1}问题一：多模态情感特征提取与时序对齐}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5\,.\,2}问题二：模态缺失条件下的鲁棒情感预测}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 问题二求解流程（蛇形横向）。流程依次为读入对齐特征、缺失检测与有效长度推断、掩码感知编码与动态专家门控，折返后为掩码加权池化与模态融合、教师与学生蒸馏结合课程学习、验证集上选择阈值与超参数，再折返完成缺失场景网格扫描、错误归因与不确定性分析，最终输出附件三与附件四的提交文件。整体呈波浪式往复推进，下游环节只依赖上游产物。}}{7}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:q2flow}{{2}{7}{问题二求解流程（蛇形横向）。流程依次为读入对齐特征、缺失检测与有效长度推断、掩码感知编码与动态专家门控，折返后为掩码加权池化与模态融合、教师与学生蒸馏结合课程学习、验证集上选择阈值与超参数，再折返完成缺失场景网格扫描、错误归因与不确定性分析，最终输出附件三与附件四的提交文件。整体呈波浪式往复推进，下游环节只依赖上游产物。}{figure.caption.3}{}}
+\newlabel{fig:q2flow@cref}{{[figure][2][]2}{[1][6][]7}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,1}输入表示与缺失掩码的数学定义}{7}{subsubsection.5.2.1}\protected@file@percent }
+\newlabel{eq:pad}{{1}{7}{输入表示与缺失掩码的数学定义}{equation.1}{}}
+\newlabel{eq:pad@cref}{{[equation][1][]1}{[1][7][]7}{}{}{}}
+\newlabel{eq:len}{{2}{7}{输入表示与缺失掩码的数学定义}{equation.2}{}}
+\newlabel{eq:len@cref}{{[equation][2][]2}{[1][7][]7}{}{}{}}
+\newlabel{eq:miss}{{3}{7}{输入表示与缺失掩码的数学定义}{equation.3}{}}
+\newlabel{eq:miss@cref}{{[equation][3][]3}{[1][7][]7}{}{}{}}
+\newlabel{eq:rho}{{4}{7}{输入表示与缺失掩码的数学定义}{equation.4}{}}
+\newlabel{eq:rho@cref}{{[equation][4][]4}{[1][7][]7}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,2}掩码感知的模态编码}{8}{subsubsection.5.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 问题二模型的网络结构。每个模态依次经过掩码判定、掩码感知编码、共享-特有分解与多尺度时间池化，四条纵向流程共享同一套参数设定；门控模块以三模态缺失率构成的向量为输入，输出样本级模态权重，融合结果再送入极性分类头、强度回归头与有序回归辅助头。该图与正文公式一一对应，训练期附加的蒸馏与课程学习见图中注记。}}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:q2net}{{3}{8}{问题二模型的网络结构。每个模态依次经过掩码判定、掩码感知编码、共享-特有分解与多尺度时间池化，四条纵向流程共享同一套参数设定；门控模块以三模态缺失率构成的向量为输入，输出样本级模态权重，融合结果再送入极性分类头、强度回归头与有序回归辅助头。该图与正文公式一一对应，训练期附加的蒸馏与课程学习见图中注记。}{figure.caption.4}{}}
+\newlabel{fig:q2net@cref}{{[figure][3][]3}{[1][8][]8}{}{}{}}
+\newlabel{eq:proj}{{5}{8}{掩码感知的模态编码}{equation.5}{}}
+\newlabel{eq:proj@cref}{{[equation][5][]5}{[1][8][]8}{}{}{}}
+\newlabel{eq:maskedattn}{{6}{8}{掩码感知的模态编码}{equation.6}{}}
+\newlabel{eq:maskedattn@cref}{{[equation][6][]6}{[1][8][]8}{}{}{}}
+\newlabel{eq:sharespec}{{7}{8}{掩码感知的模态编码}{equation.7}{}}
+\newlabel{eq:sharespec@cref}{{[equation][7][]7}{[1][8][]8}{}{}{}}
+\citation{ref17}
+\citation{ref12}
+\citation{ref10}
+\citation{ref13}
+\citation{ref11}
+\citation{ref9}
+\citation{ref14}
+\citation{ref16}
+\citation{ref18}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,3}动态专家门控与模态融合}{9}{subsubsection.5.2.3}\protected@file@percent }
+\newlabel{eq:gatein}{{8}{9}{动态专家门控与模态融合}{equation.8}{}}
+\newlabel{eq:gatein@cref}{{[equation][8][]8}{[1][9][]9}{}{}{}}
+\newlabel{eq:gate}{{9}{9}{动态专家门控与模态融合}{equation.9}{}}
+\newlabel{eq:gate@cref}{{[equation][9][]9}{[1][9][]9}{}{}{}}
+\newlabel{eq:balance}{{10}{9}{动态专家门控与模态融合}{equation.10}{}}
+\newlabel{eq:balance@cref}{{[equation][10][]10}{[1][9][]9}{}{}{}}
+\newlabel{eq:fusion}{{11}{9}{动态专家门控与模态融合}{equation.11}{}}
+\newlabel{eq:fusion@cref}{{[equation][11][]11}{[1][9][]9}{}{}{}}
+\newlabel{eq:pool}{{12}{9}{动态专家门控与模态融合}{equation.12}{}}
+\newlabel{eq:pool@cref}{{[equation][12][]12}{[1][9][]9}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,4}目标函数}{9}{subsubsection.5.2.4}\protected@file@percent }
+\newlabel{eq:nll}{{13}{10}{目标函数}{equation.13}{}}
+\newlabel{eq:nll@cref}{{[equation][13][]13}{[1][9][]10}{}{}{}}
+\newlabel{eq:ce}{{14}{10}{目标函数}{equation.14}{}}
+\newlabel{eq:ce@cref}{{[equation][14][]14}{[1][10][]10}{}{}{}}
+\newlabel{eq:rec}{{15}{10}{目标函数}{equation.15}{}}
+\newlabel{eq:rec@cref}{{[equation][15][]15}{[1][10][]10}{}{}{}}
+\newlabel{eq:simorth}{{16}{10}{目标函数}{equation.16}{}}
+\newlabel{eq:simorth@cref}{{[equation][16][]16}{[1][10][]10}{}{}{}}
+\newlabel{eq:coral}{{17}{10}{目标函数}{equation.17}{}}
+\newlabel{eq:coral@cref}{{[equation][17][]17}{[1][10][]10}{}{}{}}
+\newlabel{eq:curriculum}{{18}{10}{目标函数}{equation.18}{}}
+\newlabel{eq:curriculum@cref}{{[equation][18][]18}{[1][10][]10}{}{}{}}
+\newlabel{eq:kd}{{19}{10}{目标函数}{equation.19}{}}
+\newlabel{eq:kd@cref}{{[equation][19][]19}{[1][10][]10}{}{}{}}
+\newlabel{eq:total}{{20}{11}{目标函数}{equation.20}{}}
+\newlabel{eq:total@cref}{{[equation][20][]20}{[1][10][]11}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,5}决策阈值选择与校准}{11}{subsubsection.5.2.5}\protected@file@percent }
+\newlabel{eq:theta}{{21}{11}{决策阈值选择与校准}{equation.21}{}}
+\newlabel{eq:theta@cref}{{[equation][21][]21}{[1][11][]11}{}{}{}}
+\newlabel{eq:calib}{{22}{11}{决策阈值选择与校准}{equation.22}{}}
+\newlabel{eq:calib@cref}{{[equation][22][]22}{[1][11][]11}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,6}训练方案与关键参数}{11}{subsubsection.5.2.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 问题二模型的损失权重、缺失课程与决策参数。各类损失权重中的 $\lambda $ 编号与式~\eqref  {eq:total} 一致，便于对照阅读。需要说明的是重建项权重取零，即最终配方未启用跨模态重建，其依据见消融实验一节。决策阈值只在验证集上确定，附件三与附件四不参与选择。}}{11}{table.caption.5}\protected@file@percent }
+\newlabel{tab:q2hparam2}{{2}{11}{问题二模型的损失权重、缺失课程与决策参数。各类损失权重中的 $\lambda $ 编号与式~\eqref {eq:total} 一致，便于对照阅读。需要说明的是重建项权重取零，即最终配方未启用跨模态重建，其依据见消融实验一节。决策阈值只在验证集上确定，附件三与附件四不参与选择。}{table.caption.5}{}}
+\newlabel{tab:q2hparam2@cref}{{[table][2][]2}{[1][11][]11}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 问题二模型的数据、网络与训练参数。容量、正则强度、缺失注入课程与优化设置均在验证集上逐项比较后选定，表中同时给出缺失判定的连续零帧阈值与时间裁剪的保留比例，用于核对代码实现是否与论文中的定义一致，这两处设置直接决定缺失与填充能否被正确区分。}}{12}{table.caption.6}\protected@file@percent }
+\newlabel{tab:q2hparam}{{3}{12}{问题二模型的数据、网络与训练参数。容量、正则强度、缺失注入课程与优化设置均在验证集上逐项比较后选定，表中同时给出缺失判定的连续零帧阈值与时间裁剪的保留比例，用于核对代码实现是否与论文中的定义一致，这两处设置直接决定缺失与填充能否被正确区分。}{table.caption.6}{}}
+\newlabel{tab:q2hparam@cref}{{[table][3][]3}{[1][11][]12}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,7}求解结果}{12}{subsubsection.5.2.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces 问题二模型的基础性能。验证集为主报口径，测试划分仅作泛化核验，分类指标取分类头主口径。模型在验证集取得准确率 0.6223、宏观 F1 0.6158，在测试划分提升至 0.6534 与 0.6338，说明未在验证集上过拟合；中性类 F1 明显低于负类与正类，是主要的性能短板，也是后续归因分析的起点。}}{12}{table.caption.7}\protected@file@percent }
+\newlabel{tab:q2main}{{4}{12}{问题二模型的基础性能。验证集为主报口径，测试划分仅作泛化核验，分类指标取分类头主口径。模型在验证集取得准确率 0.6223、宏观 F1 0.6158，在测试划分提升至 0.6534 与 0.6338，说明未在验证集上过拟合；中性类 F1 明显低于负类与正类，是主要的性能短板，也是后续归因分析的起点。}{table.caption.7}{}}
+\newlabel{tab:q2main@cref}{{[table][4][]4}{[1][12][]12}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 情感强度预测值与真值的散点分布。横轴为真值强度，纵轴为模型预测强度，虚线为恒等参考线。样本在对角线附近聚集说明模型整体方向正确，但在两端明显向内收缩：真值位于正负两端的样本被系统性地预测得不够极端。该收缩的量化表现是负类平均偏差 $+0.54$、正类平均偏差 $-0.45$，属于条件均值回归的固有性质。}}{13}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:q2scatter}{{4}{13}{情感强度预测值与真值的散点分布。横轴为真值强度，纵轴为模型预测强度，虚线为恒等参考线。样本在对角线附近聚集说明模型整体方向正确，但在两端明显向内收缩：真值位于正负两端的样本被系统性地预测得不够极端。该收缩的量化表现是负类平均偏差 $+0.54$、正类平均偏差 $-0.45$，属于条件均值回归的固有性质。}{figure.caption.8}{}}
+\newlabel{fig:q2scatter@cref}{{[figure][4][]4}{[1][13][]13}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 情感极性三分类混淆矩阵（验证集）。对角线为正确分类数，非对角线为混淆数，数值为样本数。负类与正类的识别较为可靠，中性类存在明显的双向混淆：真中性 184 条中有 72 条被判为极性，同时有 147 条极性样本被判为中性，导致中性类精确率仅 0.4324。该结果说明中性边界是当前模型的主要误差来源。}}{14}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:q2cm}{{5}{14}{情感极性三分类混淆矩阵（验证集）。对角线为正确分类数，非对角线为混淆数，数值为样本数。负类与正类的识别较为可靠，中性类存在明显的双向混淆：真中性 184 条中有 72 条被判为极性，同时有 147 条极性样本被判为中性，导致中性类精确率仅 0.4324。该结果说明中性边界是当前模型的主要误差来源。}{figure.caption.9}{}}
+\newlabel{fig:q2cm@cref}{{[figure][5][]5}{[1][13][]14}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 缺失掩码与填充掩码的时序可视化。横向条带表示时间步，颜色区分有效帧、填充帧与缺失帧。填充帧成片出现在序列尾部且单调连续，缺失帧则出现在有效区间内部；两者在图中共现但不重叠，验证了式~\eqref  {eq:pad} 与式~\eqref  {eq:miss} 的分离规则。该图同时说明若把填充计为缺失，缺失率将被高估约一倍。}}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:q2mask}{{6}{14}{缺失掩码与填充掩码的时序可视化。横向条带表示时间步，颜色区分有效帧、填充帧与缺失帧。填充帧成片出现在序列尾部且单调连续，缺失帧则出现在有效区间内部；两者在图中共现但不重叠，验证了式~\eqref {eq:pad} 与式~\eqref {eq:miss} 的分离规则。该图同时说明若把填充计为缺失，缺失率将被高估约一倍。}{figure.caption.10}{}}
+\newlabel{fig:q2mask@cref}{{[figure][6][]6}{[1][14][]14}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 决策阈值的敏感性曲线。横轴为阈值，纵轴为验证集准确率与宏观 F1，两条曲线在阈值 0.28 附近同时接近峰值。曲线在 0.2 至 0.4 区间变化平缓，说明两个准则选出的阈值一致且对扰动不敏感；由于阈值只在验证集上确定，该图同时作为口径合规性的证据。}}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:q2theta}{{7}{15}{决策阈值的敏感性曲线。横轴为阈值，纵轴为验证集准确率与宏观 F1，两条曲线在阈值 0.28 附近同时接近峰值。曲线在 0.2 至 0.4 区间变化平缓，说明两个准则选出的阈值一致且对扰动不敏感；由于阈值只在验证集上确定，该图同时作为口径合规性的证据。}{figure.caption.11}{}}
+\newlabel{fig:q2theta@cref}{{[figure][7][]7}{[1][14][]15}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,8}缺失因素影响规律}{15}{subsubsection.5.2.8}\protected@file@percent }
+\newlabel{eq:delta}{{23}{15}{缺失因素影响规律}{equation.23}{}}
+\newlabel{eq:delta@cref}{{[equation][23][]23}{[1][15][]15}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 各缺失类型下的退化曲线。横轴为注入缺失率，纵轴为平均绝对误差，多条曲线按缺失类型区分。文本类缺失曲线在缺失率超过 0.3 后快速上升，缺失率达到 1.0 时误差由 0.5866 升至约 0.77；而语音与视觉类缺失曲线在整个区间内近乎水平。该对比直接说明本任务的退化由文本模态驱动。}}{16}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:q2degrade}{{8}{16}{各缺失类型下的退化曲线。横轴为注入缺失率，纵轴为平均绝对误差，多条曲线按缺失类型区分。文本类缺失曲线在缺失率超过 0.3 后快速上升，缺失率达到 1.0 时误差由 0.5866 升至约 0.77；而语音与视觉类缺失曲线在整个区间内近乎水平。该对比直接说明本任务的退化由文本模态驱动。}{figure.caption.12}{}}
+\newlabel{fig:q2degrade@cref}{{[figure][8][]8}{[1][15][]16}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 缺失类型与缺失位置的退化热力图。行表示缺失类型，列表示缺失位置，单元格数值为相对基线的误差增量，颜色越深表示退化越严重。文本类所在的整行明显深于语音与视觉行，其中头部缺失格的数值最高。语音与视觉行在全列上数值接近零，说明这两类模态的缺失位置对结果几无影响。}}{16}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:q2heat}{{9}{16}{缺失类型与缺失位置的退化热力图。行表示缺失类型，列表示缺失位置，单元格数值为相对基线的误差增量，颜色越深表示退化越严重。文本类所在的整行明显深于语音与视觉行，其中头部缺失格的数值最高。语音与视觉行在全列上数值接近零，说明这两类模态的缺失位置对结果几无影响。}{figure.caption.13}{}}
+\newlabel{fig:q2heat@cref}{{[figure][9][]9}{[1][16][]16}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 四个模型在文本类缺失下的性能对比。左图为误差增量随缺失率的变化，右图为准确率增量随缺失率的变化，虚线为零基准。两个朴素融合基线在缺失率 0.3 后误差快速上升，而本文模型与集成模型的曲线明显更低且更平缓。按位置平均，本文模型把退化降低 1.5 至 3.3 倍，其中头部场景收益最小，因为头部缺失本身就是最难恢复的情形。}}{17}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:q2cmp}{{10}{17}{四个模型在文本类缺失下的性能对比。左图为误差增量随缺失率的变化，右图为准确率增量随缺失率的变化，虚线为零基准。两个朴素融合基线在缺失率 0.3 后误差快速上升，而本文模型与集成模型的曲线明显更低且更平缓。按位置平均，本文模型把退化降低 1.5 至 3.3 倍，其中头部场景收益最小，因为头部缺失本身就是最难恢复的情形。}{figure.caption.14}{}}
+\newlabel{fig:q2cmp@cref}{{[figure][10][]10}{[1][16][]17}{}{}{}}
+\newlabel{eq:anova}{{24}{17}{缺失因素影响规律}{equation.24}{}}
+\newlabel{eq:anova@cref}{{[equation][24][]24}{[1][17][]17}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 三因素方差分析的效应量。响应变量为各场景相对无缺失基线的退化增量，缺失率区间取零到 0.5，误差项取最高阶交互。表中对比了朴素融合基线与本文模型：基线中缺失类型与缺失率的交互效应量高达 0.9517，本文模型降至 0.8415；同时缺失类型与缺失位置的交互由 0.0053 升至 0.0614。}}{18}{table.caption.15}\protected@file@percent }
+\newlabel{tab:anova}{{5}{18}{三因素方差分析的效应量。响应变量为各场景相对无缺失基线的退化增量，缺失率区间取零到 0.5，误差项取最高阶交互。表中对比了朴素融合基线与本文模型：基线中缺失类型与缺失率的交互效应量高达 0.9517，本文模型降至 0.8415；同时缺失类型与缺失位置的交互由 0.0053 升至 0.0614。}{table.caption.15}{}}
+\newlabel{tab:anova@cref}{{[table][5][]5}{[1][17][]18}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,9}消融实验}{18}{subsubsection.5.2.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 消融实验的验证集结果。前三行为基准配方在两种子上的取值及其极差，模块消融部分与种子 42 配对、只翻转一个开关，故差值只对应被关闭的那一个模块；下半部分为并列参照，配方或模型类型不同不做差。误差指标上任何模块的消融幅度都小于基准配方自身的种子极差，仅动态专家门控一项在宏观 F1 上略超过种子极差。}}{19}{table.caption.16}\protected@file@percent }
+\newlabel{tab:ablation}{{6}{19}{消融实验的验证集结果。前三行为基准配方在两种子上的取值及其极差，模块消融部分与种子 42 配对、只翻转一个开关，故差值只对应被关闭的那一个模块；下半部分为并列参照，配方或模型类型不同不做差。误差指标上任何模块的消融幅度都小于基准配方自身的种子极差，仅动态专家门控一项在宏观 F1 上略超过种子极差。}{table.caption.16}{}}
+\newlabel{tab:ablation@cref}{{[table][6][]6}{[1][18][]19}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 超参数搜索的快速筛选阶段与完整训练阶段对比（验证集，四个候选）。每个候选的两点由箭头连接，灰点为子集快速筛选结果，蓝点为全量训练结果，点旁数字为该阶段内的排名。宏观 F1 的排名在两阶段之间完全一致，而平均绝对误差的排名发生反转：筛选阶段误差最低的隐维度 128 配置，在完整训练后误差最高。}}{20}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:q2tune}{{11}{20}{超参数搜索的快速筛选阶段与完整训练阶段对比（验证集，四个候选）。每个候选的两点由箭头连接，灰点为子集快速筛选结果，蓝点为全量训练结果，点旁数字为该阶段内的排名。宏观 F1 的排名在两阶段之间完全一致，而平均绝对误差的排名发生反转：筛选阶段误差最低的隐维度 128 配置，在完整训练后误差最高。}{figure.caption.17}{}}
+\newlabel{fig:q2tune@cref}{{[figure][11][]11}{[1][19][]20}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,10}验证集可视化与错误归因}{20}{subsubsection.5.2.10}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 错误归因的五维分层结果（验证集）。五个子图分别按真值强度、文本长度分位、视觉长度分位、真值极性与是否含缺失分层，条形长度表示平均绝对误差，并标注样本数与分类头准确率。按真值强度分层时误差随强度单调上升，明显高于其他维度；按极性分层时负类误差最高；含缺失子集的准确率显著低于无缺失子集。}}{21}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:q2errgroup}{{12}{21}{错误归因的五维分层结果（验证集）。五个子图分别按真值强度、文本长度分位、视觉长度分位、真值极性与是否含缺失分层，条形长度表示平均绝对误差，并标注样本数与分类头准确率。按真值强度分层时误差随强度单调上升，明显高于其他维度；按极性分层时负类误差最高；含缺失子集的准确率显著低于无缺失子集。}{figure.caption.18}{}}
+\newlabel{fig:q2errgroup@cref}{{[figure][12][]12}{[1][20][]21}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 情感强度绝对误差的分布直方图。横轴为绝对误差，纵轴为样本数，红色竖线为平均绝对误差的位置。分布在零点附近集中，但存在明显长尾：多数样本误差小于 0.5，少数强情感样本误差超过 2.0，长尾样本主导了平均误差，这一特征与后续分层归因的结论一致。}}{21}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:q2errhist}{{13}{21}{情感强度绝对误差的分布直方图。横轴为绝对误差，纵轴为样本数，红色竖线为平均绝对误差的位置。分布在零点附近集中，但存在明显长尾：多数样本误差小于 0.5，少数强情感样本误差超过 2.0，长尾样本主导了平均误差，这一特征与后续分层归因的结论一致。}{figure.caption.19}{}}
+\newlabel{fig:q2errhist@cref}{{[figure][13][]13}{[1][21][]21}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,11}不确定性分析与可拒识能力}{22}{subsubsection.5.2.11}\protected@file@percent }
+\newlabel{eq:aleatoric}{{25}{22}{不确定性分析与可拒识能力}{equation.25}{}}
+\newlabel{eq:aleatoric@cref}{{[equation][25][]25}{[1][22][]22}{}{}{}}
+\newlabel{eq:epistemic}{{26}{22}{不确定性分析与可拒识能力}{equation.26}{}}
+\newlabel{eq:epistemic@cref}{{[equation][26][]26}{[1][22][]22}{}{}{}}
+\newlabel{eq:entropy}{{27}{22}{不确定性分析与可拒识能力}{equation.27}{}}
+\newlabel{eq:entropy@cref}{{[equation][27][]27}{[1][22][]22}{}{}{}}
+\newlabel{eq:aurc}{{28}{22}{不确定性分析与可拒识能力}{equation.28}{}}
+\newlabel{eq:aurc@cref}{{[equation][28][]28}{[1][22][]22}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces 风险覆盖率曲线（左验证集、右测试划分）。横轴为保留比例，纵轴为平均绝对误差，实线为按总不确定度剔除、点线为随机剔除、虚线为按真实误差剔除的理论下界。实线显著低于随机基线并接近下界，说明按总不确定度剔除不确定样本可有效降低误差。}}{23}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:q2rc}{{14}{23}{风险覆盖率曲线（左验证集、右测试划分）。横轴为保留比例，纵轴为平均绝对误差，实线为按总不确定度剔除、点线为随机剔除、虚线为按真实误差剔除的理论下界。实线显著低于随机基线并接近下界，说明按总不确定度剔除不确定样本可有效降低误差。}{figure.caption.20}{}}
+\newlabel{fig:q2rc@cref}{{[figure][14][]14}{[1][22][]23}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces 剔除最不确定样本对分类准确率的影响。横轴为保留比例，纵轴为分类头准确率。按总不确定度剔除时准确率反而下降，而按分类头概率熵剔除时准确率明显上升，保留一半样本时验证集准确率由 0.6223 升至 0.7637，测试划分升至 0.8214。该差异说明回归不确定度与分类不确定度是两个可分离的量，必须分别使用。}}{23}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:q2reject}{{15}{23}{剔除最不确定样本对分类准确率的影响。横轴为保留比例，纵轴为分类头准确率。按总不确定度剔除时准确率反而下降，而按分类头概率熵剔除时准确率明显上升，保留一半样本时验证集准确率由 0.6223 升至 0.7637，测试划分升至 0.8214。该差异说明回归不确定度与分类不确定度是两个可分离的量，必须分别使用。}{figure.caption.21}{}}
+\newlabel{fig:q2reject@cref}{{[figure][15][]15}{[1][23][]23}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces 总不确定度与绝对误差的散点关系（左验证集、右测试划分）。横轴为总不确定度，纵轴为绝对强度误差，散点呈右上倾斜趋势，斯皮尔曼相关系数在验证集为 0.296、测试划分为 0.230，均为正且显著。这说明对数方差头输出的不确定度确实追踪了强度回归的误差幅值。}}{24}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:q2unc}{{16}{24}{总不确定度与绝对误差的散点关系（左验证集、右测试划分）。横轴为总不确定度，纵轴为绝对强度误差，散点呈右上倾斜趋势，斯皮尔曼相关系数在验证集为 0.296、测试划分为 0.230，均为正且显著。这说明对数方差头输出的不确定度确实追踪了强度回归的误差幅值。}{figure.caption.22}{}}
+\newlabel{fig:q2unc@cref}{{[figure][16][]16}{[1][23][]24}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,12}附件三与附件四的推理结果}{24}{subsubsection.5.2.12}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces 附件三测试集的全量预测汇总。极性同时给出分类头主口径与强度阈值口径，两组判定的样本一致率为 0.8333。含缺失子集指语音或视觉任一模态实测缺失率大于零的 18 条样本。含缺失子集的平均强度与平均绝对强度均低于无缺失子集，说明部分时段信息不可用时模型给出的预测更趋保守；两组平均置信度差异不足 0.03。}}{25}{table.caption.23}\protected@file@percent }
+\newlabel{tab:q2att3}{{7}{25}{附件三测试集的全量预测汇总。极性同时给出分类头主口径与强度阈值口径，两组判定的样本一致率为 0.8333。含缺失子集指语音或视觉任一模态实测缺失率大于零的 18 条样本。含缺失子集的平均强度与平均绝对强度均低于无缺失子集，说明部分时段信息不可用时模型给出的预测更趋保守；两组平均置信度差异不足 0.03。}{table.caption.23}{}}
+\newlabel{tab:q2att3@cref}{{[table][7][]7}{[1][24][]25}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces 附件三预测强度的分布（左）与置信度的分布（右）。左图两组直方图叠加显示，预测强度集中在 $-1.2$ 至 $1.5$ 之间，红色虚线为决策阈值正负 0.325，超出阈值的样本被判为极性类；右图置信度分布在 0.44 至 0.91 之间，均值 0.584。该图用于核验提交文件中的分数与置信度字段无异常值。}}{26}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:q2att3dist}{{17}{26}{附件三预测强度的分布（左）与置信度的分布（右）。左图两组直方图叠加显示，预测强度集中在 $-1.2$ 至 $1.5$ 之间，红色虚线为决策阈值正负 0.325，超出阈值的样本被判为极性类；右图置信度分布在 0.44 至 0.91 之间，均值 0.584。该图用于核验提交文件中的分数与置信度字段无异常值。}{figure.caption.24}{}}
+\newlabel{fig:q2att3dist@cref}{{[figure][17][]17}{[1][25][]26}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces 附件三预测结果构成（左）与强度幅值、置信度对比（右）。左图按全样本、含缺失与无缺失三组给出三类极性的样本数，无缺失子集的负向样本为 2 条；右图给出平均绝对强度与平均置信度，含缺失组的平均绝对强度比无缺失组低 0.157。该图说明模态缺失在本测试集上既影响预测方向的分布，也使预测幅值整体收缩。}}{26}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:q2att3comp}{{18}{26}{附件三预测结果构成（左）与强度幅值、置信度对比（右）。左图按全样本、含缺失与无缺失三组给出三类极性的样本数，无缺失子集的负向样本为 2 条；右图给出平均绝对强度与平均置信度，含缺失组的平均绝对强度比无缺失组低 0.157。该图说明模态缺失在本测试集上既影响预测方向的分布，也使预测幅值整体收缩。}{figure.caption.25}{}}
+\newlabel{fig:q2att3comp@cref}{{[figure][18][]18}{[1][26][]26}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces 附件三与附件四的实测缺失分布。柱形为含缺失样本的占比，圆点为平均实测缺失率，右侧纵轴对应平均缺失率。附件三语音与视觉模态的含缺失比例分别为 56.7\% 与 60.0\%，平均缺失率约 0.10；文本模态在三套数据中均无实测缺失；附件四有 1 条样本视觉模态整条缺失。}}{27}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:q2att34}{{19}{27}{附件三与附件四的实测缺失分布。柱形为含缺失样本的占比，圆点为平均实测缺失率，右侧纵轴对应平均缺失率。附件三语音与视觉模态的含缺失比例分别为 56.7\% 与 60.0\%，平均缺失率约 0.10；文本模态在三套数据中均无实测缺失；附件四有 1 条样本视觉模态整条缺失。}{figure.caption.26}{}}
+\newlabel{fig:q2att34@cref}{{[figure][19][]19}{[1][26][]27}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,13}可解释性的形式化定义与方案选择}{27}{subsubsection.5.2.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces 问题三的求解流程（蛇形横向）。第一行为输入准备与模态级、片段级重要性的并行计算： 加载冻结骨干与专项测试集、精确 Shapley 八子集全枚举、积分梯度与注意力重要性；折返后的第二行为遮挡重要性 （模型无关基准）、三源融合与权重标定、证据定位（词片段、语音时段与关键帧）；第三行给出解释质量指标、 免标注机制验证与鲁棒性互证，最终输出预测与解释文件。}}{28}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:q3flow}{{20}{28}{问题三的求解流程（蛇形横向）。第一行为输入准备与模态级、片段级重要性的并行计算： 加载冻结骨干与专项测试集、精确 Shapley 八子集全枚举、积分梯度与注意力重要性；折返后的第二行为遮挡重要性 （模型无关基准）、三源融合与权重标定、证据定位（词片段、语音时段与关键帧）；第三行给出解释质量指标、 免标注机制验证与鲁棒性互证，最终输出预测与解释文件。}{figure.caption.27}{}}
+\newlabel{fig:q3flow@cref}{{[figure][20][]20}{[1][27][]28}{}{}{}}
+\newlabel{eq:q3pi}{{29}{28}{可解释性的形式化定义与方案选择}{equation.29}{}}
+\newlabel{eq:q3pi@cref}{{[equation][29][]29}{[1][28][]28}{}{}{}}
+\citation{ref15}
+\citation{ref10}
+\citation{ref14}
+\citation{ref18}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces 可解释性方案候选对比。注意力权重来自模型内部，计算零成本，但其大小受缩放方式、 层数与头数影响，已有研究给出注意力与真实重要性不一致的反例，故仅作为对照基线；代理模型 需要额外的近似采样，解释方差不可控；精确 Shapley 在模态数仅为三时可对全部 $2^{3}$ 个子集 精确枚举，不存在近似误差，配合积分梯度与遮挡可形成公理化、细粒度与模型无关三重校验。}}{29}{table.caption.28}\protected@file@percent }
+\newlabel{tab:q3cand}{{8}{29}{可解释性方案候选对比。注意力权重来自模型内部，计算零成本，但其大小受缩放方式、 层数与头数影响，已有研究给出注意力与真实重要性不一致的反例，故仅作为对照基线；代理模型 需要额外的近似采样，解释方差不可控；精确 Shapley 在模态数仅为三时可对全部 $2^{3}$ 个子集 精确枚举，不存在近似误差，配合积分梯度与遮挡可形成公理化、细粒度与模型无关三重校验。}{table.caption.28}{}}
+\newlabel{tab:q3cand@cref}{{[table][8][]8}{[1][28][]29}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,14}可解释性证据头的结构与目标函数}{29}{subsubsection.5.2.14}\protected@file@percent }
+\newlabel{eq:q3s}{{30}{29}{可解释性证据头的结构与目标函数}{equation.30}{}}
+\newlabel{eq:q3s@cref}{{[equation][30][]30}{[1][29][]29}{}{}{}}
+\newlabel{eq:q3hbar}{{31}{29}{可解释性证据头的结构与目标函数}{equation.31}{}}
+\newlabel{eq:q3hbar@cref}{{[equation][31][]31}{[1][29][]29}{}{}{}}
+\newlabel{eq:q3loss}{{32}{30}{可解释性证据头的结构与目标函数}{equation.32}{}}
+\newlabel{eq:q3loss@cref}{{[equation][32][]32}{[1][30][]30}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces 可解释性模型结构（骨干冻结 + 并联证据头 + 三源解释通路）。上半部分为冻结骨干：三模态特征经掩码感知编码与动态融合后，由强度头与极性头给出预测；下半部分为并联证据头，仅读取各模态编码表示并输出模态作用度与时间证据分布；右侧为三源解释通路与证据定位。证据头不接入预测通路，故预测与问题二逐位一致。}}{30}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:q3net}{{21}{30}{可解释性模型结构（骨干冻结 + 并联证据头 + 三源解释通路）。上半部分为冻结骨干：三模态特征经掩码感知编码与动态融合后，由强度头与极性头给出预测；下半部分为并联证据头，仅读取各模态编码表示并输出模态作用度与时间证据分布；右侧为三源解释通路与证据定位。证据头不接入预测通路，故预测与问题二逐位一致。}{figure.caption.29}{}}
+\newlabel{fig:q3net@cref}{{[figure][21][]21}{[1][30][]30}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,15}模态级与片段级解释的计算}{31}{subsubsection.5.2.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{模态级：精确 Shapley 值。}{31}{section*.30}\protected@file@percent }
+\newlabel{eq:q3shap}{{33}{31}{模态级：精确 Shapley 值。}{equation.33}{}}
+\newlabel{eq:q3shap@cref}{{[equation][33][]33}{[1][31][]31}{}{}{}}
+\newlabel{eq:q3norm}{{34}{31}{模态级：精确 Shapley 值。}{equation.34}{}}
+\newlabel{eq:q3norm@cref}{{[equation][34][]34}{[1][31][]31}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{片段级：三源时间重要性。}{31}{section*.31}\protected@file@percent }
+\newlabel{eq:q3ig}{{35}{31}{片段级：三源时间重要性。}{equation.35}{}}
+\newlabel{eq:q3ig@cref}{{[equation][35][]35}{[1][31][]31}{}{}{}}
+\newlabel{eq:q3occ}{{36}{32}{片段级：三源时间重要性。}{equation.36}{}}
+\newlabel{eq:q3occ@cref}{{[equation][36][]36}{[1][31][]32}{}{}{}}
+\newlabel{eq:q3fuse}{{37}{32}{片段级：三源时间重要性。}{equation.37}{}}
+\newlabel{eq:q3fuse@cref}{{[equation][37][]37}{[1][32][]32}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{解释质量的量化指标。}{32}{section*.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,16}证据定位规则}{32}{subsubsection.5.2.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,17}典型样本解释卡}{32}{subsubsection.5.2.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces 中性样本 03 的解释卡，四个子图含义同图~\ref {fig:q3cards}。该样本预测强度 $-0.2985$、置信度 0.4954，属边界样本；三模态作用度为文本 0.468、语音 0.264、视觉 0.267，时间重要性在各模态内亦较均匀，说明模型未找到单一强证据，与错误归因中“边界样本解释熵更高”的结论一致。该卡补齐了正向、中性与负向三类典型样本的解释展示。}}{33}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:q3cards3}{{22}{33}{中性样本 03 的解释卡，四个子图含义同图~\ref {fig:q3cards}。该样本预测强度 $-0.2985$、置信度 0.4954，属边界样本；三模态作用度为文本 0.468、语音 0.264、视觉 0.267，时间重要性在各模态内亦较均匀，说明模型未找到单一强证据，与错误归因中“边界样本解释熵更高”的结论一致。该卡补齐了正向、中性与负向三类典型样本的解释展示。}{figure.caption.33}{}}
+\newlabel{fig:q3cards3@cref}{{[figure][22][]22}{[1][32][]33}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces 负向样本 16 的解释卡，四子图含义同图~\ref {fig:q3cards}。该样本预测强度为 $-2.54$，属强负向，文本作用度升至 0.8731，关键片段集中在含有否定作用的词上； 语音与视觉的作用度相应下降，说明在强情感样本上模型更依赖文本语义，与 \ref {sec:q3consist} 小节按强度分层的统计结论一致。}}{34}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:q3cards2}{{23}{34}{负向样本 16 的解释卡，四子图含义同图~\ref {fig:q3cards}。该样本预测强度为 $-2.54$，属强负向，文本作用度升至 0.8731，关键片段集中在含有否定作用的词上； 语音与视觉的作用度相应下降，说明在强情感样本上模型更依赖文本语义，与 \ref {sec:q3consist} 小节按强度分层的统计结论一致。}{figure.caption.34}{}}
+\newlabel{fig:q3cards2@cref}{{[figure][23][]23}{[1][33][]34}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces 正向样本 17 的解释卡。四个子图自上而下、自左向右依次为：三模态时间重要性 条带（虚线为该模态有效长度上界，三角为排名前三的关键片段）、文本证据的词级着色 （橙色为模型关注的词，方框为可回看的字符区间）、视觉关键帧、以及音频能量曲线 与高重要度的语音时段（阴影）。该样本真实强度为强正向，模态作用度以文本最大， 关键证据落在情绪极性词上。}}{35}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:q3cards}{{24}{35}{正向样本 17 的解释卡。四个子图自上而下、自左向右依次为：三模态时间重要性 条带（虚线为该模态有效长度上界，三角为排名前三的关键片段）、文本证据的词级着色 （橙色为模型关注的词，方框为可回看的字符区间）、视觉关键帧、以及音频能量曲线 与高重要度的语音时段（阴影）。该样本真实强度为强正向，模态作用度以文本最大， 关键证据落在情绪极性词上。}{figure.caption.35}{}}
+\newlabel{fig:q3cards@cref}{{[figure][24][]24}{[1][34][]35}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,18}三模态作用差异与一致性检验}{35}{subsubsection.5.2.18}\protected@file@percent }
+\newlabel{sec:q3consist}{{5\,.\,2\,.\,18}{35}{三模态作用差异与一致性检验}{subsubsection.5.2.18}{}}
+\newlabel{sec:q3consist@cref}{{[subsubsection][18][5,2]5\,.\,2\,.\,18}{[1][35][]35}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces 验证集上三模态作用度按真值极性分层。作用度取 softmax 归一化口径并逐样本计算后 取组内均值（式~\eqref  {eq:q3norm}）。三类情感的文本作用度分别为 0.514/0.407/0.460， 语音与视觉的组间差异均小于 0.065。文本在三类情感中均为最大作用模态， 且在强情感样本上更突出，说明模型以文本语义为主、语音与视觉为辅。}}{35}{table.caption.36}\protected@file@percent }
+\newlabel{tab:q3pi}{{9}{35}{验证集上三模态作用度按真值极性分层。作用度取 softmax 归一化口径并逐样本计算后 取组内均值（式~\eqref {eq:q3norm}）。三类情感的文本作用度分别为 0.514/0.407/0.460， 语音与视觉的组间差异均小于 0.065。文本在三类情感中均为最大作用模态， 且在强情感样本上更突出，说明模型以文本语义为主、语音与视觉为辅。}{table.caption.36}{}}
+\newlabel{tab:q3pi@cref}{{[table][9][]9}{[1][35][]35}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces 验证集三模态作用度按真值极性分层的箱线图，三个子图依次为文本、语音与视觉， 箱体为四分位区间。文本作用度在三类情感上均显著高于另两个模态，且负向与正向样本的 中位数高于中性样本，说明情感越明确、文本依据越集中；语音与视觉的分布在三类之间高度重叠， 其辅助作用不随极性方向变化。}}{36}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:q3pilab}{{25}{36}{验证集三模态作用度按真值极性分层的箱线图，三个子图依次为文本、语音与视觉， 箱体为四分位区间。文本作用度在三类情感上均显著高于另两个模态，且负向与正向样本的 中位数高于中性样本，说明情感越明确、文本依据越集中；语音与视觉的分布在三类之间高度重叠， 其辅助作用不随极性方向变化。}{figure.caption.37}{}}
+\newlabel{fig:q3pilab@cref}{{[figure][25][]25}{[1][35][]36}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces 八个子集的模态组合在验证集上的表现与全局 Shapley 值。子集含义为使用哪些模态 （“无”表示三个模态全部屏蔽）。文本单独使用即可把平均绝对误差由 0.7816 降到 0.5936， 接近全模态的 0.5890，而语音或视觉单独使用几乎无效；全局 Shapley 值给出同样的排序： 文本 0.1842、语音 0.0004、视觉 0.0103 （以负平均绝对误差为效用）。}}{36}{table.caption.38}\protected@file@percent }
+\newlabel{tab:q3subset}{{10}{36}{八个子集的模态组合在验证集上的表现与全局 Shapley 值。子集含义为使用哪些模态 （“无”表示三个模态全部屏蔽）。文本单独使用即可把平均绝对误差由 0.7816 降到 0.5936， 接近全模态的 0.5890，而语音或视觉单独使用几乎无效；全局 Shapley 值给出同样的排序： 文本 0.1842、语音 0.0004、视觉 0.0103 （以负平均绝对误差为效用）。}{table.caption.38}{}}
+\newlabel{tab:q3subset@cref}{{[table][10][]10}{[1][36][]36}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces 样本级一致性检验。横轴为删去该模态后验证集平均绝对误差的增量，纵轴为模型给出的 该模态作用度，三种颜色对应三个模态，全部 728 条样本点叠绘。两者的秩相关系数为 1.000，散点整体沿右上方向分布，说明作用度高的模态确实对应更大的预测退化。}}{37}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:q3consist}{{26}{37}{样本级一致性检验。横轴为删去该模态后验证集平均绝对误差的增量，纵轴为模型给出的 该模态作用度，三种颜色对应三个模态，全部 728 条样本点叠绘。两者的秩相关系数为 1.000，散点整体沿右上方向分布，说明作用度高的模态确实对应更大的预测退化。}{figure.caption.39}{}}
+\newlabel{fig:q3consist@cref}{{[figure][26][]26}{[1][36][]37}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces 免标注机制验证。横轴为该模态的实测缺失率，纵轴为该模态的作用度，圆点与三角分别 为附件三与附件四的样本。随缺失率上升作用度下降，说明模型在信息缺失时确实降低了对该模态的 依赖，该检验不使用任何人工标注，可作为解释合理性的独立旁证；两套数据的点位分布一致，说明该趋势并非由单一测试集的构成所致。}}{38}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:q3miss}{{27}{38}{免标注机制验证。横轴为该模态的实测缺失率，纵轴为该模态的作用度，圆点与三角分别 为附件三与附件四的样本。随缺失率上升作用度下降，说明模型在信息缺失时确实降低了对该模态的 依赖，该检验不使用任何人工标注，可作为解释合理性的独立旁证；两套数据的点位分布一致，说明该趋势并非由单一测试集的构成所致。}{figure.caption.40}{}}
+\newlabel{fig:q3miss@cref}{{[figure][27][]27}{[1][37][]38}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces 四种解释来源在附件四上的解释质量对比。忠实性为删除 top-5 片段后预测的变化量， 充分性偏差为仅保留 top-5 片段时与全模态预测的差距，稀疏性为 top-5 片段的权重占比。 注意力源（基线）在两项忠实性指标上均为最差，积分梯度与遮挡源更好，融合结果在忠实性与 稀疏性之间取得折中。}}{39}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:q3faith}{{28}{39}{四种解释来源在附件四上的解释质量对比。忠实性为删除 top-5 片段后预测的变化量， 充分性偏差为仅保留 top-5 片段时与全模态预测的差距，稀疏性为 top-5 片段的权重占比。 注意力源（基线）在两项忠实性指标上均为最差，积分梯度与遮挡源更好，融合结果在忠实性与 稀疏性之间取得折中。}{figure.caption.41}{}}
+\newlabel{fig:q3faith@cref}{{[figure][28][]28}{[1][38][]39}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces 解释质量指标的定量结果（附件四 20 条样本，均值）。忠实性为删除 top-5 片段后 预测的符号均值与绝对变化量，充分性偏差为只保留 top-5 片段时与全模态预测差距的绝对值均值， 稀疏性为 top-5 片段在有效位内的权重占比。注意力源的忠实性最低，与遮挡源的秩相关仅 -0.0268，说明在本模型上直接以注意力权重作为解释并不成立；本文因此以 最终解释取三源融合结果。}}{39}{table.caption.42}\protected@file@percent }
+\newlabel{tab:q3faith}{{11}{39}{解释质量指标的定量结果（附件四 20 条样本，均值）。忠实性为删除 top-5 片段后 预测的符号均值与绝对变化量，充分性偏差为只保留 top-5 片段时与全模态预测差距的绝对值均值， 稀疏性为 top-5 片段在有效位内的权重占比。注意力源的忠实性最低，与遮挡源的秩相关仅 -0.0268，说明在本模型上直接以注意力权重作为解释并不成立；本文因此以 最终解释取三源融合结果。}{table.caption.42}{}}
+\newlabel{tab:q3faith@cref}{{[table][11][]11}{[1][39][]39}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces 附件四全部 20 条样本的逐段重要性热力图，三行自上而下为文本、语音、视觉，每行一条 样本，样本按模型预测强度升序排列；单元格颜色越深表示该段越关键，红色竖线为各样本的有效长度 上界，其右侧为填充位且恒为零。高亮段集中在有效区间的前中部，文本行的高亮对比度明显强于语音 与视觉，说明模型对文本的时间定位更集中、分辨率更高。}}{40}{figure.caption.43}\protected@file@percent }
+\newlabel{fig:q3heat}{{29}{40}{附件四全部 20 条样本的逐段重要性热力图，三行自上而下为文本、语音、视觉，每行一条 样本，样本按模型预测强度升序排列；单元格颜色越深表示该段越关键，红色竖线为各样本的有效长度 上界，其右侧为填充位且恒为零。高亮段集中在有效区间的前中部，文本行的高亮对比度明显强于语音 与视觉，说明模型对文本的时间定位更集中、分辨率更高。}{figure.caption.43}{}}
+\newlabel{fig:q3heat@cref}{{[figure][29][]29}{[1][40][]40}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces 附件四证据定位的逐条判读汇总（20 条样本）。文本按“证据段落是否承载该样本的情感线索”判读，视觉按“关键帧是否含可辨面部”判读，语音因无听音条件改以能量代理核查（窗口能量分位或覆盖全片峰值即判合理）；表中条数可对照支撑材料的判读 CSV 逐条复核。}}{41}{table.caption.44}\protected@file@percent }
+\newlabel{tab:q3review}{{12}{41}{附件四证据定位的逐条判读汇总（20 条样本）。文本按“证据段落是否承载该样本的情感线索”判读，视觉按“关键帧是否含可辨面部”判读，语音因无听音条件改以能量代理核查（窗口能量分位或覆盖全片峰值即判合理）；表中条数可对照支撑材料的判读 CSV 逐条复核。}{table.caption.44}{}}
+\newlabel{tab:q3review@cref}{{[table][12][]12}{[1][40][]41}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,19}附件四全量预测与解释结果}{41}{subsubsection.5.2.19}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces 附件四二十条样本的预测与解释汇总：（a）预测极性分布；（b）主参考模态构成； （c）平均强度与平均置信度。该图与提交文件 pred\_explain\_att4.csv 同源，用于核对提交 结果的统计口径：极性分布与主参考模态构成共同反映模型在弱强度样本上的保守倾向，样本越接近中性与 单向之间，解释的主参考模态越易退化为文本；三组统计量均可由提交文件逐条复算。}}{41}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:q3att4}{{30}{41}{附件四二十条样本的预测与解释汇总：（a）预测极性分布；（b）主参考模态构成； （c）平均强度与平均置信度。该图与提交文件 pred\_explain\_att4.csv 同源，用于核对提交 结果的统计口径：极性分布与主参考模态构成共同反映模型在弱强度样本上的保守倾向，样本越接近中性与 单向之间，解释的主参考模态越易退化为文本；三组统计量均可由提交文件逐条复算。}{figure.caption.45}{}}
+\newlabel{fig:q3att4@cref}{{[figure][30][]30}{[1][41][]41}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces 附件四测试集的预测与解释汇总。极性取分类头主口径，模态作用度取式~\eqref  {eq:q3norm} 的 softmax 口径。预测分布为负向 7 条、中性 5 条、正向 8 条； 文本为主要参考模态 18 条。含缺失样本仅 1 条（样本 13 视觉模态整条缺失）， 其模态作用度趋于均匀、视觉 Shapley 值近似为零，是“信息缺失则不依赖”的直接例证。}}{42}{table.caption.46}\protected@file@percent }
+\newlabel{tab:q3att4}{{13}{42}{附件四测试集的预测与解释汇总。极性取分类头主口径，模态作用度取式~\eqref {eq:q3norm} 的 softmax 口径。预测分布为负向 7 条、中性 5 条、正向 8 条； 文本为主要参考模态 18 条。含缺失样本仅 1 条（样本 13 视觉模态整条缺失）， 其模态作用度趋于均匀、视觉 Shapley 值近似为零，是“信息缺失则不依赖”的直接例证。}{table.caption.46}{}}
+\newlabel{tab:q3att4@cref}{{[table][13][]13}{[1][41][]42}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5\,.\,2\,.\,20}验证集基础性能与解释维度错误归因}{42}{subsubsection.5.2.20}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces 预测正确与错误样本的解释熵（左）与置信度（右）箱线图。错误样本的解释熵中位数 高于正确样本，说明其模态依赖更分散、缺少明确的判断依据；置信度分布也整体左移，中位数差约 0.03。箱体上下缘为四分位数，须线延伸至 1.5 倍四分位距内的极值，离群点以散点单独标出；两组在解释熵上的差异比置信度更稳定。}}{43}{figure.caption.47}\protected@file@percent }
+\newlabel{fig:q3err}{{31}{43}{预测正确与错误样本的解释熵（左）与置信度（右）箱线图。错误样本的解释熵中位数 高于正确样本，说明其模态依赖更分散、缺少明确的判断依据；置信度分布也整体左移，中位数差约 0.03。箱体上下缘为四分位数，须线延伸至 1.5 倍四分位距内的极值，离群点以散点单独标出；两组在解释熵上的差异比置信度更稳定。}{figure.caption.47}{}}
+\newlabel{fig:q3err@cref}{{[figure][31][]31}{[1][42][]43}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces 解释维度的错误归因（验证集 728 条）。解释熵为模态作用度分布的香农熵， 熵越大表示模态依赖越分散、判断依据越不明确。错误样本的解释熵高于正确样本，而文本作用度 与置信度均更低，说明模型在易错样本上依赖更分散，与问题二中弱强度样本分类准确率仅 0.5045 的结论相互支持。}}{43}{table.caption.48}\protected@file@percent }
+\newlabel{tab:q3err}{{14}{43}{解释维度的错误归因（验证集 728 条）。解释熵为模态作用度分布的香农熵， 熵越大表示模态依赖越分散、判断依据越不明确。错误样本的解释熵高于正确样本，而文本作用度 与置信度均更低，说明模型在易错样本上依赖更分散，与问题二中弱强度样本分类准确率仅 0.5045 的结论相互支持。}{table.caption.48}{}}
+\newlabel{tab:q3err@cref}{{[table][14][]14}{[1][43][]43}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {六、}模型评价与改进}{43}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\,.\,1}模型优点}{43}{subsection.6.1}\protected@file@percent }
+\bibcite{ref1}{1}
+\bibcite{ref2}{2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\,.\,2}模型缺点}{44}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\,.\,3}改进方向}{44}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {七、}总结}{44}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{参考文献}{44}{section*.49}\protected@file@percent }
+\bibcite{ref3}{3}
+\bibcite{ref4}{4}
+\bibcite{ref5}{5}
+\bibcite{ref6}{6}
+\bibcite{ref7}{7}
+\bibcite{ref8}{8}
+\bibcite{ref9}{9}
+\bibcite{ref10}{10}
+\bibcite{ref11}{11}
+\bibcite{ref12}{12}
+\bibcite{ref13}{13}
+\bibcite{ref14}{14}
+\bibcite{ref15}{15}
+\bibcite{ref16}{16}
+\bibcite{ref17}{17}
+\bibcite{ref18}{18}
+\@writefile{toc}{\contentsline {section}{\numberline {A}支撑材料文件清单}{47}{appendix.A}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces 提交材料清单。按提交文件、模型参数、结果表、核心代码与运行说明五类列出，运行说明给出环境依赖与完整运行顺序。所有文件路径与论文正文、代码中的命名口径保持一致，模型参数仅保留最终集成的两个成员以控制附件体积，便于评审核对。}}{47}{table.caption.51}\protected@file@percent }
+\newlabel{tab:files}{{15}{47}{提交材料清单。按提交文件、模型参数、结果表、核心代码与运行说明五类列出，运行说明给出环境依赖与完整运行顺序。所有文件路径与论文正文、代码中的命名口径保持一致，模型参数仅保留最终集成的两个成员以控制附件体积，便于评审核对。}{table.caption.51}{}}
+\newlabel{tab:files@cref}{{[table][15][]15}{[1][47][]47}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}核心代码}{47}{appendix.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,1}问题二：MRF-Net 网络结构与动态专家门控}{47}{subsection.B.1}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/02\textunderscore model\textunderscore \textunderscore model.py}{47}{lstlisting.-1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,2}问题二：损失函数（异方差回归、类别加权、一致性、重建与蒸馏）}{53}{subsection.B.2}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/02\textunderscore model\textunderscore \textunderscore losses.py}{53}{lstlisting.-2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,3}问题二：训练与推理主流程（缺失课程学习、EMA、早停）}{59}{subsection.B.3}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/02\textunderscore model\textunderscore \textunderscore train.py}{59}{lstlisting.-3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,4}问题三：骨干加载与批构造（三源解释的公共入口）}{68}{subsection.B.4}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore xai\textunderscore common.py}{68}{lstlisting.-4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,5}问题三：精确 Shapley 值（八子集全枚举）}{73}{subsection.B.5}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore shapley.py}{73}{lstlisting.-5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,6}问题三：积分梯度与片段级重要性}{77}{subsection.B.6}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore ig\textunderscore gradcam.py}{77}{lstlisting.-6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,7}问题三：遮挡重要性（窗宽 3 滑窗）}{80}{subsection.B.7}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore occlusion.py}{80}{lstlisting.-7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,8}问题三：三源融合与 γ 单纯形约束}{82}{subsection.B.8}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore temporal\textunderscore fuse.py}{82}{lstlisting.-8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,9}问题三：证据定位（词元对齐、语音时段映射、关键帧抽取）}{85}{subsection.B.9}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore evidence.py}{85}{lstlisting.-9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,10}问题三：并联证据头训练（骨干冻结、忠实性正则）}{91}{subsection.B.10}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore train\textunderscore evidence\textunderscore head.py}{91}{lstlisting.-10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,11}问题三：解释卡生成}{95}{subsection.B.11}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore explain\textunderscore card.py}{95}{lstlisting.-11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,12}问题三：附件四全量推理与解释输出}{98}{subsection.B.12}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore infer\textunderscore explain\textunderscore att4.py}{98}{lstlisting.-12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2\,.\,13}问题三：交付自查（17 项一致性校验）}{103}{subsection.B.13}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{code\textunderscore appendix/03\textunderscore xai\textunderscore \textunderscore verify\textunderscore q3.py}{103}{lstlisting.-13}\protected@file@percent }
+\gdef \@abspage@last{105}

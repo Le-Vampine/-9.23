@@ -1,0 +1,443 @@
+{
+  "sample_id": "-THoVjtIkeU$_$12",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-THoVjtIkeU$_$12.wav",
+  "audio_sha256": "f80f8f21cb0bfbb32b6ea2281a0c1ce0ecc7b4802491197338b336660fa0f027",
+  "audio_duration_s": 14.805,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Whatever we turn our attention to is what grows. And so if we believe that anything is possible, if we believe that social justice can be achieved, and if we believe in youth, they will believe in themselves.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 1.1999999999999986,
+      "end_time_wav_s": 3.74,
+      "start_time_source_s": 1.1999999999999986,
+      "end_time_source_s": 3.74,
+      "text": " Whatever we turn our attention to is what grows.",
+      "no_speech_probability": 0.018427670001983643,
+      "average_log_probability": -0.13500500291585923
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 10.82,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 10.82,
+      "text": " And so if we believe that anything is possible, if we believe that social justice can be achieved,",
+      "no_speech_probability": 0.018427670001983643,
+      "average_log_probability": -0.13500500291585923
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 10.96,
+      "end_time_wav_s": 13.96,
+      "start_time_source_s": 10.96,
+      "end_time_source_s": 13.96,
+      "text": " and if we believe in youth, they will believe in themselves.",
+      "no_speech_probability": 0.018427670001983643,
+      "average_log_probability": -0.13500500291585923
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Whatever",
+      "surface": " Whatever",
+      "start_time_wav_s": 1.1999999999999986,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.1999999999999986,
+      "end_time_source_s": 1.76,
+      "probability": 0.4600188732147217
+    },
+    {
+      "word_index": 2,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 2.08,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 2.08,
+      "probability": 0.997599184513092
+    },
+    {
+      "word_index": 3,
+      "word": "turn",
+      "surface": " turn",
+      "start_time_wav_s": 2.08,
+      "end_time_wav_s": 2.28,
+      "start_time_source_s": 2.08,
+      "end_time_source_s": 2.28,
+      "probability": 0.9957243204116821
+    },
+    {
+      "word_index": 4,
+      "word": "our",
+      "surface": " our",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.44,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.44,
+      "probability": 0.9920503497123718
+    },
+    {
+      "word_index": 5,
+      "word": "attention",
+      "surface": " attention",
+      "start_time_wav_s": 2.44,
+      "end_time_wav_s": 2.7,
+      "start_time_source_s": 2.44,
+      "end_time_source_s": 2.7,
+      "probability": 0.9995285272598267
+    },
+    {
+      "word_index": 6,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.7,
+      "end_time_wav_s": 3.1,
+      "start_time_source_s": 2.7,
+      "end_time_source_s": 3.1,
+      "probability": 0.997674286365509
+    },
+    {
+      "word_index": 7,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 3.1,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 3.1,
+      "end_time_source_s": 3.3,
+      "probability": 0.9368126392364502
+    },
+    {
+      "word_index": 8,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 3.3,
+      "end_time_wav_s": 3.46,
+      "start_time_source_s": 3.3,
+      "end_time_source_s": 3.46,
+      "probability": 0.9988125562667847
+    },
+    {
+      "word_index": 9,
+      "word": "grows.",
+      "surface": " grows.",
+      "start_time_wav_s": 3.46,
+      "end_time_wav_s": 3.74,
+      "start_time_source_s": 3.46,
+      "end_time_source_s": 3.74,
+      "probability": 0.9951431751251221
+    },
+    {
+      "word_index": 10,
+      "word": "And",
+      "surface": " And",
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 4.44,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 4.44,
+      "probability": 0.7815946340560913
+    },
+    {
+      "word_index": 11,
+      "word": "so",
+      "surface": " so",
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 4.66,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 4.66,
+      "probability": 0.9843706488609314
+    },
+    {
+      "word_index": 12,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 4.8,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 4.8,
+      "probability": 0.7704002857208252
+    },
+    {
+      "word_index": 13,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 4.8,
+      "end_time_wav_s": 5.0,
+      "start_time_source_s": 4.8,
+      "end_time_source_s": 5.0,
+      "probability": 0.9985190033912659
+    },
+    {
+      "word_index": 14,
+      "word": "believe",
+      "surface": " believe",
+      "start_time_wav_s": 5.0,
+      "end_time_wav_s": 5.4,
+      "start_time_source_s": 5.0,
+      "end_time_source_s": 5.4,
+      "probability": 0.997808039188385
+    },
+    {
+      "word_index": 15,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 5.4,
+      "end_time_wav_s": 5.76,
+      "start_time_source_s": 5.4,
+      "end_time_source_s": 5.76,
+      "probability": 0.9830090403556824
+    },
+    {
+      "word_index": 16,
+      "word": "anything",
+      "surface": " anything",
+      "start_time_wav_s": 5.76,
+      "end_time_wav_s": 5.98,
+      "start_time_source_s": 5.76,
+      "end_time_source_s": 5.98,
+      "probability": 0.9979875087738037
+    },
+    {
+      "word_index": 17,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 5.98,
+      "end_time_wav_s": 6.24,
+      "start_time_source_s": 5.98,
+      "end_time_source_s": 6.24,
+      "probability": 0.9952581524848938
+    },
+    {
+      "word_index": 18,
+      "word": "possible,",
+      "surface": " possible,",
+      "start_time_wav_s": 6.24,
+      "end_time_wav_s": 6.64,
+      "start_time_source_s": 6.24,
+      "end_time_source_s": 6.64,
+      "probability": 0.9995778203010559
+    },
+    {
+      "word_index": 19,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 6.8,
+      "end_time_wav_s": 6.84,
+      "start_time_source_s": 6.8,
+      "end_time_source_s": 6.84,
+      "probability": 0.9807939529418945
+    },
+    {
+      "word_index": 20,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 6.84,
+      "end_time_wav_s": 7.14,
+      "start_time_source_s": 6.84,
+      "end_time_source_s": 7.14,
+      "probability": 0.997753918170929
+    },
+    {
+      "word_index": 21,
+      "word": "believe",
+      "surface": " believe",
+      "start_time_wav_s": 7.14,
+      "end_time_wav_s": 7.94,
+      "start_time_source_s": 7.14,
+      "end_time_source_s": 7.94,
+      "probability": 0.99817955493927
+    },
+    {
+      "word_index": 22,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 7.94,
+      "end_time_wav_s": 8.84,
+      "start_time_source_s": 7.94,
+      "end_time_source_s": 8.84,
+      "probability": 0.9916817545890808
+    },
+    {
+      "word_index": 23,
+      "word": "social",
+      "surface": " social",
+      "start_time_wav_s": 8.84,
+      "end_time_wav_s": 9.64,
+      "start_time_source_s": 8.84,
+      "end_time_source_s": 9.64,
+      "probability": 0.984855592250824
+    },
+    {
+      "word_index": 24,
+      "word": "justice",
+      "surface": " justice",
+      "start_time_wav_s": 9.64,
+      "end_time_wav_s": 10.04,
+      "start_time_source_s": 9.64,
+      "end_time_source_s": 10.04,
+      "probability": 0.9980745315551758
+    },
+    {
+      "word_index": 25,
+      "word": "can",
+      "surface": " can",
+      "start_time_wav_s": 10.04,
+      "end_time_wav_s": 10.32,
+      "start_time_source_s": 10.04,
+      "end_time_source_s": 10.32,
+      "probability": 0.9981648325920105
+    },
+    {
+      "word_index": 26,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 10.32,
+      "end_time_wav_s": 10.5,
+      "start_time_source_s": 10.32,
+      "end_time_source_s": 10.5,
+      "probability": 0.9995492100715637
+    },
+    {
+      "word_index": 27,
+      "word": "achieved,",
+      "surface": " achieved,",
+      "start_time_wav_s": 10.5,
+      "end_time_wav_s": 10.82,
+      "start_time_source_s": 10.5,
+      "end_time_source_s": 10.82,
+      "probability": 0.9983242154121399
+    },
+    {
+      "word_index": 28,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 10.96,
+      "end_time_wav_s": 11.06,
+      "start_time_source_s": 10.96,
+      "end_time_source_s": 11.06,
+      "probability": 0.9721631407737732
+    },
+    {
+      "word_index": 29,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 11.06,
+      "end_time_wav_s": 11.16,
+      "start_time_source_s": 11.06,
+      "end_time_source_s": 11.16,
+      "probability": 0.9945598244667053
+    },
+    {
+      "word_index": 30,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 11.16,
+      "end_time_wav_s": 11.3,
+      "start_time_source_s": 11.16,
+      "end_time_source_s": 11.3,
+      "probability": 0.9971390962600708
+    },
+    {
+      "word_index": 31,
+      "word": "believe",
+      "surface": " believe",
+      "start_time_wav_s": 11.3,
+      "end_time_wav_s": 11.72,
+      "start_time_source_s": 11.3,
+      "end_time_source_s": 11.72,
+      "probability": 0.99826979637146
+    },
+    {
+      "word_index": 32,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 11.72,
+      "end_time_wav_s": 12.02,
+      "start_time_source_s": 11.72,
+      "end_time_source_s": 12.02,
+      "probability": 0.9982149600982666
+    },
+    {
+      "word_index": 33,
+      "word": "youth,",
+      "surface": " youth,",
+      "start_time_wav_s": 12.02,
+      "end_time_wav_s": 12.38,
+      "start_time_source_s": 12.02,
+      "end_time_source_s": 12.38,
+      "probability": 0.9920851588249207
+    },
+    {
+      "word_index": 34,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 12.9,
+      "end_time_wav_s": 13.2,
+      "start_time_source_s": 12.9,
+      "end_time_source_s": 13.2,
+      "probability": 0.9930824041366577
+    },
+    {
+      "word_index": 35,
+      "word": "will",
+      "surface": " will",
+      "start_time_wav_s": 13.2,
+      "end_time_wav_s": 13.32,
+      "start_time_source_s": 13.2,
+      "end_time_source_s": 13.32,
+      "probability": 0.9848949313163757
+    },
+    {
+      "word_index": 36,
+      "word": "believe",
+      "surface": " believe",
+      "start_time_wav_s": 13.32,
+      "end_time_wav_s": 13.52,
+      "start_time_source_s": 13.32,
+      "end_time_source_s": 13.52,
+      "probability": 0.9967899918556213
+    },
+    {
+      "word_index": 37,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 13.52,
+      "end_time_wav_s": 13.68,
+      "start_time_source_s": 13.52,
+      "end_time_source_s": 13.68,
+      "probability": 0.9942227005958557
+    },
+    {
+      "word_index": 38,
+      "word": "themselves.",
+      "surface": " themselves.",
+      "start_time_wav_s": 13.68,
+      "end_time_wav_s": 13.96,
+      "start_time_source_s": 13.68,
+      "end_time_source_s": 13.96,
+      "probability": 0.9989493489265442
+    }
+  ],
+  "word_count": 38,
+  "mean_word_probability": 0.9670957358259904,
+  "issues": [],
+  "official_transcript_loaded": false
+}

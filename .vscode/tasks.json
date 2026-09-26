@@ -720,6 +720,35 @@
 				"e:\\数学建模\\code\\_regen.cmd"
 			],
 			"group": "build"
+		},
+		{
+			"label": "P0 env setup",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"D:\\_p0_setup.ps1"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "q3 evidence refresh",
+			"type": "shell",
+			"command": "cd /d \"d:\\数学建模\\数学建模\\code\\03_xai\" && D:\\venv-mosei\\Scripts\\python.exe -u evidence.py --name att4 --out_dir ..\\..\\runs\\q3 && D:\\venv-mosei\\Scripts\\python.exe -u explain_card.py --name att4 --out_dir ..\\..\\runs\\q3 && D:\\venv-mosei\\Scripts\\python.exe -u infer_explain_att4.py --out_dir ..\\..\\runs\\q3 && D:\\venv-mosei\\Scripts\\python.exe -u verify_q3.py --out_dir ..\\..\\runs\\q3",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "q3_evidence_refresh",
+			"type": "shell",
+			"command": "cmd /c \"cd /d d:\\数学建模\\数学建模\\code\\03_xai && D:\\venv-mosei\\Scripts\\python.exe -u evidence.py --name att4 --out_dir ..\\..\\runs\\q3 && D:\\venv-mosei\\Scripts\\python.exe -u explain_card.py --name att4 --out_dir ..\\..\\runs\\q3 && D:\\venv-mosei\\Scripts\\python.exe -u infer_explain_att4.py --out_dir ..\\..\\runs\\q3 && D:\\venv-mosei\\Scripts\\python.exe -u verify_q3.py --out_dir ..\\..\\runs\\q3\"",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
 		}
 	]
 }

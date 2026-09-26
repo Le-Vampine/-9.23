@@ -1,0 +1,393 @@
+{
+  "sample_id": "-wny0OAz3g8$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-wny0OAz3g8$_$7.wav",
+  "audio_sha256": "6ed27c7bf72f60dc3be4f761b77f2899479031786905ce5f5f938dfcb40abf2a",
+  "audio_duration_s": 7.9105,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "forces. Omi and Winant argue that the concept of race came about as a tool to justify and maintain the economic and political power held by those of European descent. Another-",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.44,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.44,
+      "text": " forces.",
+      "no_speech_probability": 0.0029961734544485807,
+      "average_log_probability": -0.3210316313637627
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 4.36,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 4.36,
+      "text": " Omi and Winant argue that the concept of race came about as a tool to justify and maintain",
+      "no_speech_probability": 0.0029961734544485807,
+      "average_log_probability": -0.3210316313637627
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 4.36,
+      "end_time_wav_s": 7.4,
+      "start_time_source_s": 4.36,
+      "end_time_source_s": 7.4,
+      "text": " the economic and political power held by those of European descent.",
+      "no_speech_probability": 0.0029961734544485807,
+      "average_log_probability": -0.3210316313637627
+    },
+    {
+      "segment_index": 4,
+      "start_time_wav_s": 7.64,
+      "end_time_wav_s": 7.88,
+      "start_time_source_s": 7.64,
+      "end_time_source_s": 7.88,
+      "text": " Another-",
+      "no_speech_probability": 0.0029961734544485807,
+      "average_log_probability": -0.3210316313637627
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "forces.",
+      "surface": " forces.",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.44,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.44,
+      "probability": 0.4148784279823303
+    },
+    {
+      "word_index": 2,
+      "word": "Omi",
+      "surface": " Omi",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.72,
+      "probability": 0.1976781114935875
+    },
+    {
+      "word_index": 3,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 0.72,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.72,
+      "end_time_source_s": 0.84,
+      "probability": 0.9267012476921082
+    },
+    {
+      "word_index": 4,
+      "word": "Winant",
+      "surface": " Winant",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.0,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.0,
+      "probability": 0.2812475562095642
+    },
+    {
+      "word_index": 5,
+      "word": "argue",
+      "surface": " argue",
+      "start_time_wav_s": 1.0,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 1.0,
+      "end_time_source_s": 1.26,
+      "probability": 0.6568751335144043
+    },
+    {
+      "word_index": 6,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.44,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.44,
+      "probability": 0.974907398223877
+    },
+    {
+      "word_index": 7,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 1.44,
+      "end_time_wav_s": 1.54,
+      "start_time_source_s": 1.44,
+      "end_time_source_s": 1.54,
+      "probability": 0.9905010461807251
+    },
+    {
+      "word_index": 8,
+      "word": "concept",
+      "surface": " concept",
+      "start_time_wav_s": 1.54,
+      "end_time_wav_s": 1.84,
+      "start_time_source_s": 1.54,
+      "end_time_source_s": 1.84,
+      "probability": 0.9954256415367126
+    },
+    {
+      "word_index": 9,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 1.84,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.84,
+      "end_time_source_s": 2.02,
+      "probability": 0.9987730383872986
+    },
+    {
+      "word_index": 10,
+      "word": "race",
+      "surface": " race",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.2,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.2,
+      "probability": 0.9675719738006592
+    },
+    {
+      "word_index": 11,
+      "word": "came",
+      "surface": " came",
+      "start_time_wav_s": 2.2,
+      "end_time_wav_s": 2.44,
+      "start_time_source_s": 2.2,
+      "end_time_source_s": 2.44,
+      "probability": 0.9948329925537109
+    },
+    {
+      "word_index": 12,
+      "word": "about",
+      "surface": " about",
+      "start_time_wav_s": 2.44,
+      "end_time_wav_s": 2.64,
+      "start_time_source_s": 2.44,
+      "end_time_source_s": 2.64,
+      "probability": 0.9936390519142151
+    },
+    {
+      "word_index": 13,
+      "word": "as",
+      "surface": " as",
+      "start_time_wav_s": 2.64,
+      "end_time_wav_s": 2.84,
+      "start_time_source_s": 2.64,
+      "end_time_source_s": 2.84,
+      "probability": 0.9935240745544434
+    },
+    {
+      "word_index": 14,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.84,
+      "end_time_wav_s": 2.9,
+      "start_time_source_s": 2.84,
+      "end_time_source_s": 2.9,
+      "probability": 0.9910423755645752
+    },
+    {
+      "word_index": 15,
+      "word": "tool",
+      "surface": " tool",
+      "start_time_wav_s": 2.9,
+      "end_time_wav_s": 3.1,
+      "start_time_source_s": 2.9,
+      "end_time_source_s": 3.1,
+      "probability": 0.9971442818641663
+    },
+    {
+      "word_index": 16,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.1,
+      "end_time_wav_s": 3.28,
+      "start_time_source_s": 3.1,
+      "end_time_source_s": 3.28,
+      "probability": 0.9944789409637451
+    },
+    {
+      "word_index": 17,
+      "word": "justify",
+      "surface": " justify",
+      "start_time_wav_s": 3.28,
+      "end_time_wav_s": 3.72,
+      "start_time_source_s": 3.28,
+      "end_time_source_s": 3.72,
+      "probability": 0.9957922697067261
+    },
+    {
+      "word_index": 18,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.72,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.72,
+      "end_time_source_s": 3.96,
+      "probability": 0.9931406378746033
+    },
+    {
+      "word_index": 19,
+      "word": "maintain",
+      "surface": " maintain",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 4.36,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 4.36,
+      "probability": 0.9985223412513733
+    },
+    {
+      "word_index": 20,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.36,
+      "end_time_wav_s": 4.6,
+      "start_time_source_s": 4.36,
+      "end_time_source_s": 4.6,
+      "probability": 0.9913724660873413
+    },
+    {
+      "word_index": 21,
+      "word": "economic",
+      "surface": " economic",
+      "start_time_wav_s": 4.6,
+      "end_time_wav_s": 4.98,
+      "start_time_source_s": 4.6,
+      "end_time_source_s": 4.98,
+      "probability": 0.9989080429077148
+    },
+    {
+      "word_index": 22,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.98,
+      "end_time_wav_s": 5.2,
+      "start_time_source_s": 4.98,
+      "end_time_source_s": 5.2,
+      "probability": 0.9976995587348938
+    },
+    {
+      "word_index": 23,
+      "word": "political",
+      "surface": " political",
+      "start_time_wav_s": 5.2,
+      "end_time_wav_s": 5.5,
+      "start_time_source_s": 5.2,
+      "end_time_source_s": 5.5,
+      "probability": 0.9988113641738892
+    },
+    {
+      "word_index": 24,
+      "word": "power",
+      "surface": " power",
+      "start_time_wav_s": 5.5,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 5.5,
+      "end_time_source_s": 5.9,
+      "probability": 0.9953559637069702
+    },
+    {
+      "word_index": 25,
+      "word": "held",
+      "surface": " held",
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 6.18,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 6.18,
+      "probability": 0.992347002029419
+    },
+    {
+      "word_index": 26,
+      "word": "by",
+      "surface": " by",
+      "start_time_wav_s": 6.18,
+      "end_time_wav_s": 6.38,
+      "start_time_source_s": 6.18,
+      "end_time_source_s": 6.38,
+      "probability": 0.9985785484313965
+    },
+    {
+      "word_index": 27,
+      "word": "those",
+      "surface": " those",
+      "start_time_wav_s": 6.38,
+      "end_time_wav_s": 6.5,
+      "start_time_source_s": 6.38,
+      "end_time_source_s": 6.5,
+      "probability": 0.9862087965011597
+    },
+    {
+      "word_index": 28,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 6.5,
+      "end_time_wav_s": 6.66,
+      "start_time_source_s": 6.5,
+      "end_time_source_s": 6.66,
+      "probability": 0.9981814622879028
+    },
+    {
+      "word_index": 29,
+      "word": "European",
+      "surface": " European",
+      "start_time_wav_s": 6.66,
+      "end_time_wav_s": 7.0,
+      "start_time_source_s": 6.66,
+      "end_time_source_s": 7.0,
+      "probability": 0.9937366247177124
+    },
+    {
+      "word_index": 30,
+      "word": "descent.",
+      "surface": " descent.",
+      "start_time_wav_s": 7.0,
+      "end_time_wav_s": 7.4,
+      "start_time_source_s": 7.0,
+      "end_time_source_s": 7.4,
+      "probability": 0.9260830283164978
+    },
+    {
+      "word_index": 31,
+      "word": "Another",
+      "surface": " Another",
+      "start_time_wav_s": 7.64,
+      "end_time_wav_s": 7.78,
+      "start_time_source_s": 7.64,
+      "end_time_source_s": 7.78,
+      "probability": 0.9353790283203125
+    },
+    {
+      "word_index": 32,
+      "word": "-",
+      "surface": "-",
+      "start_time_wav_s": 7.78,
+      "end_time_wav_s": 7.88,
+      "start_time_source_s": 7.78,
+      "end_time_source_s": 7.88,
+      "probability": 0.053627606481313705
+    }
+  ],
+  "word_count": 32,
+  "mean_word_probability": 0.8819676885614172,
+  "issues": [],
+  "official_transcript_loaded": false
+}

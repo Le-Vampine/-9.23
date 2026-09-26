@@ -1,0 +1,102 @@
+% 论文总体架构图（五层建模框架）——按 .github/skills/tikz-architecture-diagram 配方绘制
+% 画布 17.2 x 13.8 cm；层带自下而上；Okabe-Ito 分层配色；朱红强调块全图仅一处
+% 编译：xelatex -interaction=nonstopmode -halt-on-error 总体架构图_五层建模框架.tex
+\documentclass{article}
+\usepackage[paperwidth=17.2cm,paperheight=13.8cm,margin=0cm]{geometry}
+\usepackage[fontset=none]{ctex}
+\IfFontExistsTF{SimSun}{\setCJKmainfont{SimSun}[BoldFont=SimHei]}{%
+  \IfFontExistsTF{Songti SC}{\setCJKmainfont{Songti SC}}{%
+    \IfFontExistsTF{Noto Serif CJK SC}{\setCJKmainfont{Noto Serif CJK SC}}{%
+      \setCJKmainfont{FandolSong-Regular}[Extension=.otf]}}}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{Liberation Serif}{\setmainfont{Liberation Serif}}{%
+    \IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{}}}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\pagestyle{empty}
+
+\definecolor{cL1}{HTML}{56B4E9}   % 天蓝
+\definecolor{cL2}{HTML}{0072B2}   % 蓝
+\definecolor{cL3}{HTML}{009E73}   % 青绿
+\definecolor{cL4}{HTML}{E69F00}   % 琥珀
+\definecolor{cL5}{HTML}{CC79A7}   % 洋红
+\definecolor{cAcc}{HTML}{D55E00}  % 朱红（全图唯一强调色）
+
+\tikzset{
+  band/.style  ={rounded corners=3pt, line width=0.5pt, draw=#1!45, fill=#1!7},
+  head/.style  ={rounded corners=2pt, line width=0.5pt, draw=#1!60, fill=#1!15,
+                 align=center, minimum width=2.9cm, minimum height=1.5cm},
+  box/.style   ={rounded corners=2pt, line width=0.5pt, draw=black!25, fill=white,
+                 align=center, inner sep=3pt, minimum height=1.10cm},
+  boxacc/.style={rounded corners=2pt, line width=0.6pt, draw=cAcc!70, fill=cAcc!14,
+                 align=center, inner sep=3pt, minimum height=0.80cm},
+  b4/.style  ={box,    text width=\dimexpr3.175cm-0.22cm\relax},
+  b3/.style  ={box,    text width=\dimexpr4.267cm-0.22cm\relax},
+  b2r/.style ={box,    text width=\dimexpr4.267cm-0.22cm\relax, minimum height=1.35cm},
+  b5/.style  ={box,    text width=\dimexpr2.544cm-0.22cm\relax},
+  bar/.style ={boxacc, text width=\dimexpr13.60cm-0.40cm\relax},
+  up/.style  ={-{Stealth[length=2.2mm]}, line width=0.7pt, draw=black!50},
+}
+% 组件盒内容宏：标题加粗 + 副题灰色小字
+\newcommand{\bx}[2]{\textbf{\footnotesize #1}\\[2pt]{\scriptsize\color{black!55}#2}}
+\newcommand{\lay}[2]{\textbf{\small #1}\\[3pt]{\footnotesize\color{black!55}#2}}
+
+\begin{document}
+\noindent
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \path[use as bounding box] (0,0) rectangle (17.2,13.8);
+
+  % ---------- 1) 先画层带与底色块（必须在文字之前，否则遮盖） ----------
+  % L1 0.25-2.45 | L2 2.85-5.85 | L3 6.25-8.45 | L4 8.85-11.05 | L5 11.45-13.55
+  \draw[band=cL1] (0.20,0.25) rectangle (17.00,2.45);
+  \draw[band=cL2] (0.20,2.85) rectangle (17.00,5.85);
+  \draw[band=cL3] (0.20,6.25) rectangle (17.00,8.45);
+  \draw[band=cL4] (0.20,8.85) rectangle (17.00,11.05);
+  \draw[band=cL5] (0.20,11.45) rectangle (17.00,13.55);
+
+  % 层标块（左列，x 中心 1.65）
+  \node[head=cL1] at (1.65,1.35)  {\lay{数据与题面层}{题面拆解与数据核查}};
+  \node[head=cL2] at (1.65,4.35)  {\lay{模型构建层}{三问模型体系}};
+  \node[head=cL3] at (1.65,7.35)  {\lay{算法求解层}{训练与推理链路}};
+  \node[head=cL4] at (1.65,9.95)  {\lay{结果输出层}{指标图表与提交物}};
+  \node[head=cL5] at (1.65,12.50) {\lay{结论与推广层}{评价与展望}};
+
+  % ---------- 2) 组件盒 ----------
+  % L1 数据与题面层：4 盒（中心 4.99 / 8.46 / 11.94 / 15.41）
+  \node[b4] at ( 4.99,1.35) {\bx{附件 1 原始视频}{100 条多模态素材}};
+  \node[b4] at ( 8.46,1.35) {\bx{附件 2 对齐特征}{4850 条 · 三划分}};
+  \node[b4] at (11.94,1.35) {\bx{附件 3 缺失专项}{30 条 · 无标签}};
+  \node[b4] at (15.41,1.35) {\bx{附件 4 解释专项}{20 条 · 无标签}};
+
+  % L2 模型构建层（核心层）：上行 3 盒 yc=4.75 + 下行通栏强调条 yc=3.40
+  \node[b2r] at ( 5.53,4.75) {\bx{问题一 特征提取与时序对齐}{三模态特征定义与跨模态对齐规则}};
+  \node[b2r] at (10.20,4.75) {\bx{问题二 缺失鲁棒情感预测}{掩码感知融合与模态动态门控}};
+  \node[b2r] at (14.87,4.75) {\bx{问题三 可解释情感预测}{模态作用度与关键证据定位}};
+  \node[bar] at (10.20,3.40) {\textbf{\footnotesize 统一数据接口与共享假设集}\;\;{\scriptsize\color{black!55}｜\;对齐规范 aligned\_50\;\;·\;\;帧 \(\leftrightarrow\) 词元严格对应\;\;·\;\;同源归一化统计\;\;·\;\;全程仅用赛题数据}};
+
+  % L3 算法求解层：5 盒（中心 4.672 / 7.438 / 10.204 / 12.970 / 15.736）
+  \node[b5] at ( 4.672,7.35) {\bx{缺失模拟引擎}{场景网格注入}};
+  \node[b5] at ( 7.438,7.35) {\bx{教师--学生蒸馏}{课程学习渐进训练}};
+  \node[b5] at (10.204,7.35) {\bx{动态专家门控}{共享--特有分解}};
+  \node[b5] at (12.970,7.35) {\bx{模态注意力融合}{跨模态重建约束}};
+  \node[b5] at (15.736,7.35) {\bx{集成推理}{阈值与校准选择}};
+
+  % L4 结果输出层：4 盒
+  \node[b4] at ( 4.99,9.95) {\bx{附件 3 预测结果}{pred\_att3.csv · 30 行}};
+  \node[b4] at ( 8.46,9.95) {\bx{附件 4 预测结果}{pred\_att4.csv · 20 行}};
+  \node[b4] at (11.94,9.95) {\bx{指标表与消融谱系}{主结果 · A0--A9 · 超参搜索}};
+  \node[b4] at (15.41,9.95) {\bx{缺失规律与错误归因}{方差分析 · 五维归因 · 拒识}};
+
+  % L5 结论与推广层：3 盒
+  \node[b3] at ( 5.53,12.50) {\bx{模型评价}{优点--局限--改进方向}};
+  \node[b3] at (10.20,12.50) {\bx{不确定性与可拒识}{风险--覆盖率分析}};
+  \node[b3] at (14.87,12.50) {\bx{推广与展望}{跨域情感识别场景}};
+
+  % ---------- 3) 层间数据流箭头（自下而上） ----------
+  \draw[up] (10.20,2.45)--(10.20,2.85);
+  \draw[up] (10.20,5.85)--(10.20,6.25);
+  \draw[up] (10.20,8.45)--(10.20,8.85);
+  \draw[up] (10.20,11.05)--(10.20,11.45);
+
+\end{tikzpicture}
+\end{document}

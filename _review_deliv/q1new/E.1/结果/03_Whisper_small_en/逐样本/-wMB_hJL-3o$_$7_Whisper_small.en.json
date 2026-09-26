@@ -1,0 +1,273 @@
+{
+  "sample_id": "-wMB_hJL-3o$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-wMB_hJL-3o$_$7.wav",
+  "audio_sha256": "5d3beae0093f09a280755fa2e689ddf2c716ab630aa493354d9ff277986ae60a",
+  "audio_duration_s": 5.9755625,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "So, if you have a loved one who is depressed, those are some of the things that you should think about doing.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.4600000000000011,
+      "end_time_wav_s": 4.66,
+      "start_time_source_s": 0.4600000000000011,
+      "end_time_source_s": 4.66,
+      "text": " So, if you have a loved one who is depressed, those are some of the things that you should",
+      "no_speech_probability": 0.01175997219979763,
+      "average_log_probability": -0.18560077945391337
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 5.42,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 5.42,
+      "text": " think about doing.",
+      "no_speech_probability": 0.01175997219979763,
+      "average_log_probability": -0.18560077945391337
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "So,",
+      "surface": " So,",
+      "start_time_wav_s": 0.4600000000000011,
+      "end_time_wav_s": 0.8200000000000005,
+      "start_time_source_s": 0.4600000000000011,
+      "end_time_source_s": 0.8200000000000005,
+      "probability": 0.7709163427352905
+    },
+    {
+      "word_index": 2,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 0.8200000000000005,
+      "end_time_wav_s": 1.18,
+      "start_time_source_s": 0.8200000000000005,
+      "end_time_source_s": 1.18,
+      "probability": 0.9954408407211304
+    },
+    {
+      "word_index": 3,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.18,
+      "end_time_wav_s": 1.3,
+      "start_time_source_s": 1.18,
+      "end_time_source_s": 1.3,
+      "probability": 0.9989556074142456
+    },
+    {
+      "word_index": 4,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 1.3,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.3,
+      "end_time_source_s": 1.46,
+      "probability": 0.9966654181480408
+    },
+    {
+      "word_index": 5,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 1.58,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 1.58,
+      "probability": 0.996220052242279
+    },
+    {
+      "word_index": 6,
+      "word": "loved",
+      "surface": " loved",
+      "start_time_wav_s": 1.58,
+      "end_time_wav_s": 1.72,
+      "start_time_source_s": 1.58,
+      "end_time_source_s": 1.72,
+      "probability": 0.995345413684845
+    },
+    {
+      "word_index": 7,
+      "word": "one",
+      "surface": " one",
+      "start_time_wav_s": 1.72,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.72,
+      "end_time_source_s": 1.96,
+      "probability": 0.9876517057418823
+    },
+    {
+      "word_index": 8,
+      "word": "who",
+      "surface": " who",
+      "start_time_wav_s": 1.96,
+      "end_time_wav_s": 2.16,
+      "start_time_source_s": 1.96,
+      "end_time_source_s": 2.16,
+      "probability": 0.9795497059822083
+    },
+    {
+      "word_index": 9,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 2.16,
+      "end_time_wav_s": 2.26,
+      "start_time_source_s": 2.16,
+      "end_time_source_s": 2.26,
+      "probability": 0.78432297706604
+    },
+    {
+      "word_index": 10,
+      "word": "depressed,",
+      "surface": " depressed,",
+      "start_time_wav_s": 2.26,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.26,
+      "end_time_source_s": 2.74,
+      "probability": 0.9971585273742676
+    },
+    {
+      "word_index": 11,
+      "word": "those",
+      "surface": " those",
+      "start_time_wav_s": 3.2,
+      "end_time_wav_s": 3.42,
+      "start_time_source_s": 3.2,
+      "end_time_source_s": 3.42,
+      "probability": 0.9940489530563354
+    },
+    {
+      "word_index": 12,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 3.42,
+      "end_time_wav_s": 3.56,
+      "start_time_source_s": 3.42,
+      "end_time_source_s": 3.56,
+      "probability": 0.9978923201560974
+    },
+    {
+      "word_index": 13,
+      "word": "some",
+      "surface": " some",
+      "start_time_wav_s": 3.56,
+      "end_time_wav_s": 3.72,
+      "start_time_source_s": 3.56,
+      "end_time_source_s": 3.72,
+      "probability": 0.9928411245346069
+    },
+    {
+      "word_index": 14,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 3.72,
+      "end_time_wav_s": 3.84,
+      "start_time_source_s": 3.72,
+      "end_time_source_s": 3.84,
+      "probability": 0.9889107942581177
+    },
+    {
+      "word_index": 15,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 3.84,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.84,
+      "end_time_source_s": 3.96,
+      "probability": 0.9891125559806824
+    },
+    {
+      "word_index": 16,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 4.16,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 4.16,
+      "probability": 0.9981765747070312
+    },
+    {
+      "word_index": 17,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 4.34,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 4.34,
+      "probability": 0.8304092288017273
+    },
+    {
+      "word_index": 18,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 4.34,
+      "end_time_wav_s": 4.5,
+      "start_time_source_s": 4.34,
+      "end_time_source_s": 4.5,
+      "probability": 0.9987506866455078
+    },
+    {
+      "word_index": 19,
+      "word": "should",
+      "surface": " should",
+      "start_time_wav_s": 4.5,
+      "end_time_wav_s": 4.66,
+      "start_time_source_s": 4.5,
+      "end_time_source_s": 4.66,
+      "probability": 0.9982243180274963
+    },
+    {
+      "word_index": 20,
+      "word": "think",
+      "surface": " think",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 4.84,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 4.84,
+      "probability": 0.9970114231109619
+    },
+    {
+      "word_index": 21,
+      "word": "about",
+      "surface": " about",
+      "start_time_wav_s": 4.84,
+      "end_time_wav_s": 5.08,
+      "start_time_source_s": 4.84,
+      "end_time_source_s": 5.08,
+      "probability": 0.9984706044197083
+    },
+    {
+      "word_index": 22,
+      "word": "doing.",
+      "surface": " doing.",
+      "start_time_wav_s": 5.08,
+      "end_time_wav_s": 5.42,
+      "start_time_source_s": 5.08,
+      "end_time_source_s": 5.42,
+      "probability": 0.9985622763633728
+    }
+  ],
+  "word_count": 22,
+  "mean_word_probability": 0.9674835205078125,
+  "issues": [],
+  "official_transcript_loaded": false
+}

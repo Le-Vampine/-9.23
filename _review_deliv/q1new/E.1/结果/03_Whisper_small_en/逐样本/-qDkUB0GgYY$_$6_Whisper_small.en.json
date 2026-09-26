@@ -1,0 +1,253 @@
+{
+  "sample_id": "-qDkUB0GgYY$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-qDkUB0GgYY$_$6.wav",
+  "audio_sha256": "149ff01893848566770851c8021e5210fabbcd91b986253fbea0d3358c1db8ac",
+  "audio_duration_s": 4.614,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "with us. We always love to hear what you have to say and like and share this video as well and",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.48,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.48,
+      "text": " with us. We always love to hear what you have to say and like and share this video as well and",
+      "no_speech_probability": 0.2308550775051117,
+      "average_log_probability": -0.1850978136062622
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.2,
+      "probability": 0.695853054523468
+    },
+    {
+      "word_index": 2,
+      "word": "us.",
+      "surface": " us.",
+      "start_time_wav_s": 0.2,
+      "end_time_wav_s": 0.4,
+      "start_time_source_s": 0.2,
+      "end_time_source_s": 0.4,
+      "probability": 0.9938225746154785
+    },
+    {
+      "word_index": 3,
+      "word": "We",
+      "surface": " We",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.6,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.6,
+      "probability": 0.9698163866996765
+    },
+    {
+      "word_index": 4,
+      "word": "always",
+      "surface": " always",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.82,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.82,
+      "probability": 0.9876535534858704
+    },
+    {
+      "word_index": 5,
+      "word": "love",
+      "surface": " love",
+      "start_time_wav_s": 0.82,
+      "end_time_wav_s": 1.12,
+      "start_time_source_s": 0.82,
+      "end_time_source_s": 1.12,
+      "probability": 0.9885996580123901
+    },
+    {
+      "word_index": 6,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.12,
+      "end_time_wav_s": 1.28,
+      "start_time_source_s": 1.12,
+      "end_time_source_s": 1.28,
+      "probability": 0.9980778694152832
+    },
+    {
+      "word_index": 7,
+      "word": "hear",
+      "surface": " hear",
+      "start_time_wav_s": 1.28,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.28,
+      "end_time_source_s": 1.4,
+      "probability": 0.9973499774932861
+    },
+    {
+      "word_index": 8,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.54,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.54,
+      "probability": 0.9980660080909729
+    },
+    {
+      "word_index": 9,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.54,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.54,
+      "end_time_source_s": 1.66,
+      "probability": 0.9990174770355225
+    },
+    {
+      "word_index": 10,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 1.76,
+      "probability": 0.9607326984405518
+    },
+    {
+      "word_index": 11,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 1.88,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 1.88,
+      "probability": 0.9735375642776489
+    },
+    {
+      "word_index": 12,
+      "word": "say",
+      "surface": " say",
+      "start_time_wav_s": 1.88,
+      "end_time_wav_s": 2.2,
+      "start_time_source_s": 1.88,
+      "end_time_source_s": 2.2,
+      "probability": 0.9988716244697571
+    },
+    {
+      "word_index": 13,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 2.2,
+      "end_time_wav_s": 2.68,
+      "start_time_source_s": 2.2,
+      "end_time_source_s": 2.68,
+      "probability": 0.730865478515625
+    },
+    {
+      "word_index": 14,
+      "word": "like",
+      "surface": " like",
+      "start_time_wav_s": 2.68,
+      "end_time_wav_s": 2.86,
+      "start_time_source_s": 2.68,
+      "end_time_source_s": 2.86,
+      "probability": 0.9771243929862976
+    },
+    {
+      "word_index": 15,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 2.86,
+      "end_time_wav_s": 3.0,
+      "start_time_source_s": 2.86,
+      "end_time_source_s": 3.0,
+      "probability": 0.9488865733146667
+    },
+    {
+      "word_index": 16,
+      "word": "share",
+      "surface": " share",
+      "start_time_wav_s": 3.0,
+      "end_time_wav_s": 3.14,
+      "start_time_source_s": 3.0,
+      "end_time_source_s": 3.14,
+      "probability": 0.9977686405181885
+    },
+    {
+      "word_index": 17,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 3.14,
+      "end_time_wav_s": 3.32,
+      "start_time_source_s": 3.14,
+      "end_time_source_s": 3.32,
+      "probability": 0.9904195666313171
+    },
+    {
+      "word_index": 18,
+      "word": "video",
+      "surface": " video",
+      "start_time_wav_s": 3.32,
+      "end_time_wav_s": 3.5,
+      "start_time_source_s": 3.32,
+      "end_time_source_s": 3.5,
+      "probability": 0.9976781010627747
+    },
+    {
+      "word_index": 19,
+      "word": "as",
+      "surface": " as",
+      "start_time_wav_s": 3.5,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.5,
+      "end_time_source_s": 3.68,
+      "probability": 0.9654738306999207
+    },
+    {
+      "word_index": 20,
+      "word": "well",
+      "surface": " well",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 4.06,
+      "probability": 0.9990436434745789
+    },
+    {
+      "word_index": 21,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.48,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.48,
+      "probability": 0.31733956933021545
+    }
+  ],
+  "word_count": 21,
+  "mean_word_probability": 0.9279046782425472,
+  "issues": [],
+  "official_transcript_loaded": false
+}

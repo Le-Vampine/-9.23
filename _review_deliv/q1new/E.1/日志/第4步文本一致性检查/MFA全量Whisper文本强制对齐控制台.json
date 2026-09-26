@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-09-25T11:16:19.925470+00:00",
+  "command": [
+    "C:\\Users\\Administrator\\miniforge3\\envs\\mfa\\python.exe",
+    "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\代码\\文本比对与强制对齐\\MFA兼容入口.py",
+    "align",
+    "Z:\\MFA\\corpus_whisper\\audio",
+    "Z:\\MFA\\models\\dictionary\\english_us_arpa.dict",
+    "Z:\\MFA\\models\\acoustic\\english_us_arpa.zip",
+    "Z:\\MFA\\aligned_whisper_json",
+    "--output_format",
+    "json",
+    "--temporary_directory",
+    "Z:\\MFA\\work_align_whisper",
+    "--num_jobs",
+    "1",
+    "--single_speaker",
+    "--no_tokenization",
+    "--no_use_mp",
+    "--verbose"
+  ],
+  "mfa_executable": "C:\\Users\\Administrator\\miniforge3\\envs\\mfa\\Scripts\\mfa.exe",
+  "mfa_environment": "C:\\Users\\Administrator\\miniforge3\\envs\\mfa",
+  "mfa_root_dir": "Z:\\MFA\\work",
+  "return_code": 0,
+  "stdout": " 100% ----------------------------------- 98/98  [ 0:00:01 < 0:00:00 , ? it/s ]\n 100% ---------------------------------- 98/98  [ 0:00:03 < 0:00:00 , 39 it/s ]\n 100% ----------------------------------- 98/98  [ 0:00:01 < 0:00:00 , ? it/s ]\n 100% ----------------------------------- 98/98  [ 0:00:01 < 0:00:00 , ? it/s ]\n 100% ---------------------------------- 98/98  [ 0:00:03 < 0:00:00 , 28 it/s ]\n  97% --------------------------------   95/98  [ 0:00:02 < 0:00:01 , 73 it/s ]\n  97% --------------------------------   95/98  [ 0:00:04 < 0:00:01 , 34 it/s ]\n  97% ------------------------------  95/98  [ 0:00:00 < 0:00:01 , 1,250 it/s ]\n",
+  "stderr": " INFO     Setting up corpus information...                                     \n INFO     Loading corpus from source files...                                  \n INFO     Found 1 speaker across 98 files, average number of utterances per    \n          speaker: 98.0                                                        \n INFO     Initializing multiprocessing jobs...                                 \n INFO     Normalizing text...                                                  \n INFO     Generating MFCCs...                                                  \n INFO     Calculating CMVN...                                                  \n INFO     Generating final features...                                         \n INFO     Creating corpus split...                                             \n INFO     Compiling training graphs...                                         \n INFO     Performing first-pass alignment...                                   \n INFO     Generating alignments...                                             \n INFO     Collecting phone and word alignments from alignment lattices...      \n INFO     Analyzing alignment quality...                                       \n INFO     Exporting alignment TextGrids to Z:\\MFA\\aligned_whisper_json...      \n INFO     Finished exporting TextGrids to Z:\\MFA\\aligned_whisper_json!         \n INFO     Done! Everything took 58.852 seconds                                 \n"
+}

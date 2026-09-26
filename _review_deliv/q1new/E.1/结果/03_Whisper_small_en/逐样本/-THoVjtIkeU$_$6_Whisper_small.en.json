@@ -1,0 +1,313 @@
+{
+  "sample_id": "-THoVjtIkeU$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-THoVjtIkeU$_$6.wav",
+  "audio_sha256": "3173573ed9cb73e17e6ec0bda8c20eabc8101b0aa07b02a1904f5d4df95957e9",
+  "audio_duration_s": 7.982875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "I think that listening to young people, taking in what they have to say, because what we've seen all around the world is the power of youth.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.44,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.44,
+      "text": " I think that listening to young people, taking in what they have to say, because what we've seen all around the world is the power of youth.",
+      "no_speech_probability": 0.1105780079960823,
+      "average_log_probability": -0.20370854305870392
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.64,
+      "probability": 0.07390747219324112
+    },
+    {
+      "word_index": 2,
+      "word": "think",
+      "surface": " think",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 1.08,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 1.08,
+      "probability": 0.9425793290138245
+    },
+    {
+      "word_index": 3,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.08,
+      "end_time_wav_s": 1.36,
+      "start_time_source_s": 1.08,
+      "end_time_source_s": 1.36,
+      "probability": 0.9250146150588989
+    },
+    {
+      "word_index": 4,
+      "word": "listening",
+      "surface": " listening",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 1.76,
+      "probability": 0.9844638705253601
+    },
+    {
+      "word_index": 5,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 2.02,
+      "probability": 0.9983518123626709
+    },
+    {
+      "word_index": 6,
+      "word": "young",
+      "surface": " young",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.18,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.18,
+      "probability": 0.9952337145805359
+    },
+    {
+      "word_index": 7,
+      "word": "people,",
+      "surface": " people,",
+      "start_time_wav_s": 2.18,
+      "end_time_wav_s": 2.56,
+      "start_time_source_s": 2.18,
+      "end_time_source_s": 2.56,
+      "probability": 0.9989117383956909
+    },
+    {
+      "word_index": 8,
+      "word": "taking",
+      "surface": " taking",
+      "start_time_wav_s": 2.66,
+      "end_time_wav_s": 2.88,
+      "start_time_source_s": 2.66,
+      "end_time_source_s": 2.88,
+      "probability": 0.9709244966506958
+    },
+    {
+      "word_index": 9,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 2.88,
+      "end_time_wav_s": 3.16,
+      "start_time_source_s": 2.88,
+      "end_time_source_s": 3.16,
+      "probability": 0.9904032945632935
+    },
+    {
+      "word_index": 10,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 3.16,
+      "end_time_wav_s": 3.34,
+      "start_time_source_s": 3.16,
+      "end_time_source_s": 3.34,
+      "probability": 0.996651828289032
+    },
+    {
+      "word_index": 11,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 3.34,
+      "end_time_wav_s": 3.52,
+      "start_time_source_s": 3.34,
+      "end_time_source_s": 3.52,
+      "probability": 0.9964886903762817
+    },
+    {
+      "word_index": 12,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 3.52,
+      "end_time_wav_s": 3.72,
+      "start_time_source_s": 3.52,
+      "end_time_source_s": 3.72,
+      "probability": 0.9956757426261902
+    },
+    {
+      "word_index": 13,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.72,
+      "end_time_wav_s": 3.88,
+      "start_time_source_s": 3.72,
+      "end_time_source_s": 3.88,
+      "probability": 0.9987565279006958
+    },
+    {
+      "word_index": 14,
+      "word": "say,",
+      "surface": " say,",
+      "start_time_wav_s": 3.88,
+      "end_time_wav_s": 4.12,
+      "start_time_source_s": 3.88,
+      "end_time_source_s": 4.12,
+      "probability": 0.9985881447792053
+    },
+    {
+      "word_index": 15,
+      "word": "because",
+      "surface": " because",
+      "start_time_wav_s": 4.34,
+      "end_time_wav_s": 4.44,
+      "start_time_source_s": 4.34,
+      "end_time_source_s": 4.44,
+      "probability": 0.9707433581352234
+    },
+    {
+      "word_index": 16,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 4.96,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 4.96,
+      "probability": 0.9742233753204346
+    },
+    {
+      "word_index": 17,
+      "word": "we've",
+      "surface": " we've",
+      "start_time_wav_s": 4.96,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 4.96,
+      "end_time_source_s": 5.24,
+      "probability": 0.9599142968654633
+    },
+    {
+      "word_index": 18,
+      "word": "seen",
+      "surface": " seen",
+      "start_time_wav_s": 5.24,
+      "end_time_wav_s": 5.4,
+      "start_time_source_s": 5.24,
+      "end_time_source_s": 5.4,
+      "probability": 0.9928939938545227
+    },
+    {
+      "word_index": 19,
+      "word": "all",
+      "surface": " all",
+      "start_time_wav_s": 5.4,
+      "end_time_wav_s": 5.68,
+      "start_time_source_s": 5.4,
+      "end_time_source_s": 5.68,
+      "probability": 0.983004093170166
+    },
+    {
+      "word_index": 20,
+      "word": "around",
+      "surface": " around",
+      "start_time_wav_s": 5.68,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 5.68,
+      "end_time_source_s": 5.9,
+      "probability": 0.9956591129302979
+    },
+    {
+      "word_index": 21,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 6.04,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 6.04,
+      "probability": 0.9982681274414062
+    },
+    {
+      "word_index": 22,
+      "word": "world",
+      "surface": " world",
+      "start_time_wav_s": 6.04,
+      "end_time_wav_s": 6.28,
+      "start_time_source_s": 6.04,
+      "end_time_source_s": 6.28,
+      "probability": 0.998213529586792
+    },
+    {
+      "word_index": 23,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 6.28,
+      "end_time_wav_s": 6.56,
+      "start_time_source_s": 6.28,
+      "end_time_source_s": 6.56,
+      "probability": 0.7242376208305359
+    },
+    {
+      "word_index": 24,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 6.56,
+      "end_time_wav_s": 6.7,
+      "start_time_source_s": 6.56,
+      "end_time_source_s": 6.7,
+      "probability": 0.9966561794281006
+    },
+    {
+      "word_index": 25,
+      "word": "power",
+      "surface": " power",
+      "start_time_wav_s": 6.7,
+      "end_time_wav_s": 6.96,
+      "start_time_source_s": 6.7,
+      "end_time_source_s": 6.96,
+      "probability": 0.9981138706207275
+    },
+    {
+      "word_index": 26,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 6.96,
+      "end_time_wav_s": 7.24,
+      "start_time_source_s": 6.96,
+      "end_time_source_s": 7.24,
+      "probability": 0.9985248446464539
+    },
+    {
+      "word_index": 27,
+      "word": "youth.",
+      "surface": " youth.",
+      "start_time_wav_s": 7.24,
+      "end_time_wav_s": 7.44,
+      "start_time_source_s": 7.24,
+      "end_time_source_s": 7.44,
+      "probability": 0.993914783000946
+    }
+  ],
+  "word_count": 27,
+  "mean_word_probability": 0.9426043875239514,
+  "issues": [],
+  "official_transcript_loaded": false
+}

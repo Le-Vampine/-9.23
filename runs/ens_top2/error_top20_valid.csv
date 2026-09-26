@@ -1,0 +1,21 @@
+﻿id,y_reg,y_cls,pred,pred_cls,pred_cls_head,err,rho_text,rho_audio,rho_vision,len_text,len_audio,len_vision,abs_y,strength_bucket,text_len_bucket,vision_len_bucket,polarity,any_missing,raw_text
+f_ZJ7L14oYQ$_$21,2.0,2,-1.4408321,0,0,3.4408321,0.0,0.0,0.0,24,23,23,2.0,|y|>1.5,中,中,Positive,无缺失,They just so much more convenient than stupid boots that take forever to put on and just aren't comfortable!
+266791$_$23,-2.6666667,0,0.5142206,2,2,3.1808872,0.0,0.0,0.0,36,35,35,2.6666667,|y|>1.5,长,长,Negative,无缺失,As you're watching the movie it looks like they're actually looking at cue cards and reading these words for the first t
+102858$_$6,2.6666667,2,-0.26009092,1,1,2.9267576,0.0,0.0,0.0,28,27,27,2.6666667,|y|>1.5,中,中,Positive,无缺失,It's probably three of the best (stutter) holiday specials made in the last (uhh) let's see
+102858$_$20,2.0,2,-0.6780008,0,0,2.678001,0.0,0.0,0.0,26,25,25,2.0,|y|>1.5,中,中,Positive,无缺失,"This thing, if you guys don't have it, you're going to need it for your holiday DVD list"
+130456$_$11,1.6666666,2,-0.8763927,0,0,2.5430593,0.0,0.0,0.0,36,35,35,1.6666666,|y|>1.5,长,长,Positive,无缺失,"It it (stutter) involves like, (uhh) theoretical physics and just so much stuff and Donnie Darko no matter how weird he "
+102858$_$4,3.0,2,0.5988947,2,2,2.4011054,0.0,0.0,0.0,50,49,49,3.0,|y|>1.5,长,长,Positive,无缺失,"This one disc contains not only Garfield, not only Garfield's Halloween, Halloween (stutter) Adventure, a special I've I"
+32681$_$5,0.33333334,2,-2.051464,0,0,2.3847973,0.0,0.0,0.0,41,40,40,0.33333334,|y|<=0.5,长,长,Positive,无缺失,"(umm) The only time I did laugh was at the the (stutter) pretty dirty stuff which they usually don't put in movies but, "
+237009$_$11,-3.0,0,-0.6181903,0,0,2.3818097,0.0,0.0,0.0,11,10,10,3.0,|y|>1.5,短,短,Negative,无缺失,"(umm), it should be rated junk"
+121128$_$5,3.0,2,0.63075083,2,2,2.369249,0.0,0.0,0.0,9,8,8,3.0,|y|>1.5,短,短,Positive,无缺失,(umm) This movie was excellent
+130456$_$3,2.3333333,2,-0.033738684,1,0,2.3670719,0.0,0.0,0.0,21,20,15,2.3333333,|y|>1.5,中,短,Positive,无缺失,"(uhh) It's, out of five stars, I would give it a five"
+247318$_$3,-2.3333333,0,-0.023077229,1,1,2.310256,0.0,0.0,0.0,7,6,6,2.3333333,|y|>1.5,短,短,Negative,无缺失,B here standing for bad
+rojyUp4FPSg$_$9,2.0,2,-0.30372697,1,0,2.303727,0.0,0.0,0.0,28,27,27,2.0,|y|>1.5,中,长,Positive,无缺失,"So if you have a really overpowering scent, it will clash and just create something that's really not what we wanted."
+252998$_$7,1.3333334,2,-0.94159216,0,0,2.2749255,0.0,0.0,0.0,39,38,38,1.3333334,0.5<|y|<=1.5,长,长,Positive,无缺失,(uhh) I think the best line in the movie comes from Tori Spelling when she looks at Parker Posey and says no you're not 
+Vuay0mVKkik$_$3,-2.0,0,0.26173478,1,2,2.2617347,0.0,0.0,0.0,28,27,27,2.0,|y|>1.5,中,中,Negative,无缺失,And when I was going to school it was really difficult for me to find avenues and resources to be able to reach higher e
+102858$_$21,1.0,2,-1.2252843,0,0,2.2252843,0.0,0.0,0.0,29,28,28,1.0,0.5<|y|<=1.5,中,长,Positive,无缺失,"I'm giving this beast a four out of, (stutter) I mean, (uhh) wait, four, no"
+2S00zYaVrtc$_$10,-2.6666667,0,-0.4850449,0,0,2.1816218,0.0,0.0,0.0,20,19,19,2.6666667,|y|>1.5,中,中,Negative,无缺失,The pepper spray incident was one that I will deeply regret for the rest of my life.
+241629$_$3,2.3333333,2,0.1863564,1,0,2.146977,0.0,0.0,0.0,30,29,29,2.3333333,|y|>1.5,长,长,Positive,无缺失,(uhh) Knocked Up was a hilarious movie that I really enjoyed and (uhh) was expecting something along that lines for this
+99501$_$7,-1.0,0,1.134651,2,2,2.134651,0.0,0.0,0.0,20,19,19,1.0,0.5<|y|<=1.5,中,中,Negative,无缺失,"I think you could have done a little bit more with this movie, with the subject matter"
+102408$_$5,-2.0,0,0.08558353,1,0,2.0855834,0.0,0.0,0.0,31,30,30,2.0,|y|>1.5,长,长,Negative,无缺失,"I couldn't wait til it was over, but you know if you have little boys then, you know, they probably would like this movi"
+89835$_$4,-2.6666667,0,-0.6076878,0,0,2.058979,0.0,0.0,0.0,50,49,49,2.6666667,|y|>1.5,长,长,Negative,无缺失,(umm) {clears throat} The acting in this one is not really acting so much as one person fights and beats the crap out of

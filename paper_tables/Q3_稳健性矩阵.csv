@@ -1,0 +1,7 @@
+﻿口径A,口径B,φ秩相关
+mu_miss,mu_pad,0.5782
+mu_miss,p_pol_miss,0.9758
+mu_miss,p_pol_pad,0.5638
+mu_pad,p_pol_miss,0.5941
+mu_pad,p_pol_pad,0.9784
+p_pol_miss,p_pol_pad,0.5884

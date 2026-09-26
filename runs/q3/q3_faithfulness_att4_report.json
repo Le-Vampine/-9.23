@@ -1,0 +1,244 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "data_att\\att4_aligned.pkl",
+   "split": "test",
+   "n": 20,
+   "r": 5,
+   "target": "mu",
+   "auc": true
+  }
+ },
+ "summary": {
+  "att": {
+   "compr_mean": -0.0039,
+   "suff_absmean": 0.2596,
+   "sparsity": 0.358,
+   "del_auc": -0.052,
+   "ins_auc": -0.0129,
+   "score": -0.2635
+  },
+  "ig": {
+   "compr_mean": 0.0044,
+   "suff_absmean": 0.2076,
+   "sparsity": 0.393,
+   "del_auc": -0.0599,
+   "ins_auc": 0.0027,
+   "score": -0.2032
+  },
+  "occ": {
+   "compr_mean": -0.0044,
+   "suff_absmean": 0.2213,
+   "sparsity": 0.4637,
+   "del_auc": -0.0536,
+   "ins_auc": 0.0002,
+   "score": -0.2258
+  },
+  "fused": {
+   "compr_mean": -0.0026,
+   "suff_absmean": 0.2251,
+   "sparsity": 0.4392,
+   "del_auc": -0.0538,
+   "ins_auc": 0.0009,
+   "score": -0.2277
+  },
+  "fused_equal": {
+   "compr_mean": 0.0051,
+   "suff_absmean": 0.2434,
+   "sparsity": 0.3778,
+   "del_auc": -0.0544,
+   "ins_auc": -0.0011,
+   "score": -0.2383
+  }
+ },
+ "csv": "runs\\q3\\q3_faithfulness_att4.csv",
+ "stability": {
+  "01": {
+   "stability_fused": 0.562,
+   "stability_ig": 0.429,
+   "stability_fused_per_mod": [
+    0.414,
+    0.7371,
+    0.5351
+   ]
+  },
+  "02": {
+   "stability_fused": 0.7531,
+   "stability_ig": 0.4357,
+   "stability_fused_per_mod": [
+    0.5613,
+    0.8235,
+    0.8746
+   ]
+  },
+  "03": {
+   "stability_fused": 0.6984,
+   "stability_ig": 0.3137,
+   "stability_fused_per_mod": [
+    0.6742,
+    0.6761,
+    0.745
+   ]
+  },
+  "04": {
+   "stability_fused": 0.6721,
+   "stability_ig": 0.2669,
+   "stability_fused_per_mod": [
+    0.5391,
+    0.6971,
+    0.7802
+   ]
+  },
+  "05": {
+   "stability_fused": 0.4995,
+   "stability_ig": 0.4155,
+   "stability_fused_per_mod": [
+    0.4701,
+    0.49,
+    0.5385
+   ]
+  },
+  "06": {
+   "stability_fused": 0.5975,
+   "stability_ig": 0.331,
+   "stability_fused_per_mod": [
+    0.5821,
+    0.5121,
+    0.6983
+   ]
+  },
+  "07": {
+   "stability_fused": 0.7633,
+   "stability_ig": 0.3024,
+   "stability_fused_per_mod": [
+    0.7547,
+    0.7166,
+    0.8186
+   ]
+  },
+  "08": {
+   "stability_fused": 0.4971,
+   "stability_ig": 0.3115,
+   "stability_fused_per_mod": [
+    0.2329,
+    0.5204,
+    0.7382
+   ]
+  },
+  "09": {
+   "stability_fused": 0.5339,
+   "stability_ig": 0.3885,
+   "stability_fused_per_mod": [
+    0.6217,
+    0.3372,
+    0.6429
+   ]
+  },
+  "10": {
+   "stability_fused": 0.6199,
+   "stability_ig": 0.2543,
+   "stability_fused_per_mod": [
+    0.6052,
+    0.6647,
+    0.5897
+   ]
+  },
+  "11": {
+   "stability_fused": 0.5724,
+   "stability_ig": 0.3018,
+   "stability_fused_per_mod": [
+    0.3781,
+    0.7132,
+    0.6257
+   ]
+  },
+  "12": {
+   "stability_fused": 0.6851,
+   "stability_ig": 0.2863,
+   "stability_fused_per_mod": [
+    0.699,
+    0.6981,
+    0.6583
+   ]
+  },
+  "13": {
+   "stability_fused": 0.7306,
+   "stability_ig": 0.5207,
+   "stability_fused_per_mod": [
+    0.5646,
+    0.6272,
+    1.0
+   ]
+  },
+  "14": {
+   "stability_fused": 0.6429,
+   "stability_ig": 0.3093,
+   "stability_fused_per_mod": [
+    0.7146,
+    0.4276,
+    0.7864
+   ]
+  },
+  "15": {
+   "stability_fused": 0.7053,
+   "stability_ig": 0.2857,
+   "stability_fused_per_mod": [
+    0.6992,
+    0.7837,
+    0.6329
+   ]
+  },
+  "16": {
+   "stability_fused": 0.6105,
+   "stability_ig": 0.4602,
+   "stability_fused_per_mod": [
+    0.7847,
+    0.3683,
+    0.6785
+   ]
+  },
+  "17": {
+   "stability_fused": 0.5723,
+   "stability_ig": 0.3551,
+   "stability_fused_per_mod": [
+    0.563,
+    0.4915,
+    0.6625
+   ]
+  },
+  "18": {
+   "stability_fused": 0.7624,
+   "stability_ig": 0.3187,
+   "stability_fused_per_mod": [
+    0.8086,
+    0.655,
+    0.8237
+   ]
+  },
+  "19": {
+   "stability_fused": 0.5979,
+   "stability_ig": 0.2357,
+   "stability_fused_per_mod": [
+    0.5343,
+    0.6501,
+    0.6094
+   ]
+  },
+  "20": {
+   "stability_fused": 0.7743,
+   "stability_ig": 0.3021,
+   "stability_fused_per_mod": [
+    0.6493,
+    0.7271,
+    0.9466
+   ]
+  }
+ }
+}

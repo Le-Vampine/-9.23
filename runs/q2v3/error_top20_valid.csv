@@ -1,0 +1,21 @@
+﻿id,y_reg,y_cls,pred,pred_cls,err,rho_text,rho_audio,rho_vision,len_text,len_audio,len_vision,abs_y,strength_bucket,text_len_bucket,vision_len_bucket,polarity,any_missing,raw_text
+f_ZJ7L14oYQ$_$21,2.0,2,-1.1198213,0,3.1198213,0.0,0.0,0.0,24,23,23,2.0,|y|>1.5,中,中,Positive,无缺失,They just so much more convenient than stupid boots that take forever to put on and just aren't comfortable!
+266791$_$23,-2.6666667,0,0.3613044,1,3.0279713,0.0,0.0,0.0,36,35,35,2.6666667,|y|>1.5,长,长,Negative,无缺失,As you're watching the movie it looks like they're actually looking at cue cards and reading these words for the first t
+130456$_$11,1.6666666,2,-1.1266056,0,2.7932723,0.0,0.0,0.0,36,35,35,1.6666666,|y|>1.5,长,长,Positive,无缺失,"It it (stutter) involves like, (uhh) theoretical physics and just so much stuff and Donnie Darko no matter how weird he "
+102858$_$6,2.6666667,2,-0.075478315,1,2.742145,0.0,0.0,0.0,28,27,27,2.6666667,|y|>1.5,中,中,Positive,无缺失,It's probably three of the best (stutter) holiday specials made in the last (uhh) let's see
+2S00zYaVrtc$_$10,-2.6666667,0,-0.051723722,1,2.614943,0.0,0.0,0.0,20,19,19,2.6666667,|y|>1.5,中,中,Negative,无缺失,The pepper spray incident was one that I will deeply regret for the rest of my life.
+102858$_$4,3.0,2,0.39356798,1,2.606432,0.0,0.0,0.0,50,49,49,3.0,|y|>1.5,长,长,Positive,无缺失,"This one disc contains not only Garfield, not only Garfield's Halloween, Halloween (stutter) Adventure, a special I've I"
+237009$_$11,-3.0,0,-0.54162323,0,2.458377,0.0,0.0,0.0,11,10,10,3.0,|y|>1.5,短,短,Negative,无缺失,"(umm), it should be rated junk"
+130456$_$3,2.3333333,2,0.0032564104,1,2.330077,0.0,0.0,0.0,21,20,15,2.3333333,|y|>1.5,中,短,Positive,无缺失,"(uhh) It's, out of five stars, I would give it a five"
+102858$_$20,2.0,2,-0.3296908,1,2.329691,0.0,0.0,0.0,26,25,25,2.0,|y|>1.5,中,中,Positive,无缺失,"This thing, if you guys don't have it, you're going to need it for your holiday DVD list"
+102408$_$5,-2.0,0,0.27038315,1,2.2703831,0.0,0.0,0.0,31,30,30,2.0,|y|>1.5,长,长,Negative,无缺失,"I couldn't wait til it was over, but you know if you have little boys then, you know, they probably would like this movi"
+121128$_$5,3.0,2,0.7514597,2,2.2485404,0.0,0.0,0.0,9,8,8,3.0,|y|>1.5,短,短,Positive,无缺失,(umm) This movie was excellent
+Vuay0mVKkik$_$3,-2.0,0,0.22260605,1,2.222606,0.0,0.0,0.0,28,27,27,2.0,|y|>1.5,中,中,Negative,无缺失,And when I was going to school it was really difficult for me to find avenues and resources to be able to reach higher e
+89835$_$4,-2.6666667,0,-0.45286208,0,2.2138047,0.0,0.0,0.0,50,49,49,2.6666667,|y|>1.5,长,长,Negative,无缺失,(umm) {clears throat} The acting in this one is not really acting so much as one person fights and beats the crap out of
+247318$_$3,-2.3333333,0,-0.13974091,1,2.1935923,0.0,0.0,0.0,7,6,6,2.3333333,|y|>1.5,短,短,Negative,无缺失,B here standing for bad
+241629$_$3,2.3333333,2,0.23209131,1,2.101242,0.0,0.0,0.0,30,29,29,2.3333333,|y|>1.5,长,长,Positive,无缺失,(uhh) Knocked Up was a hilarious movie that I really enjoyed and (uhh) was expecting something along that lines for this
+rojyUp4FPSg$_$18,2.5,2,0.44926965,1,2.0507302,0.0,0.0,0.0,19,18,18,2.5,|y|>1.5,中,中,Positive,无缺失,This could be your primary scent to wear after you go to the gym or something.
+32681$_$5,0.33333334,2,-1.715345,0,2.0486784,0.0,0.0,0.0,41,40,40,0.33333334,|y|<=0.5,长,长,Positive,无缺失,"(umm) The only time I did laugh was at the the (stutter) pretty dirty stuff which they usually don't put in movies but, "
+273539$_$3,-2.6666667,0,-0.62760353,0,2.0390632,0.0,0.0,0.0,32,31,31,2.6666667,|y|>1.5,长,长,Negative,无缺失,(umm) xxx seen this with a few of my friends and I was much more soft having done so (umm) this film has little substanc
+273539$_$9,-2.3333333,0,-0.3119559,1,2.0213773,0.0,0.0,0.0,48,47,47,2.3333333,|y|>1.5,长,长,Negative,无缺失,"That I think worked with the film (umm) but originality wise, this movie is nothing that hasn't been made before It's ju"
+247318$_$2,-1.6666666,0,0.28316164,1,1.9498283,0.0,0.0,0.0,19,18,18,1.6666666,|y|>1.5,短,中,Negative,无缺失,"(uhh) In my opinion the Bee Movie is exactly that, a B movie"

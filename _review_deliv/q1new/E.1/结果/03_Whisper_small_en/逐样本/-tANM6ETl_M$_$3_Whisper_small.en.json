@@ -1,0 +1,263 @@
+{
+  "sample_id": "-tANM6ETl_M$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-tANM6ETl_M$_$3.wav",
+  "audio_sha256": "4fa1bb2d1e04aa7557e2ac8f099af67aa0b412a288c903005d96dafc578b9084",
+  "audio_duration_s": 6.603625,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "The first place is either you have a prospect or a customer who's never done it before. They've never tried it.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.0,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.0,
+      "text": " The first place is either you have a prospect or a customer who's never done it before.",
+      "no_speech_probability": 0.018696250393986702,
+      "average_log_probability": -0.22054639259974163
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.14,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 5.14,
+      "end_time_source_s": 6.16,
+      "text": " They've never tried it.",
+      "no_speech_probability": 0.018696250393986702,
+      "average_log_probability": -0.22054639259974163
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "The",
+      "surface": " The",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.62,
+      "probability": 0.7864065170288086
+    },
+    {
+      "word_index": 2,
+      "word": "first",
+      "surface": " first",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.88,
+      "probability": 0.9942955374717712
+    },
+    {
+      "word_index": 3,
+      "word": "place",
+      "surface": " place",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.22,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.22,
+      "probability": 0.9934152364730835
+    },
+    {
+      "word_index": 4,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 1.22,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.22,
+      "end_time_source_s": 1.46,
+      "probability": 0.9854228496551514
+    },
+    {
+      "word_index": 5,
+      "word": "either",
+      "surface": " either",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 1.7,
+      "probability": 0.96430903673172
+    },
+    {
+      "word_index": 6,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 1.96,
+      "probability": 0.9747502207756042
+    },
+    {
+      "word_index": 7,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 1.96,
+      "end_time_wav_s": 2.18,
+      "start_time_source_s": 1.96,
+      "end_time_source_s": 2.18,
+      "probability": 0.9969215989112854
+    },
+    {
+      "word_index": 8,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.18,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.18,
+      "end_time_source_s": 2.36,
+      "probability": 0.9844837784767151
+    },
+    {
+      "word_index": 9,
+      "word": "prospect",
+      "surface": " prospect",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.76,
+      "probability": 0.9972477555274963
+    },
+    {
+      "word_index": 10,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 3.02,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 3.02,
+      "probability": 0.9741029143333435
+    },
+    {
+      "word_index": 11,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 3.02,
+      "end_time_wav_s": 3.12,
+      "start_time_source_s": 3.02,
+      "end_time_source_s": 3.12,
+      "probability": 0.9185936450958252
+    },
+    {
+      "word_index": 12,
+      "word": "customer",
+      "surface": " customer",
+      "start_time_wav_s": 3.12,
+      "end_time_wav_s": 3.44,
+      "start_time_source_s": 3.12,
+      "end_time_source_s": 3.44,
+      "probability": 0.9977355003356934
+    },
+    {
+      "word_index": 13,
+      "word": "who's",
+      "surface": " who's",
+      "start_time_wav_s": 3.44,
+      "end_time_wav_s": 3.7,
+      "start_time_source_s": 3.44,
+      "end_time_source_s": 3.7,
+      "probability": 0.8374725878238678
+    },
+    {
+      "word_index": 14,
+      "word": "never",
+      "surface": " never",
+      "start_time_wav_s": 3.7,
+      "end_time_wav_s": 4.1,
+      "start_time_source_s": 3.7,
+      "end_time_source_s": 4.1,
+      "probability": 0.9982582926750183
+    },
+    {
+      "word_index": 15,
+      "word": "done",
+      "surface": " done",
+      "start_time_wav_s": 4.1,
+      "end_time_wav_s": 4.42,
+      "start_time_source_s": 4.1,
+      "end_time_source_s": 4.42,
+      "probability": 0.9972207546234131
+    },
+    {
+      "word_index": 16,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 4.42,
+      "end_time_wav_s": 4.62,
+      "start_time_source_s": 4.42,
+      "end_time_source_s": 4.62,
+      "probability": 0.9962790608406067
+    },
+    {
+      "word_index": 17,
+      "word": "before.",
+      "surface": " before.",
+      "start_time_wav_s": 4.62,
+      "end_time_wav_s": 5.0,
+      "start_time_source_s": 4.62,
+      "end_time_source_s": 5.0,
+      "probability": 0.9992037415504456
+    },
+    {
+      "word_index": 18,
+      "word": "They've",
+      "surface": " They've",
+      "start_time_wav_s": 5.14,
+      "end_time_wav_s": 5.38,
+      "start_time_source_s": 5.14,
+      "end_time_source_s": 5.38,
+      "probability": 0.9884226620197296
+    },
+    {
+      "word_index": 19,
+      "word": "never",
+      "surface": " never",
+      "start_time_wav_s": 5.38,
+      "end_time_wav_s": 5.6,
+      "start_time_source_s": 5.38,
+      "end_time_source_s": 5.6,
+      "probability": 0.9991288781166077
+    },
+    {
+      "word_index": 20,
+      "word": "tried",
+      "surface": " tried",
+      "start_time_wav_s": 5.6,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 5.6,
+      "end_time_source_s": 5.9,
+      "probability": 0.997852087020874
+    },
+    {
+      "word_index": 21,
+      "word": "it.",
+      "surface": " it.",
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 6.16,
+      "probability": 0.9885388016700745
+    }
+  ],
+  "word_count": 21,
+  "mean_word_probability": 0.9700029265312922,
+  "issues": [],
+  "official_transcript_loaded": false
+}

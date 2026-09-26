@@ -1,0 +1,543 @@
+{
+  "sample_id": "-571d8cVauQ$_$5",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-571d8cVauQ$_$5.wav",
+  "audio_sha256": "0ddf85749f064be058fb452ae1600641a443fb4ba1d8cf1823724a1f969a5e9e",
+  "audio_duration_s": 15.115,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "So very important to go out to the locations, walk around, talk with the owners if you can, tell them what you're doing, build a little excitement, put a little glitz on there, and let everybody know this is a very valuable spot. This is going to...",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.24,
+      "text": " So very important to go out to the locations, walk around, talk with the",
+      "no_speech_probability": 0.05909295007586479,
+      "average_log_probability": -0.17600865526632828
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.24,
+      "end_time_wav_s": 9.62,
+      "start_time_source_s": 5.24,
+      "end_time_source_s": 9.62,
+      "text": " owners if you can, tell them what you're doing, build a little excitement, put a",
+      "no_speech_probability": 0.05909295007586479,
+      "average_log_probability": -0.17600865526632828
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 9.62,
+      "end_time_wav_s": 14.78,
+      "start_time_source_s": 9.62,
+      "end_time_source_s": 14.78,
+      "text": " little glitz on there, and let everybody know this is a very valuable spot. This",
+      "no_speech_probability": 0.05909295007586479,
+      "average_log_probability": -0.17600865526632828
+    },
+    {
+      "segment_index": 4,
+      "start_time_wav_s": 14.78,
+      "end_time_wav_s": 15.08,
+      "start_time_source_s": 14.78,
+      "end_time_source_s": 15.08,
+      "text": " is going to...",
+      "no_speech_probability": 0.05909295007586479,
+      "average_log_probability": -0.17600865526632828
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "So",
+      "surface": " So",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.64,
+      "probability": 0.6125487089157104
+    },
+    {
+      "word_index": 2,
+      "word": "very",
+      "surface": " very",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 0.94,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 0.94,
+      "probability": 0.6402645111083984
+    },
+    {
+      "word_index": 3,
+      "word": "important",
+      "surface": " important",
+      "start_time_wav_s": 0.94,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 0.94,
+      "end_time_source_s": 1.26,
+      "probability": 0.996397078037262
+    },
+    {
+      "word_index": 4,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.48,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.48,
+      "probability": 0.9862936735153198
+    },
+    {
+      "word_index": 5,
+      "word": "go",
+      "surface": " go",
+      "start_time_wav_s": 1.48,
+      "end_time_wav_s": 1.74,
+      "start_time_source_s": 1.48,
+      "end_time_source_s": 1.74,
+      "probability": 0.9975365400314331
+    },
+    {
+      "word_index": 6,
+      "word": "out",
+      "surface": " out",
+      "start_time_wav_s": 1.74,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.74,
+      "end_time_source_s": 2.04,
+      "probability": 0.9975797533988953
+    },
+    {
+      "word_index": 7,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.6,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.6,
+      "probability": 0.976713240146637
+    },
+    {
+      "word_index": 8,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 2.6,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.6,
+      "end_time_source_s": 2.74,
+      "probability": 0.9968197345733643
+    },
+    {
+      "word_index": 9,
+      "word": "locations,",
+      "surface": " locations,",
+      "start_time_wav_s": 2.74,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 2.74,
+      "end_time_source_s": 3.3,
+      "probability": 0.977202832698822
+    },
+    {
+      "word_index": 10,
+      "word": "walk",
+      "surface": " walk",
+      "start_time_wav_s": 3.3,
+      "end_time_wav_s": 4.0,
+      "start_time_source_s": 3.3,
+      "end_time_source_s": 4.0,
+      "probability": 0.9905198812484741
+    },
+    {
+      "word_index": 11,
+      "word": "around,",
+      "surface": " around,",
+      "start_time_wav_s": 4.0,
+      "end_time_wav_s": 4.4,
+      "start_time_source_s": 4.0,
+      "end_time_source_s": 4.4,
+      "probability": 0.9989538192749023
+    },
+    {
+      "word_index": 12,
+      "word": "talk",
+      "surface": " talk",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 4.9,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 4.9,
+      "probability": 0.9878085851669312
+    },
+    {
+      "word_index": 13,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 4.9,
+      "end_time_wav_s": 5.1,
+      "start_time_source_s": 4.9,
+      "end_time_source_s": 5.1,
+      "probability": 0.9935478568077087
+    },
+    {
+      "word_index": 14,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 5.1,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 5.1,
+      "end_time_source_s": 5.24,
+      "probability": 0.9947627186775208
+    },
+    {
+      "word_index": 15,
+      "word": "owners",
+      "surface": " owners",
+      "start_time_wav_s": 5.24,
+      "end_time_wav_s": 5.48,
+      "start_time_source_s": 5.24,
+      "end_time_source_s": 5.48,
+      "probability": 0.9897395968437195
+    },
+    {
+      "word_index": 16,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 5.48,
+      "end_time_wav_s": 5.7,
+      "start_time_source_s": 5.48,
+      "end_time_source_s": 5.7,
+      "probability": 0.9597576260566711
+    },
+    {
+      "word_index": 17,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 5.7,
+      "end_time_wav_s": 5.86,
+      "start_time_source_s": 5.7,
+      "end_time_source_s": 5.86,
+      "probability": 0.9982118606567383
+    },
+    {
+      "word_index": 18,
+      "word": "can,",
+      "surface": " can,",
+      "start_time_wav_s": 5.86,
+      "end_time_wav_s": 6.14,
+      "start_time_source_s": 5.86,
+      "end_time_source_s": 6.14,
+      "probability": 0.9990297555923462
+    },
+    {
+      "word_index": 19,
+      "word": "tell",
+      "surface": " tell",
+      "start_time_wav_s": 6.4,
+      "end_time_wav_s": 6.62,
+      "start_time_source_s": 6.4,
+      "end_time_source_s": 6.62,
+      "probability": 0.9936109185218811
+    },
+    {
+      "word_index": 20,
+      "word": "them",
+      "surface": " them",
+      "start_time_wav_s": 6.62,
+      "end_time_wav_s": 6.8,
+      "start_time_source_s": 6.62,
+      "end_time_source_s": 6.8,
+      "probability": 0.9981708526611328
+    },
+    {
+      "word_index": 21,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 6.8,
+      "end_time_wav_s": 6.94,
+      "start_time_source_s": 6.8,
+      "end_time_source_s": 6.94,
+      "probability": 0.9975733160972595
+    },
+    {
+      "word_index": 22,
+      "word": "you're",
+      "surface": " you're",
+      "start_time_wav_s": 6.94,
+      "end_time_wav_s": 7.12,
+      "start_time_source_s": 6.94,
+      "end_time_source_s": 7.12,
+      "probability": 0.972476065158844
+    },
+    {
+      "word_index": 23,
+      "word": "doing,",
+      "surface": " doing,",
+      "start_time_wav_s": 7.12,
+      "end_time_wav_s": 7.4,
+      "start_time_source_s": 7.12,
+      "end_time_source_s": 7.4,
+      "probability": 0.9988866448402405
+    },
+    {
+      "word_index": 24,
+      "word": "build",
+      "surface": " build",
+      "start_time_wav_s": 7.52,
+      "end_time_wav_s": 7.86,
+      "start_time_source_s": 7.52,
+      "end_time_source_s": 7.86,
+      "probability": 0.9883367419242859
+    },
+    {
+      "word_index": 25,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 7.86,
+      "end_time_wav_s": 8.02,
+      "start_time_source_s": 7.86,
+      "end_time_source_s": 8.02,
+      "probability": 0.9958796501159668
+    },
+    {
+      "word_index": 26,
+      "word": "little",
+      "surface": " little",
+      "start_time_wav_s": 8.02,
+      "end_time_wav_s": 8.2,
+      "start_time_source_s": 8.02,
+      "end_time_source_s": 8.2,
+      "probability": 0.9994926452636719
+    },
+    {
+      "word_index": 27,
+      "word": "excitement,",
+      "surface": " excitement,",
+      "start_time_wav_s": 8.2,
+      "end_time_wav_s": 8.7,
+      "start_time_source_s": 8.2,
+      "end_time_source_s": 8.7,
+      "probability": 0.9974033236503601
+    },
+    {
+      "word_index": 28,
+      "word": "put",
+      "surface": " put",
+      "start_time_wav_s": 9.12,
+      "end_time_wav_s": 9.52,
+      "start_time_source_s": 9.12,
+      "end_time_source_s": 9.52,
+      "probability": 0.9940181970596313
+    },
+    {
+      "word_index": 29,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 9.52,
+      "end_time_wav_s": 9.62,
+      "start_time_source_s": 9.52,
+      "end_time_source_s": 9.62,
+      "probability": 0.9939746260643005
+    },
+    {
+      "word_index": 30,
+      "word": "little",
+      "surface": " little",
+      "start_time_wav_s": 9.62,
+      "end_time_wav_s": 9.8,
+      "start_time_source_s": 9.62,
+      "end_time_source_s": 9.8,
+      "probability": 0.9989369511604309
+    },
+    {
+      "word_index": 31,
+      "word": "glitz",
+      "surface": " glitz",
+      "start_time_wav_s": 9.8,
+      "end_time_wav_s": 10.1,
+      "start_time_source_s": 9.8,
+      "end_time_source_s": 10.1,
+      "probability": 0.9014515280723572
+    },
+    {
+      "word_index": 32,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 10.1,
+      "end_time_wav_s": 10.32,
+      "start_time_source_s": 10.1,
+      "end_time_source_s": 10.32,
+      "probability": 0.9974595904350281
+    },
+    {
+      "word_index": 33,
+      "word": "there,",
+      "surface": " there,",
+      "start_time_wav_s": 10.32,
+      "end_time_wav_s": 10.6,
+      "start_time_source_s": 10.32,
+      "end_time_source_s": 10.6,
+      "probability": 0.9940365552902222
+    },
+    {
+      "word_index": 34,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 10.88,
+      "end_time_wav_s": 11.36,
+      "start_time_source_s": 10.88,
+      "end_time_source_s": 11.36,
+      "probability": 0.9929868578910828
+    },
+    {
+      "word_index": 35,
+      "word": "let",
+      "surface": " let",
+      "start_time_wav_s": 11.36,
+      "end_time_wav_s": 11.66,
+      "start_time_source_s": 11.36,
+      "end_time_source_s": 11.66,
+      "probability": 0.9983898401260376
+    },
+    {
+      "word_index": 36,
+      "word": "everybody",
+      "surface": " everybody",
+      "start_time_wav_s": 11.66,
+      "end_time_wav_s": 11.9,
+      "start_time_source_s": 11.66,
+      "end_time_source_s": 11.9,
+      "probability": 0.9936447143554688
+    },
+    {
+      "word_index": 37,
+      "word": "know",
+      "surface": " know",
+      "start_time_wav_s": 11.9,
+      "end_time_wav_s": 12.3,
+      "start_time_source_s": 11.9,
+      "end_time_source_s": 12.3,
+      "probability": 0.9993294477462769
+    },
+    {
+      "word_index": 38,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 12.3,
+      "end_time_wav_s": 12.86,
+      "start_time_source_s": 12.3,
+      "end_time_source_s": 12.86,
+      "probability": 0.7359920144081116
+    },
+    {
+      "word_index": 39,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 12.86,
+      "end_time_wav_s": 13.04,
+      "start_time_source_s": 12.86,
+      "end_time_source_s": 13.04,
+      "probability": 0.9974237680435181
+    },
+    {
+      "word_index": 40,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 13.04,
+      "end_time_wav_s": 13.22,
+      "start_time_source_s": 13.04,
+      "end_time_source_s": 13.22,
+      "probability": 0.9989596605300903
+    },
+    {
+      "word_index": 41,
+      "word": "very",
+      "surface": " very",
+      "start_time_wav_s": 13.22,
+      "end_time_wav_s": 13.54,
+      "start_time_source_s": 13.22,
+      "end_time_source_s": 13.54,
+      "probability": 0.9981710910797119
+    },
+    {
+      "word_index": 42,
+      "word": "valuable",
+      "surface": " valuable",
+      "start_time_wav_s": 13.54,
+      "end_time_wav_s": 14.04,
+      "start_time_source_s": 13.54,
+      "end_time_source_s": 14.04,
+      "probability": 0.9990547299385071
+    },
+    {
+      "word_index": 43,
+      "word": "spot.",
+      "surface": " spot.",
+      "start_time_wav_s": 14.04,
+      "end_time_wav_s": 14.48,
+      "start_time_source_s": 14.04,
+      "end_time_source_s": 14.48,
+      "probability": 0.9980006814002991
+    },
+    {
+      "word_index": 44,
+      "word": "This",
+      "surface": " This",
+      "start_time_wav_s": 14.68,
+      "end_time_wav_s": 14.78,
+      "start_time_source_s": 14.68,
+      "end_time_source_s": 14.78,
+      "probability": 0.92557293176651
+    },
+    {
+      "word_index": 45,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 14.78,
+      "end_time_wav_s": 14.98,
+      "start_time_source_s": 14.78,
+      "end_time_source_s": 14.98,
+      "probability": 0.989313542842865
+    },
+    {
+      "word_index": 46,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 14.98,
+      "end_time_wav_s": 15.08,
+      "start_time_source_s": 14.98,
+      "end_time_source_s": 15.08,
+      "probability": 0.6381784677505493
+    },
+    {
+      "word_index": 47,
+      "word": "to...",
+      "surface": " to...",
+      "start_time_wav_s": 15.08,
+      "end_time_wav_s": 15.08,
+      "start_time_source_s": 15.08,
+      "end_time_source_s": 15.08,
+      "probability": 0.44721001386642456
+    }
+  ],
+  "word_count": 47,
+  "mean_word_probability": 0.9495238966130196,
+  "issues": [],
+  "official_transcript_loaded": false
+}

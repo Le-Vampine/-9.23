@@ -1,0 +1,13 @@
+{
+  "tag": "a0_plain",
+  "split": "valid",
+  "clean": {
+    "mae": 0.6009735465049744,
+    "pearson": 0.6303641667588172,
+    "acc": 0.6002747252747253,
+    "macro_f1": 0.5932281724742269
+  },
+  "ckpts": [
+    "D:\\数学建模\\数学建模\\runs\\ablate_a0_plain\\student_s42.pt"
+  ]
+}

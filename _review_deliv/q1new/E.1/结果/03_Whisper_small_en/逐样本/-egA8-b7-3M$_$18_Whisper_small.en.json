@@ -1,0 +1,263 @@
+{
+  "sample_id": "-egA8-b7-3M$_$18",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$18.wav",
+  "audio_sha256": "252a59173d796db14c773892148c4c3a9dafee9cc0bc5f434d61e5a4c4b6ac1c",
+  "audio_duration_s": 8.2656875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "It becomes easier at each one of these conferences to connect with people that you've met or that you're doing business with.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.78,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.78,
+      "text": " It becomes easier at each one of these conferences to connect with people that you've met or that you're doing business with.",
+      "no_speech_probability": 0.006611797958612442,
+      "average_log_probability": -0.1684933097234794
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "It",
+      "surface": " It",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.62,
+      "probability": 0.7268560528755188
+    },
+    {
+      "word_index": 2,
+      "word": "becomes",
+      "surface": " becomes",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 1.04,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 1.04,
+      "probability": 0.9885627031326294
+    },
+    {
+      "word_index": 3,
+      "word": "easier",
+      "surface": " easier",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 1.7,
+      "probability": 0.9974601864814758
+    },
+    {
+      "word_index": 4,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 2.04,
+      "probability": 0.9802156090736389
+    },
+    {
+      "word_index": 5,
+      "word": "each",
+      "surface": " each",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.28,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.28,
+      "probability": 0.9969612956047058
+    },
+    {
+      "word_index": 6,
+      "word": "one",
+      "surface": " one",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.54,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.54,
+      "probability": 0.9931913018226624
+    },
+    {
+      "word_index": 7,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.54,
+      "end_time_wav_s": 2.68,
+      "start_time_source_s": 2.54,
+      "end_time_source_s": 2.68,
+      "probability": 0.9970695972442627
+    },
+    {
+      "word_index": 8,
+      "word": "these",
+      "surface": " these",
+      "start_time_wav_s": 2.68,
+      "end_time_wav_s": 2.86,
+      "start_time_source_s": 2.68,
+      "end_time_source_s": 2.86,
+      "probability": 0.9929938912391663
+    },
+    {
+      "word_index": 9,
+      "word": "conferences",
+      "surface": " conferences",
+      "start_time_wav_s": 2.86,
+      "end_time_wav_s": 3.42,
+      "start_time_source_s": 2.86,
+      "end_time_source_s": 3.42,
+      "probability": 0.9882297515869141
+    },
+    {
+      "word_index": 10,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.42,
+      "end_time_wav_s": 4.22,
+      "start_time_source_s": 3.42,
+      "end_time_source_s": 4.22,
+      "probability": 0.9607798457145691
+    },
+    {
+      "word_index": 11,
+      "word": "connect",
+      "surface": " connect",
+      "start_time_wav_s": 4.22,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.22,
+      "end_time_source_s": 4.54,
+      "probability": 0.9977315068244934
+    },
+    {
+      "word_index": 12,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 4.78,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 4.78,
+      "probability": 0.9960099458694458
+    },
+    {
+      "word_index": 13,
+      "word": "people",
+      "surface": " people",
+      "start_time_wav_s": 4.78,
+      "end_time_wav_s": 5.12,
+      "start_time_source_s": 4.78,
+      "end_time_source_s": 5.12,
+      "probability": 0.9955230951309204
+    },
+    {
+      "word_index": 14,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 5.12,
+      "end_time_wav_s": 5.36,
+      "start_time_source_s": 5.12,
+      "end_time_source_s": 5.36,
+      "probability": 0.9185660481452942
+    },
+    {
+      "word_index": 15,
+      "word": "you've",
+      "surface": " you've",
+      "start_time_wav_s": 5.36,
+      "end_time_wav_s": 5.62,
+      "start_time_source_s": 5.36,
+      "end_time_source_s": 5.62,
+      "probability": 0.9568167626857758
+    },
+    {
+      "word_index": 16,
+      "word": "met",
+      "surface": " met",
+      "start_time_wav_s": 5.62,
+      "end_time_wav_s": 5.88,
+      "start_time_source_s": 5.62,
+      "end_time_source_s": 5.88,
+      "probability": 0.9981405735015869
+    },
+    {
+      "word_index": 17,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 5.88,
+      "end_time_wav_s": 6.5,
+      "start_time_source_s": 5.88,
+      "end_time_source_s": 6.5,
+      "probability": 0.8497495055198669
+    },
+    {
+      "word_index": 18,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 6.5,
+      "end_time_wav_s": 6.68,
+      "start_time_source_s": 6.5,
+      "end_time_source_s": 6.68,
+      "probability": 0.98544842004776
+    },
+    {
+      "word_index": 19,
+      "word": "you're",
+      "surface": " you're",
+      "start_time_wav_s": 6.68,
+      "end_time_wav_s": 6.84,
+      "start_time_source_s": 6.68,
+      "end_time_source_s": 6.84,
+      "probability": 0.9772046804428101
+    },
+    {
+      "word_index": 20,
+      "word": "doing",
+      "surface": " doing",
+      "start_time_wav_s": 6.84,
+      "end_time_wav_s": 7.06,
+      "start_time_source_s": 6.84,
+      "end_time_source_s": 7.06,
+      "probability": 0.9982206225395203
+    },
+    {
+      "word_index": 21,
+      "word": "business",
+      "surface": " business",
+      "start_time_wav_s": 7.06,
+      "end_time_wav_s": 7.44,
+      "start_time_source_s": 7.06,
+      "end_time_source_s": 7.44,
+      "probability": 0.9966369867324829
+    },
+    {
+      "word_index": 22,
+      "word": "with.",
+      "surface": " with.",
+      "start_time_wav_s": 7.44,
+      "end_time_wav_s": 7.78,
+      "start_time_source_s": 7.44,
+      "end_time_source_s": 7.78,
+      "probability": 0.9966899156570435
+    }
+  ],
+  "word_count": 22,
+  "mean_word_probability": 0.9676844680851157,
+  "issues": [],
+  "official_transcript_loaded": false
+}

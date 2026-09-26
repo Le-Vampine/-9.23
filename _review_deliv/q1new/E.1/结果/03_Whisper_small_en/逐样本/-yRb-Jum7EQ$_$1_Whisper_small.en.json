@@ -1,0 +1,33 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$1",
+  "status": "已运行但无文本输出",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-yRb-Jum7EQ$_$1.wav",
+  "audio_sha256": "d353ca94fd37918b5c140db651fa3fed02eb2562d8b11fc4b92a76354d371172",
+  "audio_duration_s": 29.109,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "",
+  "segments": [],
+  "word_timestamps": [],
+  "word_count": 0,
+  "mean_word_probability": null,
+  "issues": [
+    "Whisper 未输出文本"
+  ],
+  "official_transcript_loaded": false
+}

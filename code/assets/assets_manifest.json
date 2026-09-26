@@ -1,0 +1,8 @@
+{
+  "file": "bert-base-uncased_vocab.txt",
+  "source_url": "https://hf-mirror.com/bert-base-uncased/resolve/main/vocab.txt",
+  "lines": 30522,
+  "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "purpose": "text_bert token id -> wordpiece 解码（证据定位）",
+  "note": "静态分词词表，非情感数据集；行号即 token id"
+}

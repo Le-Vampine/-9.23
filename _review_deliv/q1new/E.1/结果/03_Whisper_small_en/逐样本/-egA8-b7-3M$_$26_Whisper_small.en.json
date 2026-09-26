@@ -1,0 +1,203 @@
+{
+  "sample_id": "-egA8-b7-3M$_$26",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$26.wav",
+  "audio_sha256": "f0e8548d55954536889313d95eddab0f0f841b2c6e8cf193fe550798ccaa8254",
+  "audio_duration_s": 5.92,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "We are updating it all the time and looking forward to your comments on our videos.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.06,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.06,
+      "text": " We are updating it all the time and looking forward to your comments on our videos.",
+      "no_speech_probability": 0.05383290350437164,
+      "average_log_probability": -0.2098040372133255
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "We",
+      "surface": " We",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.6,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.6,
+      "probability": 0.8038239479064941
+    },
+    {
+      "word_index": 2,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.7,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.7,
+      "probability": 0.40465039014816284
+    },
+    {
+      "word_index": 3,
+      "word": "updating",
+      "surface": " updating",
+      "start_time_wav_s": 0.7,
+      "end_time_wav_s": 1.08,
+      "start_time_source_s": 0.7,
+      "end_time_source_s": 1.08,
+      "probability": 0.9720376133918762
+    },
+    {
+      "word_index": 4,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 1.08,
+      "end_time_wav_s": 1.3,
+      "start_time_source_s": 1.08,
+      "end_time_source_s": 1.3,
+      "probability": 0.8832579255104065
+    },
+    {
+      "word_index": 5,
+      "word": "all",
+      "surface": " all",
+      "start_time_wav_s": 1.3,
+      "end_time_wav_s": 1.52,
+      "start_time_source_s": 1.3,
+      "end_time_source_s": 1.52,
+      "probability": 0.9910500049591064
+    },
+    {
+      "word_index": 6,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 1.52,
+      "end_time_wav_s": 1.68,
+      "start_time_source_s": 1.52,
+      "end_time_source_s": 1.68,
+      "probability": 0.9489180445671082
+    },
+    {
+      "word_index": 7,
+      "word": "time",
+      "surface": " time",
+      "start_time_wav_s": 1.68,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.68,
+      "end_time_source_s": 2.04,
+      "probability": 0.9989334940910339
+    },
+    {
+      "word_index": 8,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.58,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.58,
+      "probability": 0.8036439418792725
+    },
+    {
+      "word_index": 9,
+      "word": "looking",
+      "surface": " looking",
+      "start_time_wav_s": 2.58,
+      "end_time_wav_s": 2.86,
+      "start_time_source_s": 2.58,
+      "end_time_source_s": 2.86,
+      "probability": 0.895165741443634
+    },
+    {
+      "word_index": 10,
+      "word": "forward",
+      "surface": " forward",
+      "start_time_wav_s": 2.86,
+      "end_time_wav_s": 3.18,
+      "start_time_source_s": 2.86,
+      "end_time_source_s": 3.18,
+      "probability": 0.9941310286521912
+    },
+    {
+      "word_index": 11,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.18,
+      "end_time_wav_s": 3.48,
+      "start_time_source_s": 3.18,
+      "end_time_source_s": 3.48,
+      "probability": 0.9887464642524719
+    },
+    {
+      "word_index": 12,
+      "word": "your",
+      "surface": " your",
+      "start_time_wav_s": 3.48,
+      "end_time_wav_s": 3.7,
+      "start_time_source_s": 3.48,
+      "end_time_source_s": 3.7,
+      "probability": 0.9842801094055176
+    },
+    {
+      "word_index": 13,
+      "word": "comments",
+      "surface": " comments",
+      "start_time_wav_s": 3.7,
+      "end_time_wav_s": 4.12,
+      "start_time_source_s": 3.7,
+      "end_time_source_s": 4.12,
+      "probability": 0.9732089042663574
+    },
+    {
+      "word_index": 14,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 4.12,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.12,
+      "end_time_source_s": 4.54,
+      "probability": 0.9750900268554688
+    },
+    {
+      "word_index": 15,
+      "word": "our",
+      "surface": " our",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 4.68,
+      "probability": 0.9684415459632874
+    },
+    {
+      "word_index": 16,
+      "word": "videos.",
+      "surface": " videos.",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 5.06,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 5.06,
+      "probability": 0.9641200304031372
+    }
+  ],
+  "word_count": 16,
+  "mean_word_probability": 0.9093437008559704,
+  "issues": [],
+  "official_transcript_loaded": false
+}

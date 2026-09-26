@@ -20,8 +20,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from config import get_config                                  # noqa: E402
 from data_utils import load_all, MoseiDataset, collate, describe  # noqa: E402
 from missing_sim import (inject_missing, batch_missing_ratios,   # noqa: E402
-                         make_scenario_masks, crop_batch)
-from model import MRFNet                                        # noqa: E402
+                         make_scenario_masks, crop_batch,
+                         inject_modality_dropout)
+from model import MRFNet, PlainFusion                             # noqa: E402
 from losses import (total_loss, compute_metrics, tune_threshold,  # noqa: E402
                     format_metrics)
 
@@ -60,6 +61,17 @@ def ensure_valid(pad):
     return torch.where(allpad, torch.zeros_like(pad), pad)
 
 
+def mask_feed(b, cfg, unaware=False):
+    """模型看到的"缺失指示"。
+
+    unaware=True（推理期 A0 基线）或 cfg.ablate_mask_indicator=True（A2 消融，训练期也不给）
+    时，把指示位置零：特征仍在缺失位被置零，但模型不知道"那段是缺失的"。
+    """
+    if unaware or getattr(cfg, "ablate_mask_indicator", False):
+        return {m: torch.zeros_like(b["miss"][m]) for m in MODALITIES}
+    return b["miss"]
+
+
 def stack_masks(b):
     M = torch.stack([b["miss"][m] for m in MODALITIES], dim=-1)
     P = torch.stack([b["pad"][m] for m in MODALITIES], dim=-1)
@@ -84,7 +96,8 @@ def curriculum(epoch, cfg):
 
 # --------------------------------------------------------------------------
 def run_epoch(model, loader, cfg, device, optimizer=None, teacher=None,
-              lam_kd=0.0, inject_cfg=None, rng=None):
+              lam_kd=0.0, inject_cfg=None, rng=None, ema=None, ema_decay=0.995,
+              epoch=None):
     train = optimizer is not None
     model.train(train)
     if teacher is not None:
@@ -103,14 +116,28 @@ def run_epoch(model, loader, cfg, device, optimizer=None, teacher=None,
                 b["x"][m] = b["x"][m] + torch.randn_like(b["x"][m]) * sig
         M, P = stack_masks(b)
         if inject_cfg is not None:
+            mix = None
+            if getattr(cfg, "rho_mix", None):
+                ep = 10 ** 9 if epoch is None else int(epoch)
+                if ep >= int(getattr(cfg, "rho_mix_epoch", 1) or 1):
+                    mix = cfg.rho_mix
             M2, _ = inject_missing(M, P, inject_cfg[0], inject_cfg[1],
                                    inject_cfg[2], tuple(cfg.pos_modes), rng=rng,
-                                   n_intervals=tuple(getattr(cfg, "n_intervals", (1, 3))))
+                                   n_intervals=tuple(getattr(cfg, "n_intervals", (1, 3))),
+                                   rho_mix=mix)
             M = M2
+        if train and getattr(cfg, "mod_dropout", 0.0) > 0:
+            M = inject_modality_dropout(M, P, cfg.mod_dropout, rng=rng, n_mods=1)
         unstack_masks(b, M)
 
         with torch.set_grad_enabled(train):
-            mu, logvar, logits, aux = model(b["x"], b["miss"], b["pad"], return_aux=True)
+            ac = autocast_ctx(cfg)
+            if ac is None:
+                mu, logvar, logits, aux = model(b["x"], mask_feed(b, cfg), b["pad"], return_aux=True)
+            else:
+                with ac:
+                    mu, logvar, logits, aux = model(b["x"], mask_feed(b, cfg), b["pad"], return_aux=True)
+                mu, logvar, logits, aux = _to_fp32(mu), _to_fp32(logvar), _to_fp32(logits), _to_fp32(aux)
             out = dict(aux)
             out.update(mu=mu, logvar=logvar, logits=logits)
 
@@ -118,8 +145,13 @@ def run_epoch(model, loader, cfg, device, optimizer=None, teacher=None,
             if teacher is not None and lam_kd > 0:
                 with torch.no_grad():
                     zero = {m: torch.zeros_like(b["miss"][m]) for m in MODALITIES}
-                    t_mu, _, t_logits, t_aux = teacher(x_full, zero, b["pad"], return_aux=True)
-                    t_out = dict(mu=t_mu, logits=t_logits, z=t_aux["z"])
+                    if ac is None:
+                        t_mu, _, t_logits, t_aux = teacher(x_full, zero, b["pad"], return_aux=True)
+                    else:
+                        with ac:
+                            t_mu, _, t_logits, t_aux = teacher(x_full, zero, b["pad"], return_aux=True)
+                        t_mu, t_logits = t_mu.float(), t_logits.float()
+                    t_out = dict(mu=t_mu, logits=t_logits, z=t_aux["z"].float())
 
             loss, det = total_loss(out, b, cfg, lam_kd=lam_kd, teacher_out=t_out)
 
@@ -128,6 +160,15 @@ def run_epoch(model, loader, cfg, device, optimizer=None, teacher=None,
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), cfg.grad_clip)
             optimizer.step()
+            if ema is not None:                     # 权重指数移动平均
+                with torch.no_grad():
+                    sd = model.state_dict()
+                    for k in ema:
+                        v = sd[k]
+                        if v.dtype.is_floating_point:
+                            ema[k].mul_(ema_decay).add_(v.detach().float(), alpha=1.0 - ema_decay)
+                        else:
+                            ema[k].copy_(v.detach())
 
         tot += float(loss.detach())
         cnt += 1
@@ -139,6 +180,7 @@ def run_epoch(model, loader, cfg, device, optimizer=None, teacher=None,
 @torch.no_grad()
 def predict(model, loader, cfg, device, split=None, scenario=None, unaware=False):
     model.eval()
+    ac = autocast_ctx(cfg)
     S, CL, YR, YC, ID, RH = [], [], [], [], [], []
     for batch in loader:
         b = prep(batch, device)
@@ -147,9 +189,13 @@ def predict(model, loader, cfg, device, split=None, scenario=None, unaware=False
             mtype, pos, rho = scenario
             M = make_scenario_masks(M, P, mtype, pos, rho, seed=1234)
         unstack_masks(b, M)
-        feed = ({m: torch.zeros_like(b["miss"][m]) for m in MODALITIES}
-                if unaware else b["miss"])
-        mu, _, logits = model(b["x"], feed, b["pad"])
+        feed = mask_feed(b, cfg, unaware=unaware)
+        if ac is None:
+            mu, _, logits = model(b["x"], feed, b["pad"])
+        else:
+            with ac:
+                mu, _, logits = model(b["x"], feed, b["pad"])
+            mu, logits = mu.float(), logits.float()
         S.append(mu.cpu().numpy())
         CL.append(logits.cpu().numpy())
         YR.append(b["y_reg"].cpu().numpy())
@@ -174,10 +220,47 @@ def report(pred, theta, tag=""):
 
 # --------------------------------------------------------------------------
 def build_model(cfg, dims):
+    kind = getattr(cfg, "model_kind", "mrf")
+    if kind == "plain":
+        # A0/A1 基线：朴素拼接 + MLP；--ablate_mask 时连“缺失指示”这一输入通道也不给
+        return PlainFusion(dims=dims, hidden=cfg.hidden, dropout=cfg.dropout,
+                           target_len=cfg.target_len,
+                           use_indicator=not getattr(cfg, "ablate_mask_indicator", False)).to(cfg.device)
     return MRFNet(dims=dims, hidden=cfg.hidden, nhead=cfg.nhead,
                   enc_layers=cfg.enc_layers, n_experts=cfg.n_experts,
                   dropout=cfg.dropout, downs=cfg.down_factor_map,
-                  target_len=cfg.target_len).to(cfg.device)
+                  target_len=cfg.target_len,
+                  mag_levels=int(getattr(cfg, "mag_levels", 0) or 0),
+                  ms_pool=bool(getattr(cfg, "ms_pool", False)),
+                  ms_windows=tuple(getattr(cfg, "ms_windows", (5, 25, 50))),
+                  use_pol=float(getattr(cfg, "lam_pol", 0.0) or 0.0) > 0).to(cfg.device)
+
+
+def autocast_ctx(cfg):
+    """CPU bfloat16 autocast 上下文（本机 AMD Zen5 支持 AVX512-BF16）。
+
+    注意：CPU 上 PyTorch 的“半精度加速”是 **bfloat16** 而不是 float16
+    （AVX512-FP16 仅 Intel Sapphire Rapids 有；AMD 无 fp16 原生通路）。
+    bf16 与 fp32 动态范围相同（8 位指数），无需 GradScaler。
+    """
+    if not getattr(cfg, "bf16", False):
+        return None
+    try:
+        return torch.autocast(device_type="cpu", dtype=torch.bfloat16)
+    except Exception as e:                                   # pragma: no cover
+        print("[WARN] bf16 autocast 不可用：%s" % e)
+        return None
+
+
+def _to_fp32(obj):
+    """把模型输出递归转回 float32，保证自定义损失在 fp32 下计算（可预测、无精度噪声）。"""
+    if torch.is_tensor(obj):
+        return obj.float() if obj.dtype.is_floating_point else obj
+    if isinstance(obj, dict):
+        return {k: _to_fp32(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return type(obj)(_to_fp32(v) for v in obj)
+    return obj
 
 
 def run_experiment(cfg, seed, data):
@@ -241,19 +324,36 @@ def run_experiment(cfg, seed, data):
         weight_decay=cfg.weight_decay)
     sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=max(1, cfg.epochs_student))
     use_kd = getattr(cfg, "use_distill", True)
+    ema = None
+    if getattr(cfg, "ema", False):
+        ema = {k: v.detach().clone().float() for k, v in student.state_dict().items()}
+        print("[EMA] 启用权重滑动平均，decay=%.4f" % getattr(cfg, "ema_decay", 0.995))
     best_mae, best_state, bad = 1e9, None, 0
     for ep in range(1, cfg.epochs_student + 1):
         t0 = time.time()
         r0, r1, mode = curriculum(ep, cfg)
+        if getattr(cfg, "ablate_inject", False):        # A0：干净数据训练，不注入缺失
+            inject_cfg = None
+        else:
+            inject_cfg = (r0, r1, mode)
         if use_kd and ep > cfg.kd_warmup:
             lam_kd = cfg.lam_kd0 * float(np.exp(-(ep - 1 - cfg.kd_warmup) / cfg.kd_decay_epochs))
         else:
             lam_kd = 0.0
         l, det = run_epoch(student, train_loader, cfg, cfg.device, optimizer=opt,
-                           teacher=teacher, lam_kd=lam_kd, inject_cfg=(r0, r1, mode),
-                           rng=np.random.default_rng(seed * 1000 + ep))
+                           teacher=teacher, lam_kd=lam_kd, inject_cfg=inject_cfg,
+                           rng=np.random.default_rng(seed * 1000 + ep),
+                           ema=ema, ema_decay=float(getattr(cfg, "ema_decay", 0.995)),
+                           epoch=ep)
         sched.step()
-        pv = predict(student, valid_loader, cfg, cfg.device, split=va)
+        if ema is not None:
+            _bk = {k: v.detach().clone() for k, v in student.state_dict().items()}
+            dt = next(student.parameters()).dtype
+            student.load_state_dict({k: v.to(dt) for k, v in ema.items()})
+            pv = predict(student, valid_loader, cfg, cfg.device, split=va)
+            student.load_state_dict(_bk)
+        else:
+            pv = predict(student, valid_loader, cfg, cfg.device, split=va)
         mae = float(np.abs(pv["y_reg"] - pv["score"]).mean())
         print("[S ep%02d] loss=%.4f mae=%.4f rec=%.4f kd=%.4f | rho~[%.2f,%.2f] %s (%.1fs)"
               % (ep, l, mae, det.get("rec", 0.0), det.get("kd", 0.0), r0, r1, mode, time.time() - t0))
@@ -269,6 +369,7 @@ def run_experiment(cfg, seed, data):
                 break
     if best_state is not None:
         student.load_state_dict(best_state)
+    print("[S] best valid MAE = %.4f%s" % (best_mae, "（EMA 权重）" if ema is not None else ""))
 
     # ---------------- 3) 阈值选择 + 评价 ----------------
     pv = predict(student, valid_loader, cfg, cfg.device, split=va)
@@ -326,7 +427,11 @@ def run_experiment(cfg, seed, data):
     if getattr(cfg, "save_half", False):
         state = {k: (v.half() if v.is_floating_point() else v) for k, v in state.items()}
     torch.save(dict(state=state, dims=dims, theta=theta,
-                    stats=tr["stats"], cfg=cfg.__dict__,
+                    stats=tr["stats"], cfg=cfg.__dict__, model_kind=getattr(cfg, "model_kind", "mrf"),
+                    mag_levels=int(getattr(cfg, "mag_levels", 0) or 0),
+                    ms_pool=bool(getattr(cfg, "ms_pool", False)),
+                    ms_windows=list(getattr(cfg, "ms_windows", (5, 25, 50))),
+                    use_pol=float(getattr(cfg, "lam_pol", 0.0) or 0.0) > 0,
                     version=cfg.version, seed=seed, half=bool(getattr(cfg, "save_half", False))), ckpt)
     print("[SAVE] %s (%.2f MB)" % (ckpt, os.path.getsize(ckpt) / 1e6))
     import pandas as pd

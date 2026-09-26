@@ -1,0 +1,263 @@
+{
+  "sample_id": "-vxjVxOeScU$_$4",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-vxjVxOeScU$_$4.wav",
+  "audio_sha256": "68ce163e96d1d062b8fa0fd31fc26929b2a2ccdf87e0a1cac94527c5e6d3137f",
+  "audio_duration_s": 9.037,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "You're going to talk about their life, their marriage, and usually how amazing it is that they've stayed together this long.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.94,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.94,
+      "text": " You're going to talk about their life, their marriage, and usually how amazing it is that",
+      "no_speech_probability": 0.08122637867927551,
+      "average_log_probability": -0.2263436154011757
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 6.94,
+      "end_time_wav_s": 8.46,
+      "start_time_source_s": 6.94,
+      "end_time_source_s": 8.46,
+      "text": " they've stayed together this long.",
+      "no_speech_probability": 0.08122637867927551,
+      "average_log_probability": -0.2263436154011757
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "You're",
+      "surface": " You're",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.68,
+      "probability": 0.6806266605854034
+    },
+    {
+      "word_index": 2,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.7,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.7,
+      "probability": 0.7892019748687744
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.7,
+      "end_time_wav_s": 0.82,
+      "start_time_source_s": 0.7,
+      "end_time_source_s": 0.82,
+      "probability": 0.9976886510848999
+    },
+    {
+      "word_index": 4,
+      "word": "talk",
+      "surface": " talk",
+      "start_time_wav_s": 0.82,
+      "end_time_wav_s": 1.04,
+      "start_time_source_s": 0.82,
+      "end_time_source_s": 1.04,
+      "probability": 0.993590235710144
+    },
+    {
+      "word_index": 5,
+      "word": "about",
+      "surface": " about",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 1.5,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 1.5,
+      "probability": 0.9980500936508179
+    },
+    {
+      "word_index": 6,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 1.5,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.5,
+      "end_time_source_s": 2.02,
+      "probability": 0.9945363998413086
+    },
+    {
+      "word_index": 7,
+      "word": "life,",
+      "surface": " life,",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.56,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.56,
+      "probability": 0.9828973412513733
+    },
+    {
+      "word_index": 8,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 3.0,
+      "end_time_wav_s": 3.1,
+      "start_time_source_s": 3.0,
+      "end_time_source_s": 3.1,
+      "probability": 0.9952941536903381
+    },
+    {
+      "word_index": 9,
+      "word": "marriage,",
+      "surface": " marriage,",
+      "start_time_wav_s": 3.1,
+      "end_time_wav_s": 3.78,
+      "start_time_source_s": 3.1,
+      "end_time_source_s": 3.78,
+      "probability": 0.9992212057113647
+    },
+    {
+      "word_index": 10,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.52,
+      "end_time_wav_s": 4.82,
+      "start_time_source_s": 4.52,
+      "end_time_source_s": 4.82,
+      "probability": 0.9781445860862732
+    },
+    {
+      "word_index": 11,
+      "word": "usually",
+      "surface": " usually",
+      "start_time_wav_s": 4.82,
+      "end_time_wav_s": 5.28,
+      "start_time_source_s": 4.82,
+      "end_time_source_s": 5.28,
+      "probability": 0.9665372967720032
+    },
+    {
+      "word_index": 12,
+      "word": "how",
+      "surface": " how",
+      "start_time_wav_s": 5.28,
+      "end_time_wav_s": 5.78,
+      "start_time_source_s": 5.28,
+      "end_time_source_s": 5.78,
+      "probability": 0.8586033582687378
+    },
+    {
+      "word_index": 13,
+      "word": "amazing",
+      "surface": " amazing",
+      "start_time_wav_s": 5.78,
+      "end_time_wav_s": 6.2,
+      "start_time_source_s": 5.78,
+      "end_time_source_s": 6.2,
+      "probability": 0.9987190961837769
+    },
+    {
+      "word_index": 14,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 6.2,
+      "end_time_wav_s": 6.52,
+      "start_time_source_s": 6.2,
+      "end_time_source_s": 6.52,
+      "probability": 0.9920273423194885
+    },
+    {
+      "word_index": 15,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 6.52,
+      "end_time_wav_s": 6.74,
+      "start_time_source_s": 6.52,
+      "end_time_source_s": 6.74,
+      "probability": 0.9988939166069031
+    },
+    {
+      "word_index": 16,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 6.74,
+      "end_time_wav_s": 6.94,
+      "start_time_source_s": 6.74,
+      "end_time_source_s": 6.94,
+      "probability": 0.9753243923187256
+    },
+    {
+      "word_index": 17,
+      "word": "they've",
+      "surface": " they've",
+      "start_time_wav_s": 6.94,
+      "end_time_wav_s": 7.18,
+      "start_time_source_s": 6.94,
+      "end_time_source_s": 7.18,
+      "probability": 0.963934063911438
+    },
+    {
+      "word_index": 18,
+      "word": "stayed",
+      "surface": " stayed",
+      "start_time_wav_s": 7.18,
+      "end_time_wav_s": 7.4,
+      "start_time_source_s": 7.18,
+      "end_time_source_s": 7.4,
+      "probability": 0.991422712802887
+    },
+    {
+      "word_index": 19,
+      "word": "together",
+      "surface": " together",
+      "start_time_wav_s": 7.4,
+      "end_time_wav_s": 7.84,
+      "start_time_source_s": 7.4,
+      "end_time_source_s": 7.84,
+      "probability": 0.9957637786865234
+    },
+    {
+      "word_index": 20,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 7.84,
+      "end_time_wav_s": 8.1,
+      "start_time_source_s": 7.84,
+      "end_time_source_s": 8.1,
+      "probability": 0.9958497285842896
+    },
+    {
+      "word_index": 21,
+      "word": "long.",
+      "surface": " long.",
+      "start_time_wav_s": 8.1,
+      "end_time_wav_s": 8.46,
+      "start_time_source_s": 8.1,
+      "end_time_source_s": 8.46,
+      "probability": 0.9971633553504944
+    }
+  ],
+  "word_count": 21,
+  "mean_word_probability": 0.9592138259183793,
+  "issues": [],
+  "official_transcript_loaded": false
+}

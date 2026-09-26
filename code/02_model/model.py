@@ -83,12 +83,17 @@ class Expert(nn.Module):
 
 class MRFNet(nn.Module):
     def __init__(self, dims, hidden=128, nhead=4, enc_layers=2, n_experts=4,
-                 dropout=0.1, downs=None, target_len=50):
+                 dropout=0.1, downs=None, target_len=50, mag_levels=0,
+                 ms_pool=False, ms_windows=(5, 25, 50), use_pol=False):
         super().__init__()
         downs = downs or {"text": 1, "audio": 1, "vision": 1}
         self.dims = dims
         self.hidden = hidden
         self.target_len = target_len
+        self.mag_levels = int(mag_levels)
+        self.ms_pool = bool(ms_pool)
+        self.ms_windows = tuple(int(w) for w in ms_windows)
+        self.use_pol = bool(use_pol)
         self.mods = list(MODALITIES)
 
         self.enc = nn.ModuleDict({
@@ -119,10 +124,51 @@ class MRFNet(nn.Module):
         self.head_lv = nn.Sequential(nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, 1))
         self.head_cls = nn.Sequential(nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, 3))
 
+        # --- 强度分级辅助头（CORAL 有序回归：K-1 个累计 logit）---
+        # 动机（实测）：61.7% 的样本 |y|<=2/3（弱标注）而 ACC 仅 0.486；|y|=1/3 层
+        # ACC 更低至 0.361 —— 模型分不清“完全中性”与“轻微极性”。该头把 |y| 离散为
+        # K 个等级（步长 1/3）做有序回归，强制模型在零点附近建立分辨率。
+        if self.mag_levels > 1:
+            self.mag_w = nn.Linear(hidden, 1, bias=False)
+            self.mag_b = nn.Parameter(torch.linspace(-1.5, 1.5, self.mag_levels - 1))
+
+        # --- 多尺度时间池化（补足单层注意力池化“过于均匀”的问题）---
+        # 实测：帧注意力熵 3.86 / 上限 3.91 ≈ 均匀，说明注意力没聚焦到关键片段。
+        # 改为“多窗口掩码均值池化 + 线性投影”，并与注意力池化残差相加。
+        if self.ms_pool:
+            T = 3 * int(target_len)          # 三模态拼接后的 token 长度
+            nseg = sum(max(1, T // w) for w in self.ms_windows)
+            self._ms_nseg = nseg
+            self._ms_T = T
+            self.ms_proj = nn.Linear(nseg * hidden, hidden)
+
+        # --- 二分类极性辅助头（对齐文献 Acc-2 的做法）---
+        if self.use_pol:
+            self.head_pol = nn.Linear(hidden, 1)
+
     # ------------------------------------------------------------------
+    def _masked_win_pool(self, h, pad):
+        """多窗口掩码均值池化：把时间轴切成若干段，段内对非填充位置求均值。
+
+        h:(B,T,H)  pad:(B,T) bool(True=填充)  返回 (B, nseg*H)
+        """
+        h = h.masked_fill(pad.unsqueeze(-1), 0.0)
+        valid = (~pad).float().unsqueeze(-1)                 # (B,T,1)
+        T = h.size(1)
+        outs = []
+        for w in self.ms_windows:
+            nb = max(1, T // w)
+            seg = torch.arange(T, device=h.device) * nb // T   # 把 T 均分到 nb 段
+            for b in range(nb):
+                m = (seg == b).float().unsqueeze(0).unsqueeze(-1)   # (1,T,1)
+                s = (h * m * valid).sum(dim=1)
+                n = (m * valid).sum(dim=1).clamp(min=1.0)
+                outs.append(s / n)
+        return torch.cat(outs, dim=-1)
+
     @staticmethod
     def _availability(rho):
-        """rho:(B,3) 缺失率 -> (B,6) 可用性特征。"""
+        """rho:(B,3) 缺失率 -> (B,7) 可用性特征。"""
         n_vis = (rho < 0.999).float().sum(dim=1, keepdim=True)
         return torch.cat([rho, (rho < 0.999).float(), n_vis / 3.0], dim=1)
 
@@ -148,10 +194,12 @@ class MRFNet(nn.Module):
 
         # --- 3) 代理令牌门控 + 分解 ---
         rho = torch.stack([md[m].float().mean(dim=1) for m in self.mods], dim=1)   # (B,3)
+        beta_val = {}
         for m in self.mods:
             hm = hd[m]
             inp = torch.cat([hm.mean(dim=1), rho[:, self.mods.index(m)].unsqueeze(-1)], dim=-1)
             b = torch.sigmoid(self.beta[m](inp)).unsqueeze(1)                      # (B,1,1)
+            beta_val[m] = b.detach().view(-1)
             hm = (1 - b) * hm + b * self.proxy[m].view(1, 1, -1)
             share[m] = self.share[m](hm)
             spec[m] = self.spec[m](hm)
@@ -173,6 +221,9 @@ class MRFNet(nn.Module):
         score = self.pool_score(fused).masked_fill(tok_pad.unsqueeze(-1), -1e9)
         alpha = torch.softmax(score, dim=1)                                        # (B,T,1)
         z = (alpha * fused).sum(dim=1)
+        if self.ms_pool:
+            pooled = self._masked_win_pool(fused, tok_pad)
+            z = z + self.ms_proj(pooled)
 
         mu = self.head_mu(z).squeeze(-1)
         logvar = self.head_lv(z).squeeze(-1).clamp(-6.0, 4.0)
@@ -181,5 +232,54 @@ class MRFNet(nn.Module):
         if not return_aux:
             return mu, logvar, logits
         aux = dict(rec=rec, share=share, spec=spec, gate=g, alpha=alpha,
-                   rho=rho, hd=hd, pad_ds=pd_, miss_ds=md, z=z, mu=mu, logits=logits)
+                   rho=rho, hd=hd, pad_ds=pd_, miss_ds=md, z=z, mu=mu, logits=logits,
+                   beta=beta_val)
+        if self.mag_levels > 1:
+            aux["logits_mag"] = self.mag_w(z) + self.mag_b.view(1, -1)
+        if self.use_pol:
+            aux["pol"] = self.head_pol(z).squeeze(-1)
         return mu, logvar, logits, aux
+
+
+class PlainFusion(nn.Module):
+    """A0/A1 基线：**朴素拼接 + MLP** 融合（无掩码感知编码/重建/代理令牌/共享-特有分解/动态专家）。
+
+    用于论文消融中的“常规固定权重融合模型”对照：
+      * ``use_indicator=False`` → **A0**（完全不做缺失处理的常规模型）
+      * ``use_indicator=True``  → **A1**（仅额外告知“哪段缺失”）
+
+    接口与 :class:`MRFNet` 完全一致（``forward`` 返回 ``mu/logvar/logits[+aux]``），
+    因此可直接复用 train/runtime/infer 的全部代码。
+    """
+
+    def __init__(self, dims, hidden=128, nhead=4, enc_layers=2, n_experts=4,
+                 dropout=0.1, downs=None, target_len=50, use_indicator=True):
+        super().__init__()
+        self.mods = list(MODALITIES)
+        self.use_indicator = bool(use_indicator)
+        d_in = sum(int(dims[m]) for m in self.mods)
+        if self.use_indicator:
+            d_in += 2 * len(self.mods)          # 每模态：缺失率 + 可见率
+        self.net = nn.Sequential(
+            nn.Linear(d_in, hidden), nn.GELU(), nn.Dropout(dropout),
+            nn.Linear(hidden, hidden), nn.GELU())
+        self.head_mu = nn.Sequential(nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, 1))
+        self.head_lv = nn.Sequential(nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, 1))
+        self.head_cls = nn.Sequential(nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, 3))
+
+    def forward(self, x, miss, pad, return_aux=False):
+        feats = []
+        for m in self.mods:
+            v = (~pad[m]).float().unsqueeze(-1)                     # (B,L,1)
+            pooled = (x[m] * v).sum(dim=1) / v.sum(dim=1).clamp(min=1.0)   # 有效位均值池化
+            feats.append(pooled)
+            if self.use_indicator:
+                mval = (miss[m] & ~pad[m]).float().mean(dim=1, keepdim=True)
+                feats += [mval, 1.0 - mval]
+        h = self.net(torch.cat(feats, dim=-1))
+        mu = self.head_mu(h).squeeze(-1)
+        logvar = self.head_lv(h).squeeze(-1).clamp(-6.0, 4.0)
+        logits = self.head_cls(h)
+        if not return_aux:
+            return mu, logvar, logits
+        return mu, logvar, logits, dict(z=h)

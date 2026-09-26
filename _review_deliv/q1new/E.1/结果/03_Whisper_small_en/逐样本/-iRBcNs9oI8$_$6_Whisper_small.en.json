@@ -1,0 +1,133 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-iRBcNs9oI8$_$6.wav",
+  "audio_sha256": "54c9879874fa8fe072f2f0540c986646a912b1b4072dc4eec693fb226c498a81",
+  "audio_duration_s": 2.8204375,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "help you if you have an English job interview.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.38,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.38,
+      "text": " help you if you have an English job interview.",
+      "no_speech_probability": 0.020093338564038277,
+      "average_log_probability": -0.24548685550689697
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "help",
+      "surface": " help",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.18,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.18,
+      "probability": 0.84339439868927
+    },
+    {
+      "word_index": 2,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 0.18,
+      "end_time_wav_s": 0.32,
+      "start_time_source_s": 0.18,
+      "end_time_source_s": 0.32,
+      "probability": 0.9968319535255432
+    },
+    {
+      "word_index": 3,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 0.32,
+      "end_time_wav_s": 0.52,
+      "start_time_source_s": 0.32,
+      "end_time_source_s": 0.52,
+      "probability": 0.9715574979782104
+    },
+    {
+      "word_index": 4,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 0.52,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.52,
+      "end_time_source_s": 0.64,
+      "probability": 0.9988202452659607
+    },
+    {
+      "word_index": 5,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 0.76,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 0.76,
+      "probability": 0.9980766773223877
+    },
+    {
+      "word_index": 6,
+      "word": "an",
+      "surface": " an",
+      "start_time_wav_s": 0.76,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.76,
+      "end_time_source_s": 0.88,
+      "probability": 0.9958406090736389
+    },
+    {
+      "word_index": 7,
+      "word": "English",
+      "surface": " English",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.24,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.24,
+      "probability": 0.9957335591316223
+    },
+    {
+      "word_index": 8,
+      "word": "job",
+      "surface": " job",
+      "start_time_wav_s": 1.24,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.24,
+      "end_time_source_s": 1.7,
+      "probability": 0.964788556098938
+    },
+    {
+      "word_index": 9,
+      "word": "interview.",
+      "surface": " interview.",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 2.38,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 2.38,
+      "probability": 0.9996620416641235
+    }
+  ],
+  "word_count": 9,
+  "mean_word_probability": 0.9738561709721884,
+  "issues": [],
+  "official_transcript_loaded": false
+}

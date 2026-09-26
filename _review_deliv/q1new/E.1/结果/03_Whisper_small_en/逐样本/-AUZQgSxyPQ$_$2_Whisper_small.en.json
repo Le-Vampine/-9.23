@@ -1,0 +1,493 @@
+{
+  "sample_id": "-AUZQgSxyPQ$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-AUZQgSxyPQ$_$2.wav",
+  "audio_sha256": "8fde0beaf541b2c8902b1aa250efff67e465db3bd3424f1b765ed695f3341821",
+  "audio_duration_s": 22.4045625,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "The perfect soulmate to declare a cynic spot therapy brush. This gentle pH balanced and hydrating exfoliant contains jojoba and acai fruit oils with bamboo and prickly bear extracts. These deliver intense healing while smooth granules buff away dead dry skin cells.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.3,
+      "text": " The perfect soulmate to declare a cynic spot therapy brush.",
+      "no_speech_probability": 0.0022761838044971228,
+      "average_log_probability": -0.27254937978891225
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.98,
+      "end_time_wav_s": 12.54,
+      "start_time_source_s": 4.98,
+      "end_time_source_s": 12.54,
+      "text": " This gentle pH balanced and hydrating exfoliant contains jojoba and acai fruit oils with",
+      "no_speech_probability": 0.0022761838044971228,
+      "average_log_probability": -0.27254937978891225
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 12.54,
+      "end_time_wav_s": 15.02,
+      "start_time_source_s": 12.54,
+      "end_time_source_s": 15.02,
+      "text": " bamboo and prickly bear extracts.",
+      "no_speech_probability": 0.0022761838044971228,
+      "average_log_probability": -0.27254937978891225
+    },
+    {
+      "segment_index": 4,
+      "start_time_wav_s": 15.62,
+      "end_time_wav_s": 21.72,
+      "start_time_source_s": 15.62,
+      "end_time_source_s": 21.72,
+      "text": " These deliver intense healing while smooth granules buff away dead dry skin cells.",
+      "no_speech_probability": 0.0022761838044971228,
+      "average_log_probability": -0.27254937978891225
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "The",
+      "surface": " The",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.58,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.58,
+      "probability": 0.46994444727897644
+    },
+    {
+      "word_index": 2,
+      "word": "perfect",
+      "surface": " perfect",
+      "start_time_wav_s": 0.58,
+      "end_time_wav_s": 0.92,
+      "start_time_source_s": 0.58,
+      "end_time_source_s": 0.92,
+      "probability": 0.9377597570419312
+    },
+    {
+      "word_index": 3,
+      "word": "soulmate",
+      "surface": " soulmate",
+      "start_time_wav_s": 0.92,
+      "end_time_wav_s": 1.5,
+      "start_time_source_s": 0.92,
+      "end_time_source_s": 1.5,
+      "probability": 0.7210134714841843
+    },
+    {
+      "word_index": 4,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.5,
+      "end_time_wav_s": 1.72,
+      "start_time_source_s": 1.5,
+      "end_time_source_s": 1.72,
+      "probability": 0.9735994935035706
+    },
+    {
+      "word_index": 5,
+      "word": "declare",
+      "surface": " declare",
+      "start_time_wav_s": 1.72,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.72,
+      "end_time_source_s": 2.02,
+      "probability": 0.6390330791473389
+    },
+    {
+      "word_index": 6,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.22,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.22,
+      "probability": 0.7421659827232361
+    },
+    {
+      "word_index": 7,
+      "word": "cynic",
+      "surface": " cynic",
+      "start_time_wav_s": 2.22,
+      "end_time_wav_s": 2.7,
+      "start_time_source_s": 2.22,
+      "end_time_source_s": 2.7,
+      "probability": 0.6102301180362701
+    },
+    {
+      "word_index": 8,
+      "word": "spot",
+      "surface": " spot",
+      "start_time_wav_s": 2.7,
+      "end_time_wav_s": 3.36,
+      "start_time_source_s": 2.7,
+      "end_time_source_s": 3.36,
+      "probability": 0.6714712381362915
+    },
+    {
+      "word_index": 9,
+      "word": "therapy",
+      "surface": " therapy",
+      "start_time_wav_s": 3.36,
+      "end_time_wav_s": 3.9,
+      "start_time_source_s": 3.36,
+      "end_time_source_s": 3.9,
+      "probability": 0.9829462766647339
+    },
+    {
+      "word_index": 10,
+      "word": "brush.",
+      "surface": " brush.",
+      "start_time_wav_s": 3.9,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 3.9,
+      "end_time_source_s": 4.3,
+      "probability": 0.9690835475921631
+    },
+    {
+      "word_index": 11,
+      "word": "This",
+      "surface": " This",
+      "start_time_wav_s": 4.98,
+      "end_time_wav_s": 5.12,
+      "start_time_source_s": 4.98,
+      "end_time_source_s": 5.12,
+      "probability": 0.9678031206130981
+    },
+    {
+      "word_index": 12,
+      "word": "gentle",
+      "surface": " gentle",
+      "start_time_wav_s": 5.12,
+      "end_time_wav_s": 5.56,
+      "start_time_source_s": 5.12,
+      "end_time_source_s": 5.56,
+      "probability": 0.9828323721885681
+    },
+    {
+      "word_index": 13,
+      "word": "pH",
+      "surface": " pH",
+      "start_time_wav_s": 5.56,
+      "end_time_wav_s": 6.02,
+      "start_time_source_s": 5.56,
+      "end_time_source_s": 6.02,
+      "probability": 0.6544667482376099
+    },
+    {
+      "word_index": 14,
+      "word": "balanced",
+      "surface": " balanced",
+      "start_time_wav_s": 6.02,
+      "end_time_wav_s": 6.52,
+      "start_time_source_s": 6.02,
+      "end_time_source_s": 6.52,
+      "probability": 0.8134494423866272
+    },
+    {
+      "word_index": 15,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.52,
+      "end_time_wav_s": 6.82,
+      "start_time_source_s": 6.52,
+      "end_time_source_s": 6.82,
+      "probability": 0.9726678729057312
+    },
+    {
+      "word_index": 16,
+      "word": "hydrating",
+      "surface": " hydrating",
+      "start_time_wav_s": 6.82,
+      "end_time_wav_s": 7.48,
+      "start_time_source_s": 6.82,
+      "end_time_source_s": 7.48,
+      "probability": 0.9967137376467387
+    },
+    {
+      "word_index": 17,
+      "word": "exfoliant",
+      "surface": " exfoliant",
+      "start_time_wav_s": 7.48,
+      "end_time_wav_s": 8.34,
+      "start_time_source_s": 7.48,
+      "end_time_source_s": 8.34,
+      "probability": 0.9891024629275004
+    },
+    {
+      "word_index": 18,
+      "word": "contains",
+      "surface": " contains",
+      "start_time_wav_s": 8.34,
+      "end_time_wav_s": 9.18,
+      "start_time_source_s": 8.34,
+      "end_time_source_s": 9.18,
+      "probability": 0.8785796165466309
+    },
+    {
+      "word_index": 19,
+      "word": "jojoba",
+      "surface": " jojoba",
+      "start_time_wav_s": 9.18,
+      "end_time_wav_s": 9.86,
+      "start_time_source_s": 9.18,
+      "end_time_source_s": 9.86,
+      "probability": 0.923282245794932
+    },
+    {
+      "word_index": 20,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 9.86,
+      "end_time_wav_s": 10.4,
+      "start_time_source_s": 9.86,
+      "end_time_source_s": 10.4,
+      "probability": 0.9666116833686829
+    },
+    {
+      "word_index": 21,
+      "word": "acai",
+      "surface": " acai",
+      "start_time_wav_s": 10.4,
+      "end_time_wav_s": 10.84,
+      "start_time_source_s": 10.4,
+      "end_time_source_s": 10.84,
+      "probability": 0.8156296014785767
+    },
+    {
+      "word_index": 22,
+      "word": "fruit",
+      "surface": " fruit",
+      "start_time_wav_s": 10.84,
+      "end_time_wav_s": 11.3,
+      "start_time_source_s": 10.84,
+      "end_time_source_s": 11.3,
+      "probability": 0.9370597004890442
+    },
+    {
+      "word_index": 23,
+      "word": "oils",
+      "surface": " oils",
+      "start_time_wav_s": 11.3,
+      "end_time_wav_s": 11.74,
+      "start_time_source_s": 11.3,
+      "end_time_source_s": 11.74,
+      "probability": 0.9518100023269653
+    },
+    {
+      "word_index": 24,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 11.74,
+      "end_time_wav_s": 12.54,
+      "start_time_source_s": 11.74,
+      "end_time_source_s": 12.54,
+      "probability": 0.7631858587265015
+    },
+    {
+      "word_index": 25,
+      "word": "bamboo",
+      "surface": " bamboo",
+      "start_time_wav_s": 12.54,
+      "end_time_wav_s": 13.1,
+      "start_time_source_s": 12.54,
+      "end_time_source_s": 13.1,
+      "probability": 0.9905941486358643
+    },
+    {
+      "word_index": 26,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 13.1,
+      "end_time_wav_s": 13.68,
+      "start_time_source_s": 13.1,
+      "end_time_source_s": 13.68,
+      "probability": 0.981351912021637
+    },
+    {
+      "word_index": 27,
+      "word": "prickly",
+      "surface": " prickly",
+      "start_time_wav_s": 13.68,
+      "end_time_wav_s": 14.1,
+      "start_time_source_s": 13.68,
+      "end_time_source_s": 14.1,
+      "probability": 0.9778926074504852
+    },
+    {
+      "word_index": 28,
+      "word": "bear",
+      "surface": " bear",
+      "start_time_wav_s": 14.1,
+      "end_time_wav_s": 14.36,
+      "start_time_source_s": 14.1,
+      "end_time_source_s": 14.36,
+      "probability": 0.7883156538009644
+    },
+    {
+      "word_index": 29,
+      "word": "extracts.",
+      "surface": " extracts.",
+      "start_time_wav_s": 14.36,
+      "end_time_wav_s": 15.02,
+      "start_time_source_s": 14.36,
+      "end_time_source_s": 15.02,
+      "probability": 0.9702575206756592
+    },
+    {
+      "word_index": 30,
+      "word": "These",
+      "surface": " These",
+      "start_time_wav_s": 15.62,
+      "end_time_wav_s": 15.86,
+      "start_time_source_s": 15.62,
+      "end_time_source_s": 15.86,
+      "probability": 0.9864943027496338
+    },
+    {
+      "word_index": 31,
+      "word": "deliver",
+      "surface": " deliver",
+      "start_time_wav_s": 15.86,
+      "end_time_wav_s": 16.28,
+      "start_time_source_s": 15.86,
+      "end_time_source_s": 16.28,
+      "probability": 0.9866132140159607
+    },
+    {
+      "word_index": 32,
+      "word": "intense",
+      "surface": " intense",
+      "start_time_wav_s": 16.28,
+      "end_time_wav_s": 16.78,
+      "start_time_source_s": 16.28,
+      "end_time_source_s": 16.78,
+      "probability": 0.9948979020118713
+    },
+    {
+      "word_index": 33,
+      "word": "healing",
+      "surface": " healing",
+      "start_time_wav_s": 16.78,
+      "end_time_wav_s": 17.3,
+      "start_time_source_s": 16.78,
+      "end_time_source_s": 17.3,
+      "probability": 0.9938619136810303
+    },
+    {
+      "word_index": 34,
+      "word": "while",
+      "surface": " while",
+      "start_time_wav_s": 17.3,
+      "end_time_wav_s": 17.98,
+      "start_time_source_s": 17.3,
+      "end_time_source_s": 17.98,
+      "probability": 0.7642397880554199
+    },
+    {
+      "word_index": 35,
+      "word": "smooth",
+      "surface": " smooth",
+      "start_time_wav_s": 17.98,
+      "end_time_wav_s": 18.34,
+      "start_time_source_s": 17.98,
+      "end_time_source_s": 18.34,
+      "probability": 0.9939033389091492
+    },
+    {
+      "word_index": 36,
+      "word": "granules",
+      "surface": " granules",
+      "start_time_wav_s": 18.34,
+      "end_time_wav_s": 18.9,
+      "start_time_source_s": 18.34,
+      "end_time_source_s": 18.9,
+      "probability": 0.9933041036128998
+    },
+    {
+      "word_index": 37,
+      "word": "buff",
+      "surface": " buff",
+      "start_time_wav_s": 18.9,
+      "end_time_wav_s": 19.22,
+      "start_time_source_s": 18.9,
+      "end_time_source_s": 19.22,
+      "probability": 0.9926099181175232
+    },
+    {
+      "word_index": 38,
+      "word": "away",
+      "surface": " away",
+      "start_time_wav_s": 19.22,
+      "end_time_wav_s": 19.64,
+      "start_time_source_s": 19.22,
+      "end_time_source_s": 19.64,
+      "probability": 0.9946455955505371
+    },
+    {
+      "word_index": 39,
+      "word": "dead",
+      "surface": " dead",
+      "start_time_wav_s": 19.64,
+      "end_time_wav_s": 20.36,
+      "start_time_source_s": 19.64,
+      "end_time_source_s": 20.36,
+      "probability": 0.9607698917388916
+    },
+    {
+      "word_index": 40,
+      "word": "dry",
+      "surface": " dry",
+      "start_time_wav_s": 20.36,
+      "end_time_wav_s": 20.96,
+      "start_time_source_s": 20.36,
+      "end_time_source_s": 20.96,
+      "probability": 0.810384213924408
+    },
+    {
+      "word_index": 41,
+      "word": "skin",
+      "surface": " skin",
+      "start_time_wav_s": 20.96,
+      "end_time_wav_s": 21.42,
+      "start_time_source_s": 20.96,
+      "end_time_source_s": 21.42,
+      "probability": 0.995107889175415
+    },
+    {
+      "word_index": 42,
+      "word": "cells.",
+      "surface": " cells.",
+      "start_time_wav_s": 21.42,
+      "end_time_wav_s": 21.72,
+      "start_time_source_s": 21.42,
+      "end_time_source_s": 21.72,
+      "probability": 0.9972965121269226
+    }
+  ],
+  "word_count": 42,
+  "mean_word_probability": 0.8929281500833375,
+  "issues": [],
+  "official_transcript_loaded": false
+}

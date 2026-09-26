@@ -1,0 +1,98 @@
+% 问题二模型（MRF-Net）网络结构图 —— 独立编译，main.tex 以图片引入
+% 布局：行＝三个模态，列＝处理阶段；右侧为门控融合与三个输出头
+\begin{tikzpicture}[
+  font=\footnotesize,
+  x=1cm, y=1cm,
+  every node/.style={align=center, inner sep=2pt, outer sep=0pt},
+  inp/.style={rounded corners=1.6pt, draw=black!55, fill=black!6, line width=0.5pt,
+              minimum height=0.74cm},
+  stg/.style={rounded corners=1.6pt, draw=accent, fill=accent!10, line width=0.5pt,
+              minimum height=0.74cm},
+  enc/.style={rounded corners=1.6pt, draw=accent, fill=accent!22, line width=0.5pt,
+              minimum height=0.74cm},
+  core/.style={rounded corners=2pt, draw=accentdark, fill=accentdark, text=white,
+               line width=0.7pt, minimum height=3.00cm},
+  head/.style={rounded corners=1.6pt, draw=mint, fill=mint!18, line width=0.5pt,
+               minimum height=0.74cm},
+  flow/.style={-{Stealth[length=1.6mm,width=1.1mm]}, draw=black!65, line width=0.5pt},
+  gflow/.style={-{Stealth[length=1.6mm,width=1.1mm]}, draw=accentdark, line width=0.7pt},
+  note/.style={rounded corners=1.6pt, draw=black!35, fill=black!3, line width=0.45pt,
+               dashed, inner sep=3pt},
+]
+% ---------------------------------------------------------------- 列位置
+% 输入 0.95 | 掩码 2.95 | 编码 5.05 | 分解 7.25 | 池化 9.35
+% 门控融合 12.30 | 输出头 15.10
+\def\yA{2.60}
+\def\yB{1.30}
+\def\yC{0.00}
+
+% ---------------------------------------------------------------- 输入
+\node[inp, minimum width=1.70cm] (Xa) at (0.95,\yA) {文本\\$50\times768$};
+\node[inp, minimum width=1.70cm] (Xb) at (0.95,\yB) {语音\\$50\times74$};
+\node[inp, minimum width=1.70cm] (Xc) at (0.95,\yC) {视觉\\$50\times35$};
+\node[above=1pt of Xa, font=\scriptsize\bfseries] {输入特征};
+
+% ---------------------------------------------------------------- 掩码判定
+\node[stg, minimum width=1.55cm] (Ma) at (2.95,\yA) {填充掩码 $P_t$\\缺失掩码 $M_t$};
+\node[stg, minimum width=1.55cm] (Mb) at (2.95,\yB) {填充掩码 $P_a$\\缺失掩码 $M_a$};
+\node[stg, minimum width=1.55cm] (Mc) at (2.95,\yC) {填充掩码 $P_v$\\缺失掩码 $M_v$};
+\node[above=1pt of Ma, font=\scriptsize\bfseries] {掩码判定};
+
+% ---------------------------------------------------------------- 掩码感知编码
+\node[enc, minimum width=1.75cm] (Ea) at (5.05,\yA) {线性投影\\掩码自注意力};
+\node[enc, minimum width=1.75cm] (Eb) at (5.05,\yB) {线性投影\\掩码自注意力};
+\node[enc, minimum width=1.75cm] (Ec) at (5.05,\yC) {线性投影\\掩码自注意力};
+\node[above=1pt of Ea, font=\scriptsize\bfseries] {掩码感知编码};
+
+% ---------------------------------------------------------------- 共享-特有分解
+\node[stg, minimum width=1.75cm] (Sa) at (7.25,\yA) {共享分量 $s$\\特有分量 $d_t$};
+\node[stg, minimum width=1.75cm] (Sb) at (7.25,\yB) {共享分量 $s$\\特有分量 $d_a$};
+\node[stg, minimum width=1.75cm] (Sc) at (7.25,\yC) {共享分量 $s$\\特有分量 $d_v$};
+\node[above=1pt of Sa, font=\scriptsize\bfseries] {共享-特有分解};
+
+% ---------------------------------------------------------------- 多尺度池化
+\node[stg, minimum width=1.70cm] (Pa) at (9.35,\yA) {多尺度\\掩码池化};
+\node[stg, minimum width=1.70cm] (Pb) at (9.35,\yB) {多尺度\\掩码池化};
+\node[stg, minimum width=1.70cm] (Pc) at (9.35,\yC) {多尺度\\掩码池化};
+\node[above=1pt of Pa, font=\scriptsize\bfseries] {时间池化};
+
+% ---------------------------------------------------------------- 门控与融合
+\node[core, minimum width=2.60cm] (G) at (12.30,\yB)
+  {动态专家门控\\[3pt]$g=\mathrm{softmax}(Wu+b)$\\[5pt]模态融合\\[3pt]
+   $z=\sum_m g_m\phi_m(\mathrm{Pool})$};
+\node[below=2pt of G, font=\scriptsize\bfseries, text=accentdark] {门控与融合};
+
+% ---------------------------------------------------------------- 输出头
+\node[head, minimum width=2.30cm] (Ha) at (15.10,\yA) {极性分类头\\类平衡交叉熵};
+\node[head, minimum width=2.30cm] (Hb) at (15.10,\yB) {强度回归头\\均值与方差};
+\node[head, minimum width=2.30cm] (Hc) at (15.10,\yC) {有序回归辅助头\\$K=10$ 累积链接};
+\node[above=1pt of Ha, font=\scriptsize\bfseries] {多任务输出};
+
+% ---------------------------------------------------------------- 行内连线
+% 注意：\foreach 的变量名不能与 TeX 原语重名（\s、\sp 等），故统一用 \na..\ne
+\foreach \na/\nb/\nc/\nd/\ne in {Xa/Ma/Ea/Sa/Pa, Xb/Mb/Eb/Sb/Pb, Xc/Mc/Ec/Sc/Pc}{
+  \draw[flow] (\na) -- (\nb);
+  \draw[flow] (\nb) -- (\nc);
+  \draw[flow] (\nc) -- (\nd);
+  \draw[flow] (\nd) -- (\ne);
+}
+% 池化 -> 门控（带模态权重标注）
+\draw[gflow] (Pa) -- node[above, font=\scriptsize, text=accentdark] {$g_t$} (G.west|-Pa);
+\draw[gflow] (Pb) -- node[above, font=\scriptsize, text=accentdark] {$g_a$} (G.west|-Pb);
+\draw[gflow] (Pc) -- node[above, font=\scriptsize, text=accentdark] {$g_v$} (G.west|-Pc);
+% 门控 -> 三个输出头
+\draw[gflow] (G.east|-Ha) -- (Ha.west);
+\draw[gflow] (G.east) -- (Hb.west);
+\draw[gflow] (G.east|-Hc) -- (Hc.west);
+% 门控输入的缺失率向量
+\node[stg, minimum width=1.70cm, fill=black!4, draw=black!45] (U) at (12.30,3.72)
+  {缺失率向量 $u$};
+\draw[flow] (U) -- (G.north);
+
+% ---------------------------------------------------------------- 训练期附加
+\node[note, text width=16.0cm] at (8.35,-1.20)
+  {\textbf{训练期}：教师模型（固定中等缺失强度）$\rightarrow$ 学生模型（特征层蒸馏）；
+   缺失注入按课程由易到难递进。\quad
+   \textbf{推理期}：决策阈值 $\theta$ 在验证集上按宏观 F1 最大化选定；
+   附件三与附件四仅执行推理。};
+\end{tikzpicture}

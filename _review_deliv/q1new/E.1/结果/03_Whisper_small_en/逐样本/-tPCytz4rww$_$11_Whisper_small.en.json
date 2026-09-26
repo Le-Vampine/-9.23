@@ -1,0 +1,223 @@
+{
+  "sample_id": "-tPCytz4rww$_$11",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-tPCytz4rww$_$11.wav",
+  "audio_sha256": "19c19217b7a8ec251c9c9bf4ebcbb6b046cf6661202cec4b592bd593640d260d",
+  "audio_duration_s": 5.378,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "So make sure that you're using comps that are no larger than 1,200 square feet, no less.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.2,
+      "text": " So make sure that you're using comps that are no larger than 1,200 square feet, no less.",
+      "no_speech_probability": 0.0010443991050124168,
+      "average_log_probability": -0.19821316863481814
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "So",
+      "surface": " So",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.2,
+      "probability": 0.7692775726318359
+    },
+    {
+      "word_index": 2,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 0.2,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.2,
+      "end_time_source_s": 0.62,
+      "probability": 0.7972212433815002
+    },
+    {
+      "word_index": 3,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.82,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.82,
+      "probability": 0.9979979395866394
+    },
+    {
+      "word_index": 4,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 0.82,
+      "end_time_wav_s": 1.0,
+      "start_time_source_s": 0.82,
+      "end_time_source_s": 1.0,
+      "probability": 0.8903164863586426
+    },
+    {
+      "word_index": 5,
+      "word": "you're",
+      "surface": " you're",
+      "start_time_wav_s": 1.0,
+      "end_time_wav_s": 1.18,
+      "start_time_source_s": 1.0,
+      "end_time_source_s": 1.18,
+      "probability": 0.9315000176429749
+    },
+    {
+      "word_index": 6,
+      "word": "using",
+      "surface": " using",
+      "start_time_wav_s": 1.18,
+      "end_time_wav_s": 1.48,
+      "start_time_source_s": 1.18,
+      "end_time_source_s": 1.48,
+      "probability": 0.9982957243919373
+    },
+    {
+      "word_index": 7,
+      "word": "comps",
+      "surface": " comps",
+      "start_time_wav_s": 1.48,
+      "end_time_wav_s": 1.94,
+      "start_time_source_s": 1.48,
+      "end_time_source_s": 1.94,
+      "probability": 0.9877723753452301
+    },
+    {
+      "word_index": 8,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.94,
+      "end_time_wav_s": 2.06,
+      "start_time_source_s": 1.94,
+      "end_time_source_s": 2.06,
+      "probability": 0.9924121499061584
+    },
+    {
+      "word_index": 9,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 2.06,
+      "end_time_wav_s": 2.14,
+      "start_time_source_s": 2.06,
+      "end_time_source_s": 2.14,
+      "probability": 0.9919959306716919
+    },
+    {
+      "word_index": 10,
+      "word": "no",
+      "surface": " no",
+      "start_time_wav_s": 2.14,
+      "end_time_wav_s": 2.32,
+      "start_time_source_s": 2.14,
+      "end_time_source_s": 2.32,
+      "probability": 0.9960457682609558
+    },
+    {
+      "word_index": 11,
+      "word": "larger",
+      "surface": " larger",
+      "start_time_wav_s": 2.32,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.32,
+      "end_time_source_s": 2.76,
+      "probability": 0.9908214211463928
+    },
+    {
+      "word_index": 12,
+      "word": "than",
+      "surface": " than",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 3.84,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 3.84,
+      "probability": 0.6111233830451965
+    },
+    {
+      "word_index": 13,
+      "word": "1",
+      "surface": " 1",
+      "start_time_wav_s": 3.84,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.84,
+      "end_time_source_s": 4.06,
+      "probability": 0.3686310350894928
+    },
+    {
+      "word_index": 14,
+      "word": ",200",
+      "surface": ",200",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.32,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.32,
+      "probability": 0.9986356794834137
+    },
+    {
+      "word_index": 15,
+      "word": "square",
+      "surface": " square",
+      "start_time_wav_s": 4.32,
+      "end_time_wav_s": 4.56,
+      "start_time_source_s": 4.32,
+      "end_time_source_s": 4.56,
+      "probability": 0.9672465324401855
+    },
+    {
+      "word_index": 16,
+      "word": "feet,",
+      "surface": " feet,",
+      "start_time_wav_s": 4.56,
+      "end_time_wav_s": 4.82,
+      "start_time_source_s": 4.56,
+      "end_time_source_s": 4.82,
+      "probability": 0.9934514760971069
+    },
+    {
+      "word_index": 17,
+      "word": "no",
+      "surface": " no",
+      "start_time_wav_s": 4.92,
+      "end_time_wav_s": 5.0,
+      "start_time_source_s": 4.92,
+      "end_time_source_s": 5.0,
+      "probability": 0.9887998104095459
+    },
+    {
+      "word_index": 18,
+      "word": "less.",
+      "surface": " less.",
+      "start_time_wav_s": 5.0,
+      "end_time_wav_s": 5.2,
+      "start_time_source_s": 5.0,
+      "end_time_source_s": 5.2,
+      "probability": 0.9994694590568542
+    }
+  ],
+  "word_count": 18,
+  "mean_word_probability": 0.9039452224969864,
+  "issues": [],
+  "official_transcript_loaded": false
+}

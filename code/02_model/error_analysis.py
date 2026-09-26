@@ -32,10 +32,14 @@ def bucket_report(df, group_col, out_rows, split, theta=0.0):
     for key, sub in g:
         if len(sub) < 10:
             continue
-        res = compute_metrics(sub["y_reg"], sub["pred"], sub["y_cls"], theta=theta)
+        # 主口径 = 分类头 argmax（与论文主口径一致）；θ 阈值口径并列作对照
+        res = compute_metrics(sub["y_reg"], sub["pred"], sub["y_cls"], theta=theta,
+                              y_pred_cls=sub["pred_cls_head"].values)
         out_rows.append(dict(split=split, dim=group_col, group=str(key),
                              n=len(sub), mae=res["mae"], pearson=res["pearson"],
                              acc=res["acc"], f1=res["f1"],
+                             acc_head=res["acc_head"], f1_head=res["f1_head"],
+                             f1_head_neu=res.get("f1_neu", float("nan")),
                              bias=float((sub["pred"] - sub["y_reg"]).mean()),
                              miss_text=float(sub["rho_text"].mean()),
                              miss_audio=float(sub["rho_audio"].mean()),
@@ -55,7 +59,7 @@ def main():
     out_dir = a.out_dir or a.ckpt_dir
     os.makedirs(out_dir, exist_ok=True)
 
-    cfg = Config(version=a.version)
+    cfg = Config(version=a.version, out_dir=out_dir)
     if a.data_dir:
         cfg.data_dir = a.data_dir
         cfg.__post_init__()
@@ -70,6 +74,7 @@ def main():
         df = pd.DataFrame({
             "id": pr["ids"], "y_reg": pr["y_reg"], "y_cls": pr["y_cls"],
             "pred": pr["score"], "pred_cls": pred_cls,
+            "pred_cls_head": pr["prob"].argmax(-1),
             "err": np.abs(pr["y_reg"] - pr["score"]),
             "rho_text": pr["rho"][:, 0], "rho_audio": pr["rho"][:, 1], "rho_vision": pr["rho"][:, 2],
             "len_text": pr["length"][:, 0], "len_audio": pr["length"][:, 1],

@@ -1,0 +1,513 @@
+{
+  "sample_id": "-t217m2on-s$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-t217m2on-s$_$7.wav",
+  "audio_sha256": "57ae9f8bcf206cbbfe3f7a346427c8eec8769e993224f5acbc3cc17d78b27f7a",
+  "audio_duration_s": 17.026,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "If you find that your ears consistently do this and you can't pop them often, you'll definitely need to see a physician regarding those things. It could be something more of a nasal infection or a sinus infection that he would need to deal with.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.44,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.44,
+      "text": " If you find that your ears consistently do this and you can't pop them often,",
+      "no_speech_probability": 0.00752611830830574,
+      "average_log_probability": -0.17405744976010815
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 6.9,
+      "end_time_wav_s": 10.44,
+      "start_time_source_s": 6.9,
+      "end_time_source_s": 10.44,
+      "text": " you'll definitely need to see a physician regarding those things.",
+      "no_speech_probability": 0.00752611830830574,
+      "average_log_probability": -0.17405744976010815
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 10.86,
+      "end_time_wav_s": 16.48,
+      "start_time_source_s": 10.86,
+      "end_time_source_s": 16.48,
+      "text": " It could be something more of a nasal infection or a sinus infection that he would need to deal with.",
+      "no_speech_probability": 0.00752611830830574,
+      "average_log_probability": -0.17405744976010815
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "If",
+      "surface": " If",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.62,
+      "probability": 0.8049013614654541
+    },
+    {
+      "word_index": 2,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.78,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.78,
+      "probability": 0.9979423880577087
+    },
+    {
+      "word_index": 3,
+      "word": "find",
+      "surface": " find",
+      "start_time_wav_s": 0.78,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.78,
+      "end_time_source_s": 1.06,
+      "probability": 0.9968672394752502
+    },
+    {
+      "word_index": 4,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.32,
+      "probability": 0.9848783612251282
+    },
+    {
+      "word_index": 5,
+      "word": "your",
+      "surface": " your",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.56,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.56,
+      "probability": 0.9847524762153625
+    },
+    {
+      "word_index": 6,
+      "word": "ears",
+      "surface": " ears",
+      "start_time_wav_s": 1.56,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.56,
+      "end_time_source_s": 1.96,
+      "probability": 0.9943517446517944
+    },
+    {
+      "word_index": 7,
+      "word": "consistently",
+      "surface": " consistently",
+      "start_time_wav_s": 1.96,
+      "end_time_wav_s": 3.6,
+      "start_time_source_s": 1.96,
+      "end_time_source_s": 3.6,
+      "probability": 0.5469586253166199
+    },
+    {
+      "word_index": 8,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 3.6,
+      "end_time_wav_s": 4.42,
+      "start_time_source_s": 3.6,
+      "end_time_source_s": 4.42,
+      "probability": 0.9944936633110046
+    },
+    {
+      "word_index": 9,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 4.42,
+      "end_time_wav_s": 4.66,
+      "start_time_source_s": 4.42,
+      "end_time_source_s": 4.66,
+      "probability": 0.9991395473480225
+    },
+    {
+      "word_index": 10,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 4.86,
+      "probability": 0.8059030771255493
+    },
+    {
+      "word_index": 11,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 4.86,
+      "end_time_wav_s": 5.0,
+      "start_time_source_s": 4.86,
+      "end_time_source_s": 5.0,
+      "probability": 0.9910494089126587
+    },
+    {
+      "word_index": 12,
+      "word": "can't",
+      "surface": " can't",
+      "start_time_wav_s": 5.0,
+      "end_time_wav_s": 5.44,
+      "start_time_source_s": 5.0,
+      "end_time_source_s": 5.44,
+      "probability": 0.9856958389282227
+    },
+    {
+      "word_index": 13,
+      "word": "pop",
+      "surface": " pop",
+      "start_time_wav_s": 5.44,
+      "end_time_wav_s": 5.78,
+      "start_time_source_s": 5.44,
+      "end_time_source_s": 5.78,
+      "probability": 0.987203061580658
+    },
+    {
+      "word_index": 14,
+      "word": "them",
+      "surface": " them",
+      "start_time_wav_s": 5.78,
+      "end_time_wav_s": 6.02,
+      "start_time_source_s": 5.78,
+      "end_time_source_s": 6.02,
+      "probability": 0.9957380294799805
+    },
+    {
+      "word_index": 15,
+      "word": "often,",
+      "surface": " often,",
+      "start_time_wav_s": 6.02,
+      "end_time_wav_s": 6.44,
+      "start_time_source_s": 6.02,
+      "end_time_source_s": 6.44,
+      "probability": 0.8463388085365295
+    },
+    {
+      "word_index": 16,
+      "word": "you'll",
+      "surface": " you'll",
+      "start_time_wav_s": 6.9,
+      "end_time_wav_s": 7.1,
+      "start_time_source_s": 6.9,
+      "end_time_source_s": 7.1,
+      "probability": 0.7693890333175659
+    },
+    {
+      "word_index": 17,
+      "word": "definitely",
+      "surface": " definitely",
+      "start_time_wav_s": 7.1,
+      "end_time_wav_s": 7.3,
+      "start_time_source_s": 7.1,
+      "end_time_source_s": 7.3,
+      "probability": 0.993992269039154
+    },
+    {
+      "word_index": 18,
+      "word": "need",
+      "surface": " need",
+      "start_time_wav_s": 7.3,
+      "end_time_wav_s": 7.86,
+      "start_time_source_s": 7.3,
+      "end_time_source_s": 7.86,
+      "probability": 0.8555898070335388
+    },
+    {
+      "word_index": 19,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 7.86,
+      "end_time_wav_s": 8.02,
+      "start_time_source_s": 7.86,
+      "end_time_source_s": 8.02,
+      "probability": 0.9981631636619568
+    },
+    {
+      "word_index": 20,
+      "word": "see",
+      "surface": " see",
+      "start_time_wav_s": 8.02,
+      "end_time_wav_s": 8.2,
+      "start_time_source_s": 8.02,
+      "end_time_source_s": 8.2,
+      "probability": 0.9936395287513733
+    },
+    {
+      "word_index": 21,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 8.2,
+      "end_time_wav_s": 8.34,
+      "start_time_source_s": 8.2,
+      "end_time_source_s": 8.34,
+      "probability": 0.9891112446784973
+    },
+    {
+      "word_index": 22,
+      "word": "physician",
+      "surface": " physician",
+      "start_time_wav_s": 8.34,
+      "end_time_wav_s": 8.78,
+      "start_time_source_s": 8.34,
+      "end_time_source_s": 8.78,
+      "probability": 0.9982131719589233
+    },
+    {
+      "word_index": 23,
+      "word": "regarding",
+      "surface": " regarding",
+      "start_time_wav_s": 8.78,
+      "end_time_wav_s": 9.76,
+      "start_time_source_s": 8.78,
+      "end_time_source_s": 9.76,
+      "probability": 0.9821268916130066
+    },
+    {
+      "word_index": 24,
+      "word": "those",
+      "surface": " those",
+      "start_time_wav_s": 9.76,
+      "end_time_wav_s": 10.1,
+      "start_time_source_s": 9.76,
+      "end_time_source_s": 10.1,
+      "probability": 0.9958620071411133
+    },
+    {
+      "word_index": 25,
+      "word": "things.",
+      "surface": " things.",
+      "start_time_wav_s": 10.1,
+      "end_time_wav_s": 10.44,
+      "start_time_source_s": 10.1,
+      "end_time_source_s": 10.44,
+      "probability": 0.9986488223075867
+    },
+    {
+      "word_index": 26,
+      "word": "It",
+      "surface": " It",
+      "start_time_wav_s": 10.86,
+      "end_time_wav_s": 10.98,
+      "start_time_source_s": 10.86,
+      "end_time_source_s": 10.98,
+      "probability": 0.9940097332000732
+    },
+    {
+      "word_index": 27,
+      "word": "could",
+      "surface": " could",
+      "start_time_wav_s": 10.98,
+      "end_time_wav_s": 11.14,
+      "start_time_source_s": 10.98,
+      "end_time_source_s": 11.14,
+      "probability": 0.9984684586524963
+    },
+    {
+      "word_index": 28,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 11.14,
+      "end_time_wav_s": 11.36,
+      "start_time_source_s": 11.14,
+      "end_time_source_s": 11.36,
+      "probability": 0.9978824257850647
+    },
+    {
+      "word_index": 29,
+      "word": "something",
+      "surface": " something",
+      "start_time_wav_s": 11.36,
+      "end_time_wav_s": 11.56,
+      "start_time_source_s": 11.36,
+      "end_time_source_s": 11.56,
+      "probability": 0.9778878092765808
+    },
+    {
+      "word_index": 30,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 11.56,
+      "end_time_wav_s": 11.94,
+      "start_time_source_s": 11.56,
+      "end_time_source_s": 11.94,
+      "probability": 0.9923701286315918
+    },
+    {
+      "word_index": 31,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 11.94,
+      "end_time_wav_s": 12.08,
+      "start_time_source_s": 11.94,
+      "end_time_source_s": 12.08,
+      "probability": 0.9892995357513428
+    },
+    {
+      "word_index": 32,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 12.08,
+      "end_time_wav_s": 12.16,
+      "start_time_source_s": 12.08,
+      "end_time_source_s": 12.16,
+      "probability": 0.989463210105896
+    },
+    {
+      "word_index": 33,
+      "word": "nasal",
+      "surface": " nasal",
+      "start_time_wav_s": 12.16,
+      "end_time_wav_s": 12.46,
+      "start_time_source_s": 12.16,
+      "end_time_source_s": 12.46,
+      "probability": 0.9939518570899963
+    },
+    {
+      "word_index": 34,
+      "word": "infection",
+      "surface": " infection",
+      "start_time_wav_s": 12.46,
+      "end_time_wav_s": 12.94,
+      "start_time_source_s": 12.46,
+      "end_time_source_s": 12.94,
+      "probability": 0.9666379690170288
+    },
+    {
+      "word_index": 35,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 12.94,
+      "end_time_wav_s": 13.4,
+      "start_time_source_s": 12.94,
+      "end_time_source_s": 13.4,
+      "probability": 0.9575603604316711
+    },
+    {
+      "word_index": 36,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 13.4,
+      "end_time_wav_s": 13.52,
+      "start_time_source_s": 13.4,
+      "end_time_source_s": 13.52,
+      "probability": 0.9609844088554382
+    },
+    {
+      "word_index": 37,
+      "word": "sinus",
+      "surface": " sinus",
+      "start_time_wav_s": 13.52,
+      "end_time_wav_s": 13.92,
+      "start_time_source_s": 13.52,
+      "end_time_source_s": 13.92,
+      "probability": 0.9935645461082458
+    },
+    {
+      "word_index": 38,
+      "word": "infection",
+      "surface": " infection",
+      "start_time_wav_s": 13.92,
+      "end_time_wav_s": 14.5,
+      "start_time_source_s": 13.92,
+      "end_time_source_s": 14.5,
+      "probability": 0.998271107673645
+    },
+    {
+      "word_index": 39,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 14.5,
+      "end_time_wav_s": 15.28,
+      "start_time_source_s": 14.5,
+      "end_time_source_s": 15.28,
+      "probability": 0.9335046410560608
+    },
+    {
+      "word_index": 40,
+      "word": "he",
+      "surface": " he",
+      "start_time_wav_s": 15.28,
+      "end_time_wav_s": 15.5,
+      "start_time_source_s": 15.28,
+      "end_time_source_s": 15.5,
+      "probability": 0.9986530542373657
+    },
+    {
+      "word_index": 41,
+      "word": "would",
+      "surface": " would",
+      "start_time_wav_s": 15.5,
+      "end_time_wav_s": 15.72,
+      "start_time_source_s": 15.5,
+      "end_time_source_s": 15.72,
+      "probability": 0.9939911961555481
+    },
+    {
+      "word_index": 42,
+      "word": "need",
+      "surface": " need",
+      "start_time_wav_s": 15.72,
+      "end_time_wav_s": 15.92,
+      "start_time_source_s": 15.72,
+      "end_time_source_s": 15.92,
+      "probability": 0.9967089891433716
+    },
+    {
+      "word_index": 43,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 15.92,
+      "end_time_wav_s": 16.08,
+      "start_time_source_s": 15.92,
+      "end_time_source_s": 16.08,
+      "probability": 0.9969701766967773
+    },
+    {
+      "word_index": 44,
+      "word": "deal",
+      "surface": " deal",
+      "start_time_wav_s": 16.08,
+      "end_time_wav_s": 16.24,
+      "start_time_source_s": 16.08,
+      "end_time_source_s": 16.24,
+      "probability": 0.9990597367286682
+    },
+    {
+      "word_index": 45,
+      "word": "with.",
+      "surface": " with.",
+      "start_time_wav_s": 16.24,
+      "end_time_wav_s": 16.48,
+      "start_time_source_s": 16.24,
+      "end_time_source_s": 16.48,
+      "probability": 0.9989902377128601
+    }
+  ],
+  "word_count": 45,
+  "mean_word_probability": 0.9604262034098308,
+  "issues": [],
+  "official_transcript_loaded": false
+}

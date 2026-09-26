@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "text_source": "label-100.xlsx sheet=label column=text",
+  "whisper_text_used": false,
+  "sample_count": 100,
+  "official_word_count": 1934,
+  "feature_matrix_shape": [
+    1934,
+    768
+  ],
+  "feature_dtype": "float32",
+  "feature_valid_word_count": 1934,
+  "valid_timestamp_word_count": 1421,
+  "missing_timestamp_word_count": 513,
+  "encoder": "google-bert/bert-base-uncased",
+  "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "source_model_sha256": "44d7a2896d341c51fb1eba89aea3a590e6af0ce33e25481136f7eeecb62e5f7f",
+  "encoder_model_sha256": "4946c9b4b81b974d0b1fb78b923666a493f7f2909f798578308431780f4547c1",
+  "tokenizer_sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+  "workbook_sha256": "827334f782b1f242c84ad944a657bc7f7c63643f71ae9c977811a3eecdd3ab33",
+  "pooling": "arithmetic mean of final-layer BERT hidden states over WordPieces whose offsets lie within each official word",
+  "word_order": "Step 4 official_word_index, checked against Excel text",
+  "text_normalization": "NFKC and curly apostrophe to ASCII apostrophe before word tokenization and BERT encoding",
+  "max_bert_input_tokens": 84,
+  "onnxruntime_version": "1.30.0",
+  "tokenizers_version": "0.23.2",
+  "numpy_version": "2.5.3",
+  "feature_file_sha256": "ad2fe14fa7b0ad5fd997b576eae5f17e413a53bdc9e4c2ae89beefffad359ddc"
+}

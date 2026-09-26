@@ -1,0 +1,153 @@
+{
+  "sample_id": "-egA8-b7-3M$_$16",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$16.wav",
+  "audio_sha256": "adf98468b423ce10eccc9a2d0f526dddcee2bd5c73aa38daed06023356f078ec",
+  "audio_duration_s": 5.483,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Third, another big benefit of exhibiting is connecting with existing clients.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.64,
+      "text": " Third, another big benefit of exhibiting is connecting with existing clients.",
+      "no_speech_probability": 0.0020367749966681004,
+      "average_log_probability": -0.21997719537466764
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Third,",
+      "surface": " Third,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.74,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.74,
+      "probability": 0.9280186891555786
+    },
+    {
+      "word_index": 2,
+      "word": "another",
+      "surface": " another",
+      "start_time_wav_s": 0.98,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.98,
+      "end_time_source_s": 1.16,
+      "probability": 0.98619544506073
+    },
+    {
+      "word_index": 3,
+      "word": "big",
+      "surface": " big",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.48,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.48,
+      "probability": 0.9792770743370056
+    },
+    {
+      "word_index": 4,
+      "word": "benefit",
+      "surface": " benefit",
+      "start_time_wav_s": 1.48,
+      "end_time_wav_s": 1.9,
+      "start_time_source_s": 1.48,
+      "end_time_source_s": 1.9,
+      "probability": 0.9974119067192078
+    },
+    {
+      "word_index": 5,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 1.9,
+      "end_time_wav_s": 2.1,
+      "start_time_source_s": 1.9,
+      "end_time_source_s": 2.1,
+      "probability": 0.9918038845062256
+    },
+    {
+      "word_index": 6,
+      "word": "exhibiting",
+      "surface": " exhibiting",
+      "start_time_wav_s": 2.1,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.1,
+      "end_time_source_s": 2.52,
+      "probability": 0.9878749251365662
+    },
+    {
+      "word_index": 7,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.9,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.9,
+      "probability": 0.972877025604248
+    },
+    {
+      "word_index": 8,
+      "word": "connecting",
+      "surface": " connecting",
+      "start_time_wav_s": 2.9,
+      "end_time_wav_s": 3.32,
+      "start_time_source_s": 2.9,
+      "end_time_source_s": 3.32,
+      "probability": 0.9952438473701477
+    },
+    {
+      "word_index": 9,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 3.32,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.32,
+      "end_time_source_s": 3.68,
+      "probability": 0.9966894388198853
+    },
+    {
+      "word_index": 10,
+      "word": "existing",
+      "surface": " existing",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 4.1,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 4.1,
+      "probability": 0.9738546013832092
+    },
+    {
+      "word_index": 11,
+      "word": "clients.",
+      "surface": " clients.",
+      "start_time_wav_s": 4.1,
+      "end_time_wav_s": 4.64,
+      "start_time_source_s": 4.1,
+      "end_time_source_s": 4.64,
+      "probability": 0.998139500617981
+    }
+  ],
+  "word_count": 11,
+  "mean_word_probability": 0.9824896671555259,
+  "issues": [],
+  "official_transcript_loaded": false
+}

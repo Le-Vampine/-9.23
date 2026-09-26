@@ -1,0 +1,1975 @@
+{
+ "01": {
+  "id": "01",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "belt",
+     "seg": [
+      9
+     ],
+     "char_span": [
+      58,
+      62
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "the",
+     "seg": [
+      14
+     ],
+     "char_span": [
+      88,
+      91
+     ],
+     "w": 0.8707
+    },
+    {
+     "word": "ensuring",
+     "seg": [
+      13
+     ],
+     "char_span": [
+      79,
+      87
+     ],
+     "w": 0.8528
+    }
+   ],
+   "phrase": "the timing belt is essential to ensuring the new belt",
+   "phrase_char_span": [
+    47,
+    100
+   ],
+   "seg_runs": [
+    [
+     9,
+     10
+    ],
+    [
+     13,
+     15
+    ]
+   ],
+   "n_valid": 24,
+   "align": {
+    "n_word": 21,
+    "n_raw": 21,
+    "matched": 21,
+    "ratio": 1.0
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    1,
+    2,
+    0
+   ],
+   "seg_runs": [
+    [
+     0,
+     3
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 1.17,
+   "n_valid": 23,
+   "duration_s": 9.0
+  },
+  "vision_evidence": {
+   "top_segs": [
+    13,
+    14,
+    3
+   ],
+   "seg_runs": [
+    [
+     3,
+     4
+    ],
+    [
+     13,
+     15
+    ]
+   ],
+   "keyframe_time_s": 1.37,
+   "n_valid": 23,
+   "keyframe_file": "submission\\evidence\\01_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "02": {
+  "id": "02",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "other’",
+     "seg": [
+      15,
+      16
+     ],
+     "char_span": null,
+     "w": 1.0
+    },
+    {
+     "word": "each",
+     "seg": [
+      14
+     ],
+     "char_span": [
+      51,
+      55
+     ],
+     "w": 0.8556
+    },
+    {
+     "word": "by",
+     "seg": [
+      13
+     ],
+     "char_span": [
+      48,
+      50
+     ],
+     "w": 0.5318
+    }
+   ],
+   "phrase": "happiness- not by each other’ s misery.",
+   "phrase_char_span": [
+    44,
+    55
+   ],
+   "seg_runs": [
+    [
+     13,
+     17
+    ]
+   ],
+   "n_valid": 21,
+   "align": {
+    "n_word": 15,
+    "n_raw": 13,
+    "matched": 9,
+    "ratio": 0.6
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    18,
+    19,
+    17
+   ],
+   "seg_runs": [
+    [
+     17,
+     20
+    ]
+   ],
+   "start_s": 2.97,
+   "end_s": 3.49,
+   "n_valid": 20,
+   "duration_s": 3.49
+  },
+  "vision_evidence": {
+   "top_segs": [
+    18,
+    17,
+    19
+   ],
+   "seg_runs": [
+    [
+     17,
+     20
+    ]
+   ],
+   "keyframe_time_s": 3.23,
+   "n_valid": 20,
+   "keyframe_file": "submission\\evidence\\02_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "03": {
+  "id": "03",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "bankwest",
+     "seg": [
+      15,
+      16
+     ],
+     "char_span": [
+      55,
+      63
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "who",
+     "seg": [
+      17
+     ],
+     "char_span": [
+      64,
+      67
+     ],
+     "w": 0.9451
+    },
+    {
+     "word": "think",
+     "seg": [
+      12
+     ],
+     "char_span": [
+      41,
+      46
+     ],
+     "w": 0.8628
+    }
+   ],
+   "phrase": "which i think is just bankwest who don' t",
+   "phrase_char_span": [
+    33,
+    67
+   ],
+   "seg_runs": [
+    [
+     12,
+     13
+    ],
+    [
+     15,
+     18
+    ]
+   ],
+   "n_valid": 35,
+   "align": {
+    "n_word": 27,
+    "n_raw": 25,
+    "matched": 21,
+    "ratio": 0.778
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    19,
+    20,
+    18
+   ],
+   "seg_runs": [
+    [
+     18,
+     21
+    ]
+   ],
+   "start_s": 5.11,
+   "end_s": 5.97,
+   "n_valid": 34,
+   "duration_s": 9.66
+  },
+  "vision_evidence": {
+   "top_segs": [
+    16,
+    15,
+    10
+   ],
+   "seg_runs": [
+    [
+     10,
+     11
+    ],
+    [
+     15,
+     17
+    ]
+   ],
+   "keyframe_time_s": 2.98,
+   "n_valid": 34,
+   "keyframe_file": "submission\\evidence\\03_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "04": {
+  "id": "04",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "i",
+     "seg": [
+      11
+     ],
+     "char_span": [
+      42,
+      43
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "blue\"",
+     "seg": [
+      19,
+      20
+     ],
+     "char_span": null,
+     "w": 0.9605
+    },
+    {
+     "word": "should",
+     "seg": [
+      10
+     ],
+     "char_span": [
+      35,
+      41
+     ],
+     "w": 0.8681
+    }
+   ],
+   "phrase": "team exercise, should i kiss my chances of cheering\" go blue\" goodbye?] absolutely",
+   "phrase_char_span": [
+    20,
+    102
+   ],
+   "seg_runs": [
+    [
+     10,
+     12
+    ],
+    [
+     19,
+     21
+    ]
+   ],
+   "n_valid": 28,
+   "align": {
+    "n_word": 20,
+    "n_raw": 20,
+    "matched": 15,
+    "ratio": 0.75
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    3,
+    2,
+    10
+   ],
+   "seg_runs": [
+    [
+     2,
+     4
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "start_s": 0.52,
+   "end_s": 2.85,
+   "n_valid": 27,
+   "duration_s": 6.99
+  },
+  "vision_evidence": {
+   "top_segs": [
+    3,
+    4,
+    2
+   ],
+   "seg_runs": [
+    [
+     2,
+     5
+    ]
+   ],
+   "keyframe_time_s": 0.91,
+   "n_valid": 27,
+   "keyframe_file": "submission\\evidence\\04_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "05": {
+  "id": "05",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "my",
+     "seg": [
+      3
+     ],
+     "char_span": [
+      4,
+      6
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "hi,",
+     "seg": [
+      1,
+      2
+     ],
+     "char_span": null,
+     "w": 0.9052
+    },
+    {
+     "word": "name",
+     "seg": [
+      4
+     ],
+     "char_span": [
+      7,
+      11
+     ],
+     "w": 0.6901
+    }
+   ],
+   "phrase": "hi, my name is chloe,",
+   "phrase_char_span": [
+    4,
+    14
+   ],
+   "seg_runs": [
+    [
+     1,
+     5
+    ]
+   ],
+   "n_valid": 17,
+   "align": {
+    "n_word": 11,
+    "n_raw": 11,
+    "matched": 8,
+    "ratio": 0.727
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    1,
+    5
+   ],
+   "seg_runs": [
+    [
+     0,
+     2
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 2.29,
+   "n_valid": 16,
+   "duration_s": 6.1
+  },
+  "vision_evidence": {
+   "top_segs": [
+    6,
+    7,
+    5
+   ],
+   "seg_runs": [
+    [
+     5,
+     8
+    ]
+   ],
+   "keyframe_time_s": 2.48,
+   "n_valid": 16,
+   "keyframe_file": "submission\\evidence\\05_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "06": {
+  "id": "06",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "fan",
+     "seg": [
+      6
+     ],
+     "char_span": [
+      12,
+      15
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "you'",
+     "seg": [
+      2,
+      3
+     ],
+     "char_span": null,
+     "w": 0.8121
+    },
+    {
+     "word": "a",
+     "seg": [
+      5
+     ],
+     "char_span": [
+      10,
+      11
+     ],
+     "w": 0.7722
+    }
+   ],
+   "phrase": "if you' re a fan of dancing",
+   "phrase_char_span": [
+    0,
+    26
+   ],
+   "seg_runs": [
+    [
+     2,
+     4
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   "n_valid": 37,
+   "align": {
+    "n_word": 32,
+    "n_raw": 31,
+    "matched": 28,
+    "ratio": 0.875
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    6,
+    7,
+    5
+   ],
+   "seg_runs": [
+    [
+     5,
+     8
+    ]
+   ],
+   "start_s": 1.15,
+   "end_s": 1.85,
+   "n_valid": 36,
+   "duration_s": 8.31
+  },
+  "vision_evidence": {
+   "top_segs": [
+    7,
+    22,
+    8
+   ],
+   "seg_runs": [
+    [
+     7,
+     9
+    ],
+    [
+     22,
+     23
+    ]
+   ],
+   "keyframe_time_s": 1.85,
+   "n_valid": 36,
+   "keyframe_file": "submission\\evidence\\06_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "07": {
+  "id": "07",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "baadke",
+     "seg": [
+      9,
+      10,
+      11
+     ],
+     "char_span": [
+      35,
+      41
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "reports",
+     "seg": [
+      12
+     ],
+     "char_span": [
+      42,
+      49
+     ],
+     "w": 0.9463
+    },
+    {
+     "word": "issue,",
+     "seg": [
+      17,
+      18
+     ],
+     "char_span": null,
+     "w": 0.9458
+    }
+   ],
+   "phrase": "editor michael baadke reports in our november 28 issue, attendees“ enthusiastically",
+   "phrase_char_span": [
+    20,
+    103
+   ],
+   "seg_runs": [
+    [
+     9,
+     13
+    ],
+    [
+     17,
+     19
+    ]
+   ],
+   "n_valid": 50,
+   "align": {
+    "n_word": 37,
+    "n_raw": 51,
+    "matched": 30,
+    "ratio": 0.811
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    4,
+    13
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     13,
+     14
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 6.1,
+   "n_valid": 49,
+   "duration_s": 21.35
+  },
+  "vision_evidence": {
+   "top_segs": [
+    11,
+    12,
+    10
+   ],
+   "seg_runs": [
+    [
+     10,
+     13
+    ]
+   ],
+   "keyframe_time_s": 5.01,
+   "n_valid": 49,
+   "keyframe_file": "submission\\evidence\\07_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "08": {
+  "id": "08",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "brings",
+     "seg": [
+      2
+     ],
+     "char_span": [
+      5,
+      11
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "tonight,",
+     "seg": [
+      5,
+      6
+     ],
+     "char_span": null,
+     "w": 0.9059
+    },
+    {
+     "word": "that",
+     "seg": [
+      1
+     ],
+     "char_span": [
+      0,
+      4
+     ],
+     "w": 0.8649
+    }
+   ],
+   "phrase": "that brings us to tonight, the universal",
+   "phrase_char_span": [
+    0,
+    40
+   ],
+   "seg_runs": [
+    [
+     1,
+     3
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   "n_valid": 13,
+   "align": {
+    "n_word": 10,
+    "n_raw": 10,
+    "matched": 9,
+    "ratio": 0.9
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    10,
+    9,
+    3
+   ],
+   "seg_runs": [
+    [
+     3,
+     4
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "start_s": 1.27,
+   "end_s": 4.67,
+   "n_valid": 12,
+   "duration_s": 5.09
+  },
+  "vision_evidence": {
+   "top_segs": [
+    9,
+    8,
+    10
+   ],
+   "seg_runs": [
+    [
+     8,
+     11
+    ]
+   ],
+   "keyframe_time_s": 4.03,
+   "n_valid": 12,
+   "keyframe_file": "submission\\evidence\\08_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "09": {
+  "id": "09",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "it",
+     "seg": [
+      18
+     ],
+     "char_span": [
+      62,
+      64
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "recommend",
+     "seg": [
+      17
+     ],
+     "char_span": [
+      52,
+      61
+     ],
+     "w": 0.8695
+    },
+    {
+     "word": "not",
+     "seg": [
+      16
+     ],
+     "char_span": [
+      48,
+      51
+     ],
+     "w": 0.4638
+    }
+   ],
+   "phrase": "i would not recommend it",
+   "phrase_char_span": [
+    40,
+    64
+   ],
+   "seg_runs": [
+    [
+     16,
+     19
+    ]
+   ],
+   "n_valid": 20,
+   "align": {
+    "n_word": 15,
+    "n_raw": 14,
+    "matched": 12,
+    "ratio": 0.8
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    8,
+    7,
+    9
+   ],
+   "seg_runs": [
+    [
+     7,
+     10
+    ]
+   ],
+   "start_s": 1.86,
+   "end_s": 2.65,
+   "n_valid": 19,
+   "duration_s": 5.04
+  },
+  "vision_evidence": {
+   "top_segs": [
+    14,
+    15,
+    6
+   ],
+   "seg_runs": [
+    [
+     6,
+     7
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "keyframe_time_s": 1.73,
+   "n_valid": 19,
+   "keyframe_file": "submission\\evidence\\09_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "10": {
+  "id": "10",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "really",
+     "seg": [
+      8
+     ],
+     "char_span": [
+      21,
+      27
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "do",
+     "seg": [
+      9
+     ],
+     "char_span": [
+      28,
+      30
+     ],
+     "w": 0.9365
+    },
+    {
+     "word": "like",
+     "seg": [
+      10
+     ],
+     "char_span": [
+      31,
+      35
+     ],
+     "w": 0.8965
+    }
+   ],
+   "phrase": "know i really do like to see",
+   "phrase_char_span": [
+    14,
+    42
+   ],
+   "seg_runs": [
+    [
+     8,
+     11
+    ]
+   ],
+   "n_valid": 32,
+   "align": {
+    "n_word": 27,
+    "n_raw": 25,
+    "matched": 23,
+    "ratio": 0.852
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    22,
+    11
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     22,
+     23
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 7.37,
+   "n_valid": 31,
+   "duration_s": 9.94
+  },
+  "vision_evidence": {
+   "top_segs": [
+    7,
+    6,
+    8
+   ],
+   "seg_runs": [
+    [
+     6,
+     9
+    ]
+   ],
+   "keyframe_time_s": 2.41,
+   "n_valid": 31,
+   "keyframe_file": "submission\\evidence\\10_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "11": {
+  "id": "11",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "film",
+     "seg": [
+      9
+     ],
+     "char_span": [
+      37,
+      41
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "this",
+     "seg": [
+      8
+     ],
+     "char_span": [
+      32,
+      36
+     ],
+     "w": 0.8553
+    },
+    {
+     "word": "ashamed",
+     "seg": [
+      4
+     ],
+     "char_span": [
+      11,
+      18
+     ],
+     "w": 0.8043
+    }
+   ],
+   "phrase": "would be ashamed to have made this film if i",
+   "phrase_char_span": [
+    2,
+    46
+   ],
+   "seg_runs": [
+    [
+     4,
+     5
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "n_valid": 16,
+   "align": {
+    "n_word": 14,
+    "n_raw": 14,
+    "matched": 14,
+    "ratio": 1.0
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    13,
+    12,
+    14
+   ],
+   "seg_runs": [
+    [
+     12,
+     15
+    ]
+   ],
+   "start_s": 4.64,
+   "end_s": 5.8,
+   "n_valid": 15,
+   "duration_s": 5.8
+  },
+  "vision_evidence": {
+   "top_segs": [
+    3,
+    4,
+    2
+   ],
+   "seg_runs": [
+    [
+     2,
+     5
+    ]
+   ],
+   "keyframe_time_s": 1.35,
+   "n_valid": 15,
+   "keyframe_file": "submission\\evidence\\11_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "12": {
+  "id": "12",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "an",
+     "seg": [
+      4
+     ],
+     "char_span": [
+      10,
+      12
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "individual",
+     "seg": [
+      5
+     ],
+     "char_span": [
+      13,
+      23
+     ],
+     "w": 0.9346
+    },
+    {
+     "word": "or",
+     "seg": [
+      1
+     ],
+     "char_span": [
+      0,
+      2
+     ],
+     "w": 0.781
+    }
+   ],
+   "phrase": "or worse, an individual previously had",
+   "phrase_char_span": [
+    0,
+    38
+   ],
+   "seg_runs": [
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "n_valid": 44,
+   "align": {
+    "n_word": 35,
+    "n_raw": 35,
+    "matched": 29,
+    "ratio": 0.829
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    22,
+    4
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     22,
+     23
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 6.96,
+   "n_valid": 43,
+   "duration_s": 13.01
+  },
+  "vision_evidence": {
+   "top_segs": [
+    16,
+    17,
+    15
+   ],
+   "seg_runs": [
+    [
+     15,
+     18
+    ]
+   ],
+   "keyframe_time_s": 5.0,
+   "n_valid": 43,
+   "keyframe_file": "submission\\evidence\\12_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "13": {
+  "id": "13",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "for",
+     "seg": [
+      1
+     ],
+     "char_span": [
+      0,
+      3
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "example,",
+     "seg": [
+      2,
+      3
+     ],
+     "char_span": null,
+     "w": 0.9984
+    },
+    {
+     "word": "take",
+     "seg": [
+      6
+     ],
+     "char_span": [
+      21,
+      25
+     ],
+     "w": 0.5643
+    }
+   ],
+   "phrase": "for example, i could take a set",
+   "phrase_char_span": [
+    0,
+    31
+   ],
+   "seg_runs": [
+    [
+     1,
+     4
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "n_valid": 32,
+   "align": {
+    "n_word": 27,
+    "n_raw": 27,
+    "matched": 24,
+    "ratio": 0.889
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    13,
+    20,
+    21
+   ],
+   "seg_runs": [
+    [
+     13,
+     14
+    ],
+    [
+     20,
+     22
+    ]
+   ],
+   "start_s": 3.64,
+   "end_s": 6.16,
+   "n_valid": 31,
+   "duration_s": 8.68
+  },
+  "vision_evidence": {
+   "top_segs": [
+    0
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ]
+   ],
+   "keyframe_time_s": 4.34,
+   "n_valid": 1,
+   "keyframe_file": "submission\\evidence\\13_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "14": {
+  "id": "14",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "vettese",
+     "seg": [
+      11,
+      12,
+      13
+     ],
+     "char_span": [
+      35,
+      42
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "and",
+     "seg": [
+      15
+     ],
+     "char_span": [
+      51,
+      54
+     ],
+     "w": 0.9896
+    },
+    {
+     "word": "the",
+     "seg": [
+      16
+     ],
+     "char_span": [
+      55,
+      58
+     ],
+     "w": 0.9328
+    }
+   ],
+   "phrase": "rossen and vettese limited and the former executive",
+   "phrase_char_span": [
+    24,
+    75
+   ],
+   "seg_runs": [
+    [
+     11,
+     14
+    ],
+    [
+     15,
+     17
+    ]
+   ],
+   "n_valid": 37,
+   "align": {
+    "n_word": 26,
+    "n_raw": 24,
+    "matched": 19,
+    "ratio": 0.731
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    1,
+    2
+   ],
+   "seg_runs": [
+    [
+     0,
+     3
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 0.86,
+   "n_valid": 36,
+   "duration_s": 10.35
+  },
+  "vision_evidence": {
+   "top_segs": [
+    13,
+    14,
+    19
+   ],
+   "seg_runs": [
+    [
+     13,
+     15
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "keyframe_time_s": 4.03,
+   "n_valid": 36,
+   "keyframe_file": "submission\\evidence\\14_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "15": {
+  "id": "15",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "transform",
+     "seg": [
+      20
+     ],
+     "char_span": [
+      102,
+      111
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "to",
+     "seg": [
+      19
+     ],
+     "char_span": [
+      99,
+      101
+     ],
+     "w": 0.7633
+    },
+    {
+     "word": "lives",
+     "seg": [
+      21
+     ],
+     "char_span": [
+      112,
+      117
+     ],
+     "w": 0.7596
+    }
+   ],
+   "phrase": "its power to transform lives",
+   "phrase_char_span": [
+    89,
+    117
+   ],
+   "seg_runs": [
+    [
+     19,
+     22
+    ]
+   ],
+   "n_valid": 23,
+   "align": {
+    "n_word": 17,
+    "n_raw": 17,
+    "matched": 15,
+    "ratio": 0.882
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    3,
+    2,
+    1
+   ],
+   "seg_runs": [
+    [
+     1,
+     4
+    ]
+   ],
+   "start_s": 0.33,
+   "end_s": 1.33,
+   "n_valid": 22,
+   "duration_s": 7.33
+  },
+  "vision_evidence": {
+   "top_segs": [
+    21,
+    1,
+    0
+   ],
+   "seg_runs": [
+    [
+     0,
+     2
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "keyframe_time_s": 0.34,
+   "n_valid": 22,
+   "keyframe_file": "submission\\evidence\\15_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "16": {
+  "id": "16",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "terrible",
+     "seg": [
+      10
+     ],
+     "char_span": [
+      27,
+      35
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "movie",
+     "seg": [
+      11
+     ],
+     "char_span": [
+      36,
+      41
+     ],
+     "w": 0.9845
+    },
+    {
+     "word": "a",
+     "seg": [
+      9
+     ],
+     "char_span": [
+      25,
+      26
+     ],
+     "w": 0.5845
+    }
+   ],
+   "phrase": "this is a terrible movie",
+   "phrase_char_span": [
+    17,
+    41
+   ],
+   "seg_runs": [
+    [
+     9,
+     12
+    ]
+   ],
+   "n_valid": 13,
+   "align": {
+    "n_word": 9,
+    "n_raw": 8,
+    "matched": 6,
+    "ratio": 0.667
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    1,
+    2
+   ],
+   "seg_runs": [
+    [
+     0,
+     3
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 0.78,
+   "n_valid": 12,
+   "duration_s": 3.11
+  },
+  "vision_evidence": {
+   "top_segs": [
+    4,
+    3,
+    2
+   ],
+   "seg_runs": [
+    [
+     2,
+     5
+    ]
+   ],
+   "keyframe_time_s": 0.91,
+   "n_valid": 12,
+   "keyframe_file": "submission\\evidence\\16_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "17": {
+  "id": "17",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "will",
+     "seg": [
+      14
+     ],
+     "char_span": [
+      78,
+      82
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "make",
+     "seg": [
+      15
+     ],
+     "char_span": [
+      83,
+      87
+     ],
+     "w": 0.8861
+    },
+    {
+     "word": "people",
+     "seg": [
+      16
+     ],
+     "char_span": [
+      88,
+      94
+     ],
+     "w": 0.6756
+    }
+   ],
+   "phrase": "easy and will make people think you",
+   "phrase_char_span": [
+    69,
+    104
+   ],
+   "seg_runs": [
+    [
+     14,
+     17
+    ]
+   ],
+   "n_valid": 26,
+   "align": {
+    "n_word": 22,
+    "n_raw": 22,
+    "matched": 20,
+    "ratio": 0.909
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    0,
+    12,
+    2
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 5.03,
+   "n_valid": 25,
+   "duration_s": 9.67
+  },
+  "vision_evidence": {
+   "top_segs": [
+    0,
+    1,
+    2
+   ],
+   "seg_runs": [
+    [
+     0,
+     3
+    ]
+   ],
+   "keyframe_time_s": 0.58,
+   "n_valid": 25,
+   "keyframe_file": "submission\\evidence\\17_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "18": {
+  "id": "18",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "mackerel",
+     "seg": [
+      23,
+      24,
+      25
+     ],
+     "char_span": [
+      97,
+      105
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "faeroese",
+     "seg": [
+      20,
+      21,
+      22
+     ],
+     "char_span": [
+      88,
+      96
+     ],
+     "w": 0.8523
+    },
+    {
+     "word": "meanwhile,",
+     "seg": [
+      17,
+      18
+     ],
+     "char_span": null,
+     "w": 0.819
+    }
+   ],
+   "phrase": "msc– certified- meanwhile, the faeroese mackerel fishery has",
+   "phrase_char_span": [
+    84,
+    117
+   ],
+   "seg_runs": [
+    [
+     17,
+     19
+    ],
+    [
+     20,
+     26
+    ]
+   ],
+   "n_valid": 50,
+   "align": {
+    "n_word": 38,
+    "n_raw": 44,
+    "matched": 33,
+    "ratio": 0.868
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    9,
+    8,
+    17
+   ],
+   "seg_runs": [
+    [
+     8,
+     10
+    ],
+    [
+     17,
+     18
+    ]
+   ],
+   "start_s": 3.07,
+   "end_s": 6.91,
+   "n_valid": 49,
+   "duration_s": 18.81
+  },
+  "vision_evidence": {
+   "top_segs": [
+    0,
+    22,
+    21
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ],
+    [
+     21,
+     23
+    ]
+   ],
+   "keyframe_time_s": 0.19,
+   "n_valid": 49,
+   "keyframe_file": "submission\\evidence\\18_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "19": {
+  "id": "19",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "are",
+     "seg": [
+      2
+     ],
+     "char_span": [
+      7,
+      10
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "surprisingly",
+     "seg": [
+      3
+     ],
+     "char_span": [
+      11,
+      23
+     ],
+     "w": 0.9358
+    },
+    {
+     "word": "people",
+     "seg": [
+      1
+     ],
+     "char_span": [
+      0,
+      6
+     ],
+     "w": 0.8596
+    }
+   ],
+   "phrase": "people are surprisingly forgiving brands",
+   "phrase_char_span": [
+    0,
+    40
+   ],
+   "seg_runs": [
+    [
+     1,
+     4
+    ]
+   ],
+   "n_valid": 41,
+   "align": {
+    "n_word": 33,
+    "n_raw": 33,
+    "matched": 30,
+    "ratio": 0.909
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    21,
+    20,
+    1
+   ],
+   "seg_runs": [
+    [
+     1,
+     2
+    ],
+    [
+     20,
+     22
+    ]
+   ],
+   "start_s": 0.34,
+   "end_s": 7.52,
+   "n_valid": 40,
+   "duration_s": 13.68
+  },
+  "vision_evidence": {
+   "top_segs": [
+    24,
+    23,
+    1
+   ],
+   "seg_runs": [
+    [
+     1,
+     2
+    ],
+    [
+     23,
+     25
+    ]
+   ],
+   "keyframe_time_s": 0.51,
+   "n_valid": 40,
+   "keyframe_file": "submission\\evidence\\19_kf.jpg",
+   "keyframe_ok": true
+  }
+ },
+ "20": {
+  "id": "20",
+  "text_evidence": {
+   "top_words": [
+    {
+     "word": "video",
+     "seg": [
+      14
+     ],
+     "char_span": [
+      60,
+      65
+     ],
+     "w": 1.0
+    },
+    {
+     "word": "course,",
+     "seg": [
+      3,
+      4
+     ],
+     "char_span": null,
+     "w": 0.9282
+    },
+    {
+     "word": "of",
+     "seg": [
+      12
+     ],
+     "char_span": [
+      52,
+      54
+     ],
+     "w": 0.8422
+    }
+   ],
+   "phrase": "and of course, click in the link of the description of this video for more,",
+   "phrase_char_span": [
+    0,
+    69
+   ],
+   "seg_runs": [
+    [
+     3,
+     5
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "n_valid": 45,
+   "align": {
+    "n_word": 36,
+    "n_raw": 34,
+    "matched": 28,
+    "ratio": 0.778
+   }
+  },
+  "audio_evidence": {
+   "top_segs": [
+    7,
+    6,
+    0
+   ],
+   "seg_runs": [
+    [
+     0,
+     1
+    ],
+    [
+     6,
+     8
+    ]
+   ],
+   "start_s": 0.0,
+   "end_s": 1.99,
+   "n_valid": 44,
+   "duration_s": 10.95
+  },
+  "vision_evidence": {
+   "top_segs": [
+    3,
+    2,
+    4
+   ],
+   "seg_runs": [
+    [
+     2,
+     5
+    ]
+   ],
+   "keyframe_time_s": 0.87,
+   "n_valid": 44,
+   "keyframe_file": "submission\\evidence\\20_kf.jpg",
+   "keyframe_ok": true
+  }
+ }
+}

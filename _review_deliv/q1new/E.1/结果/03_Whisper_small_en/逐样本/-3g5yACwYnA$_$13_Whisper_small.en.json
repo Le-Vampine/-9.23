@@ -1,0 +1,233 @@
+{
+  "sample_id": "-3g5yACwYnA$_$13",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-3g5yACwYnA$_$13.wav",
+  "audio_sha256": "45b7a99658bcaaf78e898e7fd8df6f8e59cbd355af3d1effb627e87fa527da8d",
+  "audio_duration_s": 5.399,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "that we do. They have been able to find solutions or at least bring some answers to the table.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.82,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.82,
+      "text": " that we do. They have been able to find solutions or at least bring some answers to the table.",
+      "no_speech_probability": 0.0031126090325415134,
+      "average_log_probability": -0.16721458981434503
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.2,
+      "probability": 0.893940806388855
+    },
+    {
+      "word_index": 2,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 0.2,
+      "end_time_wav_s": 0.38,
+      "start_time_source_s": 0.2,
+      "end_time_source_s": 0.38,
+      "probability": 0.9965369701385498
+    },
+    {
+      "word_index": 3,
+      "word": "do.",
+      "surface": " do.",
+      "start_time_wav_s": 0.38,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.38,
+      "end_time_source_s": 0.64,
+      "probability": 0.99764084815979
+    },
+    {
+      "word_index": 4,
+      "word": "They",
+      "surface": " They",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 1.56,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 1.56,
+      "probability": 0.9774196147918701
+    },
+    {
+      "word_index": 5,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 1.56,
+      "end_time_wav_s": 1.62,
+      "start_time_source_s": 1.56,
+      "end_time_source_s": 1.62,
+      "probability": 0.6149739027023315
+    },
+    {
+      "word_index": 6,
+      "word": "been",
+      "surface": " been",
+      "start_time_wav_s": 1.62,
+      "end_time_wav_s": 1.68,
+      "start_time_source_s": 1.62,
+      "end_time_source_s": 1.68,
+      "probability": 0.995320737361908
+    },
+    {
+      "word_index": 7,
+      "word": "able",
+      "surface": " able",
+      "start_time_wav_s": 1.68,
+      "end_time_wav_s": 1.88,
+      "start_time_source_s": 1.68,
+      "end_time_source_s": 1.88,
+      "probability": 0.999386191368103
+    },
+    {
+      "word_index": 8,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.88,
+      "end_time_wav_s": 2.06,
+      "start_time_source_s": 1.88,
+      "end_time_source_s": 2.06,
+      "probability": 0.9981871247291565
+    },
+    {
+      "word_index": 9,
+      "word": "find",
+      "surface": " find",
+      "start_time_wav_s": 2.06,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.06,
+      "end_time_source_s": 2.36,
+      "probability": 0.991510808467865
+    },
+    {
+      "word_index": 10,
+      "word": "solutions",
+      "surface": " solutions",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.78,
+      "probability": 0.9909831285476685
+    },
+    {
+      "word_index": 11,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 2.78,
+      "end_time_wav_s": 3.14,
+      "start_time_source_s": 2.78,
+      "end_time_source_s": 3.14,
+      "probability": 0.8819648027420044
+    },
+    {
+      "word_index": 12,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 3.14,
+      "end_time_wav_s": 3.24,
+      "start_time_source_s": 3.14,
+      "end_time_source_s": 3.24,
+      "probability": 0.990532636642456
+    },
+    {
+      "word_index": 13,
+      "word": "least",
+      "surface": " least",
+      "start_time_wav_s": 3.24,
+      "end_time_wav_s": 3.34,
+      "start_time_source_s": 3.24,
+      "end_time_source_s": 3.34,
+      "probability": 0.9952493906021118
+    },
+    {
+      "word_index": 14,
+      "word": "bring",
+      "surface": " bring",
+      "start_time_wav_s": 3.34,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.34,
+      "end_time_source_s": 3.68,
+      "probability": 0.9788424372673035
+    },
+    {
+      "word_index": 15,
+      "word": "some",
+      "surface": " some",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.94,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.94,
+      "probability": 0.9827365875244141
+    },
+    {
+      "word_index": 16,
+      "word": "answers",
+      "surface": " answers",
+      "start_time_wav_s": 3.94,
+      "end_time_wav_s": 4.24,
+      "start_time_source_s": 3.94,
+      "end_time_source_s": 4.24,
+      "probability": 0.9956938028335571
+    },
+    {
+      "word_index": 17,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 4.24,
+      "end_time_wav_s": 4.46,
+      "start_time_source_s": 4.24,
+      "end_time_source_s": 4.46,
+      "probability": 0.9983453750610352
+    },
+    {
+      "word_index": 18,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.46,
+      "end_time_wav_s": 4.56,
+      "start_time_source_s": 4.46,
+      "end_time_source_s": 4.56,
+      "probability": 0.996638298034668
+    },
+    {
+      "word_index": 19,
+      "word": "table.",
+      "surface": " table.",
+      "start_time_wav_s": 4.56,
+      "end_time_wav_s": 4.82,
+      "start_time_source_s": 4.56,
+      "end_time_source_s": 4.82,
+      "probability": 0.99788898229599
+    }
+  ],
+  "word_count": 19,
+  "mean_word_probability": 0.9617785497715599,
+  "issues": [],
+  "official_transcript_loaded": false
+}

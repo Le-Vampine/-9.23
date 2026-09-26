@@ -68,13 +68,32 @@ def _split_and_place(valid, total, k, pos_mode, rng):
     return res
 
 
+def sample_rho(rho_min, rho_max, rng, mix=None):
+    """采样缺失率 rho。
+
+    mix=None 时退化为 U(rho_min, rho_max)（旧行为）。
+    mix 为 [(lo, hi, w), ...] 时，先按权重选段，再在该段内均匀采样——
+    用于把训练时的 rho 分布**对齐到测试集实测分布**（附件3：mean 0.183 / p90 0.333 / max 0.478）。
+    """
+    if not mix:
+        return float(rng.uniform(rho_min, rho_max))
+    w = np.asarray([max(float(x[2]), 0.0) for x in mix], dtype=float)
+    if w.sum() <= 0:
+        return float(rng.uniform(rho_min, rho_max))
+    w = w / w.sum()
+    j = int(rng.choice(len(mix), p=w))
+    lo, hi = float(mix[j][0]), float(mix[j][1])
+    return float(rng.uniform(lo, hi))
+
+
 def inject_missing(miss, pad, rho_min, rho_max, mode="mixed",
                    pos_modes=("head", "middle", "tail", "random"), rng=None,
-                   n_intervals=(1, 3)):
+                   n_intervals=(1, 3), rho_mix=None):
     """
     miss: (B,L,3) float/bool，已有缺失（来自数据本身）
     pad : (B,L,3) bool，True=超出有效长度
     n_intervals: 每模态拆成几段短碎片（附件3 实测为短碎片，故默认 1~3 段）
+    rho_mix: [(lo,hi,w),...] 时忽略 rho_min/rho_max，按该混合分布采样 rho
     返回 new_miss (B,L,3) bool，以及本次注入记录 records
     """
     if rng is None:
@@ -93,7 +112,7 @@ def inject_missing(miss, pad, rho_min, rho_max, mode="mixed",
             if valid.numel() < 4:
                 continue
             valid_len = int(valid.numel())
-            rho = float(rng.uniform(rho_min, rho_max))
+            rho = sample_rho(rho_min, rho_max, rng, mix=rho_mix)
             n_miss = int(round(rho * valid_len))
             if n_miss <= 0:
                 continue
@@ -112,6 +131,34 @@ def batch_missing_ratios(miss, pad):
     valid = (~pad).float()
     denom = valid.sum(dim=1).clamp(min=1.0)
     return (miss.float() * valid).sum(dim=1) / denom
+
+
+def inject_modality_dropout(miss, pad, prob=0.0, rng=None, n_mods=1, keep_one=True):
+    """
+    整模态缺失增强（训练期）：对每个样本以 prob 的概率把若干模态**整体**置为缺失。
+
+    与 inject_missing 的区别：后者注入的是"局部连续区间缺失"（题目定义的场景），
+    本函数额外覆盖"整模态不可用"的极端情况，用于提升模型在严重缺失下的稳定性。
+
+    keep_one=True 时保证至少保留一个可见模态（避免所有模态都空导致退化为先验预测）。
+    """
+    if prob is None or prob <= 0:
+        return miss
+    if rng is None:
+        rng = np.random.default_rng()
+    B, L, K = miss.shape
+    out = miss.clone().bool()
+    hit = np.nonzero(rng.random(B) < prob)[0]
+    for b in hit:
+        kmax = K - 1 if keep_one else K
+        n = int(min(max(1, n_mods), max(1, kmax)))
+        mods = rng.choice(K, size=n, replace=False)
+        for k in mods:
+            valid = ~pad[b, :, k]
+            if valid.sum() < 1:
+                continue
+            out[b, :, k] = out[b, :, k] | valid
+    return out
 
 
 def crop_batch(b, rng, min_keep=0.7):

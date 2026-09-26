@@ -1,0 +1,73 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-ri04Z7vwnc$_$0.wav",
+  "audio_sha256": "cdf137a97bbd3d384e62b9a09c813430e431d885ebe29e1cfdf4070afb54db84",
+  "audio_duration_s": 2.763,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Thanks for watching!",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.0,
+      "text": " Thanks for watching!",
+      "no_speech_probability": 0.9095108509063721,
+      "average_log_probability": -0.8992952278682164
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Thanks",
+      "surface": " Thanks",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 1.26,
+      "probability": 0.006774542853236198
+    },
+    {
+      "word_index": 2,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.84,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.84,
+      "probability": 0.8469099402427673
+    },
+    {
+      "word_index": 3,
+      "word": "watching!",
+      "surface": " watching!",
+      "start_time_wav_s": 1.84,
+      "end_time_wav_s": 2.54,
+      "start_time_source_s": 1.84,
+      "end_time_source_s": 2.54,
+      "probability": 0.9431855082511902
+    }
+  ],
+  "word_count": 3,
+  "mean_word_probability": 0.5989566637823979,
+  "issues": [],
+  "official_transcript_loaded": false
+}

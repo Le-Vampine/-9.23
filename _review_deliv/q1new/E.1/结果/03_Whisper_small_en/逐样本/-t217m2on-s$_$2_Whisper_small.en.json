@@ -1,0 +1,163 @@
+{
+  "sample_id": "-t217m2on-s$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-t217m2on-s$_$2.wav",
+  "audio_sha256": "0580d0bb64d20725fbdb8aff86b8b34f9ed0aa0fb1ddc99710f23d9b2e095a3e",
+  "audio_duration_s": 5.63,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "But a good thing to do is yawning. Chewing gum is effective.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.86,
+      "text": " But a good thing to do is yawning. Chewing gum is effective.",
+      "no_speech_probability": 0.009509468451142311,
+      "average_log_probability": -0.31630407195342214
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "But",
+      "surface": " But",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.68,
+      "probability": 0.5415016412734985
+    },
+    {
+      "word_index": 2,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 1.38,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 1.38,
+      "probability": 0.8815295696258545
+    },
+    {
+      "word_index": 3,
+      "word": "good",
+      "surface": " good",
+      "start_time_wav_s": 1.38,
+      "end_time_wav_s": 1.54,
+      "start_time_source_s": 1.38,
+      "end_time_source_s": 1.54,
+      "probability": 0.9807708859443665
+    },
+    {
+      "word_index": 4,
+      "word": "thing",
+      "surface": " thing",
+      "start_time_wav_s": 1.54,
+      "end_time_wav_s": 1.74,
+      "start_time_source_s": 1.54,
+      "end_time_source_s": 1.74,
+      "probability": 0.9959844350814819
+    },
+    {
+      "word_index": 5,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.74,
+      "end_time_wav_s": 1.86,
+      "start_time_source_s": 1.74,
+      "end_time_source_s": 1.86,
+      "probability": 0.9801713228225708
+    },
+    {
+      "word_index": 6,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 1.86,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.86,
+      "end_time_source_s": 1.96,
+      "probability": 0.9971265196800232
+    },
+    {
+      "word_index": 7,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 1.96,
+      "end_time_wav_s": 2.08,
+      "start_time_source_s": 1.96,
+      "end_time_source_s": 2.08,
+      "probability": 0.9838899374008179
+    },
+    {
+      "word_index": 8,
+      "word": "yawning.",
+      "surface": " yawning.",
+      "start_time_wav_s": 2.08,
+      "end_time_wav_s": 3.08,
+      "start_time_source_s": 2.08,
+      "end_time_source_s": 3.08,
+      "probability": 0.7328837960958481
+    },
+    {
+      "word_index": 9,
+      "word": "Chewing",
+      "surface": " Chewing",
+      "start_time_wav_s": 3.62,
+      "end_time_wav_s": 3.88,
+      "start_time_source_s": 3.62,
+      "end_time_source_s": 3.88,
+      "probability": 0.971761554479599
+    },
+    {
+      "word_index": 10,
+      "word": "gum",
+      "surface": " gum",
+      "start_time_wav_s": 3.88,
+      "end_time_wav_s": 4.18,
+      "start_time_source_s": 3.88,
+      "end_time_source_s": 4.18,
+      "probability": 0.9976316690444946
+    },
+    {
+      "word_index": 11,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 4.18,
+      "end_time_wav_s": 4.4,
+      "start_time_source_s": 4.18,
+      "end_time_source_s": 4.4,
+      "probability": 0.9941524863243103
+    },
+    {
+      "word_index": 12,
+      "word": "effective.",
+      "surface": " effective.",
+      "start_time_wav_s": 4.4,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 4.4,
+      "end_time_source_s": 4.86,
+      "probability": 0.9849432706832886
+    }
+  ],
+  "word_count": 12,
+  "mean_word_probability": 0.9201955907046795,
+  "issues": [],
+  "official_transcript_loaded": false
+}

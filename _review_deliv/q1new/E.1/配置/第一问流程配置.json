@@ -1,0 +1,159 @@
+{
+  "project": "E.1",
+  "language": "en",
+  "workflow": [
+    {"step": 1, "name": "建立样本清单，核对编号、路径、文本和标签", "status": "completed"},
+    {"step": 2, "name": "检查视频并分离音频，保留原始时间轴", "status": "completed"},
+    {"step": 3, "name": "Whisper small.en 识别英文并输出词级时间戳", "status": "completed"},
+    {"step": 4, "name": "比对题目原始转写文本并检查词边界", "status": "completed_with_exceptions", "text_screening": "completed", "mfa_alignment": "95_of_98_whisper_transcripts_aligned; 3_failed", "mfa_mapped_candidate_word_times": 1520, "accepted_mfa_timestamps": 1421, "official_word_count": 1934, "estimated_timestamp_coverage": 0.734747},
+    {"step": 5, "name": "文本编码", "status": "completed", "sample_count": 100, "official_word_count": 1934, "feature_shape": [1934, 768]},
+    {"step": 6, "name": "提取 Librosa 74 维声学时序特征", "status": "completed", "sample_count": 100, "frame_count": 77755, "feature_dimensions": 74},
+    {"step": 7, "name": "提取 52 维视觉时序特征及有效性标记", "status": "completed", "sample_count": 100, "sampled_frame_count": 7889, "face_valid_frame_count": 6471, "samples_with_no_valid_face": 13},
+    {"step": 8, "name": "以词时间区间为基准聚合语音与视觉特征", "status": "completed", "primary_time_words": 1421, "audio_valid_words": 1421, "visual_valid_words": 1228},
+    {"step": 9, "name": "保存对齐结果和质量掩码", "status": "completed", "sample_files": 100, "format": "逐样本NPZ + 逐词CSV索引 + 逐样本统计"},
+    {"step": 10, "name": "全量质量检查与汇总图", "status": "completed", "sample_count": 100, "word_count": 1934, "report": "结果/10_全量质量检查与论文图表/全量核验与论文数据.json"},
+    {"step": 11, "name": "提交特征文件、程序、配置与论文说明", "status": "candidate_complete", "attachment": "交付候选/问题一核心附件.zip", "draft": "论文/问题一论文初稿_修订版.docx"}
+  ],
+  "modalities": {
+    "text": {
+      "encoder_family": "BERT-base uncased",
+      "dimensions": 768,
+      "exact_checkpoint": "google-bert/bert-base-uncased",
+      "checkpoint_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "source_onnx_sha256": "44d7a2896d341c51fb1eba89aea3a590e6af0ce33e25481136f7eeecb62e5f7f",
+      "encoder_onnx_sha256": "4946c9b4b81b974d0b1fb78b923666a493f7f2909f798578308431780f4547c1",
+      "source": "输入/原始标签/label-100.xlsx 中 label 工作表的 text 列",
+      "whisper_transcript_used": false,
+      "representation": "最后一层编码器隐藏状态；每个原文词对应的 WordPiece 向量取算术平均；无微调",
+      "word_order": "与第4步 official_word_index 一致",
+      "feature_file": "结果/05_BERT_base_uncased/原文逐词BERT特征.npy",
+      "index_file": "结果/05_BERT_base_uncased/原文逐词索引.csv",
+      "text_feature_valid_words": 1934,
+      "words_with_valid_primary_timestamp": 1421,
+      "words_without_valid_primary_timestamp": 513
+    },
+    "audio": {
+      "library": "librosa",
+      "library_version": "0.11.0",
+      "dimensions": 74,
+      "sample_rate_hz": 16000,
+      "n_fft": 2048,
+      "hop_length_samples": 160,
+      "frame_center_spacing_s": 0.01,
+      "centered_window": true,
+      "source": "输入/音频WAV 中第2步核验过的完整 WAV",
+      "feature_definition_file": "结果/06_Librosa74/特征定义.json",
+      "per_sample_output_dir": "结果/06_Librosa74/逐样本",
+      "pitch_method": "librosa.pyin",
+      "pitch_range_hz": [50, 600],
+      "unvoiced_f0_value": 0,
+      "unvoiced_f0_requires_mask": true,
+      "frame_time_basis": "WAV 起点起算的中心时间；另存源媒体时间",
+      "corpus_standardization_at_extraction": false,
+      "features": [
+        {"name": "MFCC", "dimensions": 20},
+        {"name": "MFCC 一阶差分", "dimensions": 20},
+        {"name": "MFCC 二阶差分", "dimensions": 20},
+        {"name": "RMS、过零率、谱质心、谱带宽、谱滚降率、谱平坦度", "dimensions": 6},
+        {"name": "6 个频带的频带对比度", "dimensions": 6},
+        {"name": "基频 F0、浊音概率", "dimensions": 2}
+      ]
+    },
+  "visual": {
+      "extractor": "MediaPipe Face Landmarker",
+      "dimensions": 52,
+      "validity_mask_required": true,
+      "model": "face_landmarker.task float16/1",
+      "model_sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "mediapipe_version": "0.10.32",
+      "running_mode": "VIDEO",
+      "target_sampling_fps": 10,
+      "timestamp_source": "原始解码帧 PTS，另存相对于 WAV 起点的时间",
+      "blendshape_dimensions": 52,
+      "valid_face_rule": "恰好一张人脸且归一化边框面积不少于0.01",
+      "invalid_face_value": "52维零占位值，必须结合face_valid_mask解释",
+      "feature_definition_file": "结果/07_FaceLandmarker52/特征定义.json",
+      "per_sample_output_dir": "结果/07_FaceLandmarker52/逐样本"
+    }
+  },
+  "word_feature_alignment": {
+    "word_time_source": "第4步 final_primary 起止时间和有效掩码",
+    "interval_rule": "[start,end)，按真实帧中心/PTS纳入，不插值",
+    "text_features": "所有1934个原文词均保留768维BERT向量",
+    "audio_pooling": "区间内有效声学帧均值；F0仅对有声帧均值",
+    "visual_pooling": "区间内有效单人脸帧的52维系数均值",
+    "visual_nearest_candidate": "区间外最近有效人脸帧距离不超过0.05秒时单独保存；不纳入主视觉矩阵",
+    "missing_feature_value": "零占位，必须同时使用模态有效掩码",
+    "missing_time_value": "NaN，必须同时使用词时间有效掩码",
+    "primary_time_words": 1421,
+    "audio_valid_words": 1421,
+    "visual_valid_words": 1228,
+    "audio_visual_both_valid_words": 1228,
+    "words_without_primary_time": 513,
+    "output_directory": "结果/08_原文词级跨模态对齐",
+    "policy_file": "结果/08_原文词级跨模态对齐/对齐规则.json"
+  },
+  "asr": {
+    "model": "Systran/faster-whisper-small.en",
+    "model_bin_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+    "runtime": "faster-whisper 1.2.1; CTranslate2 4.8.2",
+    "device": "cpu",
+    "compute_type": "int8",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "official_transcript_used": false,
+    "word_times_are_approximate_asr_estimates": true
+  },
+  "timeline": {
+    "audio_extraction": "从原始视频完整音轨提取；不裁剪、不补齐",
+    "wav_zero": "源音轨首个呈现时间戳",
+    "source_time_mapping": "源媒体时间 = WAV 时间 + 源音轨起点",
+    "keep_source_video_and_audio_durations_separate": true
+  },
+  "data_integrity": {
+    "official_text_and_labels_are_immutable": true,
+    "preserve_all_100_samples": true,
+    "do_not_reuse_old_final_folder_feature_outputs": true
+  },
+  "automatic_alignment_policy": {
+    "manual_audio_review": false,
+    "normalization_for_transcript_comparison": ["case insensitive", "ignore punctuation", "normalize Unicode apostrophes", "do not expand contractions", "do not equate number spellings"],
+    "mfa_candidate_rule": "Align Whisper transcripts; map only mandatory unique exact-token matches through official-to-Whisper and Whisper-to-MFA sequences. Transcript-mismatch words are a separate evidence tier and not proof of correctness.",
+    "mfa": {
+      "version": "3.4.2",
+      "dictionary": "english_us_arpa",
+      "acoustic_model": "english_us_arpa",
+      "validation_status": "alignment_batch_completed_with_3_utterance_failures",
+      "aligned_utterances": 95,
+      "submitted_nonempty_transcripts": 98,
+      "failed_utterances": ["sample_0022", "sample_0054", "sample_0098"],
+      "accepted_mfa_timestamps": 1421
+    },
+    "final_word_times": "Use MFA forced-alignment intervals for mandatory unique exact-token matches. Keep a word only if interval checks pass and, when comparable, the maximum MFA-vs-Whisper edge difference is <=0.5 s. Label full-transcript matches as tier A and unique word overlaps in mismatched transcripts as tier B. Other words remain null.",
+    "current_recovery": {
+      "mapping_method": "mandatory unique exact-token pair in all optimal LCS alignments",
+      "source_of_all_current_timestamps": "MFA 3.4.2 forced alignment of Whisper small.en transcripts",
+      "total_official_words": 1934,
+      "mfa_mapped_candidate_word_times": 1520,
+      "timestamps_passing_final_rules": 1421,
+      "null_words": 513,
+      "coverage": 0.734746639089969,
+      "mfa_whisper_edge_discrepancy_threshold_s": 0.5,
+      "evidence_tier_counts": {
+        "A_exact_transcript": 520,
+        "B_unique_word_overlap_in_mismatched_transcript": 901
+      },
+      "status_counts": {
+        "mfa_primary_exact_transcript_auto_qc_pass": 520,
+        "mfa_primary_unique_word_overlap_auto_qc_pass": 901,
+        "mfa_whisper_discrepancy_over_0_5s_null_primary": 99,
+        "official_word_unmatched_or_ambiguous_in_asr": 272,
+        "mfa_alignment_output_missing": 77,
+        "asr_empty_no_timestamp": 65
+      }
+    },
+    "word_time_accuracy_claim_without_gold_boundaries": false
+  }
+}

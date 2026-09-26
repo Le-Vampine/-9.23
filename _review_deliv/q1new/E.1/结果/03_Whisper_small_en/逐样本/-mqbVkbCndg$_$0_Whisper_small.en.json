@@ -1,0 +1,183 @@
+{
+  "sample_id": "-mqbVkbCndg$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-mqbVkbCndg$_$0.wav",
+  "audio_sha256": "0c1c6ba301382581d1b6f1329269f897f85e4c1ad64ce2ad37b90050b8379001",
+  "audio_duration_s": 6.385,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "How at a particular moment in time, our moment in time, are they limited?",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.64,
+      "text": " How at a particular moment in time, our moment in time, are they limited?",
+      "no_speech_probability": 0.000714383611921221,
+      "average_log_probability": -0.21157295554876326
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "How",
+      "surface": " How",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.38,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.38,
+      "probability": 0.903985321521759
+    },
+    {
+      "word_index": 2,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 0.38,
+      "end_time_wav_s": 0.94,
+      "start_time_source_s": 0.38,
+      "end_time_source_s": 0.94,
+      "probability": 0.6793640851974487
+    },
+    {
+      "word_index": 3,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 0.94,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.94,
+      "end_time_source_s": 1.06,
+      "probability": 0.995926022529602
+    },
+    {
+      "word_index": 4,
+      "word": "particular",
+      "surface": " particular",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.34,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.34,
+      "probability": 0.9976809024810791
+    },
+    {
+      "word_index": 5,
+      "word": "moment",
+      "surface": " moment",
+      "start_time_wav_s": 1.34,
+      "end_time_wav_s": 1.84,
+      "start_time_source_s": 1.34,
+      "end_time_source_s": 1.84,
+      "probability": 0.9962963461875916
+    },
+    {
+      "word_index": 6,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 1.84,
+      "end_time_wav_s": 2.18,
+      "start_time_source_s": 1.84,
+      "end_time_source_s": 2.18,
+      "probability": 0.995187520980835
+    },
+    {
+      "word_index": 7,
+      "word": "time,",
+      "surface": " time,",
+      "start_time_wav_s": 2.18,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.18,
+      "end_time_source_s": 2.52,
+      "probability": 0.9983441829681396
+    },
+    {
+      "word_index": 8,
+      "word": "our",
+      "surface": " our",
+      "start_time_wav_s": 2.7,
+      "end_time_wav_s": 2.92,
+      "start_time_source_s": 2.7,
+      "end_time_source_s": 2.92,
+      "probability": 0.9645101428031921
+    },
+    {
+      "word_index": 9,
+      "word": "moment",
+      "surface": " moment",
+      "start_time_wav_s": 2.92,
+      "end_time_wav_s": 3.24,
+      "start_time_source_s": 2.92,
+      "end_time_source_s": 3.24,
+      "probability": 0.9916918277740479
+    },
+    {
+      "word_index": 10,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 3.24,
+      "end_time_wav_s": 3.6,
+      "start_time_source_s": 3.24,
+      "end_time_source_s": 3.6,
+      "probability": 0.9924523234367371
+    },
+    {
+      "word_index": 11,
+      "word": "time,",
+      "surface": " time,",
+      "start_time_wav_s": 3.6,
+      "end_time_wav_s": 4.0,
+      "start_time_source_s": 3.6,
+      "end_time_source_s": 4.0,
+      "probability": 0.9996235370635986
+    },
+    {
+      "word_index": 12,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 4.32,
+      "end_time_wav_s": 4.62,
+      "start_time_source_s": 4.32,
+      "end_time_source_s": 4.62,
+      "probability": 0.99750816822052
+    },
+    {
+      "word_index": 13,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 4.62,
+      "end_time_wav_s": 4.94,
+      "start_time_source_s": 4.62,
+      "end_time_source_s": 4.94,
+      "probability": 0.9992477893829346
+    },
+    {
+      "word_index": 14,
+      "word": "limited?",
+      "surface": " limited?",
+      "start_time_wav_s": 4.94,
+      "end_time_wav_s": 5.64,
+      "start_time_source_s": 4.94,
+      "end_time_source_s": 5.64,
+      "probability": 0.9933401942253113
+    }
+  ],
+  "word_count": 14,
+  "mean_word_probability": 0.9646541689123426,
+  "issues": [],
+  "official_transcript_loaded": false
+}

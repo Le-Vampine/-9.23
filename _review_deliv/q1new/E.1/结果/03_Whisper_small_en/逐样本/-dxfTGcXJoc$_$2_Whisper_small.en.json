@@ -1,0 +1,413 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-dxfTGcXJoc$_$2.wav",
+  "audio_sha256": "e6f9281095e639967f513b0fe4466ca33407638fe20d11cd5c7d2a9473495eaa",
+  "audio_duration_s": 16.633,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "An estimated 20,000 biotech scientists, executives, and industry experts from more than 50 nations were at the bio conference to learn about the latest scientific advances and to exchange ideas and establish business relationships.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.7,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.7,
+      "text": " An estimated 20,000 biotech scientists, executives, and industry experts from more than 50 nations",
+      "no_speech_probability": 0.0003550830006133765,
+      "average_log_probability": -0.17058621930039447
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 7.7,
+      "end_time_wav_s": 11.98,
+      "start_time_source_s": 7.7,
+      "end_time_source_s": 11.98,
+      "text": " were at the bio conference to learn about the latest scientific advances",
+      "no_speech_probability": 0.0003550830006133765,
+      "average_log_probability": -0.17058621930039447
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 11.98,
+      "end_time_wav_s": 15.84,
+      "start_time_source_s": 11.98,
+      "end_time_source_s": 15.84,
+      "text": " and to exchange ideas and establish business relationships.",
+      "no_speech_probability": 0.0003550830006133765,
+      "average_log_probability": -0.17058621930039447
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "An",
+      "surface": " An",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.62,
+      "probability": 0.952364444732666
+    },
+    {
+      "word_index": 2,
+      "word": "estimated",
+      "surface": " estimated",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 1.16,
+      "probability": 0.998588502407074
+    },
+    {
+      "word_index": 3,
+      "word": "20",
+      "surface": " 20",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.64,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.64,
+      "probability": 0.9689627289772034
+    },
+    {
+      "word_index": 4,
+      "word": ",000",
+      "surface": ",000",
+      "start_time_wav_s": 1.64,
+      "end_time_wav_s": 2.28,
+      "start_time_source_s": 1.64,
+      "end_time_source_s": 2.28,
+      "probability": 0.9875012338161469
+    },
+    {
+      "word_index": 5,
+      "word": "biotech",
+      "surface": " biotech",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.82,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.82,
+      "probability": 0.9279576539993286
+    },
+    {
+      "word_index": 6,
+      "word": "scientists,",
+      "surface": " scientists,",
+      "start_time_wav_s": 2.82,
+      "end_time_wav_s": 3.52,
+      "start_time_source_s": 2.82,
+      "end_time_source_s": 3.52,
+      "probability": 0.9503103494644165
+    },
+    {
+      "word_index": 7,
+      "word": "executives,",
+      "surface": " executives,",
+      "start_time_wav_s": 3.9,
+      "end_time_wav_s": 4.28,
+      "start_time_source_s": 3.9,
+      "end_time_source_s": 4.28,
+      "probability": 0.9978227615356445
+    },
+    {
+      "word_index": 8,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.82,
+      "end_time_wav_s": 4.88,
+      "start_time_source_s": 4.82,
+      "end_time_source_s": 4.88,
+      "probability": 0.9975307583808899
+    },
+    {
+      "word_index": 9,
+      "word": "industry",
+      "surface": " industry",
+      "start_time_wav_s": 4.88,
+      "end_time_wav_s": 5.42,
+      "start_time_source_s": 4.88,
+      "end_time_source_s": 5.42,
+      "probability": 0.9994296431541443
+    },
+    {
+      "word_index": 10,
+      "word": "experts",
+      "surface": " experts",
+      "start_time_wav_s": 5.42,
+      "end_time_wav_s": 5.92,
+      "start_time_source_s": 5.42,
+      "end_time_source_s": 5.92,
+      "probability": 0.9994206428527832
+    },
+    {
+      "word_index": 11,
+      "word": "from",
+      "surface": " from",
+      "start_time_wav_s": 5.92,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 5.92,
+      "end_time_source_s": 6.54,
+      "probability": 0.9306422472000122
+    },
+    {
+      "word_index": 12,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.74,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.74,
+      "probability": 0.9829806089401245
+    },
+    {
+      "word_index": 13,
+      "word": "than",
+      "surface": " than",
+      "start_time_wav_s": 6.74,
+      "end_time_wav_s": 6.94,
+      "start_time_source_s": 6.74,
+      "end_time_source_s": 6.94,
+      "probability": 0.9978195428848267
+    },
+    {
+      "word_index": 14,
+      "word": "50",
+      "surface": " 50",
+      "start_time_wav_s": 6.94,
+      "end_time_wav_s": 7.22,
+      "start_time_source_s": 6.94,
+      "end_time_source_s": 7.22,
+      "probability": 0.9555700421333313
+    },
+    {
+      "word_index": 15,
+      "word": "nations",
+      "surface": " nations",
+      "start_time_wav_s": 7.22,
+      "end_time_wav_s": 7.7,
+      "start_time_source_s": 7.22,
+      "end_time_source_s": 7.7,
+      "probability": 0.997530996799469
+    },
+    {
+      "word_index": 16,
+      "word": "were",
+      "surface": " were",
+      "start_time_wav_s": 7.7,
+      "end_time_wav_s": 8.2,
+      "start_time_source_s": 7.7,
+      "end_time_source_s": 8.2,
+      "probability": 0.9387115240097046
+    },
+    {
+      "word_index": 17,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 8.2,
+      "end_time_wav_s": 8.48,
+      "start_time_source_s": 8.2,
+      "end_time_source_s": 8.48,
+      "probability": 0.9974229335784912
+    },
+    {
+      "word_index": 18,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 8.48,
+      "end_time_wav_s": 8.66,
+      "start_time_source_s": 8.48,
+      "end_time_source_s": 8.66,
+      "probability": 0.9953755140304565
+    },
+    {
+      "word_index": 19,
+      "word": "bio",
+      "surface": " bio",
+      "start_time_wav_s": 8.66,
+      "end_time_wav_s": 8.9,
+      "start_time_source_s": 8.66,
+      "end_time_source_s": 8.9,
+      "probability": 0.28713300824165344
+    },
+    {
+      "word_index": 20,
+      "word": "conference",
+      "surface": " conference",
+      "start_time_wav_s": 8.9,
+      "end_time_wav_s": 9.4,
+      "start_time_source_s": 8.9,
+      "end_time_source_s": 9.4,
+      "probability": 0.6051831841468811
+    },
+    {
+      "word_index": 21,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 9.4,
+      "end_time_wav_s": 9.74,
+      "start_time_source_s": 9.4,
+      "end_time_source_s": 9.74,
+      "probability": 0.9952569603919983
+    },
+    {
+      "word_index": 22,
+      "word": "learn",
+      "surface": " learn",
+      "start_time_wav_s": 9.74,
+      "end_time_wav_s": 10.0,
+      "start_time_source_s": 9.74,
+      "end_time_source_s": 10.0,
+      "probability": 0.9979599714279175
+    },
+    {
+      "word_index": 23,
+      "word": "about",
+      "surface": " about",
+      "start_time_wav_s": 10.0,
+      "end_time_wav_s": 10.38,
+      "start_time_source_s": 10.0,
+      "end_time_source_s": 10.38,
+      "probability": 0.9972270131111145
+    },
+    {
+      "word_index": 24,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 10.38,
+      "end_time_wav_s": 10.56,
+      "start_time_source_s": 10.38,
+      "end_time_source_s": 10.56,
+      "probability": 0.995932400226593
+    },
+    {
+      "word_index": 25,
+      "word": "latest",
+      "surface": " latest",
+      "start_time_wav_s": 10.56,
+      "end_time_wav_s": 10.84,
+      "start_time_source_s": 10.56,
+      "end_time_source_s": 10.84,
+      "probability": 0.9983164072036743
+    },
+    {
+      "word_index": 26,
+      "word": "scientific",
+      "surface": " scientific",
+      "start_time_wav_s": 10.84,
+      "end_time_wav_s": 11.38,
+      "start_time_source_s": 10.84,
+      "end_time_source_s": 11.38,
+      "probability": 0.9992875456809998
+    },
+    {
+      "word_index": 27,
+      "word": "advances",
+      "surface": " advances",
+      "start_time_wav_s": 11.38,
+      "end_time_wav_s": 11.98,
+      "start_time_source_s": 11.38,
+      "end_time_source_s": 11.98,
+      "probability": 0.9982201457023621
+    },
+    {
+      "word_index": 28,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 11.98,
+      "end_time_wav_s": 12.64,
+      "start_time_source_s": 11.98,
+      "end_time_source_s": 12.64,
+      "probability": 0.6906003952026367
+    },
+    {
+      "word_index": 29,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 12.64,
+      "end_time_wav_s": 12.76,
+      "start_time_source_s": 12.64,
+      "end_time_source_s": 12.76,
+      "probability": 0.9702901840209961
+    },
+    {
+      "word_index": 30,
+      "word": "exchange",
+      "surface": " exchange",
+      "start_time_wav_s": 12.76,
+      "end_time_wav_s": 13.26,
+      "start_time_source_s": 12.76,
+      "end_time_source_s": 13.26,
+      "probability": 0.9980106949806213
+    },
+    {
+      "word_index": 31,
+      "word": "ideas",
+      "surface": " ideas",
+      "start_time_wav_s": 13.26,
+      "end_time_wav_s": 13.78,
+      "start_time_source_s": 13.26,
+      "end_time_source_s": 13.78,
+      "probability": 0.999262273311615
+    },
+    {
+      "word_index": 32,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 13.78,
+      "end_time_wav_s": 14.3,
+      "start_time_source_s": 13.78,
+      "end_time_source_s": 14.3,
+      "probability": 0.9746407270431519
+    },
+    {
+      "word_index": 33,
+      "word": "establish",
+      "surface": " establish",
+      "start_time_wav_s": 14.3,
+      "end_time_wav_s": 14.7,
+      "start_time_source_s": 14.3,
+      "end_time_source_s": 14.7,
+      "probability": 0.9866229891777039
+    },
+    {
+      "word_index": 34,
+      "word": "business",
+      "surface": " business",
+      "start_time_wav_s": 14.7,
+      "end_time_wav_s": 15.18,
+      "start_time_source_s": 14.7,
+      "end_time_source_s": 15.18,
+      "probability": 0.9969882369041443
+    },
+    {
+      "word_index": 35,
+      "word": "relationships.",
+      "surface": " relationships.",
+      "start_time_wav_s": 15.18,
+      "end_time_wav_s": 15.84,
+      "start_time_source_s": 15.18,
+      "end_time_source_s": 15.84,
+      "probability": 0.992405116558075
+    }
+  ],
+  "word_count": 35,
+  "mean_word_probability": 0.9445508394922529,
+  "issues": [],
+  "official_transcript_loaded": false
+}

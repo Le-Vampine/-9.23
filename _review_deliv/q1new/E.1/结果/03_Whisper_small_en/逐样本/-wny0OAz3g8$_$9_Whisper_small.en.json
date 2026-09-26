@@ -1,0 +1,263 @@
+{
+  "sample_id": "-wny0OAz3g8$_$9",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-wny0OAz3g8$_$9.wav",
+  "audio_sha256": "f90ffb0ac25d0c2ed4b5cbaad0fe7d7df67e3939c6bb38542d270d2b545e0416",
+  "audio_duration_s": 6.043,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Wilson. He explores why black and white Americans tend to have such different outcomes in terms of income, education, and more.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.92,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.92,
+      "text": " Wilson. He explores why black and white Americans tend to have such different outcomes in terms",
+      "no_speech_probability": 0.010284854099154472,
+      "average_log_probability": -0.23264246235291164
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 3.92,
+      "end_time_wav_s": 5.48,
+      "start_time_source_s": 3.92,
+      "end_time_source_s": 5.48,
+      "text": " of income, education, and more.",
+      "no_speech_probability": 0.010284854099154472,
+      "average_log_probability": -0.23264246235291164
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Wilson.",
+      "surface": " Wilson.",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.38,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.38,
+      "probability": 0.7247206568717957
+    },
+    {
+      "word_index": 2,
+      "word": "He",
+      "surface": " He",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 0.62,
+      "probability": 0.9695562124252319
+    },
+    {
+      "word_index": 3,
+      "word": "explores",
+      "surface": " explores",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.92,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.92,
+      "probability": 0.9961183071136475
+    },
+    {
+      "word_index": 4,
+      "word": "why",
+      "surface": " why",
+      "start_time_wav_s": 0.92,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.92,
+      "end_time_source_s": 1.16,
+      "probability": 0.9934296011924744
+    },
+    {
+      "word_index": 5,
+      "word": "black",
+      "surface": " black",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.32,
+      "probability": 0.7629705667495728
+    },
+    {
+      "word_index": 6,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.46,
+      "probability": 0.9510642290115356
+    },
+    {
+      "word_index": 7,
+      "word": "white",
+      "surface": " white",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 1.6,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 1.6,
+      "probability": 0.9987139701843262
+    },
+    {
+      "word_index": 8,
+      "word": "Americans",
+      "surface": " Americans",
+      "start_time_wav_s": 1.6,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.6,
+      "end_time_source_s": 1.96,
+      "probability": 0.9803377389907837
+    },
+    {
+      "word_index": 9,
+      "word": "tend",
+      "surface": " tend",
+      "start_time_wav_s": 1.96,
+      "end_time_wav_s": 2.22,
+      "start_time_source_s": 1.96,
+      "end_time_source_s": 2.22,
+      "probability": 0.9941719174385071
+    },
+    {
+      "word_index": 10,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.22,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.22,
+      "end_time_source_s": 2.36,
+      "probability": 0.9980813264846802
+    },
+    {
+      "word_index": 11,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.52,
+      "probability": 0.9984960556030273
+    },
+    {
+      "word_index": 12,
+      "word": "such",
+      "surface": " such",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.68,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.68,
+      "probability": 0.9693302512168884
+    },
+    {
+      "word_index": 13,
+      "word": "different",
+      "surface": " different",
+      "start_time_wav_s": 2.68,
+      "end_time_wav_s": 3.08,
+      "start_time_source_s": 2.68,
+      "end_time_source_s": 3.08,
+      "probability": 0.9928489923477173
+    },
+    {
+      "word_index": 14,
+      "word": "outcomes",
+      "surface": " outcomes",
+      "start_time_wav_s": 3.08,
+      "end_time_wav_s": 3.54,
+      "start_time_source_s": 3.08,
+      "end_time_source_s": 3.54,
+      "probability": 0.9930858612060547
+    },
+    {
+      "word_index": 15,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 3.54,
+      "end_time_wav_s": 3.8,
+      "start_time_source_s": 3.54,
+      "end_time_source_s": 3.8,
+      "probability": 0.8515031337738037
+    },
+    {
+      "word_index": 16,
+      "word": "terms",
+      "surface": " terms",
+      "start_time_wav_s": 3.8,
+      "end_time_wav_s": 3.92,
+      "start_time_source_s": 3.8,
+      "end_time_source_s": 3.92,
+      "probability": 0.9980897307395935
+    },
+    {
+      "word_index": 17,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 3.92,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.92,
+      "end_time_source_s": 4.06,
+      "probability": 0.9974652528762817
+    },
+    {
+      "word_index": 18,
+      "word": "income,",
+      "surface": " income,",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.44,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.44,
+      "probability": 0.9953792095184326
+    },
+    {
+      "word_index": 19,
+      "word": "education,",
+      "surface": " education,",
+      "start_time_wav_s": 4.62,
+      "end_time_wav_s": 4.98,
+      "start_time_source_s": 4.62,
+      "end_time_source_s": 4.98,
+      "probability": 0.9973787069320679
+    },
+    {
+      "word_index": 20,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 5.2,
+      "end_time_wav_s": 5.26,
+      "start_time_source_s": 5.2,
+      "end_time_source_s": 5.26,
+      "probability": 0.9986016154289246
+    },
+    {
+      "word_index": 21,
+      "word": "more.",
+      "surface": " more.",
+      "start_time_wav_s": 5.26,
+      "end_time_wav_s": 5.48,
+      "start_time_source_s": 5.26,
+      "end_time_source_s": 5.48,
+      "probability": 0.9987319111824036
+    }
+  ],
+  "word_count": 21,
+  "mean_word_probability": 0.9600035832041786,
+  "issues": [],
+  "official_transcript_loaded": false
+}

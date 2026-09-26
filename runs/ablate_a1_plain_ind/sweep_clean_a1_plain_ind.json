@@ -1,0 +1,13 @@
+{
+  "tag": "a1_plain_ind",
+  "split": "valid",
+  "clean": {
+    "mae": 0.5990144610404968,
+    "pearson": 0.6306467665348191,
+    "acc": 0.5796703296703297,
+    "macro_f1": 0.5782159651856295
+  },
+  "ckpts": [
+    "D:\\数学建模\\数学建模\\runs\\ablate_a1_plain_ind\\student_s42.pt"
+  ]
+}

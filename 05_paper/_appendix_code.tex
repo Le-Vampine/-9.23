@@ -1,0 +1,62 @@
+%% 本文件由 code/03_xai/make_appendix_code.py 自动生成，请勿手改。
+% 生成时间：2026-09-25 17:08:16
+
+本节给出实现上述模型的核心代码，与提交的支撑材料中的文件为同一份；
+代码以 Python 3.12 与 PyTorch 编写，运行顺序见 \texttt{code/README.md}。
+为便于与提交材料核对，每个代码块标注其在支撑材料中的相对路径与总行数。
+为避免中文字体下缺字形，代码中的少量 Unicode 数学符号（如 $\in$、$\le$、$\to$、
+$\pi$）在附录中以 ASCII 等价形式给出（如 \texttt{in}、\texttt{<=}、\texttt{->}、
+\texttt{pi}），仅涉及注释、文档字符串与输出文案，不影响可执行语义；
+原始文件以提交的 \texttt{code/} 目录为准。
+
+\subsection{问题二：MRF-Net 网络结构与动态专家门控}
+\noindent\texttt{code/02\_model/model.py}（共 286 行）
+\lstinputlisting[language=Python]{code_appendix/02_model__model.py}
+
+\subsection{问题二：损失函数（异方差回归、类别加权、一致性、重建与蒸馏）}
+\noindent\texttt{code/02\_model/losses.py}（共 376 行）
+\lstinputlisting[language=Python]{code_appendix/02_model__losses.py}
+
+\subsection{问题二：训练与推理主流程（缺失课程学习、EMA、早停）}
+\noindent\texttt{code/02\_model/train.py}（共 477 行）
+\lstinputlisting[language=Python]{code_appendix/02_model__train.py}
+
+\subsection{问题三：骨干加载与批构造（三源解释的公共入口）}
+\noindent\texttt{code/03\_xai/xai\_common.py}（共 248 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__xai_common.py}
+
+\subsection{问题三：精确 Shapley 值（八子集全枚举）}
+\noindent\texttt{code/03\_xai/shapley.py}（共 259 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__shapley.py}
+
+\subsection{问题三：积分梯度与片段级重要性}
+\noindent\texttt{code/03\_xai/ig\_gradcam.py}（共 135 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__ig_gradcam.py}
+
+\subsection{问题三：遮挡重要性（窗宽 3 滑窗）}
+\noindent\texttt{code/03\_xai/occlusion.py}（共 117 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__occlusion.py}
+
+\subsection{问题三：三源融合与 γ 单纯形约束}
+\noindent\texttt{code/03\_xai/temporal\_fuse.py}（共 153 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__temporal_fuse.py}
+
+\subsection{问题三：证据定位（词元对齐、语音时段映射、关键帧抽取）}
+\noindent\texttt{code/03\_xai/evidence.py}（共 327 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__evidence.py}
+
+\subsection{问题三：并联证据头训练（骨干冻结、忠实性正则）}
+\noindent\texttt{code/03\_xai/train\_evidence\_head.py}（共 206 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__train_evidence_head.py}
+
+\subsection{问题三：解释卡生成}
+\noindent\texttt{code/03\_xai/explain\_card.py}（共 202 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__explain_card.py}
+
+\subsection{问题三：附件四全量推理与解释输出}
+\noindent\texttt{code/03\_xai/infer\_explain\_att4.py}（共 231 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__infer_explain_att4.py}
+
+\subsection{问题三：交付自查（17 项一致性校验）}
+\noindent\texttt{code/03\_xai/verify\_q3.py}（共 151 行）
+\lstinputlisting[language=Python]{code_appendix/03_xai__verify_q3.py}

@@ -1,0 +1,14 @@
+{
+  "tag": "ours_B",
+  "split": "valid",
+  "clean": {
+    "mae": 0.5866156220436096,
+    "pearson": 0.6543080638809079,
+    "acc": 0.6222527472527473,
+    "macro_f1": 0.6158452245491158
+  },
+  "ckpts": [
+    "D:\\数学建模\\数学建模\\runs\\ens_top2\\student_s42.pt",
+    "D:\\数学建模\\数学建模\\runs\\ens_top2\\student_s43.pt"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "data_att\\att4_aligned.pkl"
+  }
+ },
+ "csv": "submission\\pred_explain_att4.csv",
+ "n": 20,
+ "columns": [
+  "id",
+  "pred_label",
+  "pred_score",
+  "prob_neg",
+  "prob_neu",
+  "prob_pos",
+  "confidence",
+  "theta",
+  "main_modality",
+  "w_text",
+  "w_audio",
+  "w_vision",
+  "w_text_relu",
+  "w_audio_relu",
+  "w_vision_relu",
+  "phi_text",
+  "phi_audio",
+  "phi_vision",
+  "text_evidence",
+  "text_seg_start",
+  "text_seg_end",
+  "text_char_start",
+  "text_char_end",
+  "audio_start_s",
+  "audio_end_s",
+  "audio_seg_start",
+  "audio_seg_end",
+  "vision_seg_start",
+  "vision_seg_end",
+  "vision_frame_idx",
+  "vision_time_s",
+  "vision_keyframe",
+  "compr",
+  "suff",
+  "stability",
+  "sparsity"
+ ]
+}

@@ -1,0 +1,233 @@
+{
+  "sample_id": "-tPCytz4rww$_$16",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-tPCytz4rww$_$16.wav",
+  "audio_sha256": "2ffc3f28789e9b3289c99ee81b11668b9d18e552048dd8e00d680fa7680c5ea7",
+  "audio_duration_s": 7.139,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "So, make sure to get a thorough, or to do a thorough cleaning of the property if you need",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.1,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.1,
+      "text": " So, make sure to get a thorough, or to do a thorough cleaning of the property if you need",
+      "no_speech_probability": 0.006633403245359659,
+      "average_log_probability": -0.2533212477962176
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "So,",
+      "surface": " So,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.72,
+      "probability": 0.6252650022506714
+    },
+    {
+      "word_index": 2,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 0.78,
+      "end_time_wav_s": 1.08,
+      "start_time_source_s": 0.78,
+      "end_time_source_s": 1.08,
+      "probability": 0.9943060278892517
+    },
+    {
+      "word_index": 3,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 1.08,
+      "end_time_wav_s": 1.34,
+      "start_time_source_s": 1.08,
+      "end_time_source_s": 1.34,
+      "probability": 0.998728334903717
+    },
+    {
+      "word_index": 4,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.34,
+      "end_time_wav_s": 1.74,
+      "start_time_source_s": 1.34,
+      "end_time_source_s": 1.74,
+      "probability": 0.9936607480049133
+    },
+    {
+      "word_index": 5,
+      "word": "get",
+      "surface": " get",
+      "start_time_wav_s": 1.74,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.74,
+      "end_time_source_s": 2.02,
+      "probability": 0.7616420388221741
+    },
+    {
+      "word_index": 6,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.16,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.16,
+      "probability": 0.9863457083702087
+    },
+    {
+      "word_index": 7,
+      "word": "thorough,",
+      "surface": " thorough,",
+      "start_time_wav_s": 2.16,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.16,
+      "end_time_source_s": 2.52,
+      "probability": 0.9862013459205627
+    },
+    {
+      "word_index": 8,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 3.72,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.72,
+      "end_time_source_s": 3.96,
+      "probability": 0.791222870349884
+    },
+    {
+      "word_index": 9,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 4.34,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 4.34,
+      "probability": 0.9425258040428162
+    },
+    {
+      "word_index": 10,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 4.34,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.34,
+      "end_time_source_s": 4.54,
+      "probability": 0.9982774257659912
+    },
+    {
+      "word_index": 11,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 4.7,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 4.7,
+      "probability": 0.9909971952438354
+    },
+    {
+      "word_index": 12,
+      "word": "thorough",
+      "surface": " thorough",
+      "start_time_wav_s": 4.7,
+      "end_time_wav_s": 5.02,
+      "start_time_source_s": 4.7,
+      "end_time_source_s": 5.02,
+      "probability": 0.9992247819900513
+    },
+    {
+      "word_index": 13,
+      "word": "cleaning",
+      "surface": " cleaning",
+      "start_time_wav_s": 5.02,
+      "end_time_wav_s": 5.44,
+      "start_time_source_s": 5.02,
+      "end_time_source_s": 5.44,
+      "probability": 0.9702726602554321
+    },
+    {
+      "word_index": 14,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 5.44,
+      "end_time_wav_s": 5.92,
+      "start_time_source_s": 5.44,
+      "end_time_source_s": 5.92,
+      "probability": 0.9856312274932861
+    },
+    {
+      "word_index": 15,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 5.92,
+      "end_time_wav_s": 6.08,
+      "start_time_source_s": 5.92,
+      "end_time_source_s": 6.08,
+      "probability": 0.9987780451774597
+    },
+    {
+      "word_index": 16,
+      "word": "property",
+      "surface": " property",
+      "start_time_wav_s": 6.08,
+      "end_time_wav_s": 6.48,
+      "start_time_source_s": 6.08,
+      "end_time_source_s": 6.48,
+      "probability": 0.9990501999855042
+    },
+    {
+      "word_index": 17,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 6.48,
+      "end_time_wav_s": 6.92,
+      "start_time_source_s": 6.48,
+      "end_time_source_s": 6.92,
+      "probability": 0.6660834550857544
+    },
+    {
+      "word_index": 18,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 6.92,
+      "end_time_wav_s": 7.02,
+      "start_time_source_s": 6.92,
+      "end_time_source_s": 7.02,
+      "probability": 0.9933753609657288
+    },
+    {
+      "word_index": 19,
+      "word": "need",
+      "surface": " need",
+      "start_time_wav_s": 7.02,
+      "end_time_wav_s": 7.1,
+      "start_time_source_s": 7.02,
+      "end_time_source_s": 7.1,
+      "probability": 0.9808001518249512
+    }
+  ],
+  "word_count": 19,
+  "mean_word_probability": 0.9295993886495891,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,273 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$8",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-iRBcNs9oI8$_$8.wav",
+  "audio_sha256": "764393f39a955eb8af20198192a41605bf566b0d5ed1853019ad0261abef4b93",
+  "audio_duration_s": 8.026,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "ever decide to ask out that special someone. So what is the secret I'm telling you about? Well, it is the secret...",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.82,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.82,
+      "text": " ever decide to ask out that special someone. So what is the secret I'm telling you about?",
+      "no_speech_probability": 0.023557964712381363,
+      "average_log_probability": -0.2342595523223281
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 6.44,
+      "end_time_wav_s": 8.0,
+      "start_time_source_s": 6.44,
+      "end_time_source_s": 8.0,
+      "text": " Well, it is the secret...",
+      "no_speech_probability": 0.023557964712381363,
+      "average_log_probability": -0.2342595523223281
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "ever",
+      "surface": " ever",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.22,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.22,
+      "probability": 0.9093908667564392
+    },
+    {
+      "word_index": 2,
+      "word": "decide",
+      "surface": " decide",
+      "start_time_wav_s": 0.22,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.22,
+      "end_time_source_s": 0.62,
+      "probability": 0.98044353723526
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 1.06,
+      "probability": 0.9991948008537292
+    },
+    {
+      "word_index": 4,
+      "word": "ask",
+      "surface": " ask",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.34,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.34,
+      "probability": 0.9875923991203308
+    },
+    {
+      "word_index": 5,
+      "word": "out",
+      "surface": " out",
+      "start_time_wav_s": 1.34,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.34,
+      "end_time_source_s": 1.66,
+      "probability": 0.9982084035873413
+    },
+    {
+      "word_index": 6,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 2.04,
+      "probability": 0.9953243732452393
+    },
+    {
+      "word_index": 7,
+      "word": "special",
+      "surface": " special",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.4,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.4,
+      "probability": 0.9531575441360474
+    },
+    {
+      "word_index": 8,
+      "word": "someone.",
+      "surface": " someone.",
+      "start_time_wav_s": 2.4,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.4,
+      "end_time_source_s": 2.78,
+      "probability": 0.9916879534721375
+    },
+    {
+      "word_index": 9,
+      "word": "So",
+      "surface": " So",
+      "start_time_wav_s": 3.64,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.64,
+      "end_time_source_s": 4.06,
+      "probability": 0.9877542853355408
+    },
+    {
+      "word_index": 10,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.2,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.2,
+      "probability": 0.7057698965072632
+    },
+    {
+      "word_index": 11,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 4.2,
+      "end_time_wav_s": 4.34,
+      "start_time_source_s": 4.2,
+      "end_time_source_s": 4.34,
+      "probability": 0.996453046798706
+    },
+    {
+      "word_index": 12,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.34,
+      "end_time_wav_s": 4.48,
+      "start_time_source_s": 4.34,
+      "end_time_source_s": 4.48,
+      "probability": 0.960902214050293
+    },
+    {
+      "word_index": 13,
+      "word": "secret",
+      "surface": " secret",
+      "start_time_wav_s": 4.48,
+      "end_time_wav_s": 4.72,
+      "start_time_source_s": 4.48,
+      "end_time_source_s": 4.72,
+      "probability": 0.99037766456604
+    },
+    {
+      "word_index": 14,
+      "word": "I'm",
+      "surface": " I'm",
+      "start_time_wav_s": 4.72,
+      "end_time_wav_s": 5.04,
+      "start_time_source_s": 4.72,
+      "end_time_source_s": 5.04,
+      "probability": 0.9894242882728577
+    },
+    {
+      "word_index": 15,
+      "word": "telling",
+      "surface": " telling",
+      "start_time_wav_s": 5.04,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 5.04,
+      "end_time_source_s": 5.24,
+      "probability": 0.9993365406990051
+    },
+    {
+      "word_index": 16,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 5.24,
+      "end_time_wav_s": 5.5,
+      "start_time_source_s": 5.24,
+      "end_time_source_s": 5.5,
+      "probability": 0.9950574636459351
+    },
+    {
+      "word_index": 17,
+      "word": "about?",
+      "surface": " about?",
+      "start_time_wav_s": 5.5,
+      "end_time_wav_s": 5.82,
+      "start_time_source_s": 5.5,
+      "end_time_source_s": 5.82,
+      "probability": 0.999097466468811
+    },
+    {
+      "word_index": 18,
+      "word": "Well,",
+      "surface": " Well,",
+      "start_time_wav_s": 6.44,
+      "end_time_wav_s": 6.7,
+      "start_time_source_s": 6.44,
+      "end_time_source_s": 6.7,
+      "probability": 0.9956353306770325
+    },
+    {
+      "word_index": 19,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 7.08,
+      "end_time_wav_s": 7.26,
+      "start_time_source_s": 7.08,
+      "end_time_source_s": 7.26,
+      "probability": 0.9927535653114319
+    },
+    {
+      "word_index": 20,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 7.26,
+      "end_time_wav_s": 7.44,
+      "start_time_source_s": 7.26,
+      "end_time_source_s": 7.44,
+      "probability": 0.993075966835022
+    },
+    {
+      "word_index": 21,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 7.44,
+      "end_time_wav_s": 7.68,
+      "start_time_source_s": 7.44,
+      "end_time_source_s": 7.68,
+      "probability": 0.9752086400985718
+    },
+    {
+      "word_index": 22,
+      "word": "secret...",
+      "surface": " secret...",
+      "start_time_wav_s": 7.68,
+      "end_time_wav_s": 8.0,
+      "start_time_source_s": 7.68,
+      "end_time_source_s": 8.0,
+      "probability": 0.6731269508600235
+    }
+  ],
+  "word_count": 22,
+  "mean_word_probability": 0.9576805999333208,
+  "issues": [],
+  "official_transcript_loaded": false
+}

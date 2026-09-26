@@ -1,0 +1,163 @@
+{
+  "sample_id": "-egA8-b7-3M$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$6.wav",
+  "audio_sha256": "ee995c68a007c1b45ed6d984cea7d002ad2f137aad90761a70679fcc5605f13b",
+  "audio_duration_s": 6.183,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "First, exhibiting is a wonderful opportunity to network with other legal vendors.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.24,
+      "text": " First, exhibiting is a wonderful opportunity to network with other legal vendors.",
+      "no_speech_probability": 0.013320242054760456,
+      "average_log_probability": -0.1474464921390309
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "First,",
+      "surface": " First,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.8,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.8,
+      "probability": 0.9789327383041382
+    },
+    {
+      "word_index": 2,
+      "word": "exhibiting",
+      "surface": " exhibiting",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.42,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.42,
+      "probability": 0.9814960360527039
+    },
+    {
+      "word_index": 3,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 1.42,
+      "end_time_wav_s": 1.72,
+      "start_time_source_s": 1.42,
+      "end_time_source_s": 1.72,
+      "probability": 0.9801828861236572
+    },
+    {
+      "word_index": 4,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.72,
+      "end_time_wav_s": 1.88,
+      "start_time_source_s": 1.72,
+      "end_time_source_s": 1.88,
+      "probability": 0.9930239915847778
+    },
+    {
+      "word_index": 5,
+      "word": "wonderful",
+      "surface": " wonderful",
+      "start_time_wav_s": 1.88,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 1.88,
+      "end_time_source_s": 2.3,
+      "probability": 0.9986978769302368
+    },
+    {
+      "word_index": 6,
+      "word": "opportunity",
+      "surface": " opportunity",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.9,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.9,
+      "probability": 0.9978412389755249
+    },
+    {
+      "word_index": 7,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.9,
+      "end_time_wav_s": 3.4,
+      "start_time_source_s": 2.9,
+      "end_time_source_s": 3.4,
+      "probability": 0.9968229532241821
+    },
+    {
+      "word_index": 8,
+      "word": "network",
+      "surface": " network",
+      "start_time_wav_s": 3.4,
+      "end_time_wav_s": 3.7,
+      "start_time_source_s": 3.4,
+      "end_time_source_s": 3.7,
+      "probability": 0.9969639182090759
+    },
+    {
+      "word_index": 9,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 3.7,
+      "end_time_wav_s": 4.08,
+      "start_time_source_s": 3.7,
+      "end_time_source_s": 4.08,
+      "probability": 0.9972503781318665
+    },
+    {
+      "word_index": 10,
+      "word": "other",
+      "surface": " other",
+      "start_time_wav_s": 4.08,
+      "end_time_wav_s": 4.44,
+      "start_time_source_s": 4.08,
+      "end_time_source_s": 4.44,
+      "probability": 0.9967017769813538
+    },
+    {
+      "word_index": 11,
+      "word": "legal",
+      "surface": " legal",
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 4.82,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 4.82,
+      "probability": 0.9822117686271667
+    },
+    {
+      "word_index": 12,
+      "word": "vendors.",
+      "surface": " vendors.",
+      "start_time_wav_s": 4.82,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 4.82,
+      "end_time_source_s": 5.24,
+      "probability": 0.9427509307861328
+    }
+  ],
+  "word_count": 12,
+  "mean_word_probability": 0.9869063744942347,
+  "issues": [],
+  "official_transcript_loaded": false
+}

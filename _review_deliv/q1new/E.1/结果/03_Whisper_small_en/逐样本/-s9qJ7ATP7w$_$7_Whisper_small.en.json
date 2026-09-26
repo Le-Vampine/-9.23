@@ -1,0 +1,363 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-s9qJ7ATP7w$_$7.wav",
+  "audio_sha256": "b132072e6809dcae21c71421dc75959909bc45aaac87efdf7d8635cec8ff8fe6",
+  "audio_duration_s": 6.8385625,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "I used to work for Warren Avis the guy who started Avis rent a car and he said to me one day Robert what's the purpose of business and I said",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.28,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.28,
+      "text": " I used to work for Warren Avis the guy who started Avis rent a car and he said to me one day",
+      "no_speech_probability": 0.29738304018974304,
+      "average_log_probability": -0.2780152956644694
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.72,
+      "end_time_wav_s": 6.7,
+      "start_time_source_s": 4.72,
+      "end_time_source_s": 6.7,
+      "text": " Robert what's the purpose of business and I said",
+      "no_speech_probability": 0.29738304018974304,
+      "average_log_probability": -0.2780152956644694
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.6,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.6,
+      "probability": 0.2862064242362976
+    },
+    {
+      "word_index": 2,
+      "word": "used",
+      "surface": " used",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.74,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.74,
+      "probability": 0.9026548266410828
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.74,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.74,
+      "end_time_source_s": 0.88,
+      "probability": 0.9986893534660339
+    },
+    {
+      "word_index": 4,
+      "word": "work",
+      "surface": " work",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 0.98,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 0.98,
+      "probability": 0.9958575367927551
+    },
+    {
+      "word_index": 5,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 0.98,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.98,
+      "end_time_source_s": 1.16,
+      "probability": 0.9939602613449097
+    },
+    {
+      "word_index": 6,
+      "word": "Warren",
+      "surface": " Warren",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.36,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.36,
+      "probability": 0.9480284452438354
+    },
+    {
+      "word_index": 7,
+      "word": "Avis",
+      "surface": " Avis",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 1.64,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 1.64,
+      "probability": 0.7892958223819733
+    },
+    {
+      "word_index": 8,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 1.64,
+      "end_time_wav_s": 1.98,
+      "start_time_source_s": 1.64,
+      "end_time_source_s": 1.98,
+      "probability": 0.2068578153848648
+    },
+    {
+      "word_index": 9,
+      "word": "guy",
+      "surface": " guy",
+      "start_time_wav_s": 1.98,
+      "end_time_wav_s": 2.14,
+      "start_time_source_s": 1.98,
+      "end_time_source_s": 2.14,
+      "probability": 0.9766570329666138
+    },
+    {
+      "word_index": 10,
+      "word": "who",
+      "surface": " who",
+      "start_time_wav_s": 2.14,
+      "end_time_wav_s": 2.24,
+      "start_time_source_s": 2.14,
+      "end_time_source_s": 2.24,
+      "probability": 0.9820559620857239
+    },
+    {
+      "word_index": 11,
+      "word": "started",
+      "surface": " started",
+      "start_time_wav_s": 2.24,
+      "end_time_wav_s": 2.46,
+      "start_time_source_s": 2.24,
+      "end_time_source_s": 2.46,
+      "probability": 0.9598355889320374
+    },
+    {
+      "word_index": 12,
+      "word": "Avis",
+      "surface": " Avis",
+      "start_time_wav_s": 2.46,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.46,
+      "end_time_source_s": 2.74,
+      "probability": 0.7138632833957672
+    },
+    {
+      "word_index": 13,
+      "word": "rent",
+      "surface": " rent",
+      "start_time_wav_s": 2.74,
+      "end_time_wav_s": 2.9,
+      "start_time_source_s": 2.74,
+      "end_time_source_s": 2.9,
+      "probability": 0.658076822757721
+    },
+    {
+      "word_index": 14,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.9,
+      "end_time_wav_s": 3.04,
+      "start_time_source_s": 2.9,
+      "end_time_source_s": 3.04,
+      "probability": 0.8716733455657959
+    },
+    {
+      "word_index": 15,
+      "word": "car",
+      "surface": " car",
+      "start_time_wav_s": 3.04,
+      "end_time_wav_s": 3.18,
+      "start_time_source_s": 3.04,
+      "end_time_source_s": 3.18,
+      "probability": 0.974469780921936
+    },
+    {
+      "word_index": 16,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.18,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 3.18,
+      "end_time_source_s": 3.3,
+      "probability": 0.7621154189109802
+    },
+    {
+      "word_index": 17,
+      "word": "he",
+      "surface": " he",
+      "start_time_wav_s": 3.3,
+      "end_time_wav_s": 3.4,
+      "start_time_source_s": 3.3,
+      "end_time_source_s": 3.4,
+      "probability": 0.9975872039794922
+    },
+    {
+      "word_index": 18,
+      "word": "said",
+      "surface": " said",
+      "start_time_wav_s": 3.4,
+      "end_time_wav_s": 3.56,
+      "start_time_source_s": 3.4,
+      "end_time_source_s": 3.56,
+      "probability": 0.650060772895813
+    },
+    {
+      "word_index": 19,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.56,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.56,
+      "end_time_source_s": 3.68,
+      "probability": 0.9895500540733337
+    },
+    {
+      "word_index": 20,
+      "word": "me",
+      "surface": " me",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.8,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.8,
+      "probability": 0.9996203184127808
+    },
+    {
+      "word_index": 21,
+      "word": "one",
+      "surface": " one",
+      "start_time_wav_s": 3.8,
+      "end_time_wav_s": 3.94,
+      "start_time_source_s": 3.8,
+      "end_time_source_s": 3.94,
+      "probability": 0.9972959160804749
+    },
+    {
+      "word_index": 22,
+      "word": "day",
+      "surface": " day",
+      "start_time_wav_s": 3.94,
+      "end_time_wav_s": 4.28,
+      "start_time_source_s": 3.94,
+      "end_time_source_s": 4.28,
+      "probability": 0.9964989423751831
+    },
+    {
+      "word_index": 23,
+      "word": "Robert",
+      "surface": " Robert",
+      "start_time_wav_s": 4.72,
+      "end_time_wav_s": 5.04,
+      "start_time_source_s": 4.72,
+      "end_time_source_s": 5.04,
+      "probability": 0.861314594745636
+    },
+    {
+      "word_index": 24,
+      "word": "what's",
+      "surface": " what's",
+      "start_time_wav_s": 5.04,
+      "end_time_wav_s": 5.34,
+      "start_time_source_s": 5.04,
+      "end_time_source_s": 5.34,
+      "probability": 0.674916222691536
+    },
+    {
+      "word_index": 25,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 5.34,
+      "end_time_wav_s": 5.46,
+      "start_time_source_s": 5.34,
+      "end_time_source_s": 5.46,
+      "probability": 0.9994781613349915
+    },
+    {
+      "word_index": 26,
+      "word": "purpose",
+      "surface": " purpose",
+      "start_time_wav_s": 5.46,
+      "end_time_wav_s": 5.68,
+      "start_time_source_s": 5.46,
+      "end_time_source_s": 5.68,
+      "probability": 0.9993736147880554
+    },
+    {
+      "word_index": 27,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 5.68,
+      "end_time_wav_s": 5.92,
+      "start_time_source_s": 5.68,
+      "end_time_source_s": 5.92,
+      "probability": 0.9986302852630615
+    },
+    {
+      "word_index": 28,
+      "word": "business",
+      "surface": " business",
+      "start_time_wav_s": 5.92,
+      "end_time_wav_s": 6.24,
+      "start_time_source_s": 5.92,
+      "end_time_source_s": 6.24,
+      "probability": 0.9258980751037598
+    },
+    {
+      "word_index": 29,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.24,
+      "end_time_wav_s": 6.42,
+      "start_time_source_s": 6.24,
+      "end_time_source_s": 6.42,
+      "probability": 0.6473578214645386
+    },
+    {
+      "word_index": 30,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 6.42,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.42,
+      "end_time_source_s": 6.54,
+      "probability": 0.9943265318870544
+    },
+    {
+      "word_index": 31,
+      "word": "said",
+      "surface": " said",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.7,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.7,
+      "probability": 0.9950913190841675
+    }
+  ],
+  "word_count": 31,
+  "mean_word_probability": 0.8628160501680067,
+  "issues": [],
+  "official_transcript_loaded": false
+}

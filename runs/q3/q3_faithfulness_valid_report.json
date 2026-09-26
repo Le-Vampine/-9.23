@@ -1,0 +1,62 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "附件2\\aligned_50.pkl",
+   "split": "valid",
+   "n": 200,
+   "r": 5,
+   "target": "mu",
+   "auc": false
+  }
+ },
+ "summary": {
+  "att": {
+   "compr_mean": 0.0003,
+   "suff_absmean": 0.2332,
+   "sparsity": 0.4551,
+   "del_auc": null,
+   "ins_auc": null,
+   "score": -0.2328
+  },
+  "ig": {
+   "compr_mean": 0.0041,
+   "suff_absmean": 0.1972,
+   "sparsity": 0.4779,
+   "del_auc": null,
+   "ins_auc": null,
+   "score": -0.193
+  },
+  "occ": {
+   "compr_mean": 0.0014,
+   "suff_absmean": 0.1938,
+   "sparsity": 0.5611,
+   "del_auc": null,
+   "ins_auc": null,
+   "score": -0.1923
+  },
+  "fused": {
+   "compr_mean": 0.0013,
+   "suff_absmean": 0.1951,
+   "sparsity": 0.531,
+   "del_auc": null,
+   "ins_auc": null,
+   "score": -0.1938
+  },
+  "fused_equal": {
+   "compr_mean": 0.0009,
+   "suff_absmean": 0.2066,
+   "sparsity": 0.4645,
+   "del_auc": null,
+   "ins_auc": null,
+   "score": -0.2056
+  }
+ },
+ "csv": "runs\\q3\\q3_faithfulness_valid.csv"
+}

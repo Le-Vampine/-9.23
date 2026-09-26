@@ -1,0 +1,143 @@
+{
+  "sample_id": "-egA8-b7-3M$_$9",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$9.wav",
+  "audio_sha256": "a4d259ef5771f29f25ec85048efdea7c4e0f3432b9a30e88e150573b7b4c012a",
+  "audio_duration_s": 4.936,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Secondly, another goal of exhibiting is building your company image.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.3,
+      "text": " Secondly, another goal of exhibiting is building your company image.",
+      "no_speech_probability": 0.0007578214281238616,
+      "average_log_probability": -0.22682215571403502
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Secondly,",
+      "surface": " Secondly,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.96,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.96,
+      "probability": 0.9565009474754333
+    },
+    {
+      "word_index": 2,
+      "word": "another",
+      "surface": " another",
+      "start_time_wav_s": 1.28,
+      "end_time_wav_s": 1.52,
+      "start_time_source_s": 1.28,
+      "end_time_source_s": 1.52,
+      "probability": 0.9928634762763977
+    },
+    {
+      "word_index": 3,
+      "word": "goal",
+      "surface": " goal",
+      "start_time_wav_s": 1.52,
+      "end_time_wav_s": 1.86,
+      "start_time_source_s": 1.52,
+      "end_time_source_s": 1.86,
+      "probability": 0.9943445920944214
+    },
+    {
+      "word_index": 4,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 1.86,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.86,
+      "end_time_source_s": 2.02,
+      "probability": 0.9849091172218323
+    },
+    {
+      "word_index": 5,
+      "word": "exhibiting",
+      "surface": " exhibiting",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.42,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.42,
+      "probability": 0.9767268896102905
+    },
+    {
+      "word_index": 6,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 2.42,
+      "end_time_wav_s": 2.82,
+      "start_time_source_s": 2.42,
+      "end_time_source_s": 2.82,
+      "probability": 0.9895054697990417
+    },
+    {
+      "word_index": 7,
+      "word": "building",
+      "surface": " building",
+      "start_time_wav_s": 2.82,
+      "end_time_wav_s": 3.1,
+      "start_time_source_s": 2.82,
+      "end_time_source_s": 3.1,
+      "probability": 0.9787498116493225
+    },
+    {
+      "word_index": 8,
+      "word": "your",
+      "surface": " your",
+      "start_time_wav_s": 3.1,
+      "end_time_wav_s": 3.46,
+      "start_time_source_s": 3.1,
+      "end_time_source_s": 3.46,
+      "probability": 0.9947071671485901
+    },
+    {
+      "word_index": 9,
+      "word": "company",
+      "surface": " company",
+      "start_time_wav_s": 3.46,
+      "end_time_wav_s": 3.82,
+      "start_time_source_s": 3.46,
+      "end_time_source_s": 3.82,
+      "probability": 0.9968366622924805
+    },
+    {
+      "word_index": 10,
+      "word": "image.",
+      "surface": " image.",
+      "start_time_wav_s": 3.82,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 3.82,
+      "end_time_source_s": 4.3,
+      "probability": 0.9860450625419617
+    }
+  ],
+  "word_count": 10,
+  "mean_word_probability": 0.9851189196109772,
+  "issues": [],
+  "official_transcript_loaded": false
+}

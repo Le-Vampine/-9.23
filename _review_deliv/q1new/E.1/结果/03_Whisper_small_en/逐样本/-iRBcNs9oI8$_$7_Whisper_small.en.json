@@ -1,0 +1,153 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-iRBcNs9oI8$_$7.wav",
+  "audio_sha256": "c04ca466f32ebb093a87247290fc5874d5c826b345362125c9427ad3dd8ca282",
+  "audio_duration_s": 4.00575,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "interview. And this secret will also help you if you ever...",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.98,
+      "text": " interview. And this secret will also help you if you ever...",
+      "no_speech_probability": 0.24864353239536285,
+      "average_log_probability": -0.31581013463437557
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "interview.",
+      "surface": " interview.",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.38,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.38,
+      "probability": 0.7142382264137268
+    },
+    {
+      "word_index": 2,
+      "word": "And",
+      "surface": " And",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.44,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.44,
+      "probability": 0.9260126948356628
+    },
+    {
+      "word_index": 3,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 1.44,
+      "end_time_wav_s": 1.56,
+      "start_time_source_s": 1.44,
+      "end_time_source_s": 1.56,
+      "probability": 0.6932659149169922
+    },
+    {
+      "word_index": 4,
+      "word": "secret",
+      "surface": " secret",
+      "start_time_wav_s": 1.56,
+      "end_time_wav_s": 1.92,
+      "start_time_source_s": 1.56,
+      "end_time_source_s": 1.92,
+      "probability": 0.9960940480232239
+    },
+    {
+      "word_index": 5,
+      "word": "will",
+      "surface": " will",
+      "start_time_wav_s": 1.92,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 1.92,
+      "end_time_source_s": 2.52,
+      "probability": 0.9939975738525391
+    },
+    {
+      "word_index": 6,
+      "word": "also",
+      "surface": " also",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.84,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.84,
+      "probability": 0.9945353269577026
+    },
+    {
+      "word_index": 7,
+      "word": "help",
+      "surface": " help",
+      "start_time_wav_s": 2.84,
+      "end_time_wav_s": 3.08,
+      "start_time_source_s": 2.84,
+      "end_time_source_s": 3.08,
+      "probability": 0.9985730648040771
+    },
+    {
+      "word_index": 8,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 3.08,
+      "end_time_wav_s": 3.34,
+      "start_time_source_s": 3.08,
+      "end_time_source_s": 3.34,
+      "probability": 0.9939393997192383
+    },
+    {
+      "word_index": 9,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 3.34,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.34,
+      "end_time_source_s": 3.68,
+      "probability": 0.9607270956039429
+    },
+    {
+      "word_index": 10,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.82,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.82,
+      "probability": 0.9879693984985352
+    },
+    {
+      "word_index": 11,
+      "word": "ever...",
+      "surface": " ever...",
+      "start_time_wav_s": 3.82,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 3.82,
+      "end_time_source_s": 3.98,
+      "probability": 0.5510524809360504
+    }
+  ],
+  "word_count": 11,
+  "mean_word_probability": 0.8918550204146992,
+  "issues": [],
+  "official_transcript_loaded": false
+}

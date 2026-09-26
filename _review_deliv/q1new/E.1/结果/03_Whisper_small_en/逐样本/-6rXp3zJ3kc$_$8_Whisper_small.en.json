@@ -1,0 +1,423 @@
+{
+  "sample_id": "-6rXp3zJ3kc$_$8",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-6rXp3zJ3kc$_$8.wav",
+  "audio_sha256": "d2f46b158f724d384d905f1a59776d959373db967b7a04be27c4cc1b8f0f8f68",
+  "audio_duration_s": 12.738,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "aware of, many people are not until they get to be an older age and they realize that, gosh, they've wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.32,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.32,
+      "text": " aware of, many people are not until they get to be an older age and they realize that, gosh,",
+      "no_speech_probability": 0.0010069204727187753,
+      "average_log_probability": -0.20130135089159013
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.42,
+      "end_time_wav_s": 11.66,
+      "start_time_source_s": 5.42,
+      "end_time_source_s": 11.66,
+      "text": " they've wasted a lot of time and money in placing bets on stock that's ultimately lost",
+      "no_speech_probability": 0.0010069204727187753,
+      "average_log_probability": -0.20130135089159013
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 11.66,
+      "end_time_wav_s": 12.16,
+      "start_time_source_s": 11.66,
+      "end_time_source_s": 12.16,
+      "text": " value.",
+      "no_speech_probability": 0.0010069204727187753,
+      "average_log_probability": -0.20130135089159013
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "aware",
+      "surface": " aware",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.26,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.26,
+      "probability": 0.957655131816864
+    },
+    {
+      "word_index": 2,
+      "word": "of,",
+      "surface": " of,",
+      "start_time_wav_s": 0.26,
+      "end_time_wav_s": 0.46,
+      "start_time_source_s": 0.26,
+      "end_time_source_s": 0.46,
+      "probability": 0.9950172305107117
+    },
+    {
+      "word_index": 3,
+      "word": "many",
+      "surface": " many",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 0.66,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 0.66,
+      "probability": 0.9910609126091003
+    },
+    {
+      "word_index": 4,
+      "word": "people",
+      "surface": " people",
+      "start_time_wav_s": 0.66,
+      "end_time_wav_s": 0.96,
+      "start_time_source_s": 0.66,
+      "end_time_source_s": 0.96,
+      "probability": 0.9931426048278809
+    },
+    {
+      "word_index": 5,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 0.96,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.96,
+      "end_time_source_s": 1.16,
+      "probability": 0.9972150325775146
+    },
+    {
+      "word_index": 6,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.46,
+      "probability": 0.9980999827384949
+    },
+    {
+      "word_index": 7,
+      "word": "until",
+      "surface": " until",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 1.82,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 1.82,
+      "probability": 0.9168899655342102
+    },
+    {
+      "word_index": 8,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 1.82,
+      "end_time_wav_s": 1.98,
+      "start_time_source_s": 1.82,
+      "end_time_source_s": 1.98,
+      "probability": 0.9921749234199524
+    },
+    {
+      "word_index": 9,
+      "word": "get",
+      "surface": " get",
+      "start_time_wav_s": 1.98,
+      "end_time_wav_s": 2.16,
+      "start_time_source_s": 1.98,
+      "end_time_source_s": 2.16,
+      "probability": 0.9983398914337158
+    },
+    {
+      "word_index": 10,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.16,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.16,
+      "end_time_source_s": 2.36,
+      "probability": 0.9958856701850891
+    },
+    {
+      "word_index": 11,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.54,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.54,
+      "probability": 0.8754618167877197
+    },
+    {
+      "word_index": 12,
+      "word": "an",
+      "surface": " an",
+      "start_time_wav_s": 2.54,
+      "end_time_wav_s": 2.72,
+      "start_time_source_s": 2.54,
+      "end_time_source_s": 2.72,
+      "probability": 0.4336017668247223
+    },
+    {
+      "word_index": 13,
+      "word": "older",
+      "surface": " older",
+      "start_time_wav_s": 2.72,
+      "end_time_wav_s": 3.46,
+      "start_time_source_s": 2.72,
+      "end_time_source_s": 3.46,
+      "probability": 0.9942620992660522
+    },
+    {
+      "word_index": 14,
+      "word": "age",
+      "surface": " age",
+      "start_time_wav_s": 3.46,
+      "end_time_wav_s": 3.88,
+      "start_time_source_s": 3.46,
+      "end_time_source_s": 3.88,
+      "probability": 0.9991461038589478
+    },
+    {
+      "word_index": 15,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.88,
+      "end_time_wav_s": 4.1,
+      "start_time_source_s": 3.88,
+      "end_time_source_s": 4.1,
+      "probability": 0.6538504362106323
+    },
+    {
+      "word_index": 16,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 4.1,
+      "end_time_wav_s": 4.26,
+      "start_time_source_s": 4.1,
+      "end_time_source_s": 4.26,
+      "probability": 0.9492259621620178
+    },
+    {
+      "word_index": 17,
+      "word": "realize",
+      "surface": " realize",
+      "start_time_wav_s": 4.26,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 4.26,
+      "end_time_source_s": 4.68,
+      "probability": 0.9762977361679077
+    },
+    {
+      "word_index": 18,
+      "word": "that,",
+      "surface": " that,",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 5.02,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 5.02,
+      "probability": 0.9048036932945251
+    },
+    {
+      "word_index": 19,
+      "word": "gosh,",
+      "surface": " gosh,",
+      "start_time_wav_s": 5.02,
+      "end_time_wav_s": 5.32,
+      "start_time_source_s": 5.02,
+      "end_time_source_s": 5.32,
+      "probability": 0.944253146648407
+    },
+    {
+      "word_index": 20,
+      "word": "they've",
+      "surface": " they've",
+      "start_time_wav_s": 5.42,
+      "end_time_wav_s": 5.94,
+      "start_time_source_s": 5.42,
+      "end_time_source_s": 5.94,
+      "probability": 0.960504561662674
+    },
+    {
+      "word_index": 21,
+      "word": "wasted",
+      "surface": " wasted",
+      "start_time_wav_s": 5.94,
+      "end_time_wav_s": 6.18,
+      "start_time_source_s": 5.94,
+      "end_time_source_s": 6.18,
+      "probability": 0.9610874652862549
+    },
+    {
+      "word_index": 22,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 6.18,
+      "end_time_wav_s": 6.38,
+      "start_time_source_s": 6.18,
+      "end_time_source_s": 6.38,
+      "probability": 0.9979972243309021
+    },
+    {
+      "word_index": 23,
+      "word": "lot",
+      "surface": " lot",
+      "start_time_wav_s": 6.38,
+      "end_time_wav_s": 6.56,
+      "start_time_source_s": 6.38,
+      "end_time_source_s": 6.56,
+      "probability": 0.998544454574585
+    },
+    {
+      "word_index": 24,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 6.56,
+      "end_time_wav_s": 6.68,
+      "start_time_source_s": 6.56,
+      "end_time_source_s": 6.68,
+      "probability": 0.9959244728088379
+    },
+    {
+      "word_index": 25,
+      "word": "time",
+      "surface": " time",
+      "start_time_wav_s": 6.68,
+      "end_time_wav_s": 7.02,
+      "start_time_source_s": 6.68,
+      "end_time_source_s": 7.02,
+      "probability": 0.998755931854248
+    },
+    {
+      "word_index": 26,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 7.02,
+      "end_time_wav_s": 7.26,
+      "start_time_source_s": 7.02,
+      "end_time_source_s": 7.26,
+      "probability": 0.9945586323738098
+    },
+    {
+      "word_index": 27,
+      "word": "money",
+      "surface": " money",
+      "start_time_wav_s": 7.26,
+      "end_time_wav_s": 7.58,
+      "start_time_source_s": 7.26,
+      "end_time_source_s": 7.58,
+      "probability": 0.9990027546882629
+    },
+    {
+      "word_index": 28,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 7.58,
+      "end_time_wav_s": 8.74,
+      "start_time_source_s": 7.58,
+      "end_time_source_s": 8.74,
+      "probability": 0.9556717872619629
+    },
+    {
+      "word_index": 29,
+      "word": "placing",
+      "surface": " placing",
+      "start_time_wav_s": 8.74,
+      "end_time_wav_s": 9.54,
+      "start_time_source_s": 8.74,
+      "end_time_source_s": 9.54,
+      "probability": 0.9922345876693726
+    },
+    {
+      "word_index": 30,
+      "word": "bets",
+      "surface": " bets",
+      "start_time_wav_s": 9.54,
+      "end_time_wav_s": 9.86,
+      "start_time_source_s": 9.54,
+      "end_time_source_s": 9.86,
+      "probability": 0.9779345393180847
+    },
+    {
+      "word_index": 31,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 9.86,
+      "end_time_wav_s": 10.08,
+      "start_time_source_s": 9.86,
+      "end_time_source_s": 10.08,
+      "probability": 0.9986037611961365
+    },
+    {
+      "word_index": 32,
+      "word": "stock",
+      "surface": " stock",
+      "start_time_wav_s": 10.08,
+      "end_time_wav_s": 10.4,
+      "start_time_source_s": 10.08,
+      "end_time_source_s": 10.4,
+      "probability": 0.8971850872039795
+    },
+    {
+      "word_index": 33,
+      "word": "that's",
+      "surface": " that's",
+      "start_time_wav_s": 10.4,
+      "end_time_wav_s": 10.76,
+      "start_time_source_s": 10.4,
+      "end_time_source_s": 10.76,
+      "probability": 0.964058130979538
+    },
+    {
+      "word_index": 34,
+      "word": "ultimately",
+      "surface": " ultimately",
+      "start_time_wav_s": 10.76,
+      "end_time_wav_s": 11.16,
+      "start_time_source_s": 10.76,
+      "end_time_source_s": 11.16,
+      "probability": 0.9980954527854919
+    },
+    {
+      "word_index": 35,
+      "word": "lost",
+      "surface": " lost",
+      "start_time_wav_s": 11.16,
+      "end_time_wav_s": 11.66,
+      "start_time_source_s": 11.16,
+      "end_time_source_s": 11.66,
+      "probability": 0.9961568713188171
+    },
+    {
+      "word_index": 36,
+      "word": "value.",
+      "surface": " value.",
+      "start_time_wav_s": 11.66,
+      "end_time_wav_s": 12.16,
+      "start_time_source_s": 11.66,
+      "end_time_source_s": 12.16,
+      "probability": 0.9972015619277954
+    }
+  ],
+  "word_count": 36,
+  "mean_word_probability": 0.9513861495587561,
+  "issues": [],
+  "official_transcript_loaded": false
+}

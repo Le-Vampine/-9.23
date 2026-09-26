@@ -1,0 +1,21 @@
+﻿id,y_reg,y_cls,pred,pred_cls,err,rho_text,rho_audio,rho_vision,len_text,len_audio,len_vision,abs_y,strength_bucket,text_len_bucket,vision_len_bucket,polarity,any_missing,raw_text
+91844$_$5,3.0,2,-0.48863387,0,3.4886339,0.0,0.0,0.0,26,25,25,3.0,|y|>1.5,中,中,Positive,无缺失,(umm) Bound keeps me in suspense every time I watched it and I've seen it about a million times now
+79356$_$7,2.6666667,2,-0.56831616,0,3.234983,0.0,0.0,0.0,18,17,17,2.6666667,|y|>1.5,短,短,Positive,无缺失,"Very long movie but, (stutter) the time flies by, absolutely fantastic"
+198112$_$9,2.3333333,2,-0.797281,0,3.1306143,0.0,0.0,0.12,37,36,25,2.3333333,|y|>1.5,长,中,Positive,含缺失,"One of the best comedies out there of our age as opposed to like, those other comedies that are actually really stupid w"
+208322$_$12,-2.3333333,0,0.6359444,2,2.9692776,0.0,0.0,0.0,35,34,34,2.3333333,|y|>1.5,长,长,Negative,无缺失,(uhh) Save your money and rent (uhh) the classic Willy Wonka and you'll enjoy (uhh) the experience a whole lot better
+224370$_$5,-2.6666667,0,0.26148704,1,2.9281538,0.0,0.0,0.0,19,18,18,2.6666667,|y|>1.5,短,中,Negative,无缺失,Usually I'm a big Nicholas Cage fan but this time he completely missed his mark
+245582$_$16,1.0,2,-1.875146,0,2.875146,0.0,0.0,0.0,15,14,14,1.0,0.5<|y|<=1.5,短,短,Positive,无缺失,But it's not as bad as I thought it would be
+28006$_$0,-2.6666667,0,0.105430394,1,2.772097,0.0,0.0,0.0,20,19,19,2.6666667,|y|>1.5,中,中,Negative,无缺失,"Hi, my name is Logan and this piece of dog crap is The League of Extraordinary Gentlemen"
+273250$_$12,-2.6666667,0,0.081283174,1,2.7479498,0.0,0.0,0.0,16,15,15,2.6666667,|y|>1.5,短,短,Negative,无缺失,"You know, what's the story, what's the point"
+OORklkFql3k$_$4,-2.0,0,0.57132226,2,2.5713222,0.0,0.0,0.0,26,25,25,2.0,|y|>1.5,中,中,Negative,无缺失,"In the coming decade, the deal will reward Iran, the terrorist regime in Tehran, with hundreds of billions of dollars."
+d-Uw_uZyUys$_$1,-2.3333333,0,0.18014802,1,2.5134814,0.0,0.0,0.0,50,49,49,2.3333333,|y|>1.5,长,长,Negative,无缺失,Let me tell you a story about my grandmother Every time that I used to date a new boyfriend She would ask his name and t
+10219$_$10,2.0,2,-0.34208715,1,2.3420873,0.0,0.0,0.0,20,19,19,2.0,|y|>1.5,中,中,Positive,无缺失,Overall I would give it a five out of five stars because I have the previous two DVDs
+135623$_$8,-1.3333334,0,0.9993157,2,2.332649,0.0,0.0,0.0,16,15,15,1.3333334,0.5<|y|<=1.5,短,短,Negative,无缺失,I think that they could have done a much better job on that movie
+fsBzpr4k3rY$_$0,2.0,2,-0.2983086,1,2.2983086,0.0,0.0,0.0,16,15,15,2.0,|y|>1.5,短,短,Positive,无缺失,It causes me to not do bad and put myself in a bad situation
+273250$_$16,-2.3333333,0,-0.065303616,1,2.2680297,0.0,0.0,0.0,20,19,19,2.3333333,|y|>1.5,中,中,Negative,无缺失,"You know, it's missing the greater story to which the script plugs in to"
+wnL3ld9bM2o$_$25,2.0,2,-0.23726419,1,2.2372642,0.0,0.0,0.0,20,19,19,2.0,|y|>1.5,中,中,Positive,无缺失,I know I'm a little older than a millennial and I don't so
+94481$_$4,2.6666667,2,0.4604097,2,2.206257,0.0,0.0,0.0,19,18,18,2.6666667,|y|>1.5,中,中,Positive,无缺失,"(umm) The the (stutter) battles, is, they're perfect"
+213327$_$6,-2.3333333,0,-0.1382483,1,2.195085,0.0,0.0,0.22222222,28,27,27,2.3333333,|y|>1.5,中,中,Negative,含缺失,I (umm) like I said definitely do not waste your eighty-eight minutes (umm) xxx (umm) watching this
+yzCHa2qchpg$_$1,-2.0,0,0.18475865,1,2.1847587,0.0,0.0,0.0,50,49,49,2.0,|y|>1.5,长,长,Negative,无缺失,"They would really get warm at night, when I had covers on my feet; I had sharp, shooting pains going through my feet and"
+2W-U94hXuK0$_$3,-3.0,0,-0.8780339,0,2.1219661,0.0,0.0,0.0,45,44,44,3.0,|y|>1.5,长,长,Negative,无缺失,"Or I see what happened in the Rwandan genocide, with the slamming of babies against the walls of churches, you know, of "
+211875$_$4,-1.6666666,0,0.39319366,1,2.0598602,0.0,0.0,0.0,21,20,20,1.6666666,|y|>1.5,中,中,Negative,无缺失,Well if you've seen the previews you've seen the best parts of the movie

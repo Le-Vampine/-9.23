@@ -147,7 +147,7 @@ def fig_sweep_degrade(csv_path, out):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ckpt_dir", required=True)
-    ap.add_argument("--out_dir", default=r"E:\数学建模\figs")
+    ap.add_argument("--out_dir", default=os.path.join("..", "figs"))
     ap.add_argument("--version", default="aligned")
     ap.add_argument("--data_dir", default=None)
     ap.add_argument("--tag", default="")
@@ -157,7 +157,7 @@ def main():
     os.makedirs(a.out_dir, exist_ok=True)
     sfx = ("_" + a.tag) if a.tag else ""
 
-    cfg = Config(version=a.version)
+    cfg = Config(version=a.version, out_dir=a.out_dir)
     if a.data_dir:
         cfg.data_dir = a.data_dir
         cfg.__post_init__()

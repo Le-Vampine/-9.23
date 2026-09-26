@@ -1,0 +1,223 @@
+{
+  "sample_id": "-UacrmKiTn4$_$10",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-UacrmKiTn4$_$10.wav",
+  "audio_sha256": "4e434b1bd14755dd84b6eead3367d1dfa46e6baaac8b68a57cc327d1d6a19c4d",
+  "audio_duration_s": 7.242,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "because if they are not in any way held accountable for reading the material, they won't do it.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.72,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.72,
+      "text": " because if they are not in any way held accountable for reading the material, they won't do it.",
+      "no_speech_probability": 0.08821886777877808,
+      "average_log_probability": -0.19082838855683804
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "because",
+      "surface": " because",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.58,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.58,
+      "probability": 0.24995099008083344
+    },
+    {
+      "word_index": 2,
+      "word": "if",
+      "surface": " if",
+      "start_time_wav_s": 0.58,
+      "end_time_wav_s": 0.96,
+      "start_time_source_s": 0.58,
+      "end_time_source_s": 0.96,
+      "probability": 0.9639792442321777
+    },
+    {
+      "word_index": 3,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 0.96,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.96,
+      "end_time_source_s": 1.16,
+      "probability": 0.9967955946922302
+    },
+    {
+      "word_index": 4,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.3,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.3,
+      "probability": 0.9264253377914429
+    },
+    {
+      "word_index": 5,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 1.3,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.3,
+      "end_time_source_s": 1.66,
+      "probability": 0.9977864027023315
+    },
+    {
+      "word_index": 6,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 2.28,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 2.28,
+      "probability": 0.8803662657737732
+    },
+    {
+      "word_index": 7,
+      "word": "any",
+      "surface": " any",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.58,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.58,
+      "probability": 0.9572222828865051
+    },
+    {
+      "word_index": 8,
+      "word": "way",
+      "surface": " way",
+      "start_time_wav_s": 2.58,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.58,
+      "end_time_source_s": 2.76,
+      "probability": 0.9968448877334595
+    },
+    {
+      "word_index": 9,
+      "word": "held",
+      "surface": " held",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 3.04,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 3.04,
+      "probability": 0.9966070652008057
+    },
+    {
+      "word_index": 10,
+      "word": "accountable",
+      "surface": " accountable",
+      "start_time_wav_s": 3.04,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.04,
+      "end_time_source_s": 3.68,
+      "probability": 0.9982007741928101
+    },
+    {
+      "word_index": 11,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 4.16,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 4.16,
+      "probability": 0.9964894652366638
+    },
+    {
+      "word_index": 12,
+      "word": "reading",
+      "surface": " reading",
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 4.46,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 4.46,
+      "probability": 0.9970820546150208
+    },
+    {
+      "word_index": 13,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.46,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 4.46,
+      "end_time_source_s": 4.68,
+      "probability": 0.9952496290206909
+    },
+    {
+      "word_index": 14,
+      "word": "material,",
+      "surface": " material,",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 5.16,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 5.16,
+      "probability": 0.998480498790741
+    },
+    {
+      "word_index": 15,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 5.74,
+      "end_time_wav_s": 6.08,
+      "start_time_source_s": 5.74,
+      "end_time_source_s": 6.08,
+      "probability": 0.9974414110183716
+    },
+    {
+      "word_index": 16,
+      "word": "won't",
+      "surface": " won't",
+      "start_time_wav_s": 6.08,
+      "end_time_wav_s": 6.4,
+      "start_time_source_s": 6.08,
+      "end_time_source_s": 6.4,
+      "probability": 0.9956451952457428
+    },
+    {
+      "word_index": 17,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 6.4,
+      "end_time_wav_s": 6.52,
+      "start_time_source_s": 6.4,
+      "end_time_source_s": 6.52,
+      "probability": 0.9992184638977051
+    },
+    {
+      "word_index": 18,
+      "word": "it.",
+      "surface": " it.",
+      "start_time_wav_s": 6.52,
+      "end_time_wav_s": 6.72,
+      "start_time_source_s": 6.52,
+      "end_time_source_s": 6.72,
+      "probability": 0.9994586110115051
+    }
+  ],
+  "word_count": 18,
+  "mean_word_probability": 0.9412913430068228,
+  "issues": [],
+  "official_transcript_loaded": false
+}

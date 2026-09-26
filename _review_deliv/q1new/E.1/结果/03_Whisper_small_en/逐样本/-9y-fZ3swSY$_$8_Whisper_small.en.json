@@ -1,0 +1,173 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$8",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-9y-fZ3swSY$_$8.wav",
+  "audio_sha256": "9d25f0dbca5bcef8bf21a04a051c91012075e51337dc2b0b3f2a85314843ae2e",
+  "audio_duration_s": 4.917,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "man, that's a more decent and more polite way to call a lady.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.3,
+      "text": " man, that's a more decent and more polite way to call a lady.",
+      "no_speech_probability": 0.06536192446947098,
+      "average_log_probability": -0.24556103505586324
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "man,",
+      "surface": " man,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.18,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.18,
+      "probability": 0.5662234425544739
+    },
+    {
+      "word_index": 2,
+      "word": "that's",
+      "surface": " that's",
+      "start_time_wav_s": 0.34,
+      "end_time_wav_s": 0.52,
+      "start_time_source_s": 0.34,
+      "end_time_source_s": 0.52,
+      "probability": 0.8970002830028534
+    },
+    {
+      "word_index": 3,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 0.52,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.52,
+      "end_time_source_s": 0.62,
+      "probability": 0.9031626582145691
+    },
+    {
+      "word_index": 4,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 1.12,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 1.12,
+      "probability": 0.9903297424316406
+    },
+    {
+      "word_index": 5,
+      "word": "decent",
+      "surface": " decent",
+      "start_time_wav_s": 1.12,
+      "end_time_wav_s": 1.74,
+      "start_time_source_s": 1.12,
+      "end_time_source_s": 1.74,
+      "probability": 0.9754173755645752
+    },
+    {
+      "word_index": 6,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 1.74,
+      "end_time_wav_s": 2.2,
+      "start_time_source_s": 1.74,
+      "end_time_source_s": 2.2,
+      "probability": 0.8779807090759277
+    },
+    {
+      "word_index": 7,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 2.2,
+      "end_time_wav_s": 2.34,
+      "start_time_source_s": 2.2,
+      "end_time_source_s": 2.34,
+      "probability": 0.8979952931404114
+    },
+    {
+      "word_index": 8,
+      "word": "polite",
+      "surface": " polite",
+      "start_time_wav_s": 2.34,
+      "end_time_wav_s": 2.72,
+      "start_time_source_s": 2.34,
+      "end_time_source_s": 2.72,
+      "probability": 0.998230516910553
+    },
+    {
+      "word_index": 9,
+      "word": "way",
+      "surface": " way",
+      "start_time_wav_s": 2.72,
+      "end_time_wav_s": 3.04,
+      "start_time_source_s": 2.72,
+      "end_time_source_s": 3.04,
+      "probability": 0.9855532050132751
+    },
+    {
+      "word_index": 10,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.04,
+      "end_time_wav_s": 3.28,
+      "start_time_source_s": 3.04,
+      "end_time_source_s": 3.28,
+      "probability": 0.9872748851776123
+    },
+    {
+      "word_index": 11,
+      "word": "call",
+      "surface": " call",
+      "start_time_wav_s": 3.28,
+      "end_time_wav_s": 3.62,
+      "start_time_source_s": 3.28,
+      "end_time_source_s": 3.62,
+      "probability": 0.9986457228660583
+    },
+    {
+      "word_index": 12,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 3.62,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.62,
+      "end_time_source_s": 4.06,
+      "probability": 0.9821975231170654
+    },
+    {
+      "word_index": 13,
+      "word": "lady.",
+      "surface": " lady.",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.3,
+      "probability": 0.9908112287521362
+    }
+  ],
+  "word_count": 13,
+  "mean_word_probability": 0.9269863527554733,
+  "issues": [],
+  "official_transcript_loaded": false
+}

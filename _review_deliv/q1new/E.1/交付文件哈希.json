@@ -1,0 +1,2432 @@
+[
+  {
+    "path": "E.1/README.md",
+    "bytes": 20092,
+    "sha256": "7de4e43cd7f48dcd9c92cf567ccd613523f0e9bc12622983e055f5bae82442d8"
+  },
+  {
+    "path": "E.1/交付候选/100条交付索引.csv",
+    "bytes": 61780,
+    "sha256": "5c5bed0645bc42357ebbe8f1f5eb84a42eaa3d79a2a3e8c257a7d5ebcc630d37"
+  },
+  {
+    "path": "E.1/交付候选/提交前全量核验.json",
+    "bytes": 2110,
+    "sha256": "abd69e4ed155e8f26b13c06e1c6c730be2576d4b7605f9a68b2c0adf9dd9c4b0"
+  },
+  {
+    "path": "E.1/代码/Whisper识别/核验Whisper输出.py",
+    "bytes": 6858,
+    "sha256": "6a34d38007e2af749b8fa3fab57a5a9f13e10a34fc7a95f294b573e6f93d9ea7"
+  },
+  {
+    "path": "E.1/代码/Whisper识别/运行WhisperSmallEn.py",
+    "bytes": 11786,
+    "sha256": "cd957395bfc70a78032592e2318b7a879c4d9d1de58a8821149bea87d217c111"
+  },
+  {
+    "path": "E.1/代码/交接/打包给第二问队友.py",
+    "bytes": 8134,
+    "sha256": "d64b2e151ec075f64c9c4d01072a3c92c21eb83087d5dfec92aa7f59d99d9a87"
+  },
+  {
+    "path": "E.1/代码/声学特征/提取Librosa74维.py",
+    "bytes": 11373,
+    "sha256": "e5732673c6afa788d68a062106841605190c813b9857b43915b35105c7a30c96"
+  },
+  {
+    "path": "E.1/代码/媒体检查与音频分离/检查并分离音频.py",
+    "bytes": 13801,
+    "sha256": "034d770eb0b660fff2d790246631a52a8d44dbc5b78c48bd6796819a77ef8bd0"
+  },
+  {
+    "path": "E.1/代码/文本比对与强制对齐/MFA兼容入口.py",
+    "bytes": 1302,
+    "sha256": "28a9d0f974caa7cced744a81fa30b09603a5db1ca5a675d8d7beedaab1776c26"
+  },
+  {
+    "path": "E.1/代码/文本比对与强制对齐/准备MFA全量Whisper转写语料.py",
+    "bytes": 4458,
+    "sha256": "d9b59c205a5779c905e94dea45d94506206e1b528316c24d8eb1d3b8fcd88eb9"
+  },
+  {
+    "path": "E.1/代码/文本比对与强制对齐/恢复原文逐词时间.py",
+    "bytes": 12891,
+    "sha256": "13eca70856dbb80991fab3fe96d9202812fc2577292563f4e71b021a74166d6e"
+  },
+  {
+    "path": "E.1/代码/文本比对与强制对齐/映射MFA时间回原文.py",
+    "bytes": 19767,
+    "sha256": "4b83f5ff8a12f531d5700c5e92913522aede9212353db63aac9017bfa4aab977"
+  },
+  {
+    "path": "E.1/代码/文本比对与强制对齐/自动比对原始文本与Whisper.py",
+    "bytes": 25188,
+    "sha256": "1c4c0c2ccfa9245ed78e3aedc694716d0da0553bffa2dfe667a2e13722a448cb"
+  },
+  {
+    "path": "E.1/代码/文本比对与强制对齐/运行MFA命令.py",
+    "bytes": 6478,
+    "sha256": "81abcec9af7d9181b9f7522ac41d954f97d0b00b80e41fe0d1bfb2f850d9c2b4"
+  },
+  {
+    "path": "E.1/代码/文本编码/准备BERT编码器.py",
+    "bytes": 3110,
+    "sha256": "5250ef501ef8c41c162b6ae1c359a1e9908ce8df905b86b5deb5fb15f2101838"
+  },
+  {
+    "path": "E.1/代码/文本编码/提取原文BERT词特征.py",
+    "bytes": 10589,
+    "sha256": "ffea40332c2eae20b53e15a96659eb53a67382a8f5ec6e754685cc713c4c5290"
+  },
+  {
+    "path": "E.1/代码/样本清单/建立样本清单.py",
+    "bytes": 8863,
+    "sha256": "ed379fbedf3fa869d11220809a874129de1b73396ad08b15550dbb746ed20d90"
+  },
+  {
+    "path": "E.1/代码/视觉特征/提取FaceLandmarker52维.py",
+    "bytes": 16285,
+    "sha256": "b442ff549df9c20da661084a2b0aa95efa8e37bc1b2e212898f7c4cc63ced078"
+  },
+  {
+    "path": "E.1/代码/论文/汇集问题一图表PPT.py",
+    "bytes": 1805,
+    "sha256": "04b30d3a9765dec15250b56d4d4bc58f64ce25d2f3f0550f1dfff634cecb87c7"
+  },
+  {
+    "path": "E.1/代码/论文/渲染五节稿_Windows.py",
+    "bytes": 614,
+    "sha256": "ffa65f8e33a149ca5985281d213c08f6a859323681c4499042dbd1ee38731f43"
+  },
+  {
+    "path": "E.1/代码/论文/生成问题一五节精修稿.py",
+    "bytes": 35885,
+    "sha256": "d5fded56cad0951c712bdf6dca0fcbe528e09a93d1500ec96b1a97ec3bb26831"
+  },
+  {
+    "path": "E.1/代码/论文/生成问题一公式.py",
+    "bytes": 1277,
+    "sha256": "518f52cb71127247a15e7751598d4994b502d634229c553ffc7db51b0053580b"
+  },
+  {
+    "path": "E.1/代码/论文/重绘问题一图表_精修.py",
+    "bytes": 20955,
+    "sha256": "aa576108c2289059a74538b93130a34334a4ea640ccc600846a44139d138076d"
+  },
+  {
+    "path": "E.1/代码/词级对齐/按原文词时间聚合音视频.py",
+    "bytes": 18971,
+    "sha256": "96a245a9450e3859744c6a0b2249d256697348d7e22625b09d5b75395a883f2f"
+  },
+  {
+    "path": "E.1/代码/质量检查/打包问题一交付候选.py",
+    "bytes": 6192,
+    "sha256": "76e42ef788c6c516868f1e53a44b65376ab515e84b6a8c9f6f0baa1ab6d8c5c6"
+  },
+  {
+    "path": "E.1/代码/质量检查/核验问题一提交材料.py",
+    "bytes": 15348,
+    "sha256": "31d2b604bc0d3325f821ccf127eaae43d0597ad5d0eeaacbbd96943b43d444dd"
+  },
+  {
+    "path": "E.1/代码/质量检查/生成第10步论文证据.py",
+    "bytes": 25916,
+    "sha256": "65f3c232f9eb2a1ee387d58c39a672435a70688bef39c57e8f4a26360d001f02"
+  },
+  {
+    "path": "E.1/日志/main_全文提取.txt",
+    "bytes": 233010,
+    "sha256": "4760d5ceb89b34268860170f760172e7485c2ecf1cee969fc281e767f38f4da6"
+  },
+  {
+    "path": "E.1/日志/第2步视频检查与音频分离/第2步视频与音频分离核验.csv",
+    "bytes": 63709,
+    "sha256": "bde73a9f3b9ae38a0b64d53f117d3ad1fd09742cff2d2f377e586a18bac5c47d"
+  },
+  {
+    "path": "E.1/日志/第2步视频检查与音频分离/第2步视频与音频分离核验.json",
+    "bytes": 174705,
+    "sha256": "356869a2fff787a19179ffb72e5d39e76203903193658b9ff387cdd7e66ea554"
+  },
+  {
+    "path": "E.1/日志/第3步Whisper_small.en/100条Whisper转写与词时间戳汇总.csv",
+    "bytes": 30150,
+    "sha256": "cde44c0e81ebba75059110c29896343c736300906bed306402cf5c2ed5ba6ef4"
+  },
+  {
+    "path": "E.1/日志/第3步Whisper_small.en/第3步Whisper_small.en运行报告.json",
+    "bytes": 64280,
+    "sha256": "80d3a1d41a00e992ea6e102f889da32f729d7da5589d29c98606fda5c347ef23"
+  },
+  {
+    "path": "E.1/日志/第3步Whisper_small.en/第3步Whisper输出结构与时间戳核验.json",
+    "bytes": 44166,
+    "sha256": "01a8f6d0481948314b9d21d4c47e9c14efdec3a2d919e6d658fa39d0b6aad175"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/100条原始文本与Whisper比对汇总.csv",
+    "bytes": 41181,
+    "sha256": "574f8fe30fec2702f4056629b867806149c20a362beb315bf3b6a1c3f22f9860"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA候选语料映射.csv",
+    "bytes": 13592,
+    "sha256": "0676965209516d49066cbf6f02b7bbe45a4a47d902aa06f6158c881a0df29ba7"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA候选语料映射.json",
+    "bytes": 23228,
+    "sha256": "7becc71f0c7557f50f3ad75209d3adffc0793592ec678a9597816c1631bd38fd"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA全量Whisper文本强制对齐控制台.json",
+    "bytes": 3057,
+    "sha256": "2f7f354bf9f9a14717d7c75ccdbb30fd6d332aad29071c17486cbaf2e407119f"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA全量Whisper转写语料映射.csv",
+    "bytes": 38931,
+    "sha256": "3749e2c67b11368b5cfb1d4acc3e3bd27b7b5eb373e5762590ec5779ecc72cfd"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA全量Whisper转写语料映射.json",
+    "bytes": 66937,
+    "sha256": "ed0107eaa9ed7f6e82031341acb205c1528549cd2e82ad5d9161c75a96b764f4"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA单条对齐试跑状态.json",
+    "bytes": 1248,
+    "sha256": "3bdcaa1a7b205cfc4260ad616916d6f88e9b3b5e209cf2933ddc34d971bce802"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA原文时间映射汇总.json",
+    "bytes": 63646,
+    "sha256": "21a28d7311587a7221f3546dc20461b3929d59cbbb8d7b6ce749e63d6d546826"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA原文时间映射逐样本统计.csv",
+    "bytes": 8426,
+    "sha256": "21a70dfb88ea72a0192a66772842e85abbb860e23567ec997c26394460c348a1"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA本机命令环境检查.json",
+    "bytes": 4152,
+    "sha256": "0bd4ff21a08d5df2589ce187d7c95c275d38d4ef4b9303c383fa1111f7ccbd3c"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA本机命令环境检查.log",
+    "bytes": 4221,
+    "sha256": "b239a3b4657d4af8c8bffc48e542469cba8cdd720502bd9af7e09cd23d43422e"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA语料验证控制台.json",
+    "bytes": 1519,
+    "sha256": "bce131e7f97991ea60b43c31695a79f79c695ff8808a9bf970dc2c4cce528894"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/MFA语料验证控制台.log",
+    "bytes": 5688,
+    "sha256": "68ab5c91ebde7ccef76d456f8b47acdfc0825106b43e7da0f89e9d4bf9af2591"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/Whisper词时间戳自动核查.csv",
+    "bytes": 165345,
+    "sha256": "8b03e6571b84399a3d5cf2128aad19525c478ade70e01df71170ecfa2f2c3c71"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/原文词级时间_MFA候选及最终采用.csv",
+    "bytes": 763403,
+    "sha256": "dba1387bd012458b0732e44570677bf9c9c2c9974f8460d6217d4b97e058d64e"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/原文词级时间_逐词保守恢复.csv",
+    "bytes": 351507,
+    "sha256": "641ca4b0c19bf37ce25b9e4fbed76419089960ae815affd1fc52da79f6b92420"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/原文词级时间候选_Whisper估计.csv",
+    "bytes": 169141,
+    "sha256": "338d4ad37ccb6bb9b19b1e07aaa1bdc66fd09e370238f0fe64d67465120fad85"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/第4步自动文本比对与Whisper时间戳核查报告.json",
+    "bytes": 36402,
+    "sha256": "25024f72c6b79154171bd8e3280edcfd8fd254a23b1df1e027f1627231336cdd"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/逐词保守恢复汇总.json",
+    "bytes": 39070,
+    "sha256": "fd1a7ad45d86cac1cd6e70629e004b1487bb26ae22b0e733921de5d015de9983"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/逐词对照与Whisper初步时间.csv",
+    "bytes": 242266,
+    "sha256": "f65e89cc108baf14faf21673e2b0fe4bf9e6af62fe5ae2f9cb64684d1758a85c"
+  },
+  {
+    "path": "E.1/日志/第4步文本一致性检查/逐词恢复逐样本统计.csv",
+    "bytes": 4531,
+    "sha256": "e60b2a34309df475628b37c6675dc2b572d698f0a72cb32b30c31238c02d0942"
+  },
+  {
+    "path": "E.1/日志/第7步视觉特征/MediaPipe原生日志.txt",
+    "bytes": 49757,
+    "sha256": "e7a8a6e1c9ae22c44bf74a1b55b37e5a7c1d298400eee6b39addc18f8bbdc990"
+  },
+  {
+    "path": "E.1/日志/第7步视觉特征/异常样本MediaPipe日志.txt",
+    "bytes": 554,
+    "sha256": "882d1533dc7c54b5614cce55bfb7fef99b1c212d96110ca6f2793495e8392fd2"
+  },
+  {
+    "path": "E.1/日志/第7步视觉特征/首次运行异常_已解决.json",
+    "bytes": 162,
+    "sha256": "0ca09f6215ef9ba9f0ec60c40ee66d6d59aed59c3009e88f8d8bc1f5236e32e3"
+  },
+  {
+    "path": "E.1/日志/赛题_文字提取.txt",
+    "bytes": 15740,
+    "sha256": "d71e26b5649bb37cfc16c14b696e4f2c726b04b1dd84e6064596a7066688bc2f"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-3g5yACwYnA$_$13_Whisper_small.en.json",
+    "bytes": 6632,
+    "sha256": "c0572ea30b6639ee6ebba92385510bd87b7efb81a4b55ec6cafa79396ffe208a"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-3g5yACwYnA$_$2_Whisper_small.en.json",
+    "bytes": 5444,
+    "sha256": "a2efeae2be4ad84b3c7528c61f31f02eff32a7d6320b08d9a5832d14fa9eed41"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-3g5yACwYnA$_$3_Whisper_small.en.json",
+    "bytes": 11515,
+    "sha256": "95753e5b7320bbd0d83d8c8619c80ede7d59cfda2284cece86f982f26f2145c6"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-3g5yACwYnA$_$9_Whisper_small.en.json",
+    "bytes": 8398,
+    "sha256": "ed3591d1b21e3042666aa5b142db5c45d6d9fb9ea591cef4b763058bbedc9d68"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-3nNcZdcdvU$_$5_Whisper_small.en.json",
+    "bytes": 6667,
+    "sha256": "6124255d9914aee517d51020bbf07ee96811970a79926ac4a4281cef26eded0c"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-571d8cVauQ$_$0_Whisper_small.en.json",
+    "bytes": 4824,
+    "sha256": "08765988ac7c5492095bcc276fdbb5ab3b8dd55f7d7a2d34f70b48dd9a39abac"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-571d8cVauQ$_$5_Whisper_small.en.json",
+    "bytes": 15320,
+    "sha256": "0f5e4176f7e5dd34f6c771cc83989d2dba51eb2693d8c086ea195984cbe4236b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-6rXp3zJ3kc$_$8_Whisper_small.en.json",
+    "bytes": 11972,
+    "sha256": "9e4c67ac6d1e4bbb2c0b6e23c866adb6a40799255fa73650f181556ae72efb68"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-9y-fZ3swSY$_$0_Whisper_small.en.json",
+    "bytes": 8557,
+    "sha256": "93fccfdfcd89aa35cb810cbba44a0a10108f2c7ef05a933dd0871fba51678400"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-9y-fZ3swSY$_$4_Whisper_small.en.json",
+    "bytes": 3847,
+    "sha256": "4acd810046a245bb858b61a0845163bb6b5dd6a5468c49bff6ca287fc22309b4"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-9y-fZ3swSY$_$8_Whisper_small.en.json",
+    "bytes": 4971,
+    "sha256": "8f0608b0957a199eb2f05a46e38425ef7d07f2fdd5010c39ad6ae6110394c9c6"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-AUZQgSxyPQ$_$2_Whisper_small.en.json",
+    "bytes": 14170,
+    "sha256": "d08d12716a8b6752ec670040a8307b7d0d3e563a51f64fb5b4de514c063e7fec"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-HeZS2-Prhc$_$2_Whisper_small.en.json",
+    "bytes": 6635,
+    "sha256": "43766945a006c2bfd77f7dfe76c87cd6fecf1b061411b4e54f4462d5646bfc01"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-HwX2H8Z4hY$_$2_Whisper_small.en.json",
+    "bytes": 3148,
+    "sha256": "d71c784a9872cb9e21abecc866984db214e53b07238f1a8f863b614480a26049"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-HwX2H8Z4hY$_$5_Whisper_small.en.json",
+    "bytes": 4001,
+    "sha256": "9c342abe6445dbe65ee623a2b1833733bf70f1303e594f93cfb9209a244859e2"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-HwX2H8Z4hY$_$6_Whisper_small.en.json",
+    "bytes": 3329,
+    "sha256": "2ad1387eda341d6c47ddcdbf08326ec09352be012b7122d7f5aeb4c34e622bbf"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-HwX2H8Z4hY$_$9_Whisper_small.en.json",
+    "bytes": 8302,
+    "sha256": "7f6b84d60ca8d0d664817eb50ae41304740c712a3267a4ceff57b2aee8e6afdc"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-I_e4mIh0yE$_$1_Whisper_small.en.json",
+    "bytes": 6391,
+    "sha256": "a4c994f9c39f23fa7788ff2c57d37ef5c80997d06732150b50b2a46874aa2a41"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-I_e4mIh0yE$_$3_Whisper_small.en.json",
+    "bytes": 7277,
+    "sha256": "404c8dd1e2247d073af7006da5e086d18cb082c90e920a4d2156d428c54c1048"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-MeTTeMJBNc$_$0_Whisper_small.en.json",
+    "bytes": 7517,
+    "sha256": "99fbe5f4594cd23eafd6631a36930d606ced64abfbad375beb94e3935d4fed61"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-MeTTeMJBNc$_$13_Whisper_small.en.json",
+    "bytes": 5810,
+    "sha256": "e5ca911edfb957418defa2d98c0adc3b41178b8cf9f66dfd04b7df485aa9eac5"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-MeTTeMJBNc$_$7_Whisper_small.en.json",
+    "bytes": 10485,
+    "sha256": "48857cfa68409fd17e594acc7861069b30f4c2f9253cb7083b41da7853de9109"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-NFrJFQijFE$_$1_Whisper_small.en.json",
+    "bytes": 1163,
+    "sha256": "3ed3ba96ae881aac28f335b43a55b7fd2516f76d6779c84ec56f856a95588a8f"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-NFrJFQijFE$_$2_Whisper_small.en.json",
+    "bytes": 4247,
+    "sha256": "fcad84a284b3b9d04d0e8ff120e2dce65042100818960f27c4ec0fab20f59759"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-RfYyzHpjk4$_$11_Whisper_small.en.json",
+    "bytes": 6083,
+    "sha256": "f60d6d752bc69e4e41c1fb8d553864faf246b31226611ccbe00e13834a376195"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-RfYyzHpjk4$_$2_Whisper_small.en.json",
+    "bytes": 8310,
+    "sha256": "2c9a1d9de93972636dcd7d8a918e5ba34de766d47363493321836a2dfcec8fa3"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-RfYyzHpjk4$_$8_Whisper_small.en.json",
+    "bytes": 6074,
+    "sha256": "860827617e6f83f57128f4c90f8334098f9514d34ec81b49471e188b4e4447f7"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-THoVjtIkeU$_$12_Whisper_small.en.json",
+    "bytes": 12630,
+    "sha256": "24a785f5476312b4761d85f4baabc6312e8f208564c3ecf2803482d33405b5a9"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-THoVjtIkeU$_$2_Whisper_small.en.json",
+    "bytes": 4208,
+    "sha256": "7702d5acaf4810ff36f707ae8be3422f9898c770a4d56cf49221159ab6168166"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-THoVjtIkeU$_$6_Whisper_small.en.json",
+    "bytes": 8853,
+    "sha256": "069ecf77284b4e7cd5cdcd2665fdfffdf3261b7d02f3de1bc0ae6975fcf37bc3"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UUCSKoHeMA$_$0_Whisper_small.en.json",
+    "bytes": 6691,
+    "sha256": "437d15decdbd0f16b00fa11bfdcad37d8f94e4b579ed2e56cac0ecee2c83f0dd"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UacrmKiTn4$_$10_Whisper_small.en.json",
+    "bytes": 6385,
+    "sha256": "1d74d303304d4c6090f9abdaf552d34f6c0c133f62abc7ce08e316a30f3fec8c"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UacrmKiTn4$_$4_Whisper_small.en.json",
+    "bytes": 5546,
+    "sha256": "89767445e09e781e33794c430e292db384dcbdf41fab3a5ba4056dfe00bc91c6"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UuX1xuaiiE$_$0_Whisper_small.en.json",
+    "bytes": 3927,
+    "sha256": "8bd4237922773de5e189d8700280b291f1cd6178d4afeaf7aebb92be16849bdf"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UuX1xuaiiE$_$1_Whisper_small.en.json",
+    "bytes": 8857,
+    "sha256": "7d5f515922549574eecf4b5c9b7da6f12af6983d91f86da53ab0a51446fcd2e6"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UuX1xuaiiE$_$3_Whisper_small.en.json",
+    "bytes": 3877,
+    "sha256": "6dac0aa8fbb36f78134014fd3a40477666fd349772ef13e152e57c66aa823069"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-UuX1xuaiiE$_$6_Whisper_small.en.json",
+    "bytes": 8080,
+    "sha256": "5676e4f490b7646be9546b6500adeaf3f104d3015a568b5407eacc2ee8fcdf6f"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-a55Q6RWvTA$_$3_Whisper_small.en.json",
+    "bytes": 20362,
+    "sha256": "af0a4860aef6097e95c66fb6fd5da922bff1d531a8a1defe38208be77f8333cf"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-aNfi7CP8vM$_$7_Whisper_small.en.json",
+    "bytes": 6483,
+    "sha256": "5065717e4ba6d97bb3740e99ae15f1f117ff3cf080c1a3efab993ca5eaad5866"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-aqamKhZ1Ec$_$0_Whisper_small.en.json",
+    "bytes": 5874,
+    "sha256": "b71997f65a01d14292b3985724b4a6e91fd2dcea87605dcf58fe84fb693d47d1"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-dxfTGcXJoc$_$0_Whisper_small.en.json",
+    "bytes": 16954,
+    "sha256": "09c3d028b3bf44e222fe2cc76a40c83b2fb34a7adf7e8ed0a9c1d2f863506b54"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-dxfTGcXJoc$_$1_Whisper_small.en.json",
+    "bytes": 12169,
+    "sha256": "755da6e2f8643a7c8529abae5ea1c3ea51eb67494a0b3485c806b8b573023f2b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-dxfTGcXJoc$_$2_Whisper_small.en.json",
+    "bytes": 11905,
+    "sha256": "4d8986e732bf869175f942ece60fa41c0ebb12db09d32f313ad33a91a3789605"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-dxfTGcXJoc$_$6_Whisper_small.en.json",
+    "bytes": 9607,
+    "sha256": "0f5ce260b938869dd8cafd199d23dc9c3cde5ae8796bcde0eac065d7a5042833"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$13_Whisper_small.en.json",
+    "bytes": 4475,
+    "sha256": "25a04bd34d5ed7fee76ed12ff376bf749b7a427ee3d58c287095e5d3124a5e23"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$16_Whisper_small.en.json",
+    "bytes": 4518,
+    "sha256": "1d0e258c57b3e0f1ce3842199c5904f3006015cb13cb5c56ecbf0d4230efd159"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$17_Whisper_small.en.json",
+    "bytes": 5837,
+    "sha256": "12ea5e0e1766faccf391854d02007c36148ac97c599649f599c939f904b5a46b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$18_Whisper_small.en.json",
+    "bytes": 7527,
+    "sha256": "fd70d3de483c3abacfcde32ec07720f88b55d14ec50f02c3d1b2f017aa70f10b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$1_Whisper_small.en.json",
+    "bytes": 7577,
+    "sha256": "d1b55c85ae5f4a0bc7c134b9c07adf19a6e2522cfd0deb3cd602d4f85c08f90f"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$20_Whisper_small.en.json",
+    "bytes": 6903,
+    "sha256": "2aa25a12ea2879b98d44071814e67f1b66668583fb91631081708d9467d4c0a0"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$26_Whisper_small.en.json",
+    "bytes": 5817,
+    "sha256": "eda6c4a1ff67c5478d18b375edc3859dce701c51a39cb25e9cb2bcaa037f8652"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$6_Whisper_small.en.json",
+    "bytes": 4787,
+    "sha256": "fd4ff241f3894aade0b39c64c0bc2bfe049a46b7104d4bc4880279e66cec2646"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-egA8-b7-3M$_$9_Whisper_small.en.json",
+    "bytes": 4237,
+    "sha256": "6c85b7a4592fdd3edf75695413e95f5e5deb1897d03f2e0ddfadf043782fe012"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-hnBHBN8p5A$_$6_Whisper_small.en.json",
+    "bytes": 5289,
+    "sha256": "a16eb12627bdf2a3870d8bc8d3568e27a9d7da81e9e0354dd44fcc57fd1b6dcb"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-hnBHBN8p5A$_$7_Whisper_small.en.json",
+    "bytes": 5263,
+    "sha256": "1800bb81b055c90e71506098c70d6af9b2727daa6feeb4657675699b21f27084"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-iRBcNs9oI8$_$3_Whisper_small.en.json",
+    "bytes": 5269,
+    "sha256": "4567055439bb095e27ebdc282f23f7dab3ef5d839be42acc7b73bb8614cc4fdb"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-iRBcNs9oI8$_$6_Whisper_small.en.json",
+    "bytes": 3897,
+    "sha256": "c5255d4a3838df6c8c2579077d26bc96f838a35ccc5f196e1cbe37d0bc1d5cd6"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-iRBcNs9oI8$_$7_Whisper_small.en.json",
+    "bytes": 4468,
+    "sha256": "84592718b5c7c39eb3c300c26280f4eaf2a03e5cf333ef840538485e69c691a5"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-iRBcNs9oI8$_$8_Whisper_small.en.json",
+    "bytes": 7768,
+    "sha256": "f107c4caa5c3a5d6c16034cffdbd5fb81aec80ccfe2c624bf5d3180642339deb"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-iRBcNs9oI8$_$9_Whisper_small.en.json",
+    "bytes": 2243,
+    "sha256": "db7ee901f8cb5463fccdd2faf932dae257ccb345bc5f7f7dee9b3c55c0f8693f"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-lzEya4AM_4$_$5_Whisper_small.en.json",
+    "bytes": 6709,
+    "sha256": "c8a4d3746ac6030f6a52c4046918b263722f31399c0488933f4c5ca1bd7734e8"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-lzEya4AM_4$_$6_Whisper_small.en.json",
+    "bytes": 13365,
+    "sha256": "3caac516173fefec12d703a7fd66f554a6c4127432fe038195534aebbcf55b39"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-mJ2ud6oKI8$_$1_Whisper_small.en.json",
+    "bytes": 1725,
+    "sha256": "a53298c2abd4e602992aef8f3df9e0fd81af2f287b30427de9ca3f2901cc9492"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-mJ2ud6oKI8$_$2_Whisper_small.en.json",
+    "bytes": 1695,
+    "sha256": "063947b562d031f3ed8d96b6fee6203e509e8bfbd8a224e8994b3b1f4c431079"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-mJ2ud6oKI8$_$6_Whisper_small.en.json",
+    "bytes": 3618,
+    "sha256": "3e6a71fdd58162f2a3f7ee2675f3afa7d0cfbaec2a76e291644c4bd03187cf05"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-mJ2ud6oKI8$_$8_Whisper_small.en.json",
+    "bytes": 5580,
+    "sha256": "5431be3face805bd0262f38d6caac3fa81de880a65b00fd664b6d7817e0e56da"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-mJ2ud6oKI8$_$9_Whisper_small.en.json",
+    "bytes": 7558,
+    "sha256": "74c1a55e2a2815c0b3533f1573b57a4cf5dfb63dfeea52e7810fc6f1f57165c4"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-mqbVkbCndg$_$0_Whisper_small.en.json",
+    "bytes": 5271,
+    "sha256": "13e4cc39af8a15bf0e031200c0db33ba8fc959d32184ac73defab88d5cda2087"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-qDkUB0GgYY$_$6_Whisper_small.en.json",
+    "bytes": 7121,
+    "sha256": "792dfb60de6b00eb28d7728f78384dfef5fe24bb5817f68ee3afdfdae94cca08"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-ri04Z7vwnc$_$0_Whisper_small.en.json",
+    "bytes": 2269,
+    "sha256": "3b41a49ef1446ba137e0349b10d24f8fffb11cdb41ef5f6bb6598491bb47aa58"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-ri04Z7vwnc$_$2_Whisper_small.en.json",
+    "bytes": 2310,
+    "sha256": "4b2898f01f45db1e02e3bb7b568b1d19203f17761cfa38b5581379f32b69d89b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-ri04Z7vwnc$_$5_Whisper_small.en.json",
+    "bytes": 5265,
+    "sha256": "3a38a472a74aa978f021f1cb8991bb88a4b24e4c61ba6ca351e559ff42c43892"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$0_Whisper_small.en.json",
+    "bytes": 7475,
+    "sha256": "d76c29be87aa2e9877bea7da8cf0caa2eb29d20e0dc7e9f86d546f1a2cf6937d"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$1_Whisper_small.en.json",
+    "bytes": 5290,
+    "sha256": "5602c3c505d69a91751f89fddf5ed0b3c29014c6dcc9e866eea64279e57552a0"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$4_Whisper_small.en.json",
+    "bytes": 5008,
+    "sha256": "9d11f726b4514251e15e20668f9c2b1a7c2980267f516833143e232e29fa2fa3"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$5_Whisper_small.en.json",
+    "bytes": 7415,
+    "sha256": "d6f85429784359b75101ddb33380af190ac2f62049002b5a0ad816d2cd622093"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$6_Whisper_small.en.json",
+    "bytes": 3324,
+    "sha256": "847c9c6344d52e7fff253a725e45b4440dfdbaf078cb2432cb24cf7ef7583aee"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$7_Whisper_small.en.json",
+    "bytes": 10166,
+    "sha256": "1d5a0e6a23cb0c02410243b1ab20e5d7053144b48cdc40aaf835a90fdc5fb748"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-s9qJ7ATP7w$_$8_Whisper_small.en.json",
+    "bytes": 5791,
+    "sha256": "1f81a0f3381d27d429b2c69e1935a109c31aff134ad676740c4cf3c8912afdbf"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-t217m2on-s$_$2_Whisper_small.en.json",
+    "bytes": 4716,
+    "sha256": "4052e32acfc9767a0a1b9f4f3c40197bc9d345987a0ebf6f06cf3da4ebdf097d"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-t217m2on-s$_$7_Whisper_small.en.json",
+    "bytes": 14531,
+    "sha256": "0c354e7f86a7364bd3f9f9f71cccbc960f320735dfc08a471dcdb423511b9481"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-tANM6ETl_M$_$3_Whisper_small.en.json",
+    "bytes": 7501,
+    "sha256": "976988bf3db099073cbbcc45c509cf45e7e01a5d77bfa21ef2c3752aebf935b8"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-tPCytz4rww$_$10_Whisper_small.en.json",
+    "bytes": 5285,
+    "sha256": "900de84387683ec13971fa74967af5740e190a8cfcaa2d1d456f71e192aeec04"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-tPCytz4rww$_$11_Whisper_small.en.json",
+    "bytes": 6352,
+    "sha256": "b6a7162d28e303b7d31dd4ed21f72e5b8e2b4447554f40655389e50cdcce963a"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-tPCytz4rww$_$12_Whisper_small.en.json",
+    "bytes": 8962,
+    "sha256": "9c4331cd8ec19bc747572602b27972c5521bf80b6b8ecb06358278d21662c2c2"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-tPCytz4rww$_$16_Whisper_small.en.json",
+    "bytes": 6614,
+    "sha256": "3de6c963edd7c210552573644bf97706967ca6fe1d33f8638e05471cf2c35926"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-tPCytz4rww$_$18_Whisper_small.en.json",
+    "bytes": 8329,
+    "sha256": "3d35c35332b5ab2469576dcfeea04a12f621b56ac8468d7d4152ed50d4453ca8"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-uywlfIYOS8$_$4_Whisper_small.en.json",
+    "bytes": 6710,
+    "sha256": "92e727080078485dd1cfc613da8062213197727837be1890782ed92d4cae162a"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-vxjVxOeScU$_$4_Whisper_small.en.json",
+    "bytes": 7544,
+    "sha256": "0f56967d7621ea122a6597b77575e299107ae3477212a4b54a6b41a7296c2d71"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wMB_hJL-3o$_$7_Whisper_small.en.json",
+    "bytes": 7876,
+    "sha256": "8f0f13895085e5aedf5831621494e4f458433f60df79d7160a4e6fe58215afe1"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$0_Whisper_small.en.json",
+    "bytes": 2820,
+    "sha256": "14409762ab7e6520546464ce03308f7b192967b35f0c182f8f18cf4360534f3a"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$1_Whisper_small.en.json",
+    "bytes": 9588,
+    "sha256": "9e0fffae04d311e965456f735522d435390a5b2b23f03fba63d7486530a53ef6"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$2_Whisper_small.en.json",
+    "bytes": 9011,
+    "sha256": "72b953e27ec0ffee225dec3d1138efa096196c002c53cd242d432098d0ea3cf3"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$3_Whisper_small.en.json",
+    "bytes": 7847,
+    "sha256": "0d30ac6640f37975f3fb5d573d2b525cb4a69b6e2203417255ade4fb742984d9"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$5_Whisper_small.en.json",
+    "bytes": 7009,
+    "sha256": "bbccf88ce6986279158e22f97808adad902af1d3a86bf2096db724edb61a516b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$7_Whisper_small.en.json",
+    "bytes": 11152,
+    "sha256": "cf76e92fb790be96f7c94841de574593c8f6707a9e8943cfed95c9f45e029ceb"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-wny0OAz3g8$_$9_Whisper_small.en.json",
+    "bytes": 7579,
+    "sha256": "321a3e78fe7d34499d3b1ce87bbe8bc261e0f2cc1b87d05d5f24f67d9f4740b0"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-yRb-Jum7EQ$_$1_Whisper_small.en.json",
+    "bytes": 1161,
+    "sha256": "26be8172b20746cc2ae2b849cd8953a601f1a73746cb0a4760847e5212b7e425"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-yRb-Jum7EQ$_$5_Whisper_small.en.json",
+    "bytes": 12081,
+    "sha256": "71efb93dccb378824458a0acbc417b22faa144b9dbc64df51dda3fd7c5159c2b"
+  },
+  {
+    "path": "E.1/结果/03_Whisper_small_en/逐样本/-yRb-Jum7EQ$_$6_Whisper_small.en.json",
+    "bytes": 12160,
+    "sha256": "3e22a5fcc4d1ff1b2a9918d2903f89c62e70d7b5b49f28dd88e4cfe59d3f520d"
+  },
+  {
+    "path": "E.1/结果/05_BERT_base_uncased/原文逐词BERT特征.npy",
+    "bytes": 5941376,
+    "sha256": "ad2fe14fa7b0ad5fd997b576eae5f17e413a53bdc9e4c2ae89beefffad359ddc"
+  },
+  {
+    "path": "E.1/结果/05_BERT_base_uncased/原文逐词索引.csv",
+    "bytes": 232659,
+    "sha256": "63c6952d74b6bad09bb202ba3fa135406a5d7181e11fd6a53827c21711c84def"
+  },
+  {
+    "path": "E.1/结果/05_BERT_base_uncased/运行报告.json",
+    "bytes": 1401,
+    "sha256": "adb302db16749c916e215114f41bf8370aa4a0cd246ce1ba5d0b06fd68af8d81"
+  },
+  {
+    "path": "E.1/结果/05_BERT_base_uncased/逐样本统计.csv",
+    "bytes": 9613,
+    "sha256": "98f5d77c8b8cb327314892a8e5afeea751682efd1ae5a7fd56dc8e806dc6f6c1"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/特征定义.json",
+    "bytes": 2590,
+    "sha256": "6d001cd4d0f3d1a6fcfd261c6b90c16f4f79f8b0088a121f7fd4b5be054561fa"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/运行报告.json",
+    "bytes": 579,
+    "sha256": "7c91c7ffc886331759e7aac55a0b0f44128cf0823b7083a12cf10260a8cd728f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-3g5yACwYnA$_$13.npz",
+    "bytes": 147120,
+    "sha256": "1725f642ffce5976a4f4b3bba29fb3a0fbfc11d706f29ee879574e370119c405"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-3g5yACwYnA$_$2.npz",
+    "bytes": 251156,
+    "sha256": "20a592b65549c57d57ced2b86600aa38f5a6a46de8408fd932b28b1d39afb70f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-3g5yACwYnA$_$3.npz",
+    "bytes": 387210,
+    "sha256": "d87e3c12dcc43fe842c83f6a04289d4fa0d2f773d24412fd34936f81b6d9c46f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-3g5yACwYnA$_$9.npz",
+    "bytes": 236195,
+    "sha256": "e5eab58823c6ad34ea30a6ef467169c92d57c6741ed1b84895f947c30ec2b83f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-3nNcZdcdvU$_$5.npz",
+    "bytes": 211253,
+    "sha256": "62a7fdc1a04a907a336fb78cb8248aa2fd75c87d179e01593bbaa376aec01f83"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-571d8cVauQ$_$0.npz",
+    "bytes": 135968,
+    "sha256": "abaf695b5e9c6c80a2a64d1e7b99632508727fccff81f8a0fac8017f970fa0f0"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-571d8cVauQ$_$5.npz",
+    "bytes": 407296,
+    "sha256": "6608691956dc2500b2ffce18b63b75811797e73ba55d8e5d51b87b8966ebaf19"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-6rXp3zJ3kc$_$8.npz",
+    "bytes": 343844,
+    "sha256": "870d654941b43809411f18676c54e44944339212e2e9a9f99d6bb76be5283c35"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-9y-fZ3swSY$_$0.npz",
+    "bytes": 184440,
+    "sha256": "0a1ca51e283c3bf9e53a5fad713b10a924f138d977525ae0f68dcc59434a60b8"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-9y-fZ3swSY$_$4.npz",
+    "bytes": 73510,
+    "sha256": "a68a2223ab72954e5ee2b80e7e070c3437a143604af9d13026eaad4eca0cc828"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-9y-fZ3swSY$_$8.npz",
+    "bytes": 134559,
+    "sha256": "274364425ddb34d89dc695d73c7d8d7ab1ba75c593d334e80c7391beba2e50e9"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-AUZQgSxyPQ$_$2.npz",
+    "bytes": 600995,
+    "sha256": "6b8c47358b9e3e059818f12d84e8dff2d30bb2177c35bda95757e322b65315ab"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-HeZS2-Prhc$_$2.npz",
+    "bytes": 220482,
+    "sha256": "181b7c477289556389615b5ab913f0dc11e3df812ae3ffe5d8d9e2ebd411b440"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-HwX2H8Z4hY$_$2.npz",
+    "bytes": 107180,
+    "sha256": "db7164ad96f9560161393d13658fab1a051a58e6051668ce8adf93926998b7d2"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-HwX2H8Z4hY$_$5.npz",
+    "bytes": 151178,
+    "sha256": "d25c7409bb20e64b4323d029f3e971902b2a83edd7852469bb014409f61c7983"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-HwX2H8Z4hY$_$6.npz",
+    "bytes": 89602,
+    "sha256": "92ef95cea1bf15dfa3da8057e785699c5581c5b7766a3e1a043d84af6155d7ea"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-HwX2H8Z4hY$_$9.npz",
+    "bytes": 206335,
+    "sha256": "dfe46daf26e96acb9437bf9693e02fb328bc22623201b2c3cd9701ac347b5ee5"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-I_e4mIh0yE$_$1.npz",
+    "bytes": 202401,
+    "sha256": "5c4edd215343329910cbe50ee19abe4d82786847cc6a900f5efa4934a66fcd12"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-I_e4mIh0yE$_$3.npz",
+    "bytes": 243885,
+    "sha256": "f93e3cdcfb421a9a0cb022af9fb1ef12fb18ea37cef6bbf86cc38a1c2cafdc66"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-MeTTeMJBNc$_$0.npz",
+    "bytes": 249999,
+    "sha256": "fc7f64705c82cbff348df81538bc9267670c3c82e3dc08eb9a74b51f2cce0616"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-MeTTeMJBNc$_$13.npz",
+    "bytes": 143405,
+    "sha256": "2052e508117883dbe78a8c7e6d2857897e962f0b0b9b81b68221b74b0d0e726d"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-MeTTeMJBNc$_$7.npz",
+    "bytes": 282216,
+    "sha256": "14c1de2cbba9bb3784ff6b1fdfb9a6463c5721ac97220a2fe8f6884fa40d0801"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-NFrJFQijFE$_$1.npz",
+    "bytes": 151914,
+    "sha256": "042af112d70b8f637ca2ca28d096b898fc5c991586a3724040b9a5a4adc34cfc"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-NFrJFQijFE$_$2.npz",
+    "bytes": 181657,
+    "sha256": "6568b21b231a2132df065366ff0839f1807bd5d6dcac54965d3add386aefec1f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-RfYyzHpjk4$_$11.npz",
+    "bytes": 138512,
+    "sha256": "a1269bdcef37a438ad6b4e33106ec822b73ff4b4a26949163a415add40aad5a9"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-RfYyzHpjk4$_$2.npz",
+    "bytes": 147218,
+    "sha256": "58c84ec1427637ba91b56278c424e15311b16d94aef7ff60056fc7708c4b6379"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-RfYyzHpjk4$_$8.npz",
+    "bytes": 123810,
+    "sha256": "684b33e6e19044cf994c0f59ed5135500e5b1f141c96f4329cb682b68a548edd"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-THoVjtIkeU$_$12.npz",
+    "bytes": 399129,
+    "sha256": "c15d23ece5e0a88b6ef4d003bc664e1c553496ccbb6923be825e8d229dcb6b59"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-THoVjtIkeU$_$2.npz",
+    "bytes": 116023,
+    "sha256": "6823deff15c24b80163e34420c805a84cda0ff596c7de80cc52e22b577d054ac"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-THoVjtIkeU$_$6.npz",
+    "bytes": 216670,
+    "sha256": "7a71bfe553bb3be9b3274faefb09e356934dd7fb913db2fd46817bfd42a01690"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UUCSKoHeMA$_$0.npz",
+    "bytes": 209382,
+    "sha256": "e868bd2c3a994158953693c04f218531c57b2362e0b4362806d5a61b017eb107"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UacrmKiTn4$_$10.npz",
+    "bytes": 196799,
+    "sha256": "87bb2b03c7d08f7c666b33ab4eef38f829f918e35cbf3ff778ad8553495bb696"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UacrmKiTn4$_$4.npz",
+    "bytes": 127952,
+    "sha256": "69174785ba38df49a2c05677d6f9325358cca017734ab6d11101bf190072b864"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UuX1xuaiiE$_$0.npz",
+    "bytes": 97799,
+    "sha256": "e6781f8313f6eb8f0426c3b5984efba4b11306a8ea6a0397ca395c3b6b94df43"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UuX1xuaiiE$_$1.npz",
+    "bytes": 276774,
+    "sha256": "da158cebf41f074b57b72cb058c6ed9f818c81c34be66f424c116e6f136d91a8"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UuX1xuaiiE$_$3.npz",
+    "bytes": 110339,
+    "sha256": "c0ed662a7681458e6f9f868811ff222a3062caf7b4da1dab0605c1f916976964"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-UuX1xuaiiE$_$6.npz",
+    "bytes": 215543,
+    "sha256": "2c88345da5d99030e88fc288cac14a7f59325d7e6670d8f365485a417d4b2634"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-a55Q6RWvTA$_$3.npz",
+    "bytes": 594406,
+    "sha256": "d5b3c20d7a12502d7e18933dd0958dd85a661ccef0974c9431733c5df594f8ed"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-aNfi7CP8vM$_$7.npz",
+    "bytes": 231513,
+    "sha256": "8c76769a9b482cf2c39215725e31cb7c09e0d6a59bc5a7105552f89964ad32db"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-aqamKhZ1Ec$_$0.npz",
+    "bytes": 293841,
+    "sha256": "b970bfffa46e1d065769702d689ef217e56ab373ace1c906e32154e0a2e06102"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-dxfTGcXJoc$_$0.npz",
+    "bytes": 549578,
+    "sha256": "b11c43061e0ce66bad1bcbe0a71a8276f2eb72d88920d8baba7f2a59148a8474"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-dxfTGcXJoc$_$1.npz",
+    "bytes": 432876,
+    "sha256": "0e41f7a0446272df3e471522fcb53d4838e0c080416526eb33b3fefaecfe9562"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-dxfTGcXJoc$_$2.npz",
+    "bytes": 449442,
+    "sha256": "e71f3075d8fad98e89dddbfe14eb7c09c0c6aa343d524053a2facf58f3cf1985"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-dxfTGcXJoc$_$6.npz",
+    "bytes": 341867,
+    "sha256": "460d45417b78f6102c69215ddbc4f6c5227d63d3195b518c3ae4eb361cece0e2"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$1.npz",
+    "bytes": 274264,
+    "sha256": "e06e159506e5ed3e16cc745f297975bd7626ef69badfc01ef763fc79b06b3393"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$13.npz",
+    "bytes": 109795,
+    "sha256": "0d46b5033574a1cae5e1377bbe82e0cc04352c728f2c869a0ad9c49bf1b6ed40"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$16.npz",
+    "bytes": 149034,
+    "sha256": "00bbd692c645cc09e09e5d092d28c8766b3088e201b298329099e709ada9e76e"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$17.npz",
+    "bytes": 191765,
+    "sha256": "70d34b541b961899d7560ef5c8c16545890fa322a33e1e71874f3424fdb17d50"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$18.npz",
+    "bytes": 223094,
+    "sha256": "86a27e7037b612952080f319fdb42fca1e0bb0bc00b0d872f0a04e5ca40e45f6"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$20.npz",
+    "bytes": 175431,
+    "sha256": "5fe0335facd822578badfe70fa72debd99b1b41c95286c284e13918975cf90f3"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$26.npz",
+    "bytes": 160725,
+    "sha256": "46bf5b067ba80013cacb9ef97e1f4fa125b58fe8c4cf0e4150ae0225302c82aa"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$6.npz",
+    "bytes": 167720,
+    "sha256": "cc8b7f1787d2ddaf84995e325600601859dc71d2c454461517fdb3e87e227f15"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-egA8-b7-3M$_$9.npz",
+    "bytes": 134357,
+    "sha256": "9ed607a9ac27a7a96c8e8c7003eea8121892fe514557e87416593f497389a1a1"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-hnBHBN8p5A$_$6.npz",
+    "bytes": 171910,
+    "sha256": "a9212d48540fc8eb8d8d3bd32157d5329968bee886a31c9c0106e15f02b596bd"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-hnBHBN8p5A$_$7.npz",
+    "bytes": 198382,
+    "sha256": "4e1fbeb42e09f37164b8565445490f52a0dcf3880cecf55f57a06eaa837f3f3c"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-iRBcNs9oI8$_$3.npz",
+    "bytes": 147967,
+    "sha256": "f1ea17c15bb854ce93228c4650d374f5d0803172c4cea779fc54479bcedf9e63"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-iRBcNs9oI8$_$6.npz",
+    "bytes": 77521,
+    "sha256": "1f070e0c2c5c77d3e0b578056f0e307a3ab76981dfbc6d2805885d010fa2aa65"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-iRBcNs9oI8$_$7.npz",
+    "bytes": 109744,
+    "sha256": "1ad1a61135ab6c783e0078441967cfaa81f008f4a65ebbb6a6af4ecb9a2a9b7f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-iRBcNs9oI8$_$8.npz",
+    "bytes": 212839,
+    "sha256": "3bbf800e8963f1fd550c23926455a07f6ab860dc05438e6b3a331be8391d30df"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-iRBcNs9oI8$_$9.npz",
+    "bytes": 86304,
+    "sha256": "ceb3711760f2ae1fc8fb729b93e46de9d5358af5620f3d844b0902c0235f373a"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-lzEya4AM_4$_$5.npz",
+    "bytes": 205595,
+    "sha256": "e43b348604d715602ec15d82208120d39f1bf1e78292ebbd00aa460dca242f80"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-lzEya4AM_4$_$6.npz",
+    "bytes": 398210,
+    "sha256": "3a8bb52e33369bd5a6c643b0ab571eb9a25d74abdcde5dd47757e90b1bf5a93f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-mJ2ud6oKI8$_$1.npz",
+    "bytes": 4203,
+    "sha256": "c888cbb85bad30cde27b8273d54a25d907ea8aae8e27862cee0f0db0895cbc59"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-mJ2ud6oKI8$_$2.npz",
+    "bytes": 4058,
+    "sha256": "0338562c7dd3c3e0a82fcbca4bf66ed995ea3fc084d05faa93139ea3d291fa2c"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-mJ2ud6oKI8$_$6.npz",
+    "bytes": 61528,
+    "sha256": "fe3963438b2a59231dcf5fef71c9dd27d2b93a82aa1234805b397f696a3e3ba0"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-mJ2ud6oKI8$_$8.npz",
+    "bytes": 114215,
+    "sha256": "5001dd2e64a30e2ba28dacc8d33e3ffe880a24ebf015fbe69af732a37b759367"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-mJ2ud6oKI8$_$9.npz",
+    "bytes": 187482,
+    "sha256": "324bc7764c6253cd1ba1d857928e425d1219e4f7d6eda7daf41b27a353235b7e"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-mqbVkbCndg$_$0.npz",
+    "bytes": 173644,
+    "sha256": "78158ea012705206c0f907edb2ed5260e697cf567523aab657450cdeb1092d71"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-qDkUB0GgYY$_$6.npz",
+    "bytes": 125949,
+    "sha256": "76e44450d7343fc29c5b75df9b9efac2932a5f8e5636ff8f46cd11ea26eb03cf"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-ri04Z7vwnc$_$0.npz",
+    "bytes": 75153,
+    "sha256": "c979efe83b450995033b8370129b7703687f6275af4d9d32299510be6cb0944d"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-ri04Z7vwnc$_$2.npz",
+    "bytes": 159763,
+    "sha256": "7b34b219212a59764048f640ba89a857fb536134b3451a238b365c42e5d268db"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-ri04Z7vwnc$_$5.npz",
+    "bytes": 93891,
+    "sha256": "63f639bbbf2d45bdf4d2ecbccb72350eb889f88b4c2c82872ba45006ab038d65"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$0.npz",
+    "bytes": 182689,
+    "sha256": "f7a86bf327ce97a0b3892afaa23f56190d5d7e1a97f21f26cc5c985f46ffff08"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$1.npz",
+    "bytes": 127111,
+    "sha256": "55f228965f81b053fbf7fe2ac73ec3dda6affc0f33f90d0c332bb4ee630d0769"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$4.npz",
+    "bytes": 116362,
+    "sha256": "bd002da60a7993e66c6943ea63559f0ae2d31027f2b67cbbb88879b593537689"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$5.npz",
+    "bytes": 227349,
+    "sha256": "4af428e7291f1ab4343b2079dc426b0c10b421714372460ecbbc008de464aa57"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$6.npz",
+    "bytes": 63960,
+    "sha256": "285d9d846027c3c3424ed32a37011afb0e592b01fc99166c1a919a7dc568dfe2"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$7.npz",
+    "bytes": 185678,
+    "sha256": "c0e808fe582f5b8dc6adb78a8c1cd2b09e0bc4409e7b613b9db5246470fb055f"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-s9qJ7ATP7w$_$8.npz",
+    "bytes": 87460,
+    "sha256": "7410a7eab9ed0cccdcb17efc12dc854d26115d87a9df482e01d37283d6035506"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-t217m2on-s$_$2.npz",
+    "bytes": 153837,
+    "sha256": "0a84b443513fd218a2b0a86553db54bdeba1fd10d7c89ec719447b303abec407"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-t217m2on-s$_$7.npz",
+    "bytes": 459205,
+    "sha256": "c0bb5ace9afb654b8a65e86c3a2cc7b359ca15d538878d902c79e7fa74b7e630"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-tANM6ETl_M$_$3.npz",
+    "bytes": 180048,
+    "sha256": "c2807cb305795a51ca9f45bb7a66d2cbfd8eb54bcbf5cb127f68eefd452fedea"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-tPCytz4rww$_$10.npz",
+    "bytes": 127781,
+    "sha256": "45a7716b68403d7c6fc436e67d6fe5ca44c563624e5586bc81cb8d6474420c3a"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-tPCytz4rww$_$11.npz",
+    "bytes": 146345,
+    "sha256": "a069e82504d33588286cf2e641e69dc66304c7425baca6d8d1c39bf82e4c480c"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-tPCytz4rww$_$12.npz",
+    "bytes": 316901,
+    "sha256": "50c1aa6471f5d90b8f1c96da1f5bbf1439baa27d5e7849516333fb503c6062bc"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-tPCytz4rww$_$16.npz",
+    "bytes": 193606,
+    "sha256": "464ed6d117da9ceb6522bd30716549eda5c366b14866e96dd2ae2e12ee0b3a17"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-tPCytz4rww$_$18.npz",
+    "bytes": 178427,
+    "sha256": "d2a7952c3224d9f9756cf9aa6892577df247d0395a8ba2f55abce2a34f319291"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-uywlfIYOS8$_$4.npz",
+    "bytes": 160317,
+    "sha256": "5f91e9d20000d7a4944b2c44103f7a712271321673c8ee63c0c374710a9f4044"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-vxjVxOeScU$_$4.npz",
+    "bytes": 244878,
+    "sha256": "be2e554aee57fc50864969e592cbf520a9c035d43073158c576b749490339860"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wMB_hJL-3o$_$7.npz",
+    "bytes": 162822,
+    "sha256": "846c17185115847aaa3ddb2207ebb84ee5922337269922d3fc5d1e59305ce991"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$0.npz",
+    "bytes": 89945,
+    "sha256": "a5eb2d0f9c6ae8c31ba39159ba963badf18e08a57ea81dc184777f66dd06249d"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$1.npz",
+    "bytes": 183917,
+    "sha256": "b71bbe0d52ba968024040c26e8cac8c9ae9282e96914f2d05b8cd04c9fbe13ba"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$2.npz",
+    "bytes": 177123,
+    "sha256": "1b0bf9c5d0b3fc0005a20b1ed39765e021492b0ced1b58ddf469fdfa435bf10e"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$3.npz",
+    "bytes": 165458,
+    "sha256": "fe5f98a83c60c2b2a97cd6878a6fe2fd1f9e78a24224dae26169189a21f0b94b"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$5.npz",
+    "bytes": 183162,
+    "sha256": "7fd276813105d911ffbac6a9b7d3bda1c58178d81b4e59d3092c7ead59a0781d"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$7.npz",
+    "bytes": 214908,
+    "sha256": "ef644dd46f52813b4af0045cc9ee7773881632ce69f95c34eb0aad36cd50c584"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-wny0OAz3g8$_$9.npz",
+    "bytes": 164395,
+    "sha256": "6b01be080fc843ce31fb285cfa6dff87755f763ea0db126ae0a862053b1337ac"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-yRb-Jum7EQ$_$1.npz",
+    "bytes": 782072,
+    "sha256": "89b4ef59cac9774200cfc513a621ce86834298b18694656ec163aa1a32450240"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-yRb-Jum7EQ$_$5.npz",
+    "bytes": 352031,
+    "sha256": "d55d223189ea11043072142048079a96551f406a617bea2409b47d9f66cee7c2"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本/-yRb-Jum7EQ$_$6.npz",
+    "bytes": 304697,
+    "sha256": "13aa6c524fb991dc66db6d834f8749f12e7428610567b2ef1fd700e3b4034a00"
+  },
+  {
+    "path": "E.1/结果/06_Librosa74/逐样本统计.csv",
+    "bytes": 29055,
+    "sha256": "3df278028b074c294bf4d5ad0ae6120cf06d652850a0310bbcabe6997f931513"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/特征定义.json",
+    "bytes": 2057,
+    "sha256": "5db49dedc48bed1bad410910daf9b8df788d2812b2864a4b5961629b24100483"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/运行报告.json",
+    "bytes": 1310,
+    "sha256": "c4086b6cb999d48cd539a0925329d486e55936315b825be5c32624ff5697af78"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-3g5yACwYnA$_$13.npz",
+    "bytes": 13364,
+    "sha256": "fa4dcedfa7f35fb5978081b45bbe4c9f6d92d6f3643914a5deece0210e9eb40e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-3g5yACwYnA$_$2.npz",
+    "bytes": 21406,
+    "sha256": "0c905d0895ecf1311e4679458182dcae1c49083a06141f61ef379ed9cc2212fe"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-3g5yACwYnA$_$3.npz",
+    "bytes": 31585,
+    "sha256": "f560dac3f17658d98846a97b7486522f6248bec86a491c3bf8e97ea45fdbb348"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-3g5yACwYnA$_$9.npz",
+    "bytes": 20180,
+    "sha256": "6396dd8d2066e20dfc0f01cec05b5512815827695e253948eead4488bc92bdeb"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-3nNcZdcdvU$_$5.npz",
+    "bytes": 18223,
+    "sha256": "bfaa4f46554ae000345318da22d1be1adbba585ca2b064044fbbaa61bfe1ccde"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-571d8cVauQ$_$0.npz",
+    "bytes": 12377,
+    "sha256": "35745a115eba1b52f80044a550a0539c5f3ed60734ce2378436e7cf5834c1e79"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-571d8cVauQ$_$5.npz",
+    "bytes": 33383,
+    "sha256": "b871893f4c8b80a14d5cdfc747620d3ee22c31eb23f0dc8162c7cef45829c7ce"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-6rXp3zJ3kc$_$8.npz",
+    "bytes": 28445,
+    "sha256": "0f29da9b01bec2152527bd8ee4d32b7c7a27a6bc78024e2e81ce41ba0740e22e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-9y-fZ3swSY$_$0.npz",
+    "bytes": 15712,
+    "sha256": "f3521be192b6aac11d42e7f78c35a60e7df2ff51b2793cb85dfd4fa7573d7074"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-9y-fZ3swSY$_$4.npz",
+    "bytes": 7459,
+    "sha256": "6feff1008c9b16f35ff1740e2650b43fde51a1e108781ae424692312ff3e026e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-9y-fZ3swSY$_$8.npz",
+    "bytes": 7109,
+    "sha256": "c8719fe160039b65b162b01b4047e674e40b1b12f01f2373abf5de03a411d7a3"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-AUZQgSxyPQ$_$2.npz",
+    "bytes": 48052,
+    "sha256": "d1ebd9eaf77c35955dc58173e1f5b147c995c13d26c5f02aa462f828f380e989"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-HeZS2-Prhc$_$2.npz",
+    "bytes": 19135,
+    "sha256": "6c5786db5fc68698a4e57a02f7e548cea94fb27215c949148ef46914cd214a9b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-HwX2H8Z4hY$_$2.npz",
+    "bytes": 4154,
+    "sha256": "46f8d6c2fe906cb30b87f2c2da6c07828e094389fc05d9aed66a7c538fe1d3f2"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-HwX2H8Z4hY$_$5.npz",
+    "bytes": 6094,
+    "sha256": "4601b0e585c218a739ca35761995c68aa9f09b53b4ff4ba7ba31643ae6840866"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-HwX2H8Z4hY$_$6.npz",
+    "bytes": 6509,
+    "sha256": "93c5deba9fcb9a863a66a5f8ac511b5361df8095f22c1ec1a2f0e45ce86a26eb"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-HwX2H8Z4hY$_$9.npz",
+    "bytes": 2537,
+    "sha256": "71f9f3fd6c0af76e0b72bacca1e70004ea68c0e8e3129ce8a458970ca8290a3f"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-I_e4mIh0yE$_$1.npz",
+    "bytes": 17751,
+    "sha256": "b4c29f14164787441a9c04f15521c17eff0b595d962e57a3fe18588ee88ff12b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-I_e4mIh0yE$_$3.npz",
+    "bytes": 20891,
+    "sha256": "1c35a90b136aa4cde4ba760f0ec5252a4e95cb615ddc855f45b2435ecbbae8c4"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-MeTTeMJBNc$_$0.npz",
+    "bytes": 21282,
+    "sha256": "0a16d234e7f81c16c47ff070ae4513c36ab7d9f03c620c97c03e2ed26b493c4a"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-MeTTeMJBNc$_$13.npz",
+    "bytes": 13241,
+    "sha256": "f232de5527bce7d9160ff3e6828edfbcdbeb488f6140882b76e003acc963bb14"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-MeTTeMJBNc$_$7.npz",
+    "bytes": 23768,
+    "sha256": "8caedc073a50b9c9bfcd9ee6efc0e881a26f00925df21495f39e11ccc77b915a"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-NFrJFQijFE$_$1.npz",
+    "bytes": 2552,
+    "sha256": "a3c1a80268b7cd65864c1bc2d43c594fd48f2e003ac5b12e28e23ca4ac5ad044"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-NFrJFQijFE$_$2.npz",
+    "bytes": 2633,
+    "sha256": "949e58269eb741db97bd0e58f9822bc8b7849d5fc2acf88df0a0f18fa4562f79"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-RfYyzHpjk4$_$11.npz",
+    "bytes": 12804,
+    "sha256": "7cebdb9b1258d1debbc0145d1219a97a0a17388576aee5cfc59fd1622dfcfaff"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-RfYyzHpjk4$_$2.npz",
+    "bytes": 12083,
+    "sha256": "1488cfa444d5c7b817cc3e4a5df9b99e3d412d8a22a391722a4482b0ea85f72b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-RfYyzHpjk4$_$8.npz",
+    "bytes": 11556,
+    "sha256": "a1d670bb63aafcb3bacfe6195b9fe30c32cf80e38f68d3aeeb3cada2f387cfe0"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-THoVjtIkeU$_$12.npz",
+    "bytes": 32728,
+    "sha256": "50acde2884dcd4212b47313f2b056fc41bb43cb58e606ac7209f9a0c6e8bf150"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-THoVjtIkeU$_$2.npz",
+    "bytes": 10947,
+    "sha256": "00247b326aa60b2a19cf06dcc0bf5a55459c7d2aebf0cd112eb32ed5ea7f3765"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-THoVjtIkeU$_$6.npz",
+    "bytes": 18821,
+    "sha256": "d1e2ada8489cfe01c7a97c15ae5a1bab8ec5023bfdb925ec126159732974c8aa"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UUCSKoHeMA$_$0.npz",
+    "bytes": 18219,
+    "sha256": "ff2fc0b90c63d52d21265bda8774dfb9d5b24b87b067e1457e94dcdce43803e4"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UacrmKiTn4$_$10.npz",
+    "bytes": 17331,
+    "sha256": "6d373ff9cfc91ec28bc9ad5057d8100ad8371a58873b17faf97590b80a85bae1"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UacrmKiTn4$_$4.npz",
+    "bytes": 11986,
+    "sha256": "44720a596d1831fe02bcd58e478342208988b2adfa2dae60ffd5b5d173a83a56"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UuX1xuaiiE$_$0.npz",
+    "bytes": 5911,
+    "sha256": "21cdcd9bfe92c584465cd910ed3f9363aaf8b830ed10744be0bd7aa26435c82b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UuX1xuaiiE$_$1.npz",
+    "bytes": 3786,
+    "sha256": "8b45d9c7a8cc03cf67739b5acdda5094abfe0653d547ada13e674f4eb475ab7b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UuX1xuaiiE$_$3.npz",
+    "bytes": 10486,
+    "sha256": "325f27d921ba376412002af7f3f902b9036d984ba709febbc53c07241d4a51cf"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-UuX1xuaiiE$_$6.npz",
+    "bytes": 17811,
+    "sha256": "ea4e94aefba73a01a7a1107ccc87f4735c866c4d78f671deb313f436a12d71ae"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-a55Q6RWvTA$_$3.npz",
+    "bytes": 47868,
+    "sha256": "25831b4042891e83f32430a7eed8a05df72f262a38a310131ee626de4de09785"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-aNfi7CP8vM$_$7.npz",
+    "bytes": 20071,
+    "sha256": "107e0bc50c34a04586dad1140401ac53b887e0fcc1deb6f32202dee89cd5b839"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-aqamKhZ1Ec$_$0.npz",
+    "bytes": 24687,
+    "sha256": "ef696347c6d32df80d8f28f77bfe8b6c3757b5df4695c142e344a5d1d690105d"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-dxfTGcXJoc$_$0.npz",
+    "bytes": 35230,
+    "sha256": "ea598a244da14992bbc37a3d0a0d69aaaa6d9c006e736d8f27cc5270b5e9c4a8"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-dxfTGcXJoc$_$1.npz",
+    "bytes": 35342,
+    "sha256": "9f3c53d2cda5e8bb67cc75b93ffd1d8b19fe8f801ce8cb6157f62d28b95675c1"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-dxfTGcXJoc$_$2.npz",
+    "bytes": 36325,
+    "sha256": "350d9fdf79cb66d3b2a7b6127448c3ff007f3fce8ef6e9c91a57f30d4945adf7"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-dxfTGcXJoc$_$6.npz",
+    "bytes": 28313,
+    "sha256": "92353c3525acc872ffa224080b9356c00ef536f5dfe07c46d3d920d10288dcfc"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$1.npz",
+    "bytes": 23246,
+    "sha256": "152cd73b872e6fdfa54d71a41c31bdc1b16ffa118a0b83aa79e7f984586a5c64"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$13.npz",
+    "bytes": 10721,
+    "sha256": "0407c78ba1b88e0cbbe6dcbda697d3f9045553528f5699a983b8e35251657856"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$16.npz",
+    "bytes": 13580,
+    "sha256": "03341fd6bb961663180787152ae7884fc48848bcdc7d98705e9219055d86d474"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$17.npz",
+    "bytes": 17116,
+    "sha256": "fb15dfe608adc09a5e3eedd7780ced973858c13537d3e8f09e8182df462b5562"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$18.npz",
+    "bytes": 19396,
+    "sha256": "59af9e3a864fa54879b3dc1928beda9c458342ac2f0d538ba22e4679ddabfd1b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$20.npz",
+    "bytes": 15671,
+    "sha256": "ef4aa36ceefad9a045faae5d63bfcd6098bc8826380fe14f5fcd2da493f68c19"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$26.npz",
+    "bytes": 14458,
+    "sha256": "4416b3fb63230187d09f2aa90c4a9cfbd7f6f445731c6bc89ee8f2b2de950083"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$6.npz",
+    "bytes": 15011,
+    "sha256": "4700114f4844c9ca86c108e35e70f99ec9ed78d161415ad1a926b3f2aaf5192e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-egA8-b7-3M$_$9.npz",
+    "bytes": 12570,
+    "sha256": "d8ce8762d2307422b4a1b2e30d73f6c9b92de2b7b6509cb74ecc9961db5d3839"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-hnBHBN8p5A$_$6.npz",
+    "bytes": 3039,
+    "sha256": "3e80c9d08a878f1a22703ae95d81a7e4a65583a7abb36affbbdd68b5336fa14d"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-hnBHBN8p5A$_$7.npz",
+    "bytes": 3130,
+    "sha256": "533a3cf2a2c1d426637a933b7ce7aa008616144c651e3e2186e1a9e61f78ff1f"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-iRBcNs9oI8$_$3.npz",
+    "bytes": 2717,
+    "sha256": "c391c5f3e7a9ea699b0d843393df073bcfe049f2d0832932c43ff39ac68e67c3"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-iRBcNs9oI8$_$6.npz",
+    "bytes": 2354,
+    "sha256": "2f674b80d404469e19ff56aa98086611df49f51f621d65bd3af89e51ec8f7923"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-iRBcNs9oI8$_$7.npz",
+    "bytes": 2520,
+    "sha256": "d4953b984ae4ac321c4bc3a4f6aefd859794c30bdf9f6583349df02737fa7da5"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-iRBcNs9oI8$_$8.npz",
+    "bytes": 3060,
+    "sha256": "773f7855d6fa88d9481b7e3ad6b8517c5bba0d3ee028249567831558c6961374"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-iRBcNs9oI8$_$9.npz",
+    "bytes": 2419,
+    "sha256": "1b091ddd2651fa490278c114d9266cf89afc1befcf7b35832b16a8bf3c99dd5e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-lzEya4AM_4$_$5.npz",
+    "bytes": 17948,
+    "sha256": "78691be5e54495f43eee133730f2026c0f39972d24ea61eb7f0e5022aa994c97"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-lzEya4AM_4$_$6.npz",
+    "bytes": 32117,
+    "sha256": "94f50504a0f9913d62b921c871036e749f60a60c5a4167e7653576ee6e4f3833"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-mJ2ud6oKI8$_$1.npz",
+    "bytes": 2782,
+    "sha256": "f1f4b9ffa3eca6e37c63b4dcca5da8741acddca0dc56cca30b1b2a2cdc373f04"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-mJ2ud6oKI8$_$2.npz",
+    "bytes": 2727,
+    "sha256": "da79ef847865ff6d84899357b978ec932ac650536c7520a75ebe7b6d7f638ff9"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-mJ2ud6oKI8$_$6.npz",
+    "bytes": 6878,
+    "sha256": "5e8782e6bf96bd349a20ae9b1b2370886f08b40b719cfa67defed543605d0999"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-mJ2ud6oKI8$_$8.npz",
+    "bytes": 10954,
+    "sha256": "dcb6b3394d3b3ea17711ee72cb1f1ee8d9e2be681d7a5b0620fd0e8d617b98d6"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-mJ2ud6oKI8$_$9.npz",
+    "bytes": 16916,
+    "sha256": "f6579fa1a87de2e59fad657e765128b87e1b8c4014e7ab252bff0095e19444b2"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-mqbVkbCndg$_$0.npz",
+    "bytes": 15457,
+    "sha256": "84328a29f69005f35f1cfc92a6f30d2f08953fad774287e442979e2b361127d3"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-qDkUB0GgYY$_$6.npz",
+    "bytes": 11746,
+    "sha256": "0c859f90c7502eed81dcbf461d0a0f465fea9961f88f936748458a82ff73ecfa"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-ri04Z7vwnc$_$0.npz",
+    "bytes": 2405,
+    "sha256": "4b9de7a53f91a7c6d30f8778ec600dcef39f069febfeafbcfeb2822908079753"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-ri04Z7vwnc$_$2.npz",
+    "bytes": 7152,
+    "sha256": "4457ce84222ad744f6ac3b254f51430b5d6384b01ddc907c002be9d05f006c04"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-ri04Z7vwnc$_$5.npz",
+    "bytes": 9516,
+    "sha256": "658523f23ce0b9483aae392092f92af19441e01816401c7cce29cee495b7d82f"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$0.npz",
+    "bytes": 16125,
+    "sha256": "a5dddc2aeab433dc5becb0ea6002cd2fb67ad1482424b80bd4f41b43088a5748"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$1.npz",
+    "bytes": 11426,
+    "sha256": "19e73e91bc1d9a8eab602ca2ae50c1587f33dd5f1d8ed1489b25de461c1fac01"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$4.npz",
+    "bytes": 8174,
+    "sha256": "afae5a7950c8b843b5fc2c54aab7f96666859b8f6f3fd092e33b1b8e9805e2cd"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$5.npz",
+    "bytes": 19455,
+    "sha256": "0a0339160e300fda67dea980f002deedcfdee1a4699a90e294a3407d71ede82c"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$6.npz",
+    "bytes": 6017,
+    "sha256": "e7f8d61b3a3f2f564e0569e0902f18c2be0cf1ad9f42363dc6310377ede2622a"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$7.npz",
+    "bytes": 10545,
+    "sha256": "31a786bca883ab17b0351b71a74b5dda8b881960ab3d69c129350b3213440a0f"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-s9qJ7ATP7w$_$8.npz",
+    "bytes": 8873,
+    "sha256": "ae9f3c068b388a549ca424fa1e4794a5829b2dc115db970ebd51b29097afb2f0"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-t217m2on-s$_$2.npz",
+    "bytes": 13786,
+    "sha256": "ba27ee5de0ebf639409ddad58bae55ad75035ce95b7d3a2c1c9537bbcb8d070a"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-t217m2on-s$_$7.npz",
+    "bytes": 37322,
+    "sha256": "75d1999692f4ae950fbdc62ff7c1df30b2503a5c360b71bd6ac56aae8acbc7f7"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-tANM6ETl_M$_$3.npz",
+    "bytes": 16098,
+    "sha256": "ef436c92c4c8580f05f2ee090b3cd64f486402c37b736a9dcbdcd144f1b14489"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-tPCytz4rww$_$10.npz",
+    "bytes": 11986,
+    "sha256": "dc328bf914bb86b5c9d31942a94558694f5ca1025762133557d602ac85bd147b"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-tPCytz4rww$_$11.npz",
+    "bytes": 13432,
+    "sha256": "757b356403c7f487ec698748f8cdb6c00f9a9a3d1e9bf15d067ae09d9993a0e3"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-tPCytz4rww$_$12.npz",
+    "bytes": 26612,
+    "sha256": "b00e5945e72c3cdaf7efd97d166be10d5107c2f274a3868c1a1148b0216812ca"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-tPCytz4rww$_$16.npz",
+    "bytes": 16933,
+    "sha256": "caf1bc1412090367c7b038edeb835d72bac97096f245b5fd90688274a6ba6150"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-tPCytz4rww$_$18.npz",
+    "bytes": 15910,
+    "sha256": "0c43eabf6b1bf644fafe06c5d2fc17cf4008604d7e5802ab728b97305d7ed70f"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-uywlfIYOS8$_$4.npz",
+    "bytes": 14687,
+    "sha256": "a675aa8f266377d55ecae2b6e9ebfa01c03568af17df4250b5c274ba53cc3ffd"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-vxjVxOeScU$_$4.npz",
+    "bytes": 20853,
+    "sha256": "ec7b765e26697bfc4724b4067e969810386e5cd702b55fd235365e552efdfddf"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wMB_hJL-3o$_$7.npz",
+    "bytes": 14638,
+    "sha256": "e5eefe522b1d3b736124849ab9ee07283487974405bbe96bd01063b5cef67dcb"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$0.npz",
+    "bytes": 7883,
+    "sha256": "379afd7eb813e89071f8c665180fb7f7bd7d7fb621f944de6f30e104cab8c97e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$1.npz",
+    "bytes": 4986,
+    "sha256": "906387b0e06efe69badf43dfa2581b3a9d7af47b6fdf211bbdb5b44b94e63733"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$2.npz",
+    "bytes": 13524,
+    "sha256": "dc36431507f252a15c405de856b29cd545e75fecff60ee51ce59cfe75d97dfa0"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$3.npz",
+    "bytes": 4740,
+    "sha256": "89b7d299548df1b83c3861d14ba969ae569f1125fbfe230c4307e0981b0acb64"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$5.npz",
+    "bytes": 4964,
+    "sha256": "75c2f9be2e0e2f367bcfbe7aebe8f860f696171497bb563764ad0c1a022f2cf7"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$7.npz",
+    "bytes": 8294,
+    "sha256": "535e10e045e80cc0c12f67e41ebddf47c2212bea4d5586ac8ed54d9ad9f12752"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-wny0OAz3g8$_$9.npz",
+    "bytes": 13888,
+    "sha256": "bd57aab0297b874a20c3abb4846c6eb6cf697e9cdff0bccc184aba7b73d817dd"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-yRb-Jum7EQ$_$1.npz",
+    "bytes": 50952,
+    "sha256": "c196d05f91f0c302ef6a8475e3a3362f1e5bd21fcc9f1406d5ad3c060054546e"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-yRb-Jum7EQ$_$5.npz",
+    "bytes": 29232,
+    "sha256": "88082a11d9fd9ba7a9695b3e588a6bcd168f78230a8572363a6cc6970d849ce0"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本/-yRb-Jum7EQ$_$6.npz",
+    "bytes": 25125,
+    "sha256": "c0b24f61661554df35c17de535216c74056621ca83bc2d45fea3fb531e0f647f"
+  },
+  {
+    "path": "E.1/结果/07_FaceLandmarker52/逐样本统计.csv",
+    "bytes": 25414,
+    "sha256": "0779f26c524b586c0c4e0886f45bea173d3f0331d7052547f368647b91717c50"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/对齐汇总.json",
+    "bytes": 2000,
+    "sha256": "b9e3770cb5769dc35a64f8d8ac71b992027ce31ae1c304b5fcfc89e3817199d3"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/对齐规则.json",
+    "bytes": 925,
+    "sha256": "3fc53edb31f893d89ed8367ca2554a4943111df7a41e2af7efe850e47868ee17"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-3g5yACwYnA$_$13.npz",
+    "bytes": 54076,
+    "sha256": "5ee0dc634a7072d830ea0cbde9e1d64c78f4b8d72bb71cfbd706a979c780737e"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-3g5yACwYnA$_$2.npz",
+    "bytes": 48727,
+    "sha256": "a0ecf3b83b4b7ca8b03e8ce4f25f6fa81f14cb69cbab106bd32e767347ff8966"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-3g5yACwYnA$_$3.npz",
+    "bytes": 99772,
+    "sha256": "6a8799c43e3bb673259ef1b639f33bbea3ffa34941af200c6ba4201723ee039a"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-3g5yACwYnA$_$9.npz",
+    "bytes": 80994,
+    "sha256": "9567811f1fb96a13f2515af016fe47a093ac6ed2ba455ad78f9bf198dda85105"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-3nNcZdcdvU$_$5.npz",
+    "bytes": 64140,
+    "sha256": "36abcd91ab80fb1d2422f36853da8596ccc25d206e89f37fe6b187ccbb41e922"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-571d8cVauQ$_$0.npz",
+    "bytes": 44536,
+    "sha256": "a101ffa80bf60ef9cfb6019ef72d6cd1a55889dd71d5bc19a2819e3d40d31ad4"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-571d8cVauQ$_$5.npz",
+    "bytes": 148110,
+    "sha256": "23e58c8f7692bcc7683c9662e23326fd7c723962c6febfbca0f44458238d31cf"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-6rXp3zJ3kc$_$8.npz",
+    "bytes": 116518,
+    "sha256": "3b71344a2f70932c3aff71239c8510d90cb1ee4df2861eec2e896c00949f79b6"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-9y-fZ3swSY$_$0.npz",
+    "bytes": 75694,
+    "sha256": "c18679025ae06afc9be8f2c15333f0dd225744e55911c71de72dd78280eb95a2"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-9y-fZ3swSY$_$4.npz",
+    "bytes": 34358,
+    "sha256": "b173aac86b14661a44c598d8509e6b4795c6f47de4b13d375c6e8dbc3bc5e4b3"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-9y-fZ3swSY$_$8.npz",
+    "bytes": 43770,
+    "sha256": "1ae2a71459be861b816a9d89245e5ecb5aedac65c40b2d6fb7856482e9d7f0b6"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-AUZQgSxyPQ$_$2.npz",
+    "bytes": 138397,
+    "sha256": "0ccc2a4f2bf5519bfa423d3eb1b6e6611bd6f6a767915c570b837f6ec083f2fb"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-HeZS2-Prhc$_$2.npz",
+    "bytes": 56460,
+    "sha256": "d6d3a766590a468c506fe3cc0371aeb55563bbe6b57f1a12ea9357a3abee4514"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-HwX2H8Z4hY$_$2.npz",
+    "bytes": 25584,
+    "sha256": "9807ad22d6e477f705ce3ba529424afe19ecafb1e922af596d119a07ef0e8fd8"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-HwX2H8Z4hY$_$5.npz",
+    "bytes": 32520,
+    "sha256": "c77101088ab5ed671a7ac927de61f6e36217a66987fe03d5bc3e38be4e4ecd9a"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-HwX2H8Z4hY$_$6.npz",
+    "bytes": 26362,
+    "sha256": "1bdde4e8671b40b61a05789d33c9d9b6402af6c1dbee2a293b77c161664d4dc5"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-HwX2H8Z4hY$_$9.npz",
+    "bytes": 72286,
+    "sha256": "325ed4a579ef99575430e34e5f2163e4be8008ff98cffec9322f8f4a24cb2855"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-I_e4mIh0yE$_$1.npz",
+    "bytes": 64253,
+    "sha256": "7c903296064419ce49138d7f841e8ce8348f879c5af73f77df111d161a8e6258"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-I_e4mIh0yE$_$3.npz",
+    "bytes": 71744,
+    "sha256": "9d6ae69eb97dd066aa70b61aeffd45982dc64fc68873759223613d8bdf5b525a"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-MeTTeMJBNc$_$0.npz",
+    "bytes": 74226,
+    "sha256": "110b9f0c401a713644c2a76524b298461865e319e18baa9dde8a6a063dd28884"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-MeTTeMJBNc$_$13.npz",
+    "bytes": 51277,
+    "sha256": "3563a80d84a8b85ca44f7d0976cf5dffe711390947300e3532cde300359cc206"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-MeTTeMJBNc$_$7.npz",
+    "bytes": 107496,
+    "sha256": "93044b72e6a033cb1467aa6b65954e91af73d3912ac18f92d26d6921448c4395"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-NFrJFQijFE$_$1.npz",
+    "bytes": 49778,
+    "sha256": "8b6df96f9307b2b77627491470e6bbafc6a64482b989d386d6a57b5fa653c570"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-NFrJFQijFE$_$2.npz",
+    "bytes": 55522,
+    "sha256": "3869bf20233c1f48166a89ccd6d398fc7c45ffc4f0e7e416cc23008a21e2dde4"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-RfYyzHpjk4$_$11.npz",
+    "bytes": 60426,
+    "sha256": "6022c38b1699238945441fee2c17925d49d08af51be1036b6c26862677b45102"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-RfYyzHpjk4$_$2.npz",
+    "bytes": 87722,
+    "sha256": "bde12b003777aaa19e8264a72d379987379c53b08ce79d04e272fd8f1ac5055c"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-RfYyzHpjk4$_$8.npz",
+    "bytes": 60851,
+    "sha256": "e3dfb6f81fdf3e6eef0a9e2a9e7cdee24cb15d3339ec084cb4cfe7834563e700"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-THoVjtIkeU$_$12.npz",
+    "bytes": 133272,
+    "sha256": "a4dbf6867ad1b4ce0d098aaa0828c0bae757e563aa131ffc05a5cc5dac878df3"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-THoVjtIkeU$_$2.npz",
+    "bytes": 37823,
+    "sha256": "f51deed570b0c95c9fc796ba64e589ebcb1f4ec0b5f1832b0e55df25c6858575"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-THoVjtIkeU$_$6.npz",
+    "bytes": 102539,
+    "sha256": "800468eee1260e233d4d554599d9cb278de93891e73fb56aa0a3efc0edb47076"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UUCSKoHeMA$_$0.npz",
+    "bytes": 64690,
+    "sha256": "4fe4f48472bb4675a7da801920f93fe0991a9b8b29b6e21249bd986acff2b726"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UacrmKiTn4$_$10.npz",
+    "bytes": 64675,
+    "sha256": "f4d68b72e87a4d2fff5c3299ea4b1b3bafc51696dccf71347dfc9bc6b5ce3779"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UacrmKiTn4$_$4.npz",
+    "bytes": 51264,
+    "sha256": "8aa85e1e0d5b6411e113c2b9c7dfe3779c5380cef4f38b209643d8791060259b"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UuX1xuaiiE$_$0.npz",
+    "bytes": 33818,
+    "sha256": "83540b9a0b717d3c1c486017fe4b7a64f19dc744a7dd897c50b2d10a8334b26f"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UuX1xuaiiE$_$1.npz",
+    "bytes": 88744,
+    "sha256": "bdb8d69c241c4733610cbb622e87c67f1daa1d8d853f821053138a00ebd6cdf3"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UuX1xuaiiE$_$3.npz",
+    "bytes": 33430,
+    "sha256": "b8c4373482b2a966cd5f479f86f1a7e3d78ce68aa20a66727a9fc186286af380"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-UuX1xuaiiE$_$6.npz",
+    "bytes": 77283,
+    "sha256": "704a1c4a96369342448b0b80c7ee07048816f88c3c8f082b459fbf8dbb18ae18"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-a55Q6RWvTA$_$3.npz",
+    "bytes": 222175,
+    "sha256": "736a2e25819a91c0cce24cfe0191bf50c4e92d782a2e905574f025f60b75fe44"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-aNfi7CP8vM$_$7.npz",
+    "bytes": 64698,
+    "sha256": "64ac8af1dfe45efa31b2ec9e041adc7a04211783ef72c194762a96034084c068"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-aqamKhZ1Ec$_$0.npz",
+    "bytes": 50308,
+    "sha256": "8c028974aa3124f84782a51d29a3696ce2fd5a9402ecf83a11c7c49f6bcec4de"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-dxfTGcXJoc$_$0.npz",
+    "bytes": 124115,
+    "sha256": "3f09673e0edabe62e8a59cf00ded9189c492b0b785a1779c3bbb5693d109d32d"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-dxfTGcXJoc$_$1.npz",
+    "bytes": 124565,
+    "sha256": "a75a4b51e1afa661579fdb784143cf0298691cbe59f4ad59c3f24ea424f722a4"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-dxfTGcXJoc$_$2.npz",
+    "bytes": 120767,
+    "sha256": "911587e154b7d022c105ecf92ace3a739a3b65a4614dde978e123aeddacfceb2"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-dxfTGcXJoc$_$6.npz",
+    "bytes": 97736,
+    "sha256": "b8947d97ecd8f6e6a298301cb83ae37274495b3385053ccc164bb0dbc3b3ccd0"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$1.npz",
+    "bytes": 70443,
+    "sha256": "919d11eac0463c38826b44e8c030ecbf395999cd9c12c4076b9877b96dfe4d51"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$13.npz",
+    "bytes": 40732,
+    "sha256": "f84816271083a7db0949d30ff7c445231802045b4b8627130bfe699b3c8f00ca"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$16.npz",
+    "bytes": 41204,
+    "sha256": "863d62c43223ac869d19ceeafbad7452599b25ec044b29067a4f5ad97b89cf9d"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$17.npz",
+    "bytes": 57436,
+    "sha256": "38b46f813f0216d2119046636dcfd6895937e932f1520f1d303c56bc308c4ce4"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$18.npz",
+    "bytes": 77211,
+    "sha256": "bc6002b2dff217bf97a86a9b6b07d54910d26295d986fd52f338e751a2572287"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$20.npz",
+    "bytes": 70939,
+    "sha256": "87b9068277af294101ea91e0c625004a1e2c6aade57f63080c70f1ac76838ecb"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$26.npz",
+    "bytes": 54132,
+    "sha256": "130a013615857288265d23c0232efc994330809d3b6c32c226f450d0b100183b"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$6.npz",
+    "bytes": 44480,
+    "sha256": "7c3d7ff01aacdd2e8693850be38f7ead3a31dd2ca211bd05ceab263b83defeb4"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-egA8-b7-3M$_$9.npz",
+    "bytes": 37741,
+    "sha256": "e66fa68d7a268bee784dd3b4c09d996bc84c61ad77701766d569bc8b989bd5ee"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-hnBHBN8p5A$_$6.npz",
+    "bytes": 41254,
+    "sha256": "046e99d0d15231012091b51ec791b9b254551c653c45e4960f7f471da91faed8"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-hnBHBN8p5A$_$7.npz",
+    "bytes": 41233,
+    "sha256": "b36bfdef58648e5f5845375c0450e97b20c450e533e409b9b298367048acf22c"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-iRBcNs9oI8$_$3.npz",
+    "bytes": 27252,
+    "sha256": "95bb6f7bb999b1166e8f459f56620cbb2b4d00472cd26e97947f3edc96de0188"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-iRBcNs9oI8$_$6.npz",
+    "bytes": 18324,
+    "sha256": "6f599be7c44c6142851d58de8ee45ed18f6baece4ffac24b56feff06afb90e4d"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-iRBcNs9oI8$_$7.npz",
+    "bytes": 29765,
+    "sha256": "f55fa52e79b3b07050fede8066169a37a94e15c3b3d411ab5a35b93f061c0f71"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-iRBcNs9oI8$_$8.npz",
+    "bytes": 64457,
+    "sha256": "796d502a4eab9211b832e2cfe4a8280218f377d40d5a0e87a2effe11f3389a19"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-iRBcNs9oI8$_$9.npz",
+    "bytes": 18316,
+    "sha256": "2be1b3ce7047b0506daa9da5c8774b48dd44282d82292ee5b7b3ee407c47c53d"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-lzEya4AM_4$_$5.npz",
+    "bytes": 67093,
+    "sha256": "9718ec8997724210956bbb6232356950cf12eaa70565c9acf33a82df3185f5f3"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-lzEya4AM_4$_$6.npz",
+    "bytes": 146705,
+    "sha256": "6a3d80edcdef50072aed11cc20d064f6daf458483ab377b282951be5792c6823"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-mJ2ud6oKI8$_$1.npz",
+    "bytes": 41234,
+    "sha256": "3d748f6766a59892f242d6e429f417c0c826c370283941bacf720235ea47c3b0"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-mJ2ud6oKI8$_$2.npz",
+    "bytes": 35528,
+    "sha256": "b14252635fe8862a355bb71be9467f95b16b44de553485c776eebf24a91652fb"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-mJ2ud6oKI8$_$6.npz",
+    "bytes": 18896,
+    "sha256": "7cfb10e95e2a1f9f4b885c24302da1036a6940ec15e8d8bc5005eff12ea05322"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-mJ2ud6oKI8$_$8.npz",
+    "bytes": 36133,
+    "sha256": "a76c9b9f7c7917269869fd4c8fe1a5966ba8a257351eee9350c37b2667d3a13a"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-mJ2ud6oKI8$_$9.npz",
+    "bytes": 68087,
+    "sha256": "daa0b93180036f8d675ebaeeb837baea35af008602d257fbbdaba8d451eb69de"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-mqbVkbCndg$_$0.npz",
+    "bytes": 51282,
+    "sha256": "553931fbb0afcd510251b7f2e536cbbdf3e769db862d32882e5684e8cd065a43"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-qDkUB0GgYY$_$6.npz",
+    "bytes": 57884,
+    "sha256": "f1e2bbeb9e1c67fccdc7218a081f692df2738b3531af93adbd947f3c02a61b0f"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-ri04Z7vwnc$_$0.npz",
+    "bytes": 26890,
+    "sha256": "4b0bec3bd55a624946635c852b786c51a557d5bff472672742e9dd96c29440ed"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-ri04Z7vwnc$_$2.npz",
+    "bytes": 49800,
+    "sha256": "d89361ab6d7edc1e149db1299e5ad4a7c72a21298c413e687f960ac31887954c"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-ri04Z7vwnc$_$5.npz",
+    "bytes": 27494,
+    "sha256": "1995d1f78dee6acc2fcafb2c2c8c89c880f94bc4079f050aab46ad02b264d10a"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$0.npz",
+    "bytes": 81898,
+    "sha256": "3797b1673fc44b19f210605c52f142df45c8f28bfeaa576f4bd7f24ebe14668f"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$1.npz",
+    "bytes": 39286,
+    "sha256": "90c8209ac636f7358bd9f9babdb9aee7d237905d2c1b90ec8fbbe34b2eb842b1"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$4.npz",
+    "bytes": 33327,
+    "sha256": "78aef7b5852689443e17d3494694b4d819fa7c0bbca2ac5c01f1ce4d7d8c43a4"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$5.npz",
+    "bytes": 67568,
+    "sha256": "e31d8f5f29359f91970cd4d6134885889e458f8610ee8c7c69104e24c0ff37f9"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$6.npz",
+    "bytes": 20940,
+    "sha256": "603259e34a0f5d615f9554b8bf2d897679df00bde23d9b48a8bfa754a98f12db"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$7.npz",
+    "bytes": 95731,
+    "sha256": "0180bd6147cc8bfdbda91308a93455726fccc978b0c8ed69fd31211762204a82"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-s9qJ7ATP7w$_$8.npz",
+    "bytes": 44498,
+    "sha256": "d58e0fe14cb5834ff1a9f99df35d1015e83ea4cf465b28df9abd7d04a19a369d"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-t217m2on-s$_$2.npz",
+    "bytes": 43620,
+    "sha256": "d1c0772ba20cf58431e37da1f203b4b44e41c8fa9432d41e16c297626abc83c7"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-t217m2on-s$_$7.npz",
+    "bytes": 153019,
+    "sha256": "6c077ac9f72095f6c3c5fdc2ef3b2c50a234413c31a1ca8d898c71ce3cda3aac"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-tANM6ETl_M$_$3.npz",
+    "bytes": 77293,
+    "sha256": "85dcf560d58bd6afc2ed292727b7b4cffa52c359f9e9aafbdcc874b7699277ef"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-tPCytz4rww$_$10.npz",
+    "bytes": 43611,
+    "sha256": "02d88fc0568850454f91a2abb5ae373b770b50365542f2e94856351ce19b6002"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-tPCytz4rww$_$11.npz",
+    "bytes": 58418,
+    "sha256": "0c881130051264bf1b11c28bbcd5ece9d957b9bec5e301e5b7d171758a4eeb37"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-tPCytz4rww$_$12.npz",
+    "bytes": 87150,
+    "sha256": "08c0cc3a00db87ea466711df45fc03745f79494afee28640944fa8b1f4c9cbb3"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-tPCytz4rww$_$16.npz",
+    "bytes": 56538,
+    "sha256": "3a6631baf5d00f1ccdafc0f6c178a655e80f806cbf58f52e2aab2a061edcc66b"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-tPCytz4rww$_$18.npz",
+    "bytes": 49779,
+    "sha256": "6a9ce713a7920f81b0b7df0091509266491017574f60304934e0cd151c38c6f1"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-uywlfIYOS8$_$4.npz",
+    "bytes": 58208,
+    "sha256": "b5900eee1e7440eacb99143b2b851c7b8b227d5966499f1e153ab72a68c5257f"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-vxjVxOeScU$_$4.npz",
+    "bytes": 74722,
+    "sha256": "33dca0994f4c92d07705ac7616bb0564aff930a7a5f80c50af62d185ac85a4df"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wMB_hJL-3o$_$7.npz",
+    "bytes": 78136,
+    "sha256": "fd07017739a74488afd9ef094acd18649259592a957a6dfabd9c798d7099a4a6"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$0.npz",
+    "bytes": 30308,
+    "sha256": "8bab9c677180aa7a4c265fd1282e4b67dc7294c8591dc400ebd2871e66ef504d"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$1.npz",
+    "bytes": 74357,
+    "sha256": "c68e15c1feca4bef9b5435de6d14e5c2805095c48c8a4a03a3524ef635c01f0e"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$2.npz",
+    "bytes": 81457,
+    "sha256": "01da1f86403a3d75100667cc4ed6ba488efa0a6bbeacf4432c084e2094cee8b1"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$3.npz",
+    "bytes": 68070,
+    "sha256": "3387c9a8a1d64a8ea498b114215b55fa2984a5bca66c51cc8b2843421a221e2c"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$5.npz",
+    "bytes": 66164,
+    "sha256": "f8cb6ca8ab8e663ae3df9b8f98c2f9c5359e0a77fc0ca56a7e4d920820e07056"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$7.npz",
+    "bytes": 98156,
+    "sha256": "d16213308cb4d80d0f7efe00e6cf837266b01e6685946e461e9697fff249c320"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-wny0OAz3g8$_$9.npz",
+    "bytes": 71375,
+    "sha256": "c676817a6f73c7d6e75b72f55d0a649c2bf61ba89d8fe94e4d2d7325d1ba9bdd"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-yRb-Jum7EQ$_$1.npz",
+    "bytes": 144120,
+    "sha256": "7b9678ab9a1938968682fbf0d5d69f2428261f7a34875d9752276e29129a162a"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-yRb-Jum7EQ$_$5.npz",
+    "bytes": 75549,
+    "sha256": "f2d44507d6077c09d98e12bff1b8cbe183fe93634c5fd8c0b73e293069369edd"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本/-yRb-Jum7EQ$_$6.npz",
+    "bytes": 58398,
+    "sha256": "59fa6ea7377608e29d6266cfa577c6ca6e1028bda188c9d97ebafdd8b3d94fdd"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐样本对齐统计.csv",
+    "bytes": 18006,
+    "sha256": "c2d1b424ce25f2e78a7bec03594bf2b2fb81bd36035e6d241e354e8f489aede8"
+  },
+  {
+    "path": "E.1/结果/08_原文词级跨模态对齐/逐词对齐索引.csv",
+    "bytes": 424524,
+    "sha256": "bea4dfa3ec58151d20e601d80e5a4971253eeecffa0b67673b35c571bff51974"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/100条样本全量汇总表.md",
+    "bytes": 6650,
+    "sha256": "76da37bc57059ef0636258bdda4e529a70d83ceed4d3605212e3cd0465f8e62f"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/全量样本统计.json",
+    "bytes": 58627,
+    "sha256": "377a5a23989fe72807a120d72b90cc2176cf049f5b61ea40e7f45041034e2cb6"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/全量核验与论文数据.json",
+    "bytes": 5813,
+    "sha256": "a5dbbed660980ed1bfdf0b7bf2845f4a3ac7ca69af95281acc6bfb7aac32f6ff"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/图/图01_问题一方法流程.png",
+    "bytes": 189281,
+    "sha256": "7ea982a8c7ce18d28bc3ab6a04264f89689c8e3c53a6913dab5804e3ece310ab"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/图/图02_三模态主结果覆盖.png",
+    "bytes": 83194,
+    "sha256": "3e18abc039da9220f4be55b715f5f921a868717c4355609e09633ec5c55da072"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/图/图03_100样本词级覆盖分布.png",
+    "bytes": 150293,
+    "sha256": "cf9ec54caa587fd6fd3fd7b455ee236b30a9b5bc4c59438874db26be0b9e90aa"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/图/图04_词时间证据与模型边界差.png",
+    "bytes": 133018,
+    "sha256": "c8477000069f7bfd2e475440185f7eaf5071142cec09fcd539e16c3414afec7c"
+  },
+  {
+    "path": "E.1/结果/10_全量质量检查与论文图表/图/图05_典型样本原始时间轴与视频帧.png",
+    "bytes": 596300,
+    "sha256": "ef66afb6157be59aa7477a3e4fa5dd8a585a01a19468cb4ce4ebe77f998037f2"
+  },
+  {
+    "path": "E.1/论文/复现与交付说明.md",
+    "bytes": 4276,
+    "sha256": "5f57f27e0ded3b737a3cea782e707583db3cd1008e80a2e764347429bab9b41c"
+  },
+  {
+    "path": "E.1/论文/环境与跨机复现说明.md",
+    "bytes": 5875,
+    "sha256": "97b11e1f82dbd2556a93c370d17d83a9874e919c639c9358998fe1b1b40c84d3"
+  },
+  {
+    "path": "E.1/论文/问题一提交核对清单.md",
+    "bytes": 5935,
+    "sha256": "c68c2678f00e6da485f9ffab5f0f563480500e116230e1a159d1abe68069d68d"
+  },
+  {
+    "path": "E.1/论文/问题一结构与证据清单.md",
+    "bytes": 3451,
+    "sha256": "15674ee6b42db23a5566c33236cfba02cd6ebb77e53f33c643d61c0a8e64e7e8"
+  },
+  {
+    "path": "E.1/配置/第一问流程配置.json",
+    "bytes": 9323,
+    "sha256": "c6296f31876836030c224eae1ef281f2816c01cb6d467afc90ef2403826fe2f2"
+  },
+  {
+    "path": "E.1/输入/样本清单/可移植样本清单.csv",
+    "bytes": 25040,
+    "sha256": "10e13577d897df1574dde2904b60d3ae61ff150c43067e2621e3f1681fb72706"
+  }
+]

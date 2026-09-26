@@ -1,0 +1,98 @@
+{
+  "tag": "ens_e1",
+  "n_valid": 728,
+  "n_test": 727,
+  "oracle": {
+    "valid": 0.6731,
+    "test": 0.6974
+  },
+  "chosen": "base",
+  "chosen_cv": 0.6131,
+  "rows": [
+    {
+      "rule": "base",
+      "cv_sel": 0.6131,
+      "valid": {
+        "ACC": 0.6195,
+        "MacroF1": 0.6131,
+        "neuF1": 0.5056
+      },
+      "test": {
+        "ACC": 0.6355,
+        "MacroF1": 0.6179,
+        "neuF1": 0.4564
+      }
+    },
+    {
+      "rule": "th",
+      "cv_sel": 0.5785,
+      "valid": {
+        "ACC": 0.625,
+        "MacroF1": 0.595,
+        "neuF1": 0.4132
+      },
+      "test": {
+        "ACC": 0.6492,
+        "MacroF1": 0.6044,
+        "neuF1": 0.3807
+      }
+    },
+    {
+      "rule": "band",
+      "cv_sel": 0.6025,
+      "valid": {
+        "ACC": 0.6387,
+        "MacroF1": 0.6218,
+        "neuF1": 0.5013
+      },
+      "test": {
+        "ACC": 0.6465,
+        "MacroF1": 0.61,
+        "neuF1": 0.4119
+      }
+    },
+    {
+      "rule": "lr",
+      "cv_sel": 0.6015,
+      "valid": {
+        "ACC": 0.6209,
+        "MacroF1": 0.613,
+        "neuF1": 0.5012
+      },
+      "test": {
+        "ACC": 0.6245,
+        "MacroF1": 0.6009,
+        "neuF1": 0.4098
+      }
+    },
+    {
+      "rule": "tree",
+      "cv_sel": 0.6109,
+      "valid": {
+        "ACC": 0.6209,
+        "MacroF1": 0.6207,
+        "neuF1": 0.53
+      },
+      "test": {
+        "ACC": 0.6039,
+        "MacroF1": 0.5945,
+        "neuF1": 0.4319
+      }
+    },
+    {
+      "rule": "rf",
+      "cv_sel": 0.5921,
+      "valid": {
+        "ACC": 0.6813,
+        "MacroF1": 0.6756,
+        "neuF1": 0.6028
+      },
+      "test": {
+        "ACC": 0.6327,
+        "MacroF1": 0.6091,
+        "neuF1": 0.4239
+      }
+    }
+  ],
+  "tree_rules": "|--- logit_pm <= -0.385\n|   |--- margin <= 1.450\n|   |   |--- prob_neu <= 0.751\n|   |   |   |--- class: 0\n|   |   |--- prob_neu >  0.751\n|   |   |   |--- class: 1\n|   |--- margin >  1.450\n|   |   |--- abs_score <= 2.349\n|   |   |   |--- class: 0\n|   |   |--- abs_score >  2.349\n|   |   |   |--- class: 0\n|--- logit_pm >  -0.385\n|   |--- abs_score <= -0.284\n|   |   |--- entropy <= 0.589\n|   |   |   |--- class: 1\n|   |   |--- entropy >  0.589\n|   |   |   |--- class: 1\n|   |--- abs_score >  -0.284\n|   |   |--- prob_neu <= -0.166\n|   |   |   |--- class: 2\n|   |   |--- prob_neu >  -0.166\n|   |   |   |--- class: 2\n"
+}

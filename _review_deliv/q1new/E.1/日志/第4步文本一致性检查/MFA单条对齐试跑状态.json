@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-09-25",
+  "mfa_version": "3.4.2",
+  "dictionary": "english_us_arpa",
+  "acoustic_model": "english_us_arpa",
+  "attempt": "对一条已进入候选的短样本运行 align_one，输出 JSON，单进程",
+  "startup_check_issue": "本机 fstcompile.exe 存在；MFA 启动检查把 fstcompile --help 的正常返回码 1 误判为依赖缺失。E.1 内兼容入口仅跳过该帮助检查。",
+  "result": "stopped_without_output",
+  "historical_note": "这是NUMBA_CACHE_DIR重定向前的单条试跑结果。修复默认缓存目录初始化停滞后，MFA全量批次已输出95/98条对齐结果；详见MFA全量Whisper文本强制对齐控制台.json与MFA原文时间映射汇总.json。",
+  "elapsed": "超过 7 分钟",
+  "observed_resources_before_stop": {
+    "python_cpu_seconds": 216,
+    "python_working_set_bytes": 820535296
+  },
+  "output_json_created": false,
+  "accepted_mfa_word_timestamps": 0,
+  "reason": "进程持续占用 CPU 与内存但未生成对齐文件；为避免无进展地继续占用资源而停止。",
+  "fallback": "E.1 使用 Whisper 词级时间估计，对逐词唯一匹配且通过自动时间边界规则的词做保守映射；所有输出保留 Whisper 估计来源标记。"
+}

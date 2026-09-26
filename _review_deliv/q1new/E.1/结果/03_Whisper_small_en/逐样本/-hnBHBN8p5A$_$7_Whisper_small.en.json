@@ -1,0 +1,183 @@
+{
+  "sample_id": "-hnBHBN8p5A$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-hnBHBN8p5A$_$7.wav",
+  "audio_sha256": "2a765463611a3bfe5beaea173dde8458672b65b243fdbb499e3869255af6f696",
+  "audio_duration_s": 7.308,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "the majority of an entire nation to believe and trust his or her words.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.86,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.86,
+      "text": " the majority of an entire nation to believe and trust his or her words.",
+      "no_speech_probability": 0.030547356233000755,
+      "average_log_probability": -0.32193918857309556
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.2,
+      "probability": 0.5196841359138489
+    },
+    {
+      "word_index": 2,
+      "word": "majority",
+      "surface": " majority",
+      "start_time_wav_s": 0.2,
+      "end_time_wav_s": 0.66,
+      "start_time_source_s": 0.2,
+      "end_time_source_s": 0.66,
+      "probability": 0.9975016713142395
+    },
+    {
+      "word_index": 3,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 0.66,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.66,
+      "end_time_source_s": 1.06,
+      "probability": 0.9977203011512756
+    },
+    {
+      "word_index": 4,
+      "word": "an",
+      "surface": " an",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.16,
+      "probability": 0.9570063948631287
+    },
+    {
+      "word_index": 5,
+      "word": "entire",
+      "surface": " entire",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.72,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.72,
+      "probability": 0.9986287355422974
+    },
+    {
+      "word_index": 6,
+      "word": "nation",
+      "surface": " nation",
+      "start_time_wav_s": 1.72,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 1.72,
+      "end_time_source_s": 2.36,
+      "probability": 0.982193112373352
+    },
+    {
+      "word_index": 7,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 3.64,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 3.64,
+      "probability": 0.9279463291168213
+    },
+    {
+      "word_index": 8,
+      "word": "believe",
+      "surface": " believe",
+      "start_time_wav_s": 3.64,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.64,
+      "end_time_source_s": 4.06,
+      "probability": 0.9969898462295532
+    },
+    {
+      "word_index": 9,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.3,
+      "probability": 0.8256514668464661
+    },
+    {
+      "word_index": 10,
+      "word": "trust",
+      "surface": " trust",
+      "start_time_wav_s": 4.3,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 4.3,
+      "end_time_source_s": 4.68,
+      "probability": 0.9926846027374268
+    },
+    {
+      "word_index": 11,
+      "word": "his",
+      "surface": " his",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 5.1,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 5.1,
+      "probability": 0.7926614880561829
+    },
+    {
+      "word_index": 12,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 5.1,
+      "end_time_wav_s": 5.28,
+      "start_time_source_s": 5.1,
+      "end_time_source_s": 5.28,
+      "probability": 0.9539708495140076
+    },
+    {
+      "word_index": 13,
+      "word": "her",
+      "surface": " her",
+      "start_time_wav_s": 5.28,
+      "end_time_wav_s": 5.46,
+      "start_time_source_s": 5.28,
+      "end_time_source_s": 5.46,
+      "probability": 0.9928440451622009
+    },
+    {
+      "word_index": 14,
+      "word": "words.",
+      "surface": " words.",
+      "start_time_wav_s": 5.46,
+      "end_time_wav_s": 5.86,
+      "start_time_source_s": 5.46,
+      "end_time_source_s": 5.86,
+      "probability": 0.9885250926017761
+    }
+  ],
+  "word_count": 14,
+  "mean_word_probability": 0.9231434336730412,
+  "issues": [],
+  "official_transcript_loaded": false
+}

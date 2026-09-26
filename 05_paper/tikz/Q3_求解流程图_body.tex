@@ -1,0 +1,44 @@
+% 问题三 求解流程图（蛇形横向，现代柔和 6 色）——仅含 tikzpicture，
+% 供 _build_Q3_flow.tex 编成独立 PDF，再由图 \includegraphics 引入。
+\begin{tikzpicture}[
+    node/.style={rounded corners=3pt, align=center, font=\footnotesize,
+                 minimum width=2.9cm, minimum height=1.05cm,
+                 text=black!82, draw=#1!60!black, fill=#1!18},
+    cCoral/.style={node={coral}},
+    cTeal/.style={node={teal}},
+    cSky/.style={node={sky}},
+    cMint/.style={node={mint}},
+    cWarm/.style={node={warm}},
+    cLilac/.style={node={lilac}},
+    arr/.style={-{Stealth[length=2.2mm]}, thick, gray!65}
+  ]
+  \definecolor{coral}{RGB}{244,151,142}
+  \definecolor{teal}{RGB}{77,182,172}
+  \definecolor{sky}{RGB}{100,181,246}
+  \definecolor{mint}{RGB}{152,216,200}
+  \definecolor{warm}{RGB}{255,213,158}
+  \definecolor{lilac}{RGB}{197,176,230}
+
+  % ---- 第 1 行 左→右 (y=0) ----
+  \node[cCoral] (s1) at (-6, 0) {加载冻结骨干\\与专项测试集};
+  \node[cTeal]  (s2) at (-2, 0) {精确 Shapley\\8 子集全枚举};
+  \node[cSky]   (s3) at ( 2, 0) {积分梯度与\\注意力重要性};
+
+  % ---- 第 2 行 右→左 折返 (y=-2) ----
+  \node[cMint]  (s4) at ( 2,-2) {遮挡重要性\\（模型无关基准）};
+  \node[cWarm]  (s5) at (-2,-2) {三源融合\\与权重标定};
+  \node[cLilac] (s6) at (-6,-2) {证据定位\\词片段/时段/关键帧};
+
+  % ---- 第 3 行 左→右 (y=-4) ----
+  \node[cCoral] (s7) at (-6,-4) {解释质量指标\\忠实性/充分性/稳定性};
+  \node[cTeal]  (s8) at (-2,-4) {免标注机制验证\\与鲁棒性互证};
+  \node[cSky]   (s9) at ( 2,-4) {输出预测与解释\\CSV 与解释卡};
+
+  % ---- 行内箭头（第 2 行视觉向左，箭头指向左侧节点）----
+  \draw[arr] (s1)--(s2) (s2)--(s3);
+  \draw[arr] (s4)--(s5) (s5)--(s6);
+  \draw[arr] (s7)--(s8) (s8)--(s9);
+  % ---- 行末折返（竖直向下转行）----
+  \draw[arr] (s3)--(s4);
+  \draw[arr] (s6)--(s7);
+\end{tikzpicture}

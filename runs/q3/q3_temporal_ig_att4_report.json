@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "data_att\\att4_aligned.pkl",
+   "split": "test",
+   "n": 20,
+   "steps": 20,
+   "baseline": "zero",
+   "target": "mu"
+  }
+ },
+ "w_ig_mean": [
+  0.6976,
+  0.0095,
+  0.0512
+ ],
+ "w_att_mean": [
+  0.6906,
+  0.1416,
+  0.1678
+ ],
+ "sparsity_ig_top5": [
+  0.247,
+  0.294,
+  0.195,
+  0.224,
+  0.378,
+  0.188,
+  0.143,
+  0.454,
+  0.292,
+  0.196,
+  0.363,
+  0.153,
+  0.198,
+  0.191,
+  0.249,
+  0.459,
+  0.223,
+  0.137,
+  0.159,
+  0.157
+ ],
+ "data": "runs\\q3\\q3_temporal_ig_att4.npz"
+}

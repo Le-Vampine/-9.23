@@ -1,0 +1,109 @@
+{
+  "pkl": "d:\\数学建模\\数学建模\\附件2\\unaligned_50.pkl",
+  "size_mb": 2897.0,
+  "top_keys": [
+    "train",
+    "valid",
+    "test"
+  ],
+  "fields": {
+    "train": {
+      "raw_text": "(3395,) <U1662",
+      "audio": "(3395, 500, 74) float64",
+      "vision": "(3395, 500, 35) float64",
+      "id": "(3395,) <U16 (list)",
+      "text_bert": "(3395, 3, 50) int64",
+      "classification_labels": "(3395,) float64",
+      "regression_labels": "(3395,) float64",
+      "text": "(3395, 50, 768) float32",
+      "audio_lengths": "(3395,) int64 (list)",
+      "vision_lengths": "(3395,) int64 (list)"
+    },
+    "valid": {
+      "raw_text": "(728,) <U1570",
+      "audio": "(728, 500, 74) float64",
+      "vision": "(728, 500, 35) float64",
+      "id": "(728,) <U16 (list)",
+      "text_bert": "(728, 3, 50) int64",
+      "classification_labels": "(728,) float64",
+      "regression_labels": "(728,) float64",
+      "text": "(728, 50, 768) float32",
+      "audio_lengths": "(728,) int64 (list)",
+      "vision_lengths": "(728,) int64 (list)"
+    },
+    "test": {
+      "raw_text": "(727,) <U1479",
+      "audio": "(727, 500, 74) float64",
+      "vision": "(727, 500, 35) float64",
+      "id": "(727,) <U16 (list)",
+      "text_bert": "(727, 3, 50) int64",
+      "classification_labels": "(727,) float64",
+      "regression_labels": "(727,) float64",
+      "text": "(727, 50, 768) float32",
+      "audio_lengths": "(727,) int64 (list)",
+      "vision_lengths": "(727,) int64 (list)"
+    }
+  },
+  "parsed": {
+    "train": {
+      "N": 3395,
+      "D": {
+        "text": 768,
+        "audio": 74,
+        "vision": 35
+      },
+      "L": {
+        "text": 50,
+        "audio": 500,
+        "vision": 500
+      },
+      "has_labels": true,
+      "n_with_missing": 0,
+      "ids_sample": [
+        "-3g5yACwYnA$_$4",
+        "-HwX2H8Z4hY$_$3",
+        "-HwX2H8Z4hY$_$9"
+      ]
+    },
+    "valid": {
+      "N": 728,
+      "D": {
+        "text": 768,
+        "audio": 74,
+        "vision": 35
+      },
+      "L": {
+        "text": 50,
+        "audio": 500,
+        "vision": 500
+      },
+      "has_labels": true,
+      "n_with_missing": 0,
+      "ids_sample": [
+        "-UacrmKiTn4$_$7",
+        "-qDkUB0GgYY$_$5",
+        "0utROiKxejc$_$1"
+      ]
+    },
+    "test": {
+      "N": 727,
+      "D": {
+        "text": 768,
+        "audio": 74,
+        "vision": 35
+      },
+      "L": {
+        "text": 50,
+        "audio": 500,
+        "vision": 500
+      },
+      "has_labels": true,
+      "n_with_missing": 0,
+      "ids_sample": [
+        "-AUZQgSxyPQ$_$2",
+        "-HeZS2-Prhc$_$2",
+        "-MeTTeMJBNc$_$0"
+      ]
+    }
+  }
+}

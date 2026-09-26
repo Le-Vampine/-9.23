@@ -1,0 +1,93 @@
+{
+ "n_check": 17,
+ "n_fail": 0,
+ "checks": [
+  {
+   "check": "文件存在",
+   "ok": true,
+   "detail": "submission\\pred_explain_att4.csv"
+  },
+  {
+   "check": "行数=20",
+   "ok": true,
+   "detail": "实为 20"
+  },
+  {
+   "check": "id 顺序与附件4 一致",
+   "ok": true,
+   "detail": "['01', '02', '03', '04']"
+  },
+  {
+   "check": "必需列齐全",
+   "ok": true,
+   "detail": "缺 []"
+  },
+  {
+   "check": "标签与 pred_att4.csv 一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "分数与 pred_att4.csv 一致",
+   "ok": true,
+   "detail": "最大差 0.00e+00"
+  },
+  {
+   "check": "模态作用度之和=1",
+   "ok": true,
+   "detail": "最大偏差 1.00e-04"
+  },
+  {
+   "check": "主模态取值合法",
+   "ok": true,
+   "detail": "['text', 'vision']"
+  },
+  {
+   "check": "文本段号合法",
+   "ok": true,
+   "detail": "越界 0 行"
+  },
+  {
+   "check": "语音时段不超视频时长",
+   "ok": true,
+   "detail": "越界 0 行"
+  },
+  {
+   "check": "含文本证据的样本数>0",
+   "ok": true,
+   "detail": "20/20"
+  },
+  {
+   "check": "关键帧文件有效",
+   "ok": true,
+   "detail": "20/20 张可用"
+  },
+  {
+   "check": "解释卡 JSON 齐全",
+   "ok": true,
+   "detail": "20/20"
+  },
+  {
+   "check": "时间重要性长度=50",
+   "ok": true,
+   "detail": "len=50"
+  },
+  {
+   "check": "时间重要性非负且有界",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "submission 体积 ≤ 50 MB",
+   "ok": true,
+   "detail": "0.41 MB"
+  },
+  {
+   "check": "无身份信息",
+   "ok": true,
+   "detail": "0 处命中"
+  }
+ ],
+ "fails": [],
+ "submission_mb": 0.41
+}

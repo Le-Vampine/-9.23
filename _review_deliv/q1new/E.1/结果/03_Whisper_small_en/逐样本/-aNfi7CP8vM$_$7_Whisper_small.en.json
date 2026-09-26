@@ -1,0 +1,223 @@
+{
+  "sample_id": "-aNfi7CP8vM$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-aNfi7CP8vM$_$7.wav",
+  "audio_sha256": "9008e5f7ec84b6c9a36db45b2bc38679efd7e3ab92ef727614786c43a2177d22",
+  "audio_duration_s": 8.5376875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Maybe they have no political party affiliation, they're not interested in politics, they could care less about politics.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.72,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.72,
+      "text": " Maybe they have no political party affiliation, they're not interested in politics, they could care less about politics.",
+      "no_speech_probability": 0.08272834867238998,
+      "average_log_probability": -0.2007169532775879
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Maybe",
+      "surface": " Maybe",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.68,
+      "probability": 0.5474770665168762
+    },
+    {
+      "word_index": 2,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.9,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.9,
+      "probability": 0.962196946144104
+    },
+    {
+      "word_index": 3,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 0.9,
+      "end_time_wav_s": 1.04,
+      "start_time_source_s": 0.9,
+      "end_time_source_s": 1.04,
+      "probability": 0.9770349264144897
+    },
+    {
+      "word_index": 4,
+      "word": "no",
+      "surface": " no",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 2.06,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 2.06,
+      "probability": 0.6512276530265808
+    },
+    {
+      "word_index": 5,
+      "word": "political",
+      "surface": " political",
+      "start_time_wav_s": 2.06,
+      "end_time_wav_s": 2.44,
+      "start_time_source_s": 2.06,
+      "end_time_source_s": 2.44,
+      "probability": 0.8346759080886841
+    },
+    {
+      "word_index": 6,
+      "word": "party",
+      "surface": " party",
+      "start_time_wav_s": 2.44,
+      "end_time_wav_s": 2.92,
+      "start_time_source_s": 2.44,
+      "end_time_source_s": 2.92,
+      "probability": 0.9942254424095154
+    },
+    {
+      "word_index": 7,
+      "word": "affiliation,",
+      "surface": " affiliation,",
+      "start_time_wav_s": 2.92,
+      "end_time_wav_s": 3.56,
+      "start_time_source_s": 2.92,
+      "end_time_source_s": 3.56,
+      "probability": 0.9951663017272949
+    },
+    {
+      "word_index": 8,
+      "word": "they're",
+      "surface": " they're",
+      "start_time_wav_s": 4.22,
+      "end_time_wav_s": 4.42,
+      "start_time_source_s": 4.22,
+      "end_time_source_s": 4.42,
+      "probability": 0.9540828764438629
+    },
+    {
+      "word_index": 9,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 4.42,
+      "end_time_wav_s": 4.62,
+      "start_time_source_s": 4.42,
+      "end_time_source_s": 4.62,
+      "probability": 0.9993709921836853
+    },
+    {
+      "word_index": 10,
+      "word": "interested",
+      "surface": " interested",
+      "start_time_wav_s": 4.62,
+      "end_time_wav_s": 5.0,
+      "start_time_source_s": 4.62,
+      "end_time_source_s": 5.0,
+      "probability": 0.9922547340393066
+    },
+    {
+      "word_index": 11,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 5.0,
+      "end_time_wav_s": 5.34,
+      "start_time_source_s": 5.0,
+      "end_time_source_s": 5.34,
+      "probability": 0.9983153343200684
+    },
+    {
+      "word_index": 12,
+      "word": "politics,",
+      "surface": " politics,",
+      "start_time_wav_s": 5.34,
+      "end_time_wav_s": 5.64,
+      "start_time_source_s": 5.34,
+      "end_time_source_s": 5.64,
+      "probability": 0.9977310299873352
+    },
+    {
+      "word_index": 13,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 6.0,
+      "end_time_wav_s": 6.12,
+      "start_time_source_s": 6.0,
+      "end_time_source_s": 6.12,
+      "probability": 0.9823656678199768
+    },
+    {
+      "word_index": 14,
+      "word": "could",
+      "surface": " could",
+      "start_time_wav_s": 6.12,
+      "end_time_wav_s": 6.28,
+      "start_time_source_s": 6.12,
+      "end_time_source_s": 6.28,
+      "probability": 0.8453593254089355
+    },
+    {
+      "word_index": 15,
+      "word": "care",
+      "surface": " care",
+      "start_time_wav_s": 6.28,
+      "end_time_wav_s": 6.48,
+      "start_time_source_s": 6.28,
+      "end_time_source_s": 6.48,
+      "probability": 0.9988189339637756
+    },
+    {
+      "word_index": 16,
+      "word": "less",
+      "surface": " less",
+      "start_time_wav_s": 6.48,
+      "end_time_wav_s": 6.76,
+      "start_time_source_s": 6.48,
+      "end_time_source_s": 6.76,
+      "probability": 0.9991970658302307
+    },
+    {
+      "word_index": 17,
+      "word": "about",
+      "surface": " about",
+      "start_time_wav_s": 6.76,
+      "end_time_wav_s": 7.08,
+      "start_time_source_s": 6.76,
+      "end_time_source_s": 7.08,
+      "probability": 0.9993952512741089
+    },
+    {
+      "word_index": 18,
+      "word": "politics.",
+      "surface": " politics.",
+      "start_time_wav_s": 7.08,
+      "end_time_wav_s": 7.72,
+      "start_time_source_s": 7.08,
+      "end_time_source_s": 7.72,
+      "probability": 0.9981212019920349
+    }
+  ],
+  "word_count": 18,
+  "mean_word_probability": 0.9292787031994926,
+  "issues": [],
+  "official_transcript_loaded": false
+}

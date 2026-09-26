@@ -1,0 +1,243 @@
+{
+  "sample_id": "-wny0OAz3g8$_$5",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-wny0OAz3g8$_$5.wav",
+  "audio_sha256": "65dd72a421eb080ecfc18a25c0e9eea58b4e6389e2eae3fc58381b8d44644578",
+  "audio_duration_s": 6.741,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "This is what's now known as racial formation theory, a theory formalized by modern sociologists Michael Omi and Howard Winant.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.16,
+      "text": " This is what's now known as racial formation theory, a theory formalized by modern sociologists Michael Omi and Howard Winant.",
+      "no_speech_probability": 0.010597418993711472,
+      "average_log_probability": -0.2362048577877783
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "This",
+      "surface": " This",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.68,
+      "probability": 0.6443173885345459
+    },
+    {
+      "word_index": 2,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.84,
+      "probability": 0.9929373860359192
+    },
+    {
+      "word_index": 3,
+      "word": "what's",
+      "surface": " what's",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.1,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.1,
+      "probability": 0.9159033894538879
+    },
+    {
+      "word_index": 4,
+      "word": "now",
+      "surface": " now",
+      "start_time_wav_s": 1.1,
+      "end_time_wav_s": 1.24,
+      "start_time_source_s": 1.1,
+      "end_time_source_s": 1.24,
+      "probability": 0.9919345378875732
+    },
+    {
+      "word_index": 5,
+      "word": "known",
+      "surface": " known",
+      "start_time_wav_s": 1.24,
+      "end_time_wav_s": 1.44,
+      "start_time_source_s": 1.24,
+      "end_time_source_s": 1.44,
+      "probability": 0.9913620352745056
+    },
+    {
+      "word_index": 6,
+      "word": "as",
+      "surface": " as",
+      "start_time_wav_s": 1.44,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.44,
+      "end_time_source_s": 1.66,
+      "probability": 0.9970502853393555
+    },
+    {
+      "word_index": 7,
+      "word": "racial",
+      "surface": " racial",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 1.92,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 1.92,
+      "probability": 0.6970123648643494
+    },
+    {
+      "word_index": 8,
+      "word": "formation",
+      "surface": " formation",
+      "start_time_wav_s": 1.92,
+      "end_time_wav_s": 2.28,
+      "start_time_source_s": 1.92,
+      "end_time_source_s": 2.28,
+      "probability": 0.9968405961990356
+    },
+    {
+      "word_index": 9,
+      "word": "theory,",
+      "surface": " theory,",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.76,
+      "probability": 0.9984117746353149
+    },
+    {
+      "word_index": 10,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 3.12,
+      "end_time_wav_s": 3.16,
+      "start_time_source_s": 3.12,
+      "end_time_source_s": 3.16,
+      "probability": 0.9941315054893494
+    },
+    {
+      "word_index": 11,
+      "word": "theory",
+      "surface": " theory",
+      "start_time_wav_s": 3.16,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 3.16,
+      "end_time_source_s": 3.3,
+      "probability": 0.9976300001144409
+    },
+    {
+      "word_index": 12,
+      "word": "formalized",
+      "surface": " formalized",
+      "start_time_wav_s": 3.3,
+      "end_time_wav_s": 3.86,
+      "start_time_source_s": 3.3,
+      "end_time_source_s": 3.86,
+      "probability": 0.9880799949169159
+    },
+    {
+      "word_index": 13,
+      "word": "by",
+      "surface": " by",
+      "start_time_wav_s": 3.86,
+      "end_time_wav_s": 4.04,
+      "start_time_source_s": 3.86,
+      "end_time_source_s": 4.04,
+      "probability": 0.9986662864685059
+    },
+    {
+      "word_index": 14,
+      "word": "modern",
+      "surface": " modern",
+      "start_time_wav_s": 4.04,
+      "end_time_wav_s": 4.3,
+      "start_time_source_s": 4.04,
+      "end_time_source_s": 4.3,
+      "probability": 0.9813916683197021
+    },
+    {
+      "word_index": 15,
+      "word": "sociologists",
+      "surface": " sociologists",
+      "start_time_wav_s": 4.3,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 4.3,
+      "end_time_source_s": 4.86,
+      "probability": 0.9584224621454874
+    },
+    {
+      "word_index": 16,
+      "word": "Michael",
+      "surface": " Michael",
+      "start_time_wav_s": 4.86,
+      "end_time_wav_s": 5.1,
+      "start_time_source_s": 4.86,
+      "end_time_source_s": 5.1,
+      "probability": 0.9284737706184387
+    },
+    {
+      "word_index": 17,
+      "word": "Omi",
+      "surface": " Omi",
+      "start_time_wav_s": 5.1,
+      "end_time_wav_s": 5.44,
+      "start_time_source_s": 5.1,
+      "end_time_source_s": 5.44,
+      "probability": 0.5760663747787476
+    },
+    {
+      "word_index": 18,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 5.44,
+      "end_time_wav_s": 5.62,
+      "start_time_source_s": 5.44,
+      "end_time_source_s": 5.62,
+      "probability": 0.9888598918914795
+    },
+    {
+      "word_index": 19,
+      "word": "Howard",
+      "surface": " Howard",
+      "start_time_wav_s": 5.62,
+      "end_time_wav_s": 5.88,
+      "start_time_source_s": 5.62,
+      "end_time_source_s": 5.88,
+      "probability": 0.9945715069770813
+    },
+    {
+      "word_index": 20,
+      "word": "Winant.",
+      "surface": " Winant.",
+      "start_time_wav_s": 5.88,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 5.88,
+      "end_time_source_s": 6.16,
+      "probability": 0.6454471796751022
+    }
+  ],
+  "word_count": 20,
+  "mean_word_probability": 0.9138755199809869,
+  "issues": [],
+  "official_transcript_loaded": false
+}

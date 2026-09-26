@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "附件2\\aligned_50.pkl",
+   "split": "valid",
+   "n": 728,
+   "width": 3,
+   "stride": 2,
+   "target": "mu"
+  }
+ },
+ "w_occ_sum_mean": [
+  1.1288,
+  0.0201,
+  0.0711
+ ],
+ "data": "runs\\q3\\q3_temporal_occ_valid.npz"
+}

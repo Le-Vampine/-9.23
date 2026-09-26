@@ -1,0 +1,173 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$4",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-s9qJ7ATP7w$_$4.wav",
+  "audio_sha256": "490644fc7ad0f025d1db35d46c873fbd2cc3f701c90dae7f7b20985bd37fc293",
+  "audio_duration_s": 4.246875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "keep going I have lost that everything you can imagine seriously we have",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.98,
+      "text": " keep going I have lost that everything you can imagine seriously we have",
+      "no_speech_probability": 0.13106730580329895,
+      "average_log_probability": -0.31475250609219074
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "keep",
+      "surface": " keep",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.14,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.14,
+      "probability": 0.44035473465919495
+    },
+    {
+      "word_index": 2,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 0.14,
+      "end_time_wav_s": 0.42,
+      "start_time_source_s": 0.14,
+      "end_time_source_s": 0.42,
+      "probability": 0.9738754034042358
+    },
+    {
+      "word_index": 3,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 0.42,
+      "end_time_wav_s": 0.7,
+      "start_time_source_s": 0.42,
+      "end_time_source_s": 0.7,
+      "probability": 0.16996951401233673
+    },
+    {
+      "word_index": 4,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 0.7,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.7,
+      "end_time_source_s": 0.84,
+      "probability": 0.9909987449645996
+    },
+    {
+      "word_index": 5,
+      "word": "lost",
+      "surface": " lost",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.14,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.14,
+      "probability": 0.9918588995933533
+    },
+    {
+      "word_index": 6,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.14,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.14,
+      "end_time_source_s": 1.4,
+      "probability": 0.5900146961212158
+    },
+    {
+      "word_index": 7,
+      "word": "everything",
+      "surface": " everything",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.88,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.88,
+      "probability": 0.9929355978965759
+    },
+    {
+      "word_index": 8,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.88,
+      "end_time_wav_s": 2.24,
+      "start_time_source_s": 1.88,
+      "end_time_source_s": 2.24,
+      "probability": 0.9971246123313904
+    },
+    {
+      "word_index": 9,
+      "word": "can",
+      "surface": " can",
+      "start_time_wav_s": 2.24,
+      "end_time_wav_s": 2.4,
+      "start_time_source_s": 2.24,
+      "end_time_source_s": 2.4,
+      "probability": 0.9992056488990784
+    },
+    {
+      "word_index": 10,
+      "word": "imagine",
+      "surface": " imagine",
+      "start_time_wav_s": 2.4,
+      "end_time_wav_s": 2.8,
+      "start_time_source_s": 2.4,
+      "end_time_source_s": 2.8,
+      "probability": 0.996483564376831
+    },
+    {
+      "word_index": 11,
+      "word": "seriously",
+      "surface": " seriously",
+      "start_time_wav_s": 2.8,
+      "end_time_wav_s": 3.2,
+      "start_time_source_s": 2.8,
+      "end_time_source_s": 3.2,
+      "probability": 0.7959893941879272
+    },
+    {
+      "word_index": 12,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 3.2,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.2,
+      "end_time_source_s": 3.68,
+      "probability": 0.9782938957214355
+    },
+    {
+      "word_index": 13,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.98,
+      "probability": 0.9981372356414795
+    }
+  ],
+  "word_count": 13,
+  "mean_word_probability": 0.8396339955238196,
+  "issues": [],
+  "official_transcript_loaded": false
+}

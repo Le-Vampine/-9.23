@@ -1,0 +1,22 @@
+% 把问题二网络结构图编成独立 PDF（供 main.tex 以图片引入）
+% 编译：xelatex -interaction=nonstopmode -halt-on-error _build_Q2_net.tex
+\documentclass[border=3pt]{standalone}
+\usepackage[fontset=none]{ctex}
+\IfFontExistsTF{SimSun}{\setCJKmainfont{SimSun}[BoldFont=SimHei]}{%
+  \IfFontExistsTF{Songti SC}{\setCJKmainfont{Songti SC}}{%
+  \IfFontExistsTF{Noto Serif CJK SC}{\setCJKmainfont{Noto Serif CJK SC}}{%
+  \setCJKmainfont{FandolSong-Regular}[Extension=.otf]}}}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{Liberation Serif}{\setmainfont{Liberation Serif}}{%
+  \IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{}}}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,calc}
+\usepackage{graphicx}
+% 与全文一致的配色：冷色做主体，朱红仅用于强调核心层
+\definecolor{accent}{RGB}{59,95,138}
+\definecolor{accentdark}{RGB}{45,74,110}
+\definecolor{mint}{RGB}{74,124,89}
+\begin{document}
+\input{Q2_网络结构图_body.tex}
+\end{document}

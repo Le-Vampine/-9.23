@@ -1,0 +1,313 @@
+{
+  "sample_id": "-wny0OAz3g8$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-wny0OAz3g8$_$2.wav",
+  "audio_sha256": "f932d228f3933ad0a1012242c9b83ba01dc83852fa0d34f1abd3af9984c64be0",
+  "audio_duration_s": 6.5226875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "service work. And because they couldn't get these jobs, black communities had more men out of work, higher rates of poverty, and more criminal behavior.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.48,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.48,
+      "text": " service work.",
+      "no_speech_probability": 0.009496544487774372,
+      "average_log_probability": -0.18019578370608783
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 0.56,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 0.56,
+      "end_time_source_s": 3.68,
+      "text": " And because they couldn't get these jobs, black communities had more men out of work,",
+      "no_speech_probability": 0.009496544487774372,
+      "average_log_probability": -0.18019578370608783
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 4.02,
+      "end_time_wav_s": 5.88,
+      "start_time_source_s": 4.02,
+      "end_time_source_s": 5.88,
+      "text": " higher rates of poverty, and more criminal behavior.",
+      "no_speech_probability": 0.009496544487774372,
+      "average_log_probability": -0.18019578370608783
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "service",
+      "surface": " service",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.22,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.22,
+      "probability": 0.5453165173530579
+    },
+    {
+      "word_index": 2,
+      "word": "work.",
+      "surface": " work.",
+      "start_time_wav_s": 0.22,
+      "end_time_wav_s": 0.48,
+      "start_time_source_s": 0.22,
+      "end_time_source_s": 0.48,
+      "probability": 0.9764246940612793
+    },
+    {
+      "word_index": 3,
+      "word": "And",
+      "surface": " And",
+      "start_time_wav_s": 0.56,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.56,
+      "end_time_source_s": 0.64,
+      "probability": 0.9707150459289551
+    },
+    {
+      "word_index": 4,
+      "word": "because",
+      "surface": " because",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 0.94,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 0.94,
+      "probability": 0.9673652052879333
+    },
+    {
+      "word_index": 5,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 0.94,
+      "end_time_wav_s": 1.12,
+      "start_time_source_s": 0.94,
+      "end_time_source_s": 1.12,
+      "probability": 0.9961395859718323
+    },
+    {
+      "word_index": 6,
+      "word": "couldn't",
+      "surface": " couldn't",
+      "start_time_wav_s": 1.12,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 1.12,
+      "end_time_source_s": 1.32,
+      "probability": 0.9953551888465881
+    },
+    {
+      "word_index": 7,
+      "word": "get",
+      "surface": " get",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.44,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.44,
+      "probability": 0.9976676106452942
+    },
+    {
+      "word_index": 8,
+      "word": "these",
+      "surface": " these",
+      "start_time_wav_s": 1.44,
+      "end_time_wav_s": 1.62,
+      "start_time_source_s": 1.44,
+      "end_time_source_s": 1.62,
+      "probability": 0.9792201519012451
+    },
+    {
+      "word_index": 9,
+      "word": "jobs,",
+      "surface": " jobs,",
+      "start_time_wav_s": 1.62,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.62,
+      "end_time_source_s": 1.96,
+      "probability": 0.9959213733673096
+    },
+    {
+      "word_index": 10,
+      "word": "black",
+      "surface": " black",
+      "start_time_wav_s": 2.34,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.34,
+      "end_time_source_s": 2.36,
+      "probability": 0.7389523983001709
+    },
+    {
+      "word_index": 11,
+      "word": "communities",
+      "surface": " communities",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.64,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.64,
+      "probability": 0.9953574538230896
+    },
+    {
+      "word_index": 12,
+      "word": "had",
+      "surface": " had",
+      "start_time_wav_s": 2.64,
+      "end_time_wav_s": 2.9,
+      "start_time_source_s": 2.64,
+      "end_time_source_s": 2.9,
+      "probability": 0.9970554113388062
+    },
+    {
+      "word_index": 13,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 2.9,
+      "end_time_wav_s": 3.08,
+      "start_time_source_s": 2.9,
+      "end_time_source_s": 3.08,
+      "probability": 0.9981073141098022
+    },
+    {
+      "word_index": 14,
+      "word": "men",
+      "surface": " men",
+      "start_time_wav_s": 3.08,
+      "end_time_wav_s": 3.24,
+      "start_time_source_s": 3.08,
+      "end_time_source_s": 3.24,
+      "probability": 0.9934161901473999
+    },
+    {
+      "word_index": 15,
+      "word": "out",
+      "surface": " out",
+      "start_time_wav_s": 3.24,
+      "end_time_wav_s": 3.38,
+      "start_time_source_s": 3.24,
+      "end_time_source_s": 3.38,
+      "probability": 0.995663583278656
+    },
+    {
+      "word_index": 16,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 3.38,
+      "end_time_wav_s": 3.48,
+      "start_time_source_s": 3.38,
+      "end_time_source_s": 3.48,
+      "probability": 0.9937258362770081
+    },
+    {
+      "word_index": 17,
+      "word": "work,",
+      "surface": " work,",
+      "start_time_wav_s": 3.48,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.48,
+      "end_time_source_s": 3.68,
+      "probability": 0.9972935318946838
+    },
+    {
+      "word_index": 18,
+      "word": "higher",
+      "surface": " higher",
+      "start_time_wav_s": 4.02,
+      "end_time_wav_s": 4.16,
+      "start_time_source_s": 4.02,
+      "end_time_source_s": 4.16,
+      "probability": 0.9966539144515991
+    },
+    {
+      "word_index": 19,
+      "word": "rates",
+      "surface": " rates",
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 4.36,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 4.36,
+      "probability": 0.997638463973999
+    },
+    {
+      "word_index": 20,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 4.36,
+      "end_time_wav_s": 4.48,
+      "start_time_source_s": 4.36,
+      "end_time_source_s": 4.48,
+      "probability": 0.9992456436157227
+    },
+    {
+      "word_index": 21,
+      "word": "poverty,",
+      "surface": " poverty,",
+      "start_time_wav_s": 4.48,
+      "end_time_wav_s": 4.78,
+      "start_time_source_s": 4.48,
+      "end_time_source_s": 4.78,
+      "probability": 0.9993632435798645
+    },
+    {
+      "word_index": 22,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.96,
+      "end_time_wav_s": 5.06,
+      "start_time_source_s": 4.96,
+      "end_time_source_s": 5.06,
+      "probability": 0.9969226717948914
+    },
+    {
+      "word_index": 23,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 5.06,
+      "end_time_wav_s": 5.22,
+      "start_time_source_s": 5.06,
+      "end_time_source_s": 5.22,
+      "probability": 0.9970056414604187
+    },
+    {
+      "word_index": 24,
+      "word": "criminal",
+      "surface": " criminal",
+      "start_time_wav_s": 5.22,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 5.22,
+      "end_time_source_s": 5.52,
+      "probability": 0.9980100989341736
+    },
+    {
+      "word_index": 25,
+      "word": "behavior.",
+      "surface": " behavior.",
+      "start_time_wav_s": 5.52,
+      "end_time_wav_s": 5.88,
+      "start_time_source_s": 5.52,
+      "end_time_source_s": 5.88,
+      "probability": 0.9802548289299011
+    }
+  ],
+  "word_count": 25,
+  "mean_word_probability": 0.9639516639709472,
+  "issues": [],
+  "official_transcript_loaded": false
+}

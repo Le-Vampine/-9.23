@@ -1,0 +1,373 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$7",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-MeTTeMJBNc$_$7.wav",
+  "audio_sha256": "2a9dd82f6d517b5a56a558b70b20b1c5c4de1716cd14165c58f5d3677ec823a8",
+  "audio_duration_s": 10.4113125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Maybe you could find a picture of the couple from their wedding or some time in their life or maybe even a current picture and have it put in a beautiful frame.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 6.02,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 6.02,
+      "text": " Maybe you could find a picture of the couple from their wedding or some time in their life",
+      "no_speech_probability": 0.06197557970881462,
+      "average_log_probability": -0.1638861447572708
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 6.02,
+      "end_time_wav_s": 9.7,
+      "start_time_source_s": 6.02,
+      "end_time_source_s": 9.7,
+      "text": " or maybe even a current picture and have it put in a beautiful frame.",
+      "no_speech_probability": 0.06197557970881462,
+      "average_log_probability": -0.1638861447572708
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Maybe",
+      "surface": " Maybe",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.66,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.66,
+      "probability": 0.6682290434837341
+    },
+    {
+      "word_index": 2,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 0.66,
+      "end_time_wav_s": 0.9,
+      "start_time_source_s": 0.66,
+      "end_time_source_s": 0.9,
+      "probability": 0.9821351766586304
+    },
+    {
+      "word_index": 3,
+      "word": "could",
+      "surface": " could",
+      "start_time_wav_s": 0.9,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.9,
+      "end_time_source_s": 1.16,
+      "probability": 0.9770520925521851
+    },
+    {
+      "word_index": 4,
+      "word": "find",
+      "surface": " find",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.8,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.8,
+      "probability": 0.9899057745933533
+    },
+    {
+      "word_index": 5,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.8,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.8,
+      "end_time_source_s": 2.0,
+      "probability": 0.9955136179924011
+    },
+    {
+      "word_index": 6,
+      "word": "picture",
+      "surface": " picture",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.2,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.2,
+      "probability": 0.9975971579551697
+    },
+    {
+      "word_index": 7,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.2,
+      "end_time_wav_s": 2.54,
+      "start_time_source_s": 2.2,
+      "end_time_source_s": 2.54,
+      "probability": 0.9755891561508179
+    },
+    {
+      "word_index": 8,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 2.54,
+      "end_time_wav_s": 2.66,
+      "start_time_source_s": 2.54,
+      "end_time_source_s": 2.66,
+      "probability": 0.9827290773391724
+    },
+    {
+      "word_index": 9,
+      "word": "couple",
+      "surface": " couple",
+      "start_time_wav_s": 2.66,
+      "end_time_wav_s": 2.94,
+      "start_time_source_s": 2.66,
+      "end_time_source_s": 2.94,
+      "probability": 0.9983870983123779
+    },
+    {
+      "word_index": 10,
+      "word": "from",
+      "surface": " from",
+      "start_time_wav_s": 2.94,
+      "end_time_wav_s": 3.36,
+      "start_time_source_s": 2.94,
+      "end_time_source_s": 3.36,
+      "probability": 0.9717920422554016
+    },
+    {
+      "word_index": 11,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 3.36,
+      "end_time_wav_s": 3.86,
+      "start_time_source_s": 3.36,
+      "end_time_source_s": 3.86,
+      "probability": 0.9938321113586426
+    },
+    {
+      "word_index": 12,
+      "word": "wedding",
+      "surface": " wedding",
+      "start_time_wav_s": 3.86,
+      "end_time_wav_s": 4.26,
+      "start_time_source_s": 3.86,
+      "end_time_source_s": 4.26,
+      "probability": 0.9987244009971619
+    },
+    {
+      "word_index": 13,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 4.26,
+      "end_time_wav_s": 4.74,
+      "start_time_source_s": 4.26,
+      "end_time_source_s": 4.74,
+      "probability": 0.7367902994155884
+    },
+    {
+      "word_index": 14,
+      "word": "some",
+      "surface": " some",
+      "start_time_wav_s": 4.74,
+      "end_time_wav_s": 5.04,
+      "start_time_source_s": 4.74,
+      "end_time_source_s": 5.04,
+      "probability": 0.2836836576461792
+    },
+    {
+      "word_index": 15,
+      "word": "time",
+      "surface": " time",
+      "start_time_wav_s": 5.04,
+      "end_time_wav_s": 5.3,
+      "start_time_source_s": 5.04,
+      "end_time_source_s": 5.3,
+      "probability": 0.9945557117462158
+    },
+    {
+      "word_index": 16,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 5.3,
+      "end_time_wav_s": 5.48,
+      "start_time_source_s": 5.3,
+      "end_time_source_s": 5.48,
+      "probability": 0.9903241395950317
+    },
+    {
+      "word_index": 17,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 5.48,
+      "end_time_wav_s": 5.6,
+      "start_time_source_s": 5.48,
+      "end_time_source_s": 5.6,
+      "probability": 0.9953842759132385
+    },
+    {
+      "word_index": 18,
+      "word": "life",
+      "surface": " life",
+      "start_time_wav_s": 5.6,
+      "end_time_wav_s": 6.02,
+      "start_time_source_s": 5.6,
+      "end_time_source_s": 6.02,
+      "probability": 0.9815467596054077
+    },
+    {
+      "word_index": 19,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 6.02,
+      "end_time_wav_s": 6.22,
+      "start_time_source_s": 6.02,
+      "end_time_source_s": 6.22,
+      "probability": 0.5319496393203735
+    },
+    {
+      "word_index": 20,
+      "word": "maybe",
+      "surface": " maybe",
+      "start_time_wav_s": 6.22,
+      "end_time_wav_s": 6.4,
+      "start_time_source_s": 6.22,
+      "end_time_source_s": 6.4,
+      "probability": 0.9872912764549255
+    },
+    {
+      "word_index": 21,
+      "word": "even",
+      "surface": " even",
+      "start_time_wav_s": 6.4,
+      "end_time_wav_s": 6.68,
+      "start_time_source_s": 6.4,
+      "end_time_source_s": 6.68,
+      "probability": 0.9895254373550415
+    },
+    {
+      "word_index": 22,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 6.68,
+      "end_time_wav_s": 6.88,
+      "start_time_source_s": 6.68,
+      "end_time_source_s": 6.88,
+      "probability": 0.9886828064918518
+    },
+    {
+      "word_index": 23,
+      "word": "current",
+      "surface": " current",
+      "start_time_wav_s": 6.88,
+      "end_time_wav_s": 7.22,
+      "start_time_source_s": 6.88,
+      "end_time_source_s": 7.22,
+      "probability": 0.995465874671936
+    },
+    {
+      "word_index": 24,
+      "word": "picture",
+      "surface": " picture",
+      "start_time_wav_s": 7.22,
+      "end_time_wav_s": 7.72,
+      "start_time_source_s": 7.22,
+      "end_time_source_s": 7.72,
+      "probability": 0.9978469610214233
+    },
+    {
+      "word_index": 25,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 7.72,
+      "end_time_wav_s": 8.26,
+      "start_time_source_s": 7.72,
+      "end_time_source_s": 8.26,
+      "probability": 0.955118715763092
+    },
+    {
+      "word_index": 26,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 8.26,
+      "end_time_wav_s": 8.42,
+      "start_time_source_s": 8.26,
+      "end_time_source_s": 8.42,
+      "probability": 0.9899638295173645
+    },
+    {
+      "word_index": 27,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 8.42,
+      "end_time_wav_s": 8.56,
+      "start_time_source_s": 8.42,
+      "end_time_source_s": 8.56,
+      "probability": 0.9841867089271545
+    },
+    {
+      "word_index": 28,
+      "word": "put",
+      "surface": " put",
+      "start_time_wav_s": 8.56,
+      "end_time_wav_s": 8.7,
+      "start_time_source_s": 8.56,
+      "end_time_source_s": 8.7,
+      "probability": 0.9968166947364807
+    },
+    {
+      "word_index": 29,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 8.7,
+      "end_time_wav_s": 8.82,
+      "start_time_source_s": 8.7,
+      "end_time_source_s": 8.82,
+      "probability": 0.9905142784118652
+    },
+    {
+      "word_index": 30,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 8.82,
+      "end_time_wav_s": 8.94,
+      "start_time_source_s": 8.82,
+      "end_time_source_s": 8.94,
+      "probability": 0.9851443767547607
+    },
+    {
+      "word_index": 31,
+      "word": "beautiful",
+      "surface": " beautiful",
+      "start_time_wav_s": 8.94,
+      "end_time_wav_s": 9.2,
+      "start_time_source_s": 8.94,
+      "end_time_source_s": 9.2,
+      "probability": 0.9986923336982727
+    },
+    {
+      "word_index": 32,
+      "word": "frame.",
+      "surface": " frame.",
+      "start_time_wav_s": 9.2,
+      "end_time_wav_s": 9.7,
+      "start_time_source_s": 9.2,
+      "end_time_source_s": 9.7,
+      "probability": 0.9989470839500427
+    }
+  ],
+  "word_count": 32,
+  "mean_word_probability": 0.9344974253326654,
+  "issues": [],
+  "official_transcript_loaded": false
+}

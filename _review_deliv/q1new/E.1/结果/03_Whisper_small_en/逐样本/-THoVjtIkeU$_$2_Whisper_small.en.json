@@ -1,0 +1,143 @@
+{
+  "sample_id": "-THoVjtIkeU$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-THoVjtIkeU$_$2.wav",
+  "audio_sha256": "d23531e26b790a3d88958fd589b56be32f0f72e04e2ba431110d3b647831683a",
+  "audio_duration_s": 4.23,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "I think social justice is extremely important for young people.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.58,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.58,
+      "text": " I think social justice is extremely important for young people.",
+      "no_speech_probability": 0.0017846116097643971,
+      "average_log_probability": -0.23537444003990718
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.1,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.1,
+      "probability": 0.8890025019645691
+    },
+    {
+      "word_index": 2,
+      "word": "think",
+      "surface": " think",
+      "start_time_wav_s": 0.1,
+      "end_time_wav_s": 0.4,
+      "start_time_source_s": 0.1,
+      "end_time_source_s": 0.4,
+      "probability": 0.9992702603340149
+    },
+    {
+      "word_index": 3,
+      "word": "social",
+      "surface": " social",
+      "start_time_wav_s": 0.4,
+      "end_time_wav_s": 1.36,
+      "start_time_source_s": 0.4,
+      "end_time_source_s": 1.36,
+      "probability": 0.9299202561378479
+    },
+    {
+      "word_index": 4,
+      "word": "justice",
+      "surface": " justice",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 1.66,
+      "probability": 0.9976098537445068
+    },
+    {
+      "word_index": 5,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 1.92,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 1.92,
+      "probability": 0.9986479878425598
+    },
+    {
+      "word_index": 6,
+      "word": "extremely",
+      "surface": " extremely",
+      "start_time_wav_s": 1.92,
+      "end_time_wav_s": 2.24,
+      "start_time_source_s": 1.92,
+      "end_time_source_s": 2.24,
+      "probability": 0.9966673254966736
+    },
+    {
+      "word_index": 7,
+      "word": "important",
+      "surface": " important",
+      "start_time_wav_s": 2.24,
+      "end_time_wav_s": 2.7,
+      "start_time_source_s": 2.24,
+      "end_time_source_s": 2.7,
+      "probability": 0.9991833567619324
+    },
+    {
+      "word_index": 8,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 2.7,
+      "end_time_wav_s": 2.98,
+      "start_time_source_s": 2.7,
+      "end_time_source_s": 2.98,
+      "probability": 0.9957025647163391
+    },
+    {
+      "word_index": 9,
+      "word": "young",
+      "surface": " young",
+      "start_time_wav_s": 2.98,
+      "end_time_wav_s": 3.2,
+      "start_time_source_s": 2.98,
+      "end_time_source_s": 3.2,
+      "probability": 0.9962693452835083
+    },
+    {
+      "word_index": 10,
+      "word": "people.",
+      "surface": " people.",
+      "start_time_wav_s": 3.2,
+      "end_time_wav_s": 3.58,
+      "start_time_source_s": 3.2,
+      "end_time_source_s": 3.58,
+      "probability": 0.9995260238647461
+    }
+  ],
+  "word_count": 10,
+  "mean_word_probability": 0.9801799476146698,
+  "issues": [],
+  "official_transcript_loaded": false
+}

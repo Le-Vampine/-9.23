@@ -1,0 +1,263 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-MeTTeMJBNc$_$0.wav",
+  "audio_sha256": "76b07be7e0728143032ae5a103352023325da3e2216521385788b663e30d2cdb",
+  "audio_duration_s": 9.218,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Okay, what happens at this point after we've taken this brief walk down memory lane is the presentation of the gift.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.84,
+      "text": " Okay, what happens at this point after we've taken this brief walk down memory",
+      "no_speech_probability": 0.01842338964343071,
+      "average_log_probability": -0.19149031515779166
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.84,
+      "end_time_wav_s": 8.44,
+      "start_time_source_s": 5.84,
+      "end_time_source_s": 8.44,
+      "text": " lane is the presentation of the gift.",
+      "no_speech_probability": 0.01842338964343071,
+      "average_log_probability": -0.19149031515779166
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Okay,",
+      "surface": " Okay,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 1.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 1.2,
+      "probability": 0.5601513385772705
+    },
+    {
+      "word_index": 2,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 1.52,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 1.52,
+      "probability": 0.9898994565010071
+    },
+    {
+      "word_index": 3,
+      "word": "happens",
+      "surface": " happens",
+      "start_time_wav_s": 1.52,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.52,
+      "end_time_source_s": 2.0,
+      "probability": 0.9964807629585266
+    },
+    {
+      "word_index": 4,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.26,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.26,
+      "probability": 0.9905713796615601
+    },
+    {
+      "word_index": 5,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 2.26,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.26,
+      "end_time_source_s": 2.52,
+      "probability": 0.9990037083625793
+    },
+    {
+      "word_index": 6,
+      "word": "point",
+      "surface": " point",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.88,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.88,
+      "probability": 0.9991974234580994
+    },
+    {
+      "word_index": 7,
+      "word": "after",
+      "surface": " after",
+      "start_time_wav_s": 2.88,
+      "end_time_wav_s": 3.36,
+      "start_time_source_s": 2.88,
+      "end_time_source_s": 3.36,
+      "probability": 0.7993671298027039
+    },
+    {
+      "word_index": 8,
+      "word": "we've",
+      "surface": " we've",
+      "start_time_wav_s": 3.36,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.36,
+      "end_time_source_s": 3.68,
+      "probability": 0.9373135268688202
+    },
+    {
+      "word_index": 9,
+      "word": "taken",
+      "surface": " taken",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.92,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.92,
+      "probability": 0.995236337184906
+    },
+    {
+      "word_index": 10,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 3.92,
+      "end_time_wav_s": 4.26,
+      "start_time_source_s": 3.92,
+      "end_time_source_s": 4.26,
+      "probability": 0.9970525503158569
+    },
+    {
+      "word_index": 11,
+      "word": "brief",
+      "surface": " brief",
+      "start_time_wav_s": 4.26,
+      "end_time_wav_s": 4.66,
+      "start_time_source_s": 4.26,
+      "end_time_source_s": 4.66,
+      "probability": 0.9951437711715698
+    },
+    {
+      "word_index": 12,
+      "word": "walk",
+      "surface": " walk",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 5.1,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 5.1,
+      "probability": 0.9985418319702148
+    },
+    {
+      "word_index": 13,
+      "word": "down",
+      "surface": " down",
+      "start_time_wav_s": 5.1,
+      "end_time_wav_s": 5.46,
+      "start_time_source_s": 5.1,
+      "end_time_source_s": 5.46,
+      "probability": 0.9929121136665344
+    },
+    {
+      "word_index": 14,
+      "word": "memory",
+      "surface": " memory",
+      "start_time_wav_s": 5.46,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 5.46,
+      "end_time_source_s": 5.84,
+      "probability": 0.9814305901527405
+    },
+    {
+      "word_index": 15,
+      "word": "lane",
+      "surface": " lane",
+      "start_time_wav_s": 5.84,
+      "end_time_wav_s": 6.32,
+      "start_time_source_s": 5.84,
+      "end_time_source_s": 6.32,
+      "probability": 0.995576024055481
+    },
+    {
+      "word_index": 16,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 6.32,
+      "end_time_wav_s": 6.9,
+      "start_time_source_s": 6.32,
+      "end_time_source_s": 6.9,
+      "probability": 0.8313891887664795
+    },
+    {
+      "word_index": 17,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 6.9,
+      "end_time_wav_s": 7.1,
+      "start_time_source_s": 6.9,
+      "end_time_source_s": 7.1,
+      "probability": 0.9971151351928711
+    },
+    {
+      "word_index": 18,
+      "word": "presentation",
+      "surface": " presentation",
+      "start_time_wav_s": 7.1,
+      "end_time_wav_s": 7.54,
+      "start_time_source_s": 7.1,
+      "end_time_source_s": 7.54,
+      "probability": 0.9959577918052673
+    },
+    {
+      "word_index": 19,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 7.54,
+      "end_time_wav_s": 8.0,
+      "start_time_source_s": 7.54,
+      "end_time_source_s": 8.0,
+      "probability": 0.998299777507782
+    },
+    {
+      "word_index": 20,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 8.0,
+      "end_time_wav_s": 8.18,
+      "start_time_source_s": 8.0,
+      "end_time_source_s": 8.18,
+      "probability": 0.9086568355560303
+    },
+    {
+      "word_index": 21,
+      "word": "gift.",
+      "surface": " gift.",
+      "start_time_wav_s": 8.18,
+      "end_time_wav_s": 8.44,
+      "start_time_source_s": 8.18,
+      "end_time_source_s": 8.44,
+      "probability": 0.7065885066986084
+    }
+  ],
+  "word_count": 21,
+  "mean_word_probability": 0.936470722868329,
+  "issues": [],
+  "official_transcript_loaded": false
+}

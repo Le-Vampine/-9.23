@@ -1,0 +1,233 @@
+{
+  "sample_id": "-lzEya4AM_4$_$5",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-lzEya4AM_4$_$5.wav",
+  "audio_sha256": "8ca981817ebaf638ea89b82d148575efc18e1fa617da5326fb7b0b536dece9c5",
+  "audio_duration_s": 7.5696875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "If it falls into any of those three categories, inducing, nausea and vomiting would be your next step.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.88,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.88,
+      "text": " If it falls into any of those three categories,",
+      "no_speech_probability": 0.006011807359755039,
+      "average_log_probability": -0.22961881298285264
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 7.04,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 7.04,
+      "text": " inducing, nausea and vomiting would be your next step.",
+      "no_speech_probability": 0.006011807359755039,
+      "average_log_probability": -0.22961881298285264
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "If",
+      "surface": " If",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.6,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.6,
+      "probability": 0.8859710693359375
+    },
+    {
+      "word_index": 2,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.72,
+      "probability": 0.993889570236206
+    },
+    {
+      "word_index": 3,
+      "word": "falls",
+      "surface": " falls",
+      "start_time_wav_s": 0.72,
+      "end_time_wav_s": 0.94,
+      "start_time_source_s": 0.72,
+      "end_time_source_s": 0.94,
+      "probability": 0.9952384233474731
+    },
+    {
+      "word_index": 4,
+      "word": "into",
+      "surface": " into",
+      "start_time_wav_s": 0.94,
+      "end_time_wav_s": 1.24,
+      "start_time_source_s": 0.94,
+      "end_time_source_s": 1.24,
+      "probability": 0.9636890888214111
+    },
+    {
+      "word_index": 5,
+      "word": "any",
+      "surface": " any",
+      "start_time_wav_s": 1.24,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.24,
+      "end_time_source_s": 1.7,
+      "probability": 0.9661457538604736
+    },
+    {
+      "word_index": 6,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 1.9,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 1.9,
+      "probability": 0.9911062121391296
+    },
+    {
+      "word_index": 7,
+      "word": "those",
+      "surface": " those",
+      "start_time_wav_s": 1.9,
+      "end_time_wav_s": 2.06,
+      "start_time_source_s": 1.9,
+      "end_time_source_s": 2.06,
+      "probability": 0.9887863397598267
+    },
+    {
+      "word_index": 8,
+      "word": "three",
+      "surface": " three",
+      "start_time_wav_s": 2.06,
+      "end_time_wav_s": 2.28,
+      "start_time_source_s": 2.06,
+      "end_time_source_s": 2.28,
+      "probability": 0.9467026591300964
+    },
+    {
+      "word_index": 9,
+      "word": "categories,",
+      "surface": " categories,",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.88,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.88,
+      "probability": 0.9960177540779114
+    },
+    {
+      "word_index": 10,
+      "word": "inducing,",
+      "surface": " inducing,",
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 4.76,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 4.76,
+      "probability": 0.920320987701416
+    },
+    {
+      "word_index": 11,
+      "word": "nausea",
+      "surface": " nausea",
+      "start_time_wav_s": 4.76,
+      "end_time_wav_s": 5.36,
+      "start_time_source_s": 4.76,
+      "end_time_source_s": 5.36,
+      "probability": 0.858155369758606
+    },
+    {
+      "word_index": 12,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 5.36,
+      "end_time_wav_s": 5.56,
+      "start_time_source_s": 5.36,
+      "end_time_source_s": 5.56,
+      "probability": 0.5435306429862976
+    },
+    {
+      "word_index": 13,
+      "word": "vomiting",
+      "surface": " vomiting",
+      "start_time_wav_s": 5.56,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 5.56,
+      "end_time_source_s": 5.9,
+      "probability": 0.9995459914207458
+    },
+    {
+      "word_index": 14,
+      "word": "would",
+      "surface": " would",
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 6.34,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 6.34,
+      "probability": 0.9527908563613892
+    },
+    {
+      "word_index": 15,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 6.34,
+      "end_time_wav_s": 6.48,
+      "start_time_source_s": 6.34,
+      "end_time_source_s": 6.48,
+      "probability": 0.9987988471984863
+    },
+    {
+      "word_index": 16,
+      "word": "your",
+      "surface": " your",
+      "start_time_wav_s": 6.48,
+      "end_time_wav_s": 6.58,
+      "start_time_source_s": 6.48,
+      "end_time_source_s": 6.58,
+      "probability": 0.9901006817817688
+    },
+    {
+      "word_index": 17,
+      "word": "next",
+      "surface": " next",
+      "start_time_wav_s": 6.58,
+      "end_time_wav_s": 6.78,
+      "start_time_source_s": 6.58,
+      "end_time_source_s": 6.78,
+      "probability": 0.9981507658958435
+    },
+    {
+      "word_index": 18,
+      "word": "step.",
+      "surface": " step.",
+      "start_time_wav_s": 6.78,
+      "end_time_wav_s": 7.04,
+      "start_time_source_s": 6.78,
+      "end_time_source_s": 7.04,
+      "probability": 0.9992960691452026
+    }
+  ],
+  "word_count": 18,
+  "mean_word_probability": 0.9437909490532346,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,233 @@
+{
+  "sample_id": "-3nNcZdcdvU$_$5",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-3nNcZdcdvU$_$5.wav",
+  "audio_sha256": "190541aa1e792db8d2606f66f94a3f3141c4dadfef2d8cbe3da6939806244319",
+  "audio_duration_s": 7.788,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Non-compliance can result in legal liability to you and to the school district in which you are employed.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.12,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.12,
+      "text": " Non-compliance can result in legal liability to you and to the school district in which you are employed.",
+      "no_speech_probability": 0.005584877450019121,
+      "average_log_probability": -0.2649041824042797
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Non",
+      "surface": " Non",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.8,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.8,
+      "probability": 0.9389265179634094
+    },
+    {
+      "word_index": 2,
+      "word": "-compliance",
+      "surface": "-compliance",
+      "start_time_wav_s": 0.8,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 0.8,
+      "end_time_source_s": 1.32,
+      "probability": 0.7415957152843475
+    },
+    {
+      "word_index": 3,
+      "word": "can",
+      "surface": " can",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.86,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.86,
+      "probability": 0.9964467883110046
+    },
+    {
+      "word_index": 4,
+      "word": "result",
+      "surface": " result",
+      "start_time_wav_s": 1.86,
+      "end_time_wav_s": 2.4,
+      "start_time_source_s": 1.86,
+      "end_time_source_s": 2.4,
+      "probability": 0.4182482957839966
+    },
+    {
+      "word_index": 5,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 2.4,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.4,
+      "end_time_source_s": 2.76,
+      "probability": 0.99603670835495
+    },
+    {
+      "word_index": 6,
+      "word": "legal",
+      "surface": " legal",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 3.0,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 3.0,
+      "probability": 0.9920410513877869
+    },
+    {
+      "word_index": 7,
+      "word": "liability",
+      "surface": " liability",
+      "start_time_wav_s": 3.0,
+      "end_time_wav_s": 3.58,
+      "start_time_source_s": 3.0,
+      "end_time_source_s": 3.58,
+      "probability": 0.998849630355835
+    },
+    {
+      "word_index": 8,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.58,
+      "end_time_wav_s": 4.16,
+      "start_time_source_s": 3.58,
+      "end_time_source_s": 4.16,
+      "probability": 0.9965576529502869
+    },
+    {
+      "word_index": 9,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 4.54,
+      "probability": 0.9971808195114136
+    },
+    {
+      "word_index": 10,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 5.14,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 5.14,
+      "probability": 0.9168689250946045
+    },
+    {
+      "word_index": 11,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 5.14,
+      "end_time_wav_s": 5.38,
+      "start_time_source_s": 5.14,
+      "end_time_source_s": 5.38,
+      "probability": 0.9649480581283569
+    },
+    {
+      "word_index": 12,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 5.38,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 5.38,
+      "end_time_source_s": 5.52,
+      "probability": 0.9926732182502747
+    },
+    {
+      "word_index": 13,
+      "word": "school",
+      "surface": " school",
+      "start_time_wav_s": 5.52,
+      "end_time_wav_s": 5.72,
+      "start_time_source_s": 5.52,
+      "end_time_source_s": 5.72,
+      "probability": 0.9646692872047424
+    },
+    {
+      "word_index": 14,
+      "word": "district",
+      "surface": " district",
+      "start_time_wav_s": 5.72,
+      "end_time_wav_s": 6.06,
+      "start_time_source_s": 5.72,
+      "end_time_source_s": 6.06,
+      "probability": 0.9975152015686035
+    },
+    {
+      "word_index": 15,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 6.06,
+      "end_time_wav_s": 6.28,
+      "start_time_source_s": 6.06,
+      "end_time_source_s": 6.28,
+      "probability": 0.9882602691650391
+    },
+    {
+      "word_index": 16,
+      "word": "which",
+      "surface": " which",
+      "start_time_wav_s": 6.28,
+      "end_time_wav_s": 6.4,
+      "start_time_source_s": 6.28,
+      "end_time_source_s": 6.4,
+      "probability": 0.997564435005188
+    },
+    {
+      "word_index": 17,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 6.4,
+      "end_time_wav_s": 6.62,
+      "start_time_source_s": 6.4,
+      "end_time_source_s": 6.62,
+      "probability": 0.9905856251716614
+    },
+    {
+      "word_index": 18,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 6.62,
+      "end_time_wav_s": 6.74,
+      "start_time_source_s": 6.62,
+      "end_time_source_s": 6.74,
+      "probability": 0.9761975407600403
+    },
+    {
+      "word_index": 19,
+      "word": "employed.",
+      "surface": " employed.",
+      "start_time_wav_s": 6.74,
+      "end_time_wav_s": 7.12,
+      "start_time_source_s": 6.74,
+      "end_time_source_s": 7.12,
+      "probability": 0.9946159720420837
+    }
+  ],
+  "word_count": 19,
+  "mean_word_probability": 0.9399885111733487,
+  "issues": [],
+  "official_transcript_loaded": false
+}

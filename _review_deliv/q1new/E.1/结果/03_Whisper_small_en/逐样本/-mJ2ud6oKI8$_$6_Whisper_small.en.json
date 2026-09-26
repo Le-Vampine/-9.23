@@ -1,0 +1,123 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-mJ2ud6oKI8$_$6.wav",
+  "audio_sha256": "f75f302b5918446527f909dbd7386fd8348bf945d26a88df84f7c884cec82de2",
+  "audio_duration_s": 2.228125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "that we all want to approach really any.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.12,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.12,
+      "text": " that we all want to approach really any.",
+      "no_speech_probability": 0.016509322449564934,
+      "average_log_probability": -0.45744356016318005
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.14,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.14,
+      "probability": 0.8963896632194519
+    },
+    {
+      "word_index": 2,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 0.14,
+      "end_time_wav_s": 0.4,
+      "start_time_source_s": 0.14,
+      "end_time_source_s": 0.4,
+      "probability": 0.9980310797691345
+    },
+    {
+      "word_index": 3,
+      "word": "all",
+      "surface": " all",
+      "start_time_wav_s": 0.4,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.4,
+      "end_time_source_s": 0.68,
+      "probability": 0.9986580610275269
+    },
+    {
+      "word_index": 4,
+      "word": "want",
+      "surface": " want",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.92,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.92,
+      "probability": 0.8024982213973999
+    },
+    {
+      "word_index": 5,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.92,
+      "end_time_wav_s": 1.04,
+      "start_time_source_s": 0.92,
+      "end_time_source_s": 1.04,
+      "probability": 0.9956738352775574
+    },
+    {
+      "word_index": 6,
+      "word": "approach",
+      "surface": " approach",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 1.4,
+      "probability": 0.9972438812255859
+    },
+    {
+      "word_index": 7,
+      "word": "really",
+      "surface": " really",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.94,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.94,
+      "probability": 0.46935445070266724
+    },
+    {
+      "word_index": 8,
+      "word": "any.",
+      "surface": " any.",
+      "start_time_wav_s": 1.94,
+      "end_time_wav_s": 2.12,
+      "start_time_source_s": 1.94,
+      "end_time_source_s": 2.12,
+      "probability": 0.7871361374855042
+    }
+  ],
+  "word_count": 8,
+  "mean_word_probability": 0.8681231662631035,
+  "issues": [],
+  "official_transcript_loaded": false
+}

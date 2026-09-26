@@ -1,0 +1,20 @@
+% 独立编译外壳：仅用于验证 Q2_求解流程图_body.tex 的画质（不进论文）
+\documentclass{article}
+\usepackage[paperwidth=18cm,paperheight=12cm,margin=1cm]{geometry}
+\usepackage[fontset=none]{ctex}
+\IfFontExistsTF{SimSun}{\setCJKmainfont{SimSun}[BoldFont=SimHei]}{%
+  \IfFontExistsTF{Songti SC}{\setCJKmainfont{Songti SC}}{%
+    \IfFontExistsTF{Noto Serif CJK SC}{\setCJKmainfont{Noto Serif CJK SC}}{%
+      \setCJKmainfont{FandolSong-Regular}[Extension=.otf]}}}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{Liberation Serif}{\setmainfont{Liberation Serif}}{%
+    \IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{}}}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric}
+\usepackage{graphicx}
+\usepackage{float}
+\pagestyle{empty}
+\begin{document}
+\noindent
+\input{Q2_求解流程图_body.tex}
+\end{document}

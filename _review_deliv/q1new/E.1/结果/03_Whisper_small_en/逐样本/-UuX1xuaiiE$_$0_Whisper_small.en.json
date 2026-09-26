@@ -1,0 +1,133 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-UuX1xuaiiE$_$0.wav",
+  "audio_sha256": "e89204f913deaf701f90605bfadf37fea2c4c33504500c3c5306f620c5e7fce6",
+  "audio_duration_s": 3.575875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "It's amazing to see their enthusiasm and their passion.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.94,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.94,
+      "text": " It's amazing to see their enthusiasm and their passion.",
+      "no_speech_probability": 0.024376194924116135,
+      "average_log_probability": -0.27826819249561857
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "It's",
+      "surface": " It's",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.14,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.14,
+      "probability": 0.7767113447189331
+    },
+    {
+      "word_index": 2,
+      "word": "amazing",
+      "surface": " amazing",
+      "start_time_wav_s": 0.14,
+      "end_time_wav_s": 0.54,
+      "start_time_source_s": 0.14,
+      "end_time_source_s": 0.54,
+      "probability": 0.9933158755302429
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 1.0,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 1.0,
+      "probability": 0.9967688322067261
+    },
+    {
+      "word_index": 4,
+      "word": "see",
+      "surface": " see",
+      "start_time_wav_s": 1.0,
+      "end_time_wav_s": 1.24,
+      "start_time_source_s": 1.0,
+      "end_time_source_s": 1.24,
+      "probability": 0.9983463287353516
+    },
+    {
+      "word_index": 5,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 1.24,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.24,
+      "end_time_source_s": 1.46,
+      "probability": 0.9946925044059753
+    },
+    {
+      "word_index": 6,
+      "word": "enthusiasm",
+      "surface": " enthusiasm",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 2.0,
+      "probability": 0.9981315732002258
+    },
+    {
+      "word_index": 7,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.4,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.4,
+      "probability": 0.9830427765846252
+    },
+    {
+      "word_index": 8,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 2.4,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.4,
+      "end_time_source_s": 2.52,
+      "probability": 0.9837026596069336
+    },
+    {
+      "word_index": 9,
+      "word": "passion.",
+      "surface": " passion.",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.94,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.94,
+      "probability": 0.9856905341148376
+    }
+  ],
+  "word_count": 9,
+  "mean_word_probability": 0.9678224921226501,
+  "issues": [],
+  "official_transcript_loaded": false
+}

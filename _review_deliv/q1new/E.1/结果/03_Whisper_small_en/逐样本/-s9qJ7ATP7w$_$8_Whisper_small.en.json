@@ -1,0 +1,203 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$8",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-s9qJ7ATP7w$_$8.wav",
+  "audio_sha256": "c823adcf6ed8453ddbfc1349c059af0a9ac954ba8c129e86b40a653162b6f1d8",
+  "audio_duration_s": 3.184,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "business and I said oh make a profit and all these other things they said no",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.16,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.16,
+      "text": " business and I said oh make a profit and all these other things they said no",
+      "no_speech_probability": 0.09223538637161255,
+      "average_log_probability": -0.34988405829981756
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "business",
+      "surface": " business",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.26,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.26,
+      "probability": 0.3795270323753357
+    },
+    {
+      "word_index": 2,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 0.26,
+      "end_time_wav_s": 0.6,
+      "start_time_source_s": 0.26,
+      "end_time_source_s": 0.6,
+      "probability": 0.48237115144729614
+    },
+    {
+      "word_index": 3,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.7,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.7,
+      "probability": 0.9432905912399292
+    },
+    {
+      "word_index": 4,
+      "word": "said",
+      "surface": " said",
+      "start_time_wav_s": 0.7,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.7,
+      "end_time_source_s": 0.88,
+      "probability": 0.994529664516449
+    },
+    {
+      "word_index": 5,
+      "word": "oh",
+      "surface": " oh",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.06,
+      "probability": 0.48291298747062683
+    },
+    {
+      "word_index": 6,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.26,
+      "probability": 0.9148472547531128
+    },
+    {
+      "word_index": 7,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.4,
+      "probability": 0.9980897307395935
+    },
+    {
+      "word_index": 8,
+      "word": "profit",
+      "surface": " profit",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.8,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.8,
+      "probability": 0.9973625540733337
+    },
+    {
+      "word_index": 9,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 1.8,
+      "end_time_wav_s": 1.96,
+      "start_time_source_s": 1.8,
+      "end_time_source_s": 1.96,
+      "probability": 0.9428396224975586
+    },
+    {
+      "word_index": 10,
+      "word": "all",
+      "surface": " all",
+      "start_time_wav_s": 1.96,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.96,
+      "end_time_source_s": 2.04,
+      "probability": 0.9968585968017578
+    },
+    {
+      "word_index": 11,
+      "word": "these",
+      "surface": " these",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.16,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.16,
+      "probability": 0.9982415437698364
+    },
+    {
+      "word_index": 12,
+      "word": "other",
+      "surface": " other",
+      "start_time_wav_s": 2.16,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.16,
+      "end_time_source_s": 2.36,
+      "probability": 0.9985511898994446
+    },
+    {
+      "word_index": 13,
+      "word": "things",
+      "surface": " things",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.62,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.62,
+      "probability": 0.9975426197052002
+    },
+    {
+      "word_index": 14,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 2.62,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.62,
+      "end_time_source_s": 2.78,
+      "probability": 0.24893343448638916
+    },
+    {
+      "word_index": 15,
+      "word": "said",
+      "surface": " said",
+      "start_time_wav_s": 2.78,
+      "end_time_wav_s": 2.94,
+      "start_time_source_s": 2.78,
+      "end_time_source_s": 2.94,
+      "probability": 0.9877839684486389
+    },
+    {
+      "word_index": 16,
+      "word": "no",
+      "surface": " no",
+      "start_time_wav_s": 2.94,
+      "end_time_wav_s": 3.16,
+      "start_time_source_s": 2.94,
+      "end_time_source_s": 3.16,
+      "probability": 0.9505783915519714
+    }
+  ],
+  "word_count": 16,
+  "mean_word_probability": 0.8321412708610296,
+  "issues": [],
+  "official_transcript_loaded": false
+}

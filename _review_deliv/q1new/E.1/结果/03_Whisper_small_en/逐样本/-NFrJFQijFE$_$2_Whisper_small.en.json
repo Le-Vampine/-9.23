@@ -1,0 +1,143 @@
+{
+  "sample_id": "-NFrJFQijFE$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-NFrJFQijFE$_$2.wav",
+  "audio_sha256": "fa24a5368120832c58d45b98c460254ad7f7560467d8a5c93f3d2b193fcb0e7e",
+  "audio_duration_s": 6.698,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Hock's sense of hearing is excellent, and their eyes are",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 3.4600000000000004,
+      "end_time_wav_s": 6.66,
+      "start_time_source_s": 3.4600000000000004,
+      "end_time_source_s": 6.66,
+      "text": " Hock's sense of hearing is excellent, and their eyes are",
+      "no_speech_probability": 0.11552344262599945,
+      "average_log_probability": -0.5891677178442478
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Hock's",
+      "surface": " Hock's",
+      "start_time_wav_s": 3.4600000000000004,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 3.4600000000000004,
+      "end_time_source_s": 3.98,
+      "probability": 0.4818702091773351
+    },
+    {
+      "word_index": 2,
+      "word": "sense",
+      "surface": " sense",
+      "start_time_wav_s": 3.98,
+      "end_time_wav_s": 4.24,
+      "start_time_source_s": 3.98,
+      "end_time_source_s": 4.24,
+      "probability": 0.998770534992218
+    },
+    {
+      "word_index": 3,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 4.24,
+      "end_time_wav_s": 4.44,
+      "start_time_source_s": 4.24,
+      "end_time_source_s": 4.44,
+      "probability": 0.9976182579994202
+    },
+    {
+      "word_index": 4,
+      "word": "hearing",
+      "surface": " hearing",
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 4.7,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 4.7,
+      "probability": 0.9964467883110046
+    },
+    {
+      "word_index": 5,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 4.7,
+      "end_time_wav_s": 4.98,
+      "start_time_source_s": 4.7,
+      "end_time_source_s": 4.98,
+      "probability": 0.9951258301734924
+    },
+    {
+      "word_index": 6,
+      "word": "excellent,",
+      "surface": " excellent,",
+      "start_time_wav_s": 4.98,
+      "end_time_wav_s": 5.5,
+      "start_time_source_s": 4.98,
+      "end_time_source_s": 5.5,
+      "probability": 0.9925708174705505
+    },
+    {
+      "word_index": 7,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 5.74,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 5.74,
+      "end_time_source_s": 6.16,
+      "probability": 0.9683138132095337
+    },
+    {
+      "word_index": 8,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 6.16,
+      "end_time_wav_s": 6.28,
+      "start_time_source_s": 6.16,
+      "end_time_source_s": 6.28,
+      "probability": 0.9138640761375427
+    },
+    {
+      "word_index": 9,
+      "word": "eyes",
+      "surface": " eyes",
+      "start_time_wav_s": 6.28,
+      "end_time_wav_s": 6.52,
+      "start_time_source_s": 6.28,
+      "end_time_source_s": 6.52,
+      "probability": 0.9809499382972717
+    },
+    {
+      "word_index": 10,
+      "word": "are",
+      "surface": " are",
+      "start_time_wav_s": 6.52,
+      "end_time_wav_s": 6.66,
+      "start_time_source_s": 6.52,
+      "end_time_source_s": 6.66,
+      "probability": 0.5234082937240601
+    }
+  ],
+  "word_count": 10,
+  "mean_word_probability": 0.8848938559492429,
+  "issues": [],
+  "official_transcript_loaded": false
+}

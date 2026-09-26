@@ -1,0 +1,193 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$8",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-mJ2ud6oKI8$_$8.wav",
+  "audio_sha256": "6fc367ff29c1d4a8e32e66c5da3e4194521880310158e6c44a3a527f4befbc43",
+  "audio_duration_s": 4.171375,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "We want to evaluate them, you know, give them a full thorough evaluation to find...",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.52,
+      "end_time_wav_s": 4.14,
+      "start_time_source_s": 0.52,
+      "end_time_source_s": 4.14,
+      "text": " We want to evaluate them, you know, give them a full thorough evaluation to find...",
+      "no_speech_probability": 0.052255816757678986,
+      "average_log_probability": -0.31830895514715285
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "We",
+      "surface": " We",
+      "start_time_wav_s": 0.52,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.52,
+      "end_time_source_s": 0.88,
+      "probability": 0.4580743908882141
+    },
+    {
+      "word_index": 2,
+      "word": "want",
+      "surface": " want",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.04,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.04,
+      "probability": 0.8913188576698303
+    },
+    {
+      "word_index": 3,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 1.14,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 1.14,
+      "probability": 0.9958374500274658
+    },
+    {
+      "word_index": 4,
+      "word": "evaluate",
+      "surface": " evaluate",
+      "start_time_wav_s": 1.14,
+      "end_time_wav_s": 1.48,
+      "start_time_source_s": 1.14,
+      "end_time_source_s": 1.48,
+      "probability": 0.9446409344673157
+    },
+    {
+      "word_index": 5,
+      "word": "them,",
+      "surface": " them,",
+      "start_time_wav_s": 1.48,
+      "end_time_wav_s": 1.84,
+      "start_time_source_s": 1.48,
+      "end_time_source_s": 1.84,
+      "probability": 0.9890991449356079
+    },
+    {
+      "word_index": 6,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.06,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.06,
+      "probability": 0.4594206213951111
+    },
+    {
+      "word_index": 7,
+      "word": "know,",
+      "surface": " know,",
+      "start_time_wav_s": 2.06,
+      "end_time_wav_s": 2.16,
+      "start_time_source_s": 2.06,
+      "end_time_source_s": 2.16,
+      "probability": 0.9980067610740662
+    },
+    {
+      "word_index": 8,
+      "word": "give",
+      "surface": " give",
+      "start_time_wav_s": 2.26,
+      "end_time_wav_s": 2.26,
+      "start_time_source_s": 2.26,
+      "end_time_source_s": 2.26,
+      "probability": 0.9770125150680542
+    },
+    {
+      "word_index": 9,
+      "word": "them",
+      "surface": " them",
+      "start_time_wav_s": 2.26,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.26,
+      "end_time_source_s": 2.36,
+      "probability": 0.9604836702346802
+    },
+    {
+      "word_index": 10,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.48,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.48,
+      "probability": 0.99440997838974
+    },
+    {
+      "word_index": 11,
+      "word": "full",
+      "surface": " full",
+      "start_time_wav_s": 2.48,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.48,
+      "end_time_source_s": 2.78,
+      "probability": 0.9929978847503662
+    },
+    {
+      "word_index": 12,
+      "word": "thorough",
+      "surface": " thorough",
+      "start_time_wav_s": 2.78,
+      "end_time_wav_s": 3.1,
+      "start_time_source_s": 2.78,
+      "end_time_source_s": 3.1,
+      "probability": 0.9257428050041199
+    },
+    {
+      "word_index": 13,
+      "word": "evaluation",
+      "surface": " evaluation",
+      "start_time_wav_s": 3.1,
+      "end_time_wav_s": 3.76,
+      "start_time_source_s": 3.1,
+      "end_time_source_s": 3.76,
+      "probability": 0.9985870122909546
+    },
+    {
+      "word_index": 14,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.76,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 3.76,
+      "end_time_source_s": 3.98,
+      "probability": 0.8258501887321472
+    },
+    {
+      "word_index": 15,
+      "word": "find...",
+      "surface": " find...",
+      "start_time_wav_s": 3.98,
+      "end_time_wav_s": 4.14,
+      "start_time_source_s": 3.98,
+      "end_time_source_s": 4.14,
+      "probability": 0.6397684812545776
+    }
+  ],
+  "word_count": 15,
+  "mean_word_probability": 0.8700833797454834,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,55 @@
+% 问题三 可解释性模型结构图（骨干冻结 + 并联证据头 + 三源解释通路）
+% 仅供 _build_Q3_net.tex 编成独立 PDF 后以 \includegraphics 引入 main.tex。
+\begin{tikzpicture}[
+    font=\footnotesize,
+    blk/.style={rounded corners=2.5pt, align=center, minimum height=0.85cm,
+                text=black!85, draw=#1!65!black, fill=#1!16},
+    cmp/.style={blk={gray}, minimum width=1.75cm},
+    brn/.style={blk={sky}, minimum width=2.1cm},
+    frz/.style={blk={teal}, minimum width=2.3cm},
+    head/.style={blk={coral}, minimum width=5.4cm},
+    out/.style={blk={lilac}, minimum width=2.3cm},
+    arr/.style={-{Stealth[length=2.2mm]}, thick, gray!70},
+    dasharr/.style={-{Stealth[length=2.2mm]}, thick, dashed, coral!85}
+  ]
+  \definecolor{coral}{RGB}{244,151,142}
+  \definecolor{teal}{RGB}{77,182,172}
+  \definecolor{sky}{RGB}{100,181,246}
+  \definecolor{lilac}{RGB}{197,176,230}
+
+  % ---------- 冻结骨干（上半部分，实线） ----------
+  \node[cmp] (t) at (-3.1, 2.1) {文本 $50\!\times\!768$};
+  \node[cmp] (a) at (-0.9, 2.1) {语音 $50\!\times\!74$};
+  \node[cmp] (v) at ( 1.3, 2.1) {视觉 $50\!\times\!35$};
+  \node[frz] (enc) at (-0.9, 1.05) {掩码感知编码器（三模态）};
+  \node[frz] (fus) at (-0.9, 0.15) {动态专家融合 + 掩码加权池化};
+  \node[frz] (hd)  at (-2.6, -0.85) {强度头 $\hat y$};
+  \node[frz] (hc)  at ( 0.8, -0.85) {极性头 $\hat p$};
+
+  \draw[arr] (t) -- (enc);
+  \draw[arr] (a) -- (enc);
+  \draw[arr] (v) -- (enc);
+  \draw[arr] (enc) -- (fus);
+  \draw[arr] (fus) -- (hd);
+  \draw[arr] (fus) -- (hc);
+
+  % ---------- 并联证据头（下半部分，虚线） ----------
+  \node[head] (eh) at (-0.9, -1.95)
+      {并联证据头：$s^m_k=\mathrm{softmax}_k(w_m^{\top}\tanh(W_mh^m_k+b_m))$，\ $\pi=\mathrm{softmax}_m(u^{\top}\tanh(V\bar h^m))$};
+  \node[out] (x1) at (-4.9, -3.1) {模态作用度 $\pi_m$};
+  \node[out] (x2) at (-1.9, -3.1) {时间重要性 $w^m_k$};
+  \node[out] (x3) at ( 1.1, -3.1) {证据定位};
+  \node[out] (x4) at ( 3.6, -3.1) {解释卡};
+
+  \draw[dasharr] (enc) -- (eh) node[midway, right, font=\scriptsize, text=coral!80!black]
+      {冻结（不参与预测通路）};
+  \draw[arr] (eh) -- (x1);
+  \draw[arr] (eh) -- (x2);
+  \draw[arr] (eh) -- (x3);
+  \draw[arr] (eh) -- (x4);
+
+  % ---------- 说明 ----------
+  \node[font=\scriptsize, text=black!60, align=left] at (-0.9, -3.95)
+    {三源解释：精确 Shapley（模态级）\ $+$ 积分梯度（片段级）\ $+$ 遮挡（模型无关基准）；\\
+     骨干权重全程冻结，故问题三的预测与问题二逐位一致。};
+\end{tikzpicture}

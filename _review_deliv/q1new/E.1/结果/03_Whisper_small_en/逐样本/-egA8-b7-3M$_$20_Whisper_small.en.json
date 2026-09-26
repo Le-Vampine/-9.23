@@ -1,0 +1,243 @@
+{
+  "sample_id": "-egA8-b7-3M$_$20",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-egA8-b7-3M$_$20.wav",
+  "audio_sha256": "8bcd1b9a30e78c42fc847a24f87e4e45ff614a120e231bf1fbb06e0bc8a9fff5",
+  "audio_duration_s": 6.4744375,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Now you've got a face that you can connect with a voice and that makes you closer to that client.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.84,
+      "text": " Now you've got a face that you can connect with a voice and that makes you closer to that client.",
+      "no_speech_probability": 0.0056879958137869835,
+      "average_log_probability": -0.21161437511444092
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Now",
+      "surface": " Now",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.72,
+      "probability": 0.8967745900154114
+    },
+    {
+      "word_index": 2,
+      "word": "you've",
+      "surface": " you've",
+      "start_time_wav_s": 0.72,
+      "end_time_wav_s": 0.98,
+      "start_time_source_s": 0.72,
+      "end_time_source_s": 0.98,
+      "probability": 0.8884506821632385
+    },
+    {
+      "word_index": 3,
+      "word": "got",
+      "surface": " got",
+      "start_time_wav_s": 0.98,
+      "end_time_wav_s": 1.12,
+      "start_time_source_s": 0.98,
+      "end_time_source_s": 1.12,
+      "probability": 0.9968193769454956
+    },
+    {
+      "word_index": 4,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.12,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 1.12,
+      "end_time_source_s": 1.26,
+      "probability": 0.9959427714347839
+    },
+    {
+      "word_index": 5,
+      "word": "face",
+      "surface": " face",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.52,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.52,
+      "probability": 0.996157705783844
+    },
+    {
+      "word_index": 6,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.52,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.52,
+      "end_time_source_s": 1.76,
+      "probability": 0.9525067806243896
+    },
+    {
+      "word_index": 7,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 1.9,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 1.9,
+      "probability": 0.9903593063354492
+    },
+    {
+      "word_index": 8,
+      "word": "can",
+      "surface": " can",
+      "start_time_wav_s": 1.9,
+      "end_time_wav_s": 2.1,
+      "start_time_source_s": 1.9,
+      "end_time_source_s": 2.1,
+      "probability": 0.9914662837982178
+    },
+    {
+      "word_index": 9,
+      "word": "connect",
+      "surface": " connect",
+      "start_time_wav_s": 2.1,
+      "end_time_wav_s": 2.42,
+      "start_time_source_s": 2.1,
+      "end_time_source_s": 2.42,
+      "probability": 0.9966773986816406
+    },
+    {
+      "word_index": 10,
+      "word": "with",
+      "surface": " with",
+      "start_time_wav_s": 2.42,
+      "end_time_wav_s": 2.68,
+      "start_time_source_s": 2.42,
+      "end_time_source_s": 2.68,
+      "probability": 0.9955815672874451
+    },
+    {
+      "word_index": 11,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.68,
+      "end_time_wav_s": 2.84,
+      "start_time_source_s": 2.68,
+      "end_time_source_s": 2.84,
+      "probability": 0.9561775922775269
+    },
+    {
+      "word_index": 12,
+      "word": "voice",
+      "surface": " voice",
+      "start_time_wav_s": 2.84,
+      "end_time_wav_s": 3.14,
+      "start_time_source_s": 2.84,
+      "end_time_source_s": 3.14,
+      "probability": 0.9985582232475281
+    },
+    {
+      "word_index": 13,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.14,
+      "end_time_wav_s": 4.04,
+      "start_time_source_s": 3.14,
+      "end_time_source_s": 4.04,
+      "probability": 0.5858818888664246
+    },
+    {
+      "word_index": 14,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 4.04,
+      "end_time_wav_s": 4.24,
+      "start_time_source_s": 4.04,
+      "end_time_source_s": 4.24,
+      "probability": 0.9964522123336792
+    },
+    {
+      "word_index": 15,
+      "word": "makes",
+      "surface": " makes",
+      "start_time_wav_s": 4.24,
+      "end_time_wav_s": 4.46,
+      "start_time_source_s": 4.24,
+      "end_time_source_s": 4.46,
+      "probability": 0.9963132739067078
+    },
+    {
+      "word_index": 16,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 4.46,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 4.46,
+      "end_time_source_s": 4.68,
+      "probability": 0.9980792999267578
+    },
+    {
+      "word_index": 17,
+      "word": "closer",
+      "surface": " closer",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 4.98,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 4.98,
+      "probability": 0.9962372779846191
+    },
+    {
+      "word_index": 18,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 4.98,
+      "end_time_wav_s": 5.3,
+      "start_time_source_s": 4.98,
+      "end_time_source_s": 5.3,
+      "probability": 0.9985346794128418
+    },
+    {
+      "word_index": 19,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 5.3,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 5.3,
+      "end_time_source_s": 5.52,
+      "probability": 0.992429792881012
+    },
+    {
+      "word_index": 20,
+      "word": "client.",
+      "surface": " client.",
+      "start_time_wav_s": 5.52,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 5.52,
+      "end_time_source_s": 5.84,
+      "probability": 0.9960972666740417
+    }
+  ],
+  "word_count": 20,
+  "mean_word_probability": 0.9607748985290527,
+  "issues": [],
+  "official_transcript_loaded": false
+}

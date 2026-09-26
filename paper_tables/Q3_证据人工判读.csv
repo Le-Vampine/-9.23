@@ -1,0 +1,21 @@
+﻿id,pred_label,pred_score,main_modality,text_evidence,char_span,evidence_segment,自动线索_情感词,自动线索_否定词,自动线索_程度词,人工判读,备注
+01,Neutral,0.1442,vision,the timing belt is essential to ensuring the new belt,47-100,the timing belt is essential to ensuring the new belt,essential,,,中性-主题,中性样本；证据为'essential to ensuring…'功能性描述，与'中性'一致
+02,Positive,0.4062,text,happiness- not by each other’ s misery.,44-55,not by each,not,not,,命中,'happiness' 与 'not…misery' 否定+情感对照，方向与正向一致
+03,Neutral,-0.2985,text,which i think is just bankwest who don' t,33-67,which I think is just Bankwest who,,,,中性-主题,证据为机构名与事实陈述，中性判断合理
+04,Negative,-0.4443,text,"team exercise, should i kiss my chances of cheering"" go blue"" goodbye?] absolutely",20-102,"team exercise, should I kiss my chances of cheering ""GO BLUE"" goodbye?] Absolutely",,,absolutely,命中,'kiss my chances…goodbye?] Absolutely not' 否定+习语，方向与负向一致
+05,Positive,0.6404,text,"hi, my name is chloe,",4-14,my name is,,,,未命中,证据为自我介绍（'my name is Chloe'），无语篇情感；预测偏向由语音/视觉支撑
+06,Positive,0.8369,text,if you' re a fan of dancing,0-26,If you're a fan of dancing,fan,,,命中,'a fan of dancing' 表达偏好，方向与正向一致
+07,Positive,0.6441,text,"editor michael baadke reports in our november 28 issue, attendees“ enthusiastically",20-103,"editor Michael Baadke reports in our November 28 issue, attendees “enthusiastically",enthusiastically,,,命中,'enthusiastically discussed' 程度+情感副词，方向与正向一致
+08,Positive,0.588,text,"that brings us to tonight, the universal",0-40,"That brings us to tonight, the Universal",,,,未命中,证据为节目过渡句（'That brings us to tonight…'），属话题词而非情感词
+09,Negative,-2.3557,text,i would not recommend it,40-64,I would not recommend it,not/recommend,not/would,,命中,'would not recommend it' 否定+评价动词，方向与负向一致
+10,Negative,-1.2545,text,know i really do like to see,14-42,know I really do like to see,like,,really,未命中,证据截取到'I really do like to see'（正向），与样本负向判断方向相反，属边界失败案例
+11,Negative,-0.5921,text,would be ashamed to have made this film if i,2-46,would be ashamed to have made this film if I,ashamed,would,,命中,'ashamed to have made this film' 明确负向自我评价
+12,Negative,-0.8497,text,"or worse, an individual previously had",0-38,"Or worse, an individual previously had",worse,,,命中,"'Or worse, …' 负向框架词，与负向方向一致"
+13,Neutral,0.2921,text,"for example, i could take a set",0-31,"For example, I could take a set",,,,中性-主题,"证据为举例说明（'For example, I could take a set of data…'），中性合理"
+14,Neutral,0.4099,vision,rossen and vettese limited and the former executive,24-75,Rossen and Vettese Limited and the former Executive,,,,中性-主题,证据为姓名与职务，属主题性描述，中性合理
+15,Positive,1.1036,text,its power to transform lives,89-117,its power to transform lives,power/transform,,,命中,'its power to transform lives' 正向价值表达
+16,Negative,-2.4917,text,this is a terrible movie,17-41,this is a terrible movie,terrible,,,命中,'this is a terrible movie' 强负向评价
+17,Positive,1.553,text,easy and will make people think you,69-104,easy and will make people think you,easy,,,命中,'easy and will make people think you…' 正向体验描述
+18,Neutral,-0.2661,text,"msc– certified- meanwhile, the faeroese mackerel fishery has",84-117,the Faeroese Mackerel Fishery has,,,,中性-主题,证据为渔业认证的事实性新闻语句，中性合理
+19,Negative,-0.048,text,people are surprisingly forgiving brands,0-40,People are surprisingly forgiving brands,forgiving,,surprisingly,未命中,证据止于'surprisingly forgiving brands'，情感载体（'haters'/'unfortunately'）落在区间之外，属截断问题
+20,Positive,0.9016,text,"and of course, click in the link of the description of this video for more,",0-69,"And of course, click in the link of the description of this video for",,,,未命中,证据为视频收尾引导语（'click in the link…'），无语篇情感

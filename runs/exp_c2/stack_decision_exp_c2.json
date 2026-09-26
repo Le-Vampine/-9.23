@@ -1,0 +1,98 @@
+{
+  "tag": "exp_c2",
+  "n_valid": 728,
+  "n_test": 727,
+  "oracle": {
+    "valid": 0.6841,
+    "test": 0.6946
+  },
+  "chosen": "lr",
+  "chosen_cv": 0.5925,
+  "rows": [
+    {
+      "rule": "base",
+      "cv_sel": 0.5899,
+      "valid": {
+        "ACC": 0.5948,
+        "MacroF1": 0.5899,
+        "neuF1": 0.4758
+      },
+      "test": {
+        "ACC": 0.6052,
+        "MacroF1": 0.592,
+        "neuF1": 0.4159
+      }
+    },
+    {
+      "rule": "th",
+      "cv_sel": 0.5883,
+      "valid": {
+        "ACC": 0.625,
+        "MacroF1": 0.5967,
+        "neuF1": 0.4286
+      },
+      "test": {
+        "ACC": 0.6396,
+        "MacroF1": 0.5914,
+        "neuF1": 0.3519
+      }
+    },
+    {
+      "rule": "band",
+      "cv_sel": 0.583,
+      "valid": {
+        "ACC": 0.6113,
+        "MacroF1": 0.6024,
+        "neuF1": 0.4709
+      },
+      "test": {
+        "ACC": 0.6011,
+        "MacroF1": 0.5745,
+        "neuF1": 0.3551
+      }
+    },
+    {
+      "rule": "lr",
+      "cv_sel": 0.5925,
+      "valid": {
+        "ACC": 0.6085,
+        "MacroF1": 0.6022,
+        "neuF1": 0.4762
+      },
+      "test": {
+        "ACC": 0.5997,
+        "MacroF1": 0.5793,
+        "neuF1": 0.3769
+      }
+    },
+    {
+      "rule": "tree",
+      "cv_sel": 0.5616,
+      "valid": {
+        "ACC": 0.5604,
+        "MacroF1": 0.5676,
+        "neuF1": 0.4917
+      },
+      "test": {
+        "ACC": 0.5475,
+        "MacroF1": 0.5518,
+        "neuF1": 0.4065
+      }
+    },
+    {
+      "rule": "rf",
+      "cv_sel": 0.5875,
+      "valid": {
+        "ACC": 0.6992,
+        "MacroF1": 0.6879,
+        "neuF1": 0.6064
+      },
+      "test": {
+        "ACC": 0.6149,
+        "MacroF1": 0.5833,
+        "neuF1": 0.3636
+      }
+    }
+  ],
+  "tree_rules": "|--- prob_neg <= 0.232\n|   |--- prob_neu <= 0.019\n|   |   |--- prob_neg <= -0.851\n|   |   |   |--- class: 2\n|   |   |--- prob_neg >  -0.851\n|   |   |   |--- class: 2\n|   |--- prob_neu >  0.019\n|   |   |--- abs_score <= -0.894\n|   |   |   |--- class: 1\n|   |   |--- abs_score >  -0.894\n|   |   |   |--- class: 1\n|--- prob_neg >  0.232\n|   |--- entropy <= 0.195\n|   |   |--- margin <= 2.130\n|   |   |   |--- class: 0\n|   |   |--- margin >  2.130\n|   |   |   |--- class: 0\n|   |--- entropy >  0.195\n|   |   |--- prob_pos <= -0.827\n|   |   |   |--- class: 0\n|   |   |--- prob_pos >  -0.827\n|   |   |   |--- class: 0\n"
+}

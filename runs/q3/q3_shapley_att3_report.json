@@ -1,0 +1,60 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "data_att\\att3_aligned.pkl",
+   "split": "test",
+   "n": 30
+  }
+ },
+ "data": "runs\\q3\\q3_shapley_att3.npz",
+ "phi_mean": {
+  "mu_miss": [
+   0.0651,
+   0.0024,
+   0.0123
+  ],
+  "mu_pad": [
+   0.4377,
+   0.2654,
+   -0.5222
+  ],
+  "p_pol_miss": [
+   0.089,
+   0.0019,
+   0.0098
+  ],
+  "p_pol_pad": [
+   0.3325,
+   0.179,
+   -0.3929
+  ]
+ },
+ "pi_soft_mean": [
+  0.4212,
+  0.2819,
+  0.297
+ ],
+ "pi_relu_mean": [
+  0.5508,
+  0.1046,
+  0.2113
+ ],
+ "pi_relu_degenerate": 4,
+ "v_mean_mu_miss": {
+  "none": 0.1653,
+  "text": 0.2325,
+  "audio": 0.168,
+  "text+audio": 0.2346,
+  "vision": 0.1795,
+  "text+vision": 0.243,
+  "audio+vision": 0.1822,
+  "all": 0.2451
+ }
+}

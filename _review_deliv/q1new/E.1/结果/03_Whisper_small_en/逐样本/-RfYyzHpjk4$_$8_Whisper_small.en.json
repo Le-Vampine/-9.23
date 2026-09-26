@@ -1,0 +1,213 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$8",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-RfYyzHpjk4$_$8.wav",
+  "audio_sha256": "0a41edba155888cb5c46c183880cca53e46fdff70a7120519696d4df5c30d064",
+  "audio_duration_s": 4.532,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "It's pretty pretty easy to do, but you've got to set up those numbers ahead of time",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.12,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.12,
+      "text": " It's pretty pretty easy to do, but you've got to set up those numbers ahead of time",
+      "no_speech_probability": 0.03872767463326454,
+      "average_log_probability": -0.19644231770349585
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "It's",
+      "surface": " It's",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.64,
+      "probability": 0.6773719787597656
+    },
+    {
+      "word_index": 2,
+      "word": "pretty",
+      "surface": " pretty",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 0.94,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 0.94,
+      "probability": 0.9900107979774475
+    },
+    {
+      "word_index": 3,
+      "word": "pretty",
+      "surface": " pretty",
+      "start_time_wav_s": 0.94,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.94,
+      "end_time_source_s": 1.16,
+      "probability": 0.3917742073535919
+    },
+    {
+      "word_index": 4,
+      "word": "easy",
+      "surface": " easy",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.48,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.48,
+      "probability": 0.9927079081535339
+    },
+    {
+      "word_index": 5,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.48,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.48,
+      "end_time_source_s": 1.66,
+      "probability": 0.9972032308578491
+    },
+    {
+      "word_index": 6,
+      "word": "do,",
+      "surface": " do,",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 1.86,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 1.86,
+      "probability": 0.9990472197532654
+    },
+    {
+      "word_index": 7,
+      "word": "but",
+      "surface": " but",
+      "start_time_wav_s": 1.86,
+      "end_time_wav_s": 2.02,
+      "start_time_source_s": 1.86,
+      "end_time_source_s": 2.02,
+      "probability": 0.9987506866455078
+    },
+    {
+      "word_index": 8,
+      "word": "you've",
+      "surface": " you've",
+      "start_time_wav_s": 2.02,
+      "end_time_wav_s": 2.24,
+      "start_time_source_s": 2.02,
+      "end_time_source_s": 2.24,
+      "probability": 0.9908353984355927
+    },
+    {
+      "word_index": 9,
+      "word": "got",
+      "surface": " got",
+      "start_time_wav_s": 2.24,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 2.24,
+      "end_time_source_s": 2.3,
+      "probability": 0.9832171201705933
+    },
+    {
+      "word_index": 10,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.42,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.42,
+      "probability": 0.9956596493721008
+    },
+    {
+      "word_index": 11,
+      "word": "set",
+      "surface": " set",
+      "start_time_wav_s": 2.42,
+      "end_time_wav_s": 2.6,
+      "start_time_source_s": 2.42,
+      "end_time_source_s": 2.6,
+      "probability": 0.997111439704895
+    },
+    {
+      "word_index": 12,
+      "word": "up",
+      "surface": " up",
+      "start_time_wav_s": 2.6,
+      "end_time_wav_s": 2.78,
+      "start_time_source_s": 2.6,
+      "end_time_source_s": 2.78,
+      "probability": 0.9797883629798889
+    },
+    {
+      "word_index": 13,
+      "word": "those",
+      "surface": " those",
+      "start_time_wav_s": 2.78,
+      "end_time_wav_s": 2.98,
+      "start_time_source_s": 2.78,
+      "end_time_source_s": 2.98,
+      "probability": 0.997826874256134
+    },
+    {
+      "word_index": 14,
+      "word": "numbers",
+      "surface": " numbers",
+      "start_time_wav_s": 2.98,
+      "end_time_wav_s": 3.26,
+      "start_time_source_s": 2.98,
+      "end_time_source_s": 3.26,
+      "probability": 0.9976807832717896
+    },
+    {
+      "word_index": 15,
+      "word": "ahead",
+      "surface": " ahead",
+      "start_time_wav_s": 3.26,
+      "end_time_wav_s": 3.5,
+      "start_time_source_s": 3.26,
+      "end_time_source_s": 3.5,
+      "probability": 0.9974296689033508
+    },
+    {
+      "word_index": 16,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 3.5,
+      "end_time_wav_s": 3.66,
+      "start_time_source_s": 3.5,
+      "end_time_source_s": 3.66,
+      "probability": 0.9990842342376709
+    },
+    {
+      "word_index": 17,
+      "word": "time",
+      "surface": " time",
+      "start_time_wav_s": 3.66,
+      "end_time_wav_s": 4.12,
+      "start_time_source_s": 3.66,
+      "end_time_source_s": 4.12,
+      "probability": 0.9993454813957214
+    }
+  ],
+  "word_count": 17,
+  "mean_word_probability": 0.9402850024840411,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,293 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-RfYyzHpjk4$_$2.wav",
+  "audio_sha256": "6ab75f2d56b718e989b261aaa1ba1255d0fb364ae33fa9b3d8875aead88fc8a4",
+  "audio_duration_s": 5.3918125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "It can make a conference call, but it takes quite a bit of planning. Well, not a lot of planning. It's pretty easy to do",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.3000000000000004,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 0.3000000000000004,
+      "end_time_source_s": 4.86,
+      "text": " It can make a conference call, but it takes quite a bit of planning. Well, not a lot of planning. It's pretty easy to do",
+      "no_speech_probability": 0.13065288960933685,
+      "average_log_probability": -0.24141344879612778
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "It",
+      "surface": " It",
+      "start_time_wav_s": 0.3000000000000004,
+      "end_time_wav_s": 0.58,
+      "start_time_source_s": 0.3000000000000004,
+      "end_time_source_s": 0.58,
+      "probability": 0.4565398395061493
+    },
+    {
+      "word_index": 2,
+      "word": "can",
+      "surface": " can",
+      "start_time_wav_s": 0.58,
+      "end_time_wav_s": 0.72,
+      "start_time_source_s": 0.58,
+      "end_time_source_s": 0.72,
+      "probability": 0.9740946292877197
+    },
+    {
+      "word_index": 3,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 0.72,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.72,
+      "end_time_source_s": 0.88,
+      "probability": 0.9855905771255493
+    },
+    {
+      "word_index": 4,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.0,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.0,
+      "probability": 0.9672985076904297
+    },
+    {
+      "word_index": 5,
+      "word": "conference",
+      "surface": " conference",
+      "start_time_wav_s": 1.0,
+      "end_time_wav_s": 1.28,
+      "start_time_source_s": 1.0,
+      "end_time_source_s": 1.28,
+      "probability": 0.6269723773002625
+    },
+    {
+      "word_index": 6,
+      "word": "call,",
+      "surface": " call,",
+      "start_time_wav_s": 1.28,
+      "end_time_wav_s": 1.52,
+      "start_time_source_s": 1.28,
+      "end_time_source_s": 1.52,
+      "probability": 0.998849630355835
+    },
+    {
+      "word_index": 7,
+      "word": "but",
+      "surface": " but",
+      "start_time_wav_s": 1.64,
+      "end_time_wav_s": 1.64,
+      "start_time_source_s": 1.64,
+      "end_time_source_s": 1.64,
+      "probability": 0.996036946773529
+    },
+    {
+      "word_index": 8,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 1.64,
+      "end_time_wav_s": 1.74,
+      "start_time_source_s": 1.64,
+      "end_time_source_s": 1.74,
+      "probability": 0.9781688451766968
+    },
+    {
+      "word_index": 9,
+      "word": "takes",
+      "surface": " takes",
+      "start_time_wav_s": 1.74,
+      "end_time_wav_s": 1.88,
+      "start_time_source_s": 1.74,
+      "end_time_source_s": 1.88,
+      "probability": 0.9880691170692444
+    },
+    {
+      "word_index": 10,
+      "word": "quite",
+      "surface": " quite",
+      "start_time_wav_s": 1.88,
+      "end_time_wav_s": 2.18,
+      "start_time_source_s": 1.88,
+      "end_time_source_s": 2.18,
+      "probability": 0.9867442846298218
+    },
+    {
+      "word_index": 11,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.18,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 2.18,
+      "end_time_source_s": 2.3,
+      "probability": 0.9968170523643494
+    },
+    {
+      "word_index": 12,
+      "word": "bit",
+      "surface": " bit",
+      "start_time_wav_s": 2.3,
+      "end_time_wav_s": 2.4,
+      "start_time_source_s": 2.3,
+      "end_time_source_s": 2.4,
+      "probability": 0.9970037341117859
+    },
+    {
+      "word_index": 13,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.4,
+      "end_time_wav_s": 2.54,
+      "start_time_source_s": 2.4,
+      "end_time_source_s": 2.54,
+      "probability": 0.9865222573280334
+    },
+    {
+      "word_index": 14,
+      "word": "planning.",
+      "surface": " planning.",
+      "start_time_wav_s": 2.54,
+      "end_time_wav_s": 2.8,
+      "start_time_source_s": 2.54,
+      "end_time_source_s": 2.8,
+      "probability": 0.997211754322052
+    },
+    {
+      "word_index": 15,
+      "word": "Well,",
+      "surface": " Well,",
+      "start_time_wav_s": 2.9,
+      "end_time_wav_s": 2.94,
+      "start_time_source_s": 2.9,
+      "end_time_source_s": 2.94,
+      "probability": 0.9618412256240845
+    },
+    {
+      "word_index": 16,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 2.98,
+      "end_time_wav_s": 3.06,
+      "start_time_source_s": 2.98,
+      "end_time_source_s": 3.06,
+      "probability": 0.9962664246559143
+    },
+    {
+      "word_index": 17,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 3.06,
+      "end_time_wav_s": 3.16,
+      "start_time_source_s": 3.06,
+      "end_time_source_s": 3.16,
+      "probability": 0.9974443912506104
+    },
+    {
+      "word_index": 18,
+      "word": "lot",
+      "surface": " lot",
+      "start_time_wav_s": 3.16,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 3.16,
+      "end_time_source_s": 3.3,
+      "probability": 0.998177170753479
+    },
+    {
+      "word_index": 19,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 3.3,
+      "end_time_wav_s": 3.42,
+      "start_time_source_s": 3.3,
+      "end_time_source_s": 3.42,
+      "probability": 0.9959575533866882
+    },
+    {
+      "word_index": 20,
+      "word": "planning.",
+      "surface": " planning.",
+      "start_time_wav_s": 3.42,
+      "end_time_wav_s": 3.7,
+      "start_time_source_s": 3.42,
+      "end_time_source_s": 3.7,
+      "probability": 0.9983313679695129
+    },
+    {
+      "word_index": 21,
+      "word": "It's",
+      "surface": " It's",
+      "start_time_wav_s": 3.84,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.84,
+      "end_time_source_s": 3.96,
+      "probability": 0.9881561994552612
+    },
+    {
+      "word_index": 22,
+      "word": "pretty",
+      "surface": " pretty",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 4.12,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 4.12,
+      "probability": 0.9973233342170715
+    },
+    {
+      "word_index": 23,
+      "word": "easy",
+      "surface": " easy",
+      "start_time_wav_s": 4.12,
+      "end_time_wav_s": 4.4,
+      "start_time_source_s": 4.12,
+      "end_time_source_s": 4.4,
+      "probability": 0.9980838298797607
+    },
+    {
+      "word_index": 24,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 4.4,
+      "end_time_wav_s": 4.62,
+      "start_time_source_s": 4.4,
+      "end_time_source_s": 4.62,
+      "probability": 0.9975390434265137
+    },
+    {
+      "word_index": 25,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 4.62,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 4.62,
+      "end_time_source_s": 4.86,
+      "probability": 0.9990830421447754
+    }
+  ],
+  "word_count": 25,
+  "mean_word_probability": 0.9545649254322052,
+  "issues": [],
+  "official_transcript_loaded": false
+}

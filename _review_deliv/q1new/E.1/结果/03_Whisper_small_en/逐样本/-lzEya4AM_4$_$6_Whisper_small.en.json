@@ -1,0 +1,473 @@
+{
+  "sample_id": "-lzEya4AM_4$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-lzEya4AM_4$_$6.wav",
+  "audio_sha256": "c94355db803e2b0db47d311b41f86598b1064543a4fda9a78463e8794a766058",
+  "audio_duration_s": 14.740375,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "If the product or poison is some type of petroleum product or corrosive product, you would not attempt to induce vomiting and nausea. As the product burned on the way down, it could cause damage in burning on the way back up.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 9.02,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 9.02,
+      "text": " If the product or poison is some type of petroleum product or corrosive product, you would not attempt to induce vomiting and nausea.",
+      "no_speech_probability": 0.007436696905642748,
+      "average_log_probability": -0.12044635343437012
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 9.5,
+      "end_time_wav_s": 14.2,
+      "start_time_source_s": 9.5,
+      "end_time_source_s": 14.2,
+      "text": " As the product burned on the way down, it could cause damage in burning on the way back up.",
+      "no_speech_probability": 0.007436696905642748,
+      "average_log_probability": -0.12044635343437012
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "If",
+      "surface": " If",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.66,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.66,
+      "probability": 0.8982383012771606
+    },
+    {
+      "word_index": 2,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 0.66,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.66,
+      "end_time_source_s": 0.84,
+      "probability": 0.9932210445404053
+    },
+    {
+      "word_index": 3,
+      "word": "product",
+      "surface": " product",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.2,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.2,
+      "probability": 0.9814447164535522
+    },
+    {
+      "word_index": 4,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 1.2,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.2,
+      "end_time_source_s": 1.66,
+      "probability": 0.803094744682312
+    },
+    {
+      "word_index": 5,
+      "word": "poison",
+      "surface": " poison",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 2.0,
+      "probability": 0.9861636757850647
+    },
+    {
+      "word_index": 6,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.26,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.26,
+      "probability": 0.9724307656288147
+    },
+    {
+      "word_index": 7,
+      "word": "some",
+      "surface": " some",
+      "start_time_wav_s": 2.26,
+      "end_time_wav_s": 2.42,
+      "start_time_source_s": 2.26,
+      "end_time_source_s": 2.42,
+      "probability": 0.9934597015380859
+    },
+    {
+      "word_index": 8,
+      "word": "type",
+      "surface": " type",
+      "start_time_wav_s": 2.42,
+      "end_time_wav_s": 2.6,
+      "start_time_source_s": 2.42,
+      "end_time_source_s": 2.6,
+      "probability": 0.9787406325340271
+    },
+    {
+      "word_index": 9,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.6,
+      "end_time_wav_s": 2.82,
+      "start_time_source_s": 2.6,
+      "end_time_source_s": 2.82,
+      "probability": 0.9949790835380554
+    },
+    {
+      "word_index": 10,
+      "word": "petroleum",
+      "surface": " petroleum",
+      "start_time_wav_s": 2.82,
+      "end_time_wav_s": 3.26,
+      "start_time_source_s": 2.82,
+      "end_time_source_s": 3.26,
+      "probability": 0.9985501170158386
+    },
+    {
+      "word_index": 11,
+      "word": "product",
+      "surface": " product",
+      "start_time_wav_s": 3.26,
+      "end_time_wav_s": 3.74,
+      "start_time_source_s": 3.26,
+      "end_time_source_s": 3.74,
+      "probability": 0.9869697093963623
+    },
+    {
+      "word_index": 12,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 3.74,
+      "end_time_wav_s": 4.28,
+      "start_time_source_s": 3.74,
+      "end_time_source_s": 4.28,
+      "probability": 0.9413560032844543
+    },
+    {
+      "word_index": 13,
+      "word": "corrosive",
+      "surface": " corrosive",
+      "start_time_wav_s": 4.28,
+      "end_time_wav_s": 4.82,
+      "start_time_source_s": 4.28,
+      "end_time_source_s": 4.82,
+      "probability": 0.9966164231300354
+    },
+    {
+      "word_index": 14,
+      "word": "product,",
+      "surface": " product,",
+      "start_time_wav_s": 4.82,
+      "end_time_wav_s": 5.2,
+      "start_time_source_s": 4.82,
+      "end_time_source_s": 5.2,
+      "probability": 0.9985314607620239
+    },
+    {
+      "word_index": 15,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 5.56,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 5.56,
+      "end_time_source_s": 5.9,
+      "probability": 0.9848516583442688
+    },
+    {
+      "word_index": 16,
+      "word": "would",
+      "surface": " would",
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 6.06,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 6.06,
+      "probability": 0.9955465793609619
+    },
+    {
+      "word_index": 17,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 6.06,
+      "end_time_wav_s": 6.26,
+      "start_time_source_s": 6.06,
+      "end_time_source_s": 6.26,
+      "probability": 0.9983491897583008
+    },
+    {
+      "word_index": 18,
+      "word": "attempt",
+      "surface": " attempt",
+      "start_time_wav_s": 6.26,
+      "end_time_wav_s": 6.78,
+      "start_time_source_s": 6.26,
+      "end_time_source_s": 6.78,
+      "probability": 0.9984534978866577
+    },
+    {
+      "word_index": 19,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 6.78,
+      "end_time_wav_s": 7.34,
+      "start_time_source_s": 6.78,
+      "end_time_source_s": 7.34,
+      "probability": 0.9970247149467468
+    },
+    {
+      "word_index": 20,
+      "word": "induce",
+      "surface": " induce",
+      "start_time_wav_s": 7.34,
+      "end_time_wav_s": 7.86,
+      "start_time_source_s": 7.34,
+      "end_time_source_s": 7.86,
+      "probability": 0.9816238284111023
+    },
+    {
+      "word_index": 21,
+      "word": "vomiting",
+      "surface": " vomiting",
+      "start_time_wav_s": 7.86,
+      "end_time_wav_s": 8.28,
+      "start_time_source_s": 7.86,
+      "end_time_source_s": 8.28,
+      "probability": 0.9988935589790344
+    },
+    {
+      "word_index": 22,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 8.28,
+      "end_time_wav_s": 8.68,
+      "start_time_source_s": 8.28,
+      "end_time_source_s": 8.68,
+      "probability": 0.9762917160987854
+    },
+    {
+      "word_index": 23,
+      "word": "nausea.",
+      "surface": " nausea.",
+      "start_time_wav_s": 8.68,
+      "end_time_wav_s": 9.02,
+      "start_time_source_s": 8.68,
+      "end_time_source_s": 9.02,
+      "probability": 0.9996223449707031
+    },
+    {
+      "word_index": 24,
+      "word": "As",
+      "surface": " As",
+      "start_time_wav_s": 9.5,
+      "end_time_wav_s": 9.74,
+      "start_time_source_s": 9.5,
+      "end_time_source_s": 9.74,
+      "probability": 0.9893535375595093
+    },
+    {
+      "word_index": 25,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 9.74,
+      "end_time_wav_s": 9.94,
+      "start_time_source_s": 9.74,
+      "end_time_source_s": 9.94,
+      "probability": 0.7968776822090149
+    },
+    {
+      "word_index": 26,
+      "word": "product",
+      "surface": " product",
+      "start_time_wav_s": 9.94,
+      "end_time_wav_s": 10.26,
+      "start_time_source_s": 9.94,
+      "end_time_source_s": 10.26,
+      "probability": 0.9945124387741089
+    },
+    {
+      "word_index": 27,
+      "word": "burned",
+      "surface": " burned",
+      "start_time_wav_s": 10.26,
+      "end_time_wav_s": 10.6,
+      "start_time_source_s": 10.26,
+      "end_time_source_s": 10.6,
+      "probability": 0.9920786023139954
+    },
+    {
+      "word_index": 28,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 10.6,
+      "end_time_wav_s": 10.82,
+      "start_time_source_s": 10.6,
+      "end_time_source_s": 10.82,
+      "probability": 0.9953948855400085
+    },
+    {
+      "word_index": 29,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 10.82,
+      "end_time_wav_s": 10.92,
+      "start_time_source_s": 10.82,
+      "end_time_source_s": 10.92,
+      "probability": 0.9986963868141174
+    },
+    {
+      "word_index": 30,
+      "word": "way",
+      "surface": " way",
+      "start_time_wav_s": 10.92,
+      "end_time_wav_s": 11.06,
+      "start_time_source_s": 10.92,
+      "end_time_source_s": 11.06,
+      "probability": 0.9989990592002869
+    },
+    {
+      "word_index": 31,
+      "word": "down,",
+      "surface": " down,",
+      "start_time_wav_s": 11.06,
+      "end_time_wav_s": 11.4,
+      "start_time_source_s": 11.06,
+      "end_time_source_s": 11.4,
+      "probability": 0.9987138509750366
+    },
+    {
+      "word_index": 32,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 11.7,
+      "end_time_wav_s": 11.88,
+      "start_time_source_s": 11.7,
+      "end_time_source_s": 11.88,
+      "probability": 0.9952318072319031
+    },
+    {
+      "word_index": 33,
+      "word": "could",
+      "surface": " could",
+      "start_time_wav_s": 11.88,
+      "end_time_wav_s": 12.0,
+      "start_time_source_s": 11.88,
+      "end_time_source_s": 12.0,
+      "probability": 0.9729831218719482
+    },
+    {
+      "word_index": 34,
+      "word": "cause",
+      "surface": " cause",
+      "start_time_wav_s": 12.0,
+      "end_time_wav_s": 12.26,
+      "start_time_source_s": 12.0,
+      "end_time_source_s": 12.26,
+      "probability": 0.9965420365333557
+    },
+    {
+      "word_index": 35,
+      "word": "damage",
+      "surface": " damage",
+      "start_time_wav_s": 12.26,
+      "end_time_wav_s": 12.58,
+      "start_time_source_s": 12.26,
+      "end_time_source_s": 12.58,
+      "probability": 0.9954012632369995
+    },
+    {
+      "word_index": 36,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 12.58,
+      "end_time_wav_s": 12.84,
+      "start_time_source_s": 12.58,
+      "end_time_source_s": 12.84,
+      "probability": 0.47538912296295166
+    },
+    {
+      "word_index": 37,
+      "word": "burning",
+      "surface": " burning",
+      "start_time_wav_s": 12.84,
+      "end_time_wav_s": 13.1,
+      "start_time_source_s": 12.84,
+      "end_time_source_s": 13.1,
+      "probability": 0.997825562953949
+    },
+    {
+      "word_index": 38,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 13.1,
+      "end_time_wav_s": 13.54,
+      "start_time_source_s": 13.1,
+      "end_time_source_s": 13.54,
+      "probability": 0.9885198473930359
+    },
+    {
+      "word_index": 39,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 13.54,
+      "end_time_wav_s": 13.64,
+      "start_time_source_s": 13.54,
+      "end_time_source_s": 13.64,
+      "probability": 0.9991068243980408
+    },
+    {
+      "word_index": 40,
+      "word": "way",
+      "surface": " way",
+      "start_time_wav_s": 13.64,
+      "end_time_wav_s": 13.76,
+      "start_time_source_s": 13.64,
+      "end_time_source_s": 13.76,
+      "probability": 0.9990509152412415
+    },
+    {
+      "word_index": 41,
+      "word": "back",
+      "surface": " back",
+      "start_time_wav_s": 13.76,
+      "end_time_wav_s": 13.98,
+      "start_time_source_s": 13.76,
+      "end_time_source_s": 13.98,
+      "probability": 0.9947836995124817
+    },
+    {
+      "word_index": 42,
+      "word": "up.",
+      "surface": " up.",
+      "start_time_wav_s": 13.98,
+      "end_time_wav_s": 14.2,
+      "start_time_source_s": 13.98,
+      "end_time_source_s": 14.2,
+      "probability": 0.9978826642036438
+    }
+  ],
+  "word_count": 42,
+  "mean_word_probability": 0.9674237327916282,
+  "issues": [],
+  "official_transcript_loaded": false
+}

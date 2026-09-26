@@ -1,0 +1,593 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-dxfTGcXJoc$_$0.wav",
+  "audio_sha256": "fa4d7a9921c36a776c21e36bef3dfbcf93a25982a29a667fe8613726aa9cd41d",
+  "audio_duration_s": 20.41,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "This is Governor Steve Beshear ... About Kentucky. Our state is home to more than 1,500 bioscience and life science companies, and more than 100,000 people who work for these firms, in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices. For more information, visit www.fema.gov",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.4,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.4,
+      "text": " This is Governor Steve Beshear ... About Kentucky.",
+      "no_speech_probability": 0.004017850384116173,
+      "average_log_probability": -0.16649259451557608
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.36,
+      "end_time_wav_s": 9.4,
+      "start_time_source_s": 4.36,
+      "end_time_source_s": 9.4,
+      "text": " Our state is home to more than 1,500 bioscience and life science companies,",
+      "no_speech_probability": 0.004017850384116173,
+      "average_log_probability": -0.16649259451557608
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 10.0,
+      "end_time_wav_s": 13.08,
+      "start_time_source_s": 10.0,
+      "end_time_source_s": 13.08,
+      "text": " and more than 100,000 people who work for these firms,",
+      "no_speech_probability": 0.004017850384116173,
+      "average_log_probability": -0.16649259451557608
+    },
+    {
+      "segment_index": 4,
+      "start_time_wav_s": 13.8,
+      "end_time_wav_s": 19.7,
+      "start_time_source_s": 13.8,
+      "end_time_source_s": 19.7,
+      "text": " in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+      "no_speech_probability": 0.004017850384116173,
+      "average_log_probability": -0.16649259451557608
+    },
+    {
+      "segment_index": 5,
+      "start_time_wav_s": 19.7,
+      "end_time_wav_s": 20.38,
+      "start_time_source_s": 19.7,
+      "end_time_source_s": 20.38,
+      "text": " For more information, visit www.fema.gov",
+      "no_speech_probability": 0.9668759703636169,
+      "average_log_probability": -0.8299510180950165
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "This",
+      "surface": " This",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.68,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.68,
+      "probability": 0.7148575186729431
+    },
+    {
+      "word_index": 2,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 0.68,
+      "end_time_wav_s": 0.9,
+      "start_time_source_s": 0.68,
+      "end_time_source_s": 0.9,
+      "probability": 0.9918164610862732
+    },
+    {
+      "word_index": 3,
+      "word": "Governor",
+      "surface": " Governor",
+      "start_time_wav_s": 0.9,
+      "end_time_wav_s": 1.14,
+      "start_time_source_s": 0.9,
+      "end_time_source_s": 1.14,
+      "probability": 0.926433801651001
+    },
+    {
+      "word_index": 4,
+      "word": "Steve",
+      "surface": " Steve",
+      "start_time_wav_s": 1.14,
+      "end_time_wav_s": 1.52,
+      "start_time_source_s": 1.14,
+      "end_time_source_s": 1.52,
+      "probability": 0.9608113169670105
+    },
+    {
+      "word_index": 5,
+      "word": "Beshear",
+      "surface": " Beshear",
+      "start_time_wav_s": 1.52,
+      "end_time_wav_s": 2.08,
+      "start_time_source_s": 1.52,
+      "end_time_source_s": 2.08,
+      "probability": 0.9780836304028829
+    },
+    {
+      "word_index": 6,
+      "word": "...",
+      "surface": " ...",
+      "start_time_wav_s": 2.08,
+      "end_time_wav_s": 2.56,
+      "start_time_source_s": 2.08,
+      "end_time_source_s": 2.56,
+      "probability": 0.947170615196228
+    },
+    {
+      "word_index": 7,
+      "word": "About",
+      "surface": " About",
+      "start_time_wav_s": 2.56,
+      "end_time_wav_s": 2.82,
+      "start_time_source_s": 2.56,
+      "end_time_source_s": 2.82,
+      "probability": 0.9904996752738953
+    },
+    {
+      "word_index": 8,
+      "word": "Kentucky.",
+      "surface": " Kentucky.",
+      "start_time_wav_s": 2.82,
+      "end_time_wav_s": 3.4,
+      "start_time_source_s": 2.82,
+      "end_time_source_s": 3.4,
+      "probability": 0.988412082195282
+    },
+    {
+      "word_index": 9,
+      "word": "Our",
+      "surface": " Our",
+      "start_time_wav_s": 4.36,
+      "end_time_wav_s": 4.54,
+      "start_time_source_s": 4.36,
+      "end_time_source_s": 4.54,
+      "probability": 0.9653156995773315
+    },
+    {
+      "word_index": 10,
+      "word": "state",
+      "surface": " state",
+      "start_time_wav_s": 4.54,
+      "end_time_wav_s": 4.84,
+      "start_time_source_s": 4.54,
+      "end_time_source_s": 4.84,
+      "probability": 0.9637653827667236
+    },
+    {
+      "word_index": 11,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 4.84,
+      "end_time_wav_s": 5.08,
+      "start_time_source_s": 4.84,
+      "end_time_source_s": 5.08,
+      "probability": 0.9971722960472107
+    },
+    {
+      "word_index": 12,
+      "word": "home",
+      "surface": " home",
+      "start_time_wav_s": 5.08,
+      "end_time_wav_s": 5.36,
+      "start_time_source_s": 5.08,
+      "end_time_source_s": 5.36,
+      "probability": 0.9976771473884583
+    },
+    {
+      "word_index": 13,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 5.36,
+      "end_time_wav_s": 5.64,
+      "start_time_source_s": 5.36,
+      "end_time_source_s": 5.64,
+      "probability": 0.9929694533348083
+    },
+    {
+      "word_index": 14,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 5.64,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 5.64,
+      "end_time_source_s": 5.84,
+      "probability": 0.9951406717300415
+    },
+    {
+      "word_index": 15,
+      "word": "than",
+      "surface": " than",
+      "start_time_wav_s": 5.84,
+      "end_time_wav_s": 6.1,
+      "start_time_source_s": 5.84,
+      "end_time_source_s": 6.1,
+      "probability": 0.9927109479904175
+    },
+    {
+      "word_index": 16,
+      "word": "1",
+      "surface": " 1",
+      "start_time_wav_s": 6.1,
+      "end_time_wav_s": 6.32,
+      "start_time_source_s": 6.1,
+      "end_time_source_s": 6.32,
+      "probability": 0.8208277225494385
+    },
+    {
+      "word_index": 17,
+      "word": ",500",
+      "surface": ",500",
+      "start_time_wav_s": 6.32,
+      "end_time_wav_s": 6.8,
+      "start_time_source_s": 6.32,
+      "end_time_source_s": 6.8,
+      "probability": 0.9959996044635773
+    },
+    {
+      "word_index": 18,
+      "word": "bioscience",
+      "surface": " bioscience",
+      "start_time_wav_s": 6.8,
+      "end_time_wav_s": 8.02,
+      "start_time_source_s": 6.8,
+      "end_time_source_s": 8.02,
+      "probability": 0.8557510375976562
+    },
+    {
+      "word_index": 19,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 8.02,
+      "end_time_wav_s": 8.34,
+      "start_time_source_s": 8.02,
+      "end_time_source_s": 8.34,
+      "probability": 0.9864315390586853
+    },
+    {
+      "word_index": 20,
+      "word": "life",
+      "surface": " life",
+      "start_time_wav_s": 8.34,
+      "end_time_wav_s": 8.64,
+      "start_time_source_s": 8.34,
+      "end_time_source_s": 8.64,
+      "probability": 0.6528123617172241
+    },
+    {
+      "word_index": 21,
+      "word": "science",
+      "surface": " science",
+      "start_time_wav_s": 8.64,
+      "end_time_wav_s": 9.02,
+      "start_time_source_s": 8.64,
+      "end_time_source_s": 9.02,
+      "probability": 0.8795809149742126
+    },
+    {
+      "word_index": 22,
+      "word": "companies,",
+      "surface": " companies,",
+      "start_time_wav_s": 9.02,
+      "end_time_wav_s": 9.4,
+      "start_time_source_s": 9.02,
+      "end_time_source_s": 9.4,
+      "probability": 0.9983813762664795
+    },
+    {
+      "word_index": 23,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 10.0,
+      "end_time_wav_s": 10.16,
+      "start_time_source_s": 10.0,
+      "end_time_source_s": 10.16,
+      "probability": 0.9917646050453186
+    },
+    {
+      "word_index": 24,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 10.16,
+      "end_time_wav_s": 10.34,
+      "start_time_source_s": 10.16,
+      "end_time_source_s": 10.34,
+      "probability": 0.9931706190109253
+    },
+    {
+      "word_index": 25,
+      "word": "than",
+      "surface": " than",
+      "start_time_wav_s": 10.34,
+      "end_time_wav_s": 10.54,
+      "start_time_source_s": 10.34,
+      "end_time_source_s": 10.54,
+      "probability": 0.9965946078300476
+    },
+    {
+      "word_index": 26,
+      "word": "100",
+      "surface": " 100",
+      "start_time_wav_s": 10.54,
+      "end_time_wav_s": 10.98,
+      "start_time_source_s": 10.54,
+      "end_time_source_s": 10.98,
+      "probability": 0.8712180256843567
+    },
+    {
+      "word_index": 27,
+      "word": ",000",
+      "surface": ",000",
+      "start_time_wav_s": 10.98,
+      "end_time_wav_s": 11.46,
+      "start_time_source_s": 10.98,
+      "end_time_source_s": 11.46,
+      "probability": 0.9836651086807251
+    },
+    {
+      "word_index": 28,
+      "word": "people",
+      "surface": " people",
+      "start_time_wav_s": 11.46,
+      "end_time_wav_s": 11.82,
+      "start_time_source_s": 11.46,
+      "end_time_source_s": 11.82,
+      "probability": 0.9887214303016663
+    },
+    {
+      "word_index": 29,
+      "word": "who",
+      "surface": " who",
+      "start_time_wav_s": 11.82,
+      "end_time_wav_s": 12.18,
+      "start_time_source_s": 11.82,
+      "end_time_source_s": 12.18,
+      "probability": 0.9814481139183044
+    },
+    {
+      "word_index": 30,
+      "word": "work",
+      "surface": " work",
+      "start_time_wav_s": 12.18,
+      "end_time_wav_s": 12.38,
+      "start_time_source_s": 12.18,
+      "end_time_source_s": 12.38,
+      "probability": 0.9919928312301636
+    },
+    {
+      "word_index": 31,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 12.38,
+      "end_time_wav_s": 12.58,
+      "start_time_source_s": 12.38,
+      "end_time_source_s": 12.58,
+      "probability": 0.9957148432731628
+    },
+    {
+      "word_index": 32,
+      "word": "these",
+      "surface": " these",
+      "start_time_wav_s": 12.58,
+      "end_time_wav_s": 12.78,
+      "start_time_source_s": 12.58,
+      "end_time_source_s": 12.78,
+      "probability": 0.9928154945373535
+    },
+    {
+      "word_index": 33,
+      "word": "firms,",
+      "surface": " firms,",
+      "start_time_wav_s": 12.78,
+      "end_time_wav_s": 13.08,
+      "start_time_source_s": 12.78,
+      "end_time_source_s": 13.08,
+      "probability": 0.9901584982872009
+    },
+    {
+      "word_index": 34,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 13.8,
+      "end_time_wav_s": 14.02,
+      "start_time_source_s": 13.8,
+      "end_time_source_s": 14.02,
+      "probability": 0.9890087246894836
+    },
+    {
+      "word_index": 35,
+      "word": "areas",
+      "surface": " areas",
+      "start_time_wav_s": 14.02,
+      "end_time_wav_s": 14.44,
+      "start_time_source_s": 14.02,
+      "end_time_source_s": 14.44,
+      "probability": 0.993313729763031
+    },
+    {
+      "word_index": 36,
+      "word": "from",
+      "surface": " from",
+      "start_time_wav_s": 14.44,
+      "end_time_wav_s": 14.9,
+      "start_time_source_s": 14.44,
+      "end_time_source_s": 14.9,
+      "probability": 0.9869270920753479
+    },
+    {
+      "word_index": 37,
+      "word": "nutrigenomics",
+      "surface": " nutrigenomics",
+      "start_time_wav_s": 14.9,
+      "end_time_wav_s": 16.0,
+      "start_time_source_s": 14.9,
+      "end_time_source_s": 16.0,
+      "probability": 0.823793962597847
+    },
+    {
+      "word_index": 38,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 16.0,
+      "end_time_wav_s": 16.36,
+      "start_time_source_s": 16.0,
+      "end_time_source_s": 16.36,
+      "probability": 0.9717255234718323
+    },
+    {
+      "word_index": 39,
+      "word": "pharmaceuticals",
+      "surface": " pharmaceuticals",
+      "start_time_wav_s": 16.36,
+      "end_time_wav_s": 17.46,
+      "start_time_source_s": 16.36,
+      "end_time_source_s": 17.46,
+      "probability": 0.9965240955352783
+    },
+    {
+      "word_index": 40,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 17.46,
+      "end_time_wav_s": 17.74,
+      "start_time_source_s": 17.46,
+      "end_time_source_s": 17.74,
+      "probability": 0.5810564756393433
+    },
+    {
+      "word_index": 41,
+      "word": "nanotechnology",
+      "surface": " nanotechnology",
+      "start_time_wav_s": 17.74,
+      "end_time_wav_s": 18.52,
+      "start_time_source_s": 17.74,
+      "end_time_source_s": 18.52,
+      "probability": 0.978647917509079
+    },
+    {
+      "word_index": 42,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 18.52,
+      "end_time_wav_s": 18.9,
+      "start_time_source_s": 18.52,
+      "end_time_source_s": 18.9,
+      "probability": 0.9950062036514282
+    },
+    {
+      "word_index": 43,
+      "word": "medical",
+      "surface": " medical",
+      "start_time_wav_s": 18.9,
+      "end_time_wav_s": 19.2,
+      "start_time_source_s": 18.9,
+      "end_time_source_s": 19.2,
+      "probability": 0.9990587830543518
+    },
+    {
+      "word_index": 44,
+      "word": "devices.",
+      "surface": " devices.",
+      "start_time_wav_s": 19.2,
+      "end_time_wav_s": 19.7,
+      "start_time_source_s": 19.2,
+      "end_time_source_s": 19.7,
+      "probability": 0.9967724680900574
+    },
+    {
+      "word_index": 45,
+      "word": "For",
+      "surface": " For",
+      "start_time_wav_s": 19.7,
+      "end_time_wav_s": 20.02,
+      "start_time_source_s": 19.7,
+      "end_time_source_s": 20.02,
+      "probability": 0.0011286749504506588
+    },
+    {
+      "word_index": 46,
+      "word": "more",
+      "surface": " more",
+      "start_time_wav_s": 20.02,
+      "end_time_wav_s": 20.02,
+      "start_time_source_s": 20.02,
+      "end_time_source_s": 20.02,
+      "probability": 0.29283714294433594
+    },
+    {
+      "word_index": 47,
+      "word": "information,",
+      "surface": " information,",
+      "start_time_wav_s": 20.02,
+      "end_time_wav_s": 20.02,
+      "start_time_source_s": 20.02,
+      "end_time_source_s": 20.02,
+      "probability": 0.7625270485877991
+    },
+    {
+      "word_index": 48,
+      "word": "visit",
+      "surface": " visit",
+      "start_time_wav_s": 20.02,
+      "end_time_wav_s": 20.34,
+      "start_time_source_s": 20.02,
+      "end_time_source_s": 20.34,
+      "probability": 0.33407917618751526
+    },
+    {
+      "word_index": 49,
+      "word": "www",
+      "surface": " www",
+      "start_time_wav_s": 20.34,
+      "end_time_wav_s": 20.34,
+      "start_time_source_s": 20.34,
+      "end_time_source_s": 20.34,
+      "probability": 0.4434071183204651
+    },
+    {
+      "word_index": 50,
+      "word": ".fema",
+      "surface": ".fema",
+      "start_time_wav_s": 20.34,
+      "end_time_wav_s": 20.34,
+      "start_time_source_s": 20.34,
+      "end_time_source_s": 20.34,
+      "probability": 0.519984133541584
+    },
+    {
+      "word_index": 51,
+      "word": ".gov",
+      "surface": ".gov",
+      "start_time_wav_s": 20.34,
+      "end_time_wav_s": 20.38,
+      "start_time_source_s": 20.34,
+      "end_time_source_s": 20.38,
+      "probability": 0.8363764882087708
+    }
+  ],
+  "word_count": 51,
+  "mean_word_probability": 0.8798443175200982,
+  "issues": [],
+  "official_transcript_loaded": false
+}

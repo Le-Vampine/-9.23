@@ -1,0 +1,133 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$5",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-HwX2H8Z4hY$_$5.wav",
+  "audio_sha256": "3707bda1abd6ffdd9292771bf312a8d19b4826f4387572101a2b99759c979b83",
+  "audio_duration_s": 5.544,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "President Ronald Reagan blamed the professional bureaucracy of education.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.94,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.94,
+      "text": " President Ronald Reagan blamed the professional bureaucracy of education.",
+      "no_speech_probability": 0.015989145264029503,
+      "average_log_probability": -0.3451725978117723
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "President",
+      "surface": " President",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 1.16,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 1.16,
+      "probability": 0.7362056374549866
+    },
+    {
+      "word_index": 2,
+      "word": "Ronald",
+      "surface": " Ronald",
+      "start_time_wav_s": 1.16,
+      "end_time_wav_s": 1.56,
+      "start_time_source_s": 1.16,
+      "end_time_source_s": 1.56,
+      "probability": 0.9956395626068115
+    },
+    {
+      "word_index": 3,
+      "word": "Reagan",
+      "surface": " Reagan",
+      "start_time_wav_s": 1.56,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.56,
+      "end_time_source_s": 2.0,
+      "probability": 0.9823776483535767
+    },
+    {
+      "word_index": 4,
+      "word": "blamed",
+      "surface": " blamed",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.44,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.44,
+      "probability": 0.9517512321472168
+    },
+    {
+      "word_index": 5,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 2.44,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.44,
+      "end_time_source_s": 2.74,
+      "probability": 0.9858522415161133
+    },
+    {
+      "word_index": 6,
+      "word": "professional",
+      "surface": " professional",
+      "start_time_wav_s": 2.74,
+      "end_time_wav_s": 3.34,
+      "start_time_source_s": 2.74,
+      "end_time_source_s": 3.34,
+      "probability": 0.9157648086547852
+    },
+    {
+      "word_index": 7,
+      "word": "bureaucracy",
+      "surface": " bureaucracy",
+      "start_time_wav_s": 3.34,
+      "end_time_wav_s": 3.92,
+      "start_time_source_s": 3.34,
+      "end_time_source_s": 3.92,
+      "probability": 0.9981029033660889
+    },
+    {
+      "word_index": 8,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 3.92,
+      "end_time_wav_s": 4.38,
+      "start_time_source_s": 3.92,
+      "end_time_source_s": 4.38,
+      "probability": 0.99673992395401
+    },
+    {
+      "word_index": 9,
+      "word": "education.",
+      "surface": " education.",
+      "start_time_wav_s": 4.38,
+      "end_time_wav_s": 4.94,
+      "start_time_source_s": 4.38,
+      "end_time_source_s": 4.94,
+      "probability": 0.9855257868766785
+    }
+  ],
+  "word_count": 9,
+  "mean_word_probability": 0.9497733049922519,
+  "issues": [],
+  "official_transcript_loaded": false
+}

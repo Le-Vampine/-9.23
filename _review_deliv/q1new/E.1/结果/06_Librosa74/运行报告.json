@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "sample_count": 100,
+  "total_frame_count": 77755,
+  "feature_dimensions": 74,
+  "all_finite": true,
+  "all_frame_centers_within_wav": true,
+  "wav_sample_rate_hz": 16000,
+  "librosa_version": "0.11.0",
+  "numpy_version": "2.2.6",
+  "input_manifest_sha256": "bb82428e0b04beb35f49cd557fbd7fc299f038540de28d8c1b23248ca6d9e1ee",
+  "step2_media_report_sha256": "bde73a9f3b9ae38a0b64d53f117d3ad1fd09742cff2d2f377e586a18bac5c47d",
+  "total_f0_voiced_frames": 51538,
+  "voicing_is_pitch_model_output_not_speech_activity_ground_truth": true
+}

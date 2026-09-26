@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "sample_count": 100,
+  "decoded_frame_count": 23241,
+  "sampled_frame_count": 7889,
+  "face_detected_frame_count": 6523,
+  "face_valid_frame_count": 6471,
+  "multi_face_frame_count": 52,
+  "no_face_frame_count": 1366,
+  "small_single_face_frame_count": 0,
+  "samples_with_no_valid_face": [
+    "-HwX2H8Z4hY$_$9",
+    "-NFrJFQijFE$_$1",
+    "-NFrJFQijFE$_$2",
+    "-iRBcNs9oI8$_$3",
+    "-iRBcNs9oI8$_$7",
+    "-iRBcNs9oI8$_$6",
+    "-iRBcNs9oI8$_$9",
+    "-iRBcNs9oI8$_$8",
+    "-mJ2ud6oKI8$_$1",
+    "-mJ2ud6oKI8$_$2",
+    "-hnBHBN8p5A$_$7",
+    "-hnBHBN8p5A$_$6",
+    "-ri04Z7vwnc$_$0"
+  ],
+  "samples_with_frames_after_reported_video_end": [
+    "-571d8cVauQ$_$0",
+    "-UUCSKoHeMA$_$0",
+    "-s9qJ7ATP7w$_$0"
+  ],
+  "feature_dimensions": 52,
+  "all_feature_values_finite": true,
+  "all_timestamps_original_pts_and_strictly_increasing": true,
+  "model_sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+  "mediapipe_version": "0.10.32",
+  "pyav_version": "18.1.0",
+  "opencv_version": "5.0.0",
+  "numpy_version": "2.5.3",
+  "manifest_sha256": "bb82428e0b04beb35f49cd557fbd7fc299f038540de28d8c1b23248ca6d9e1ee",
+  "step2_media_report_sha256": "bde73a9f3b9ae38a0b64d53f117d3ad1fd09742cff2d2f377e586a18bac5c47d"
+}

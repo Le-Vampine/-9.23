@@ -1,0 +1,98 @@
+{
+  "tag": "exp_d4",
+  "n_valid": 728,
+  "n_test": 727,
+  "oracle": {
+    "valid": 0.6854,
+    "test": 0.7166
+  },
+  "chosen": "base",
+  "chosen_cv": 0.617,
+  "rows": [
+    {
+      "rule": "base",
+      "cv_sel": 0.617,
+      "valid": {
+        "ACC": 0.6291,
+        "MacroF1": 0.617,
+        "neuF1": 0.484
+      },
+      "test": {
+        "ACC": 0.6506,
+        "MacroF1": 0.6241,
+        "neuF1": 0.4476
+      }
+    },
+    {
+      "rule": "th",
+      "cv_sel": 0.5976,
+      "valid": {
+        "ACC": 0.625,
+        "MacroF1": 0.6028,
+        "neuF1": 0.4506
+      },
+      "test": {
+        "ACC": 0.6547,
+        "MacroF1": 0.6158,
+        "neuF1": 0.4138
+      }
+    },
+    {
+      "rule": "band",
+      "cv_sel": 0.6087,
+      "valid": {
+        "ACC": 0.6442,
+        "MacroF1": 0.6332,
+        "neuF1": 0.5072
+      },
+      "test": {
+        "ACC": 0.6382,
+        "MacroF1": 0.6105,
+        "neuF1": 0.4144
+      }
+    },
+    {
+      "rule": "lr",
+      "cv_sel": 0.6055,
+      "valid": {
+        "ACC": 0.625,
+        "MacroF1": 0.6194,
+        "neuF1": 0.5046
+      },
+      "test": {
+        "ACC": 0.6437,
+        "MacroF1": 0.6205,
+        "neuF1": 0.4482
+      }
+    },
+    {
+      "rule": "tree",
+      "cv_sel": 0.6042,
+      "valid": {
+        "ACC": 0.6277,
+        "MacroF1": 0.6282,
+        "neuF1": 0.5308
+      },
+      "test": {
+        "ACC": 0.5887,
+        "MacroF1": 0.5735,
+        "neuF1": 0.3772
+      }
+    },
+    {
+      "rule": "rf",
+      "cv_sel": 0.6095,
+      "valid": {
+        "ACC": 0.6786,
+        "MacroF1": 0.6732,
+        "neuF1": 0.5835
+      },
+      "test": {
+        "ACC": 0.6286,
+        "MacroF1": 0.6036,
+        "neuF1": 0.4066
+      }
+    }
+  ],
+  "tree_rules": "|--- logit_pm <= -0.363\n|   |--- prob_neg <= 0.666\n|   |   |--- prob_neu <= 1.158\n|   |   |   |--- class: 0\n|   |   |--- prob_neu >  1.158\n|   |   |   |--- class: 1\n|   |--- prob_neg >  0.666\n|   |   |--- prob_neu <= -1.240\n|   |   |   |--- class: 0\n|   |   |--- prob_neu >  -1.240\n|   |   |   |--- class: 0\n|--- logit_pm >  -0.363\n|   |--- abs_score <= -0.226\n|   |   |--- entropy <= 0.503\n|   |   |   |--- class: 1\n|   |   |--- entropy >  0.503\n|   |   |   |--- class: 1\n|   |--- abs_score >  -0.226\n|   |   |--- prob_pos <= 1.296\n|   |   |   |--- class: 2\n|   |   |--- prob_pos >  1.296\n|   |   |   |--- class: 2\n"
+}

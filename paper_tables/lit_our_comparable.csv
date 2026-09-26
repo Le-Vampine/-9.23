@@ -1,0 +1,20 @@
+类别,指标,数值,划分,样本数,口径说明,来源文件
+主口径,Acc-2（分类头概率构造 · 负对非负）,0.8514,附件二测试划分,727,按分类头概率比较 p_neg 与 p_neu+p_pos，本文固化的与文献可比口径,runs/ens_top2 与 解决方案/07 §3.1
+主口径,Acc-2（回归分数 + 验证集选优阈值 · 负对非负）,0.8336,附件二测试划分,727,用回归分数按验证集选定阈值二值化，作对照,runs/ens_top2/perclass_top2_test.json
+主口径,Acc-2（回归分数 · 负对非负）,0.8132,验证集,728,同上，验证集,runs/ens_top2/perclass_top2_valid.json
+对照,Acc-2（非正对正）,0.7510,附件二测试划分,727,把中性并入负面,runs/ens_top2/perclass_top2_test.json
+对照,Acc-2（剔除中性 · 仅负对正）,0.7522,附件二测试划分,569,只在非中性样本上判正负,runs/ens_top2/perclass_top2_test.json
+对照,Acc-7（七分类）,0.5220,验证集,728,按情感强度七档分类,runs/ens_top2/probe_missing.json
+难点基线,平凡多数类基线 Acc-2（负对非负）,0.7153,附件二测试划分,727,不做任何建模的多数类预测，作为下界参照,解决方案/07 §3.1
+本文主报,三分类 Accuracy,0.6223,验证集,728,题目规定口径（分类头主口径）,paper_tables/main_results_summary.csv
+本文主报,三分类 Macro-F1,0.6158,验证集,728,题目规定口径（分类头主口径）,paper_tables/main_results_summary.csv
+本文主报,MAE,0.5866,验证集,728,题目规定口径,paper_tables/main_results_summary.csv
+本文主报,Pearson,0.6543,验证集,728,题目规定口径,paper_tables/main_results_summary.csv
+本文主报,三分类 Accuracy,0.6534,附件二测试划分,727,题目规定口径（分类头主口径）,paper_tables/main_results_summary.csv
+本文主报,三分类 Macro-F1,0.6338,附件二测试划分,727,题目规定口径（分类头主口径）,paper_tables/main_results_summary.csv
+本文主报,MAE,0.6216,附件二测试划分,727,题目规定口径,paper_tables/main_results_summary.csv
+本文主报,Pearson,0.6807,附件二测试划分,727,题目规定口径,paper_tables/main_results_summary.csv
+训练规模,本文训练样本数,3395,训练集,3395,赛题附件二提供 4850 条并按 3395/728/727 划分,附件2/label.xlsx
+训练规模,CMU-MOSEI 公开划分训练样本数,16326,公开训练集,16326,公开设定，约为本文的 4.8 倍，对比时必须写明,公开资料
+文献锚点,CMU-MOSEI 全模态干净设定 Acc-2 区间,0.84-0.86,公开测试划分,—,文献常报区间，非精确值，引用时须标注原始口径,解决方案/07 §3.1
+文献锚点,CMU-MOSEI 随机缺失协议 Acc-2 区间,0.71-0.79,公开测试划分,—,文献常报区间，非精确值,解决方案/07 §3.1

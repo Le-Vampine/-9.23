@@ -1,0 +1,6 @@
+﻿ckpt,version,target_len,min_zero_len,hidden,nhead,enc_layers,n_experts,dropout,ms_pool,ms_windows,mag_levels,use_pol,epochs_teacher,epochs_student,batch_size,lr_backbone,lr_head,weight_decay,warmup_epochs,grad_clip,patience,ema,ema_decay,bf16,curric,pos_modes,n_intervals,crop_aug,crop_min_keep,mod_dropout,rho_mix,rho_mix_epoch,lam_cls,lam_var,reg_beta,lam_rec,lam_rec0,lam_sim,lam_diff,lam_bal,lam_kd0,kd_tau,kd_warmup,kd_decay_epochs,lam_emd,lam_mag,lam_neusup,lam_cons,lam_pol,weak_alpha,noise_sigma,label_smoothing,cls_balanced,ablate_mask_indicator,ablate_rec,ablate_curric,ablate_inject,model_kind
+runs/ens_top2/student_s42.pt,aligned,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mrf
+runs/ens_top2/student_s43.pt,aligned,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mrf
+runs/tune/c00_baseline/student_s42.pt,aligned,,,,,,,,False,[5; 25; 50],10,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mrf
+runs/tune/c06_kd05/student_s42.pt,aligned,,,,,,,,False,[5; 25; 50],10,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mrf
+runs/q2v3/student_s42.pt,aligned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

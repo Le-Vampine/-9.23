@@ -1,0 +1,273 @@
+{
+  "sample_id": "-wny0OAz3g8$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-wny0OAz3g8$_$3.wav",
+  "audio_sha256": "c82216a042d50bb0070852360522fbb6a6433d138bd8c6dd949c0e7ffa49c631",
+  "audio_duration_s": 6.099875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "which then allowed the white workers and unions to justify their decision to not allow black workers into their union. The prevailing—",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.52,
+      "text": " which then allowed the white workers and unions to justify their decision to not allow black workers into their union.",
+      "no_speech_probability": 0.02110416069626808,
+      "average_log_probability": -0.3202378092140987
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.7,
+      "end_time_wav_s": 6.06,
+      "start_time_source_s": 5.7,
+      "end_time_source_s": 6.06,
+      "text": " The prevailing—",
+      "no_speech_probability": 0.02110416069626808,
+      "average_log_probability": -0.3202378092140987
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "which",
+      "surface": " which",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.58,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.58,
+      "probability": 0.4149322807788849
+    },
+    {
+      "word_index": 2,
+      "word": "then",
+      "surface": " then",
+      "start_time_wav_s": 0.58,
+      "end_time_wav_s": 0.88,
+      "start_time_source_s": 0.58,
+      "end_time_source_s": 0.88,
+      "probability": 0.9824703335762024
+    },
+    {
+      "word_index": 3,
+      "word": "allowed",
+      "surface": " allowed",
+      "start_time_wav_s": 0.88,
+      "end_time_wav_s": 1.1,
+      "start_time_source_s": 0.88,
+      "end_time_source_s": 1.1,
+      "probability": 0.99709153175354
+    },
+    {
+      "word_index": 4,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 1.1,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 1.1,
+      "end_time_source_s": 1.26,
+      "probability": 0.9628600478172302
+    },
+    {
+      "word_index": 5,
+      "word": "white",
+      "surface": " white",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.4,
+      "probability": 0.8468011617660522
+    },
+    {
+      "word_index": 6,
+      "word": "workers",
+      "surface": " workers",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.7,
+      "probability": 0.9964430928230286
+    },
+    {
+      "word_index": 7,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 1.86,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 1.86,
+      "probability": 0.5453421473503113
+    },
+    {
+      "word_index": 8,
+      "word": "unions",
+      "surface": " unions",
+      "start_time_wav_s": 1.86,
+      "end_time_wav_s": 2.1,
+      "start_time_source_s": 1.86,
+      "end_time_source_s": 2.1,
+      "probability": 0.9934881925582886
+    },
+    {
+      "word_index": 9,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 2.1,
+      "end_time_wav_s": 2.36,
+      "start_time_source_s": 2.1,
+      "end_time_source_s": 2.36,
+      "probability": 0.9930552840232849
+    },
+    {
+      "word_index": 10,
+      "word": "justify",
+      "surface": " justify",
+      "start_time_wav_s": 2.36,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.36,
+      "end_time_source_s": 2.76,
+      "probability": 0.9988456964492798
+    },
+    {
+      "word_index": 11,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 2.98,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 2.98,
+      "probability": 0.995563268661499
+    },
+    {
+      "word_index": 12,
+      "word": "decision",
+      "surface": " decision",
+      "start_time_wav_s": 2.98,
+      "end_time_wav_s": 3.22,
+      "start_time_source_s": 2.98,
+      "end_time_source_s": 3.22,
+      "probability": 0.9842772483825684
+    },
+    {
+      "word_index": 13,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.22,
+      "end_time_wav_s": 3.46,
+      "start_time_source_s": 3.22,
+      "end_time_source_s": 3.46,
+      "probability": 0.9844169020652771
+    },
+    {
+      "word_index": 14,
+      "word": "not",
+      "surface": " not",
+      "start_time_wav_s": 3.46,
+      "end_time_wav_s": 3.66,
+      "start_time_source_s": 3.46,
+      "end_time_source_s": 3.66,
+      "probability": 0.9971388578414917
+    },
+    {
+      "word_index": 15,
+      "word": "allow",
+      "surface": " allow",
+      "start_time_wav_s": 3.66,
+      "end_time_wav_s": 3.98,
+      "start_time_source_s": 3.66,
+      "end_time_source_s": 3.98,
+      "probability": 0.9967997074127197
+    },
+    {
+      "word_index": 16,
+      "word": "black",
+      "surface": " black",
+      "start_time_wav_s": 3.98,
+      "end_time_wav_s": 4.2,
+      "start_time_source_s": 3.98,
+      "end_time_source_s": 4.2,
+      "probability": 0.8670766949653625
+    },
+    {
+      "word_index": 17,
+      "word": "workers",
+      "surface": " workers",
+      "start_time_wav_s": 4.2,
+      "end_time_wav_s": 4.6,
+      "start_time_source_s": 4.2,
+      "end_time_source_s": 4.6,
+      "probability": 0.9985361099243164
+    },
+    {
+      "word_index": 18,
+      "word": "into",
+      "surface": " into",
+      "start_time_wav_s": 4.6,
+      "end_time_wav_s": 4.96,
+      "start_time_source_s": 4.6,
+      "end_time_source_s": 4.96,
+      "probability": 0.981569766998291
+    },
+    {
+      "word_index": 19,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 4.96,
+      "end_time_wav_s": 5.16,
+      "start_time_source_s": 4.96,
+      "end_time_source_s": 5.16,
+      "probability": 0.9920237064361572
+    },
+    {
+      "word_index": 20,
+      "word": "union.",
+      "surface": " union.",
+      "start_time_wav_s": 5.16,
+      "end_time_wav_s": 5.52,
+      "start_time_source_s": 5.16,
+      "end_time_source_s": 5.52,
+      "probability": 0.9730509519577026
+    },
+    {
+      "word_index": 21,
+      "word": "The",
+      "surface": " The",
+      "start_time_wav_s": 5.7,
+      "end_time_wav_s": 5.76,
+      "start_time_source_s": 5.7,
+      "end_time_source_s": 5.76,
+      "probability": 0.9272322654724121
+    },
+    {
+      "word_index": 22,
+      "word": "prevailing—",
+      "surface": " prevailing—",
+      "start_time_wav_s": 5.76,
+      "end_time_wav_s": 6.06,
+      "start_time_source_s": 5.76,
+      "end_time_source_s": 6.06,
+      "probability": 0.2038278877735138
+    }
+  ],
+  "word_count": 22,
+  "mean_word_probability": 0.8924019607630643,
+  "issues": [],
+  "official_transcript_loaded": false
+}

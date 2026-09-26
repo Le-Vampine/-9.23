@@ -1,0 +1,423 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$1",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-dxfTGcXJoc$_$1.wav",
+  "audio_sha256": "a65ba36aa2897e1655896ff604e446fd14098c940d640557d9f4135ad32c8462",
+  "audio_duration_s": 16.018125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "For the tenth straight year, some of Kentucky's best and most innovative biotech companies and technologies were on display at the annual Bio International Convention, which I and other state officials attended this week in Chicago.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.9,
+      "text": " For the tenth straight year, some of Kentucky's best and most innovative biotech companies",
+      "no_speech_probability": 0.002184703014791012,
+      "average_log_probability": -0.12776904156867494
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 12.66,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 12.66,
+      "text": " and technologies were on display at the annual Bio International Convention, which I and",
+      "no_speech_probability": 0.002184703014791012,
+      "average_log_probability": -0.12776904156867494
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 12.66,
+      "end_time_wav_s": 15.28,
+      "start_time_source_s": 12.66,
+      "end_time_source_s": 15.28,
+      "text": " other state officials attended this week in Chicago.",
+      "no_speech_probability": 0.002184703014791012,
+      "average_log_probability": -0.12776904156867494
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "For",
+      "surface": " For",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.6,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.6,
+      "probability": 0.8124502897262573
+    },
+    {
+      "word_index": 2,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 0.6,
+      "end_time_wav_s": 0.76,
+      "start_time_source_s": 0.6,
+      "end_time_source_s": 0.76,
+      "probability": 0.9960387945175171
+    },
+    {
+      "word_index": 3,
+      "word": "tenth",
+      "surface": " tenth",
+      "start_time_wav_s": 0.76,
+      "end_time_wav_s": 0.98,
+      "start_time_source_s": 0.76,
+      "end_time_source_s": 0.98,
+      "probability": 0.5999460220336914
+    },
+    {
+      "word_index": 4,
+      "word": "straight",
+      "surface": " straight",
+      "start_time_wav_s": 0.98,
+      "end_time_wav_s": 1.36,
+      "start_time_source_s": 0.98,
+      "end_time_source_s": 1.36,
+      "probability": 0.9746900796890259
+    },
+    {
+      "word_index": 5,
+      "word": "year,",
+      "surface": " year,",
+      "start_time_wav_s": 1.36,
+      "end_time_wav_s": 1.84,
+      "start_time_source_s": 1.36,
+      "end_time_source_s": 1.84,
+      "probability": 0.9675220847129822
+    },
+    {
+      "word_index": 6,
+      "word": "some",
+      "surface": " some",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.52,
+      "probability": 0.9962001442909241
+    },
+    {
+      "word_index": 7,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.72,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.72,
+      "probability": 0.9962413311004639
+    },
+    {
+      "word_index": 8,
+      "word": "Kentucky's",
+      "surface": " Kentucky's",
+      "start_time_wav_s": 2.72,
+      "end_time_wav_s": 3.28,
+      "start_time_source_s": 2.72,
+      "end_time_source_s": 3.28,
+      "probability": 0.9958336353302002
+    },
+    {
+      "word_index": 9,
+      "word": "best",
+      "surface": " best",
+      "start_time_wav_s": 3.28,
+      "end_time_wav_s": 3.64,
+      "start_time_source_s": 3.28,
+      "end_time_source_s": 3.64,
+      "probability": 0.9948169589042664
+    },
+    {
+      "word_index": 10,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.64,
+      "end_time_wav_s": 4.0,
+      "start_time_source_s": 3.64,
+      "end_time_source_s": 4.0,
+      "probability": 0.9905956983566284
+    },
+    {
+      "word_index": 11,
+      "word": "most",
+      "surface": " most",
+      "start_time_wav_s": 4.0,
+      "end_time_wav_s": 4.26,
+      "start_time_source_s": 4.0,
+      "end_time_source_s": 4.26,
+      "probability": 0.9971856474876404
+    },
+    {
+      "word_index": 12,
+      "word": "innovative",
+      "surface": " innovative",
+      "start_time_wav_s": 4.26,
+      "end_time_wav_s": 4.86,
+      "start_time_source_s": 4.26,
+      "end_time_source_s": 4.86,
+      "probability": 0.989368736743927
+    },
+    {
+      "word_index": 13,
+      "word": "biotech",
+      "surface": " biotech",
+      "start_time_wav_s": 4.86,
+      "end_time_wav_s": 5.28,
+      "start_time_source_s": 4.86,
+      "end_time_source_s": 5.28,
+      "probability": 0.9852398633956909
+    },
+    {
+      "word_index": 14,
+      "word": "companies",
+      "surface": " companies",
+      "start_time_wav_s": 5.28,
+      "end_time_wav_s": 5.9,
+      "start_time_source_s": 5.28,
+      "end_time_source_s": 5.9,
+      "probability": 0.9974828362464905
+    },
+    {
+      "word_index": 15,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 5.9,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 5.9,
+      "end_time_source_s": 6.16,
+      "probability": 0.9923449158668518
+    },
+    {
+      "word_index": 16,
+      "word": "technologies",
+      "surface": " technologies",
+      "start_time_wav_s": 6.16,
+      "end_time_wav_s": 6.84,
+      "start_time_source_s": 6.16,
+      "end_time_source_s": 6.84,
+      "probability": 0.9930645823478699
+    },
+    {
+      "word_index": 17,
+      "word": "were",
+      "surface": " were",
+      "start_time_wav_s": 6.84,
+      "end_time_wav_s": 7.46,
+      "start_time_source_s": 6.84,
+      "end_time_source_s": 7.46,
+      "probability": 0.9818690419197083
+    },
+    {
+      "word_index": 18,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 7.46,
+      "end_time_wav_s": 7.76,
+      "start_time_source_s": 7.46,
+      "end_time_source_s": 7.76,
+      "probability": 0.9970877766609192
+    },
+    {
+      "word_index": 19,
+      "word": "display",
+      "surface": " display",
+      "start_time_wav_s": 7.76,
+      "end_time_wav_s": 8.32,
+      "start_time_source_s": 7.76,
+      "end_time_source_s": 8.32,
+      "probability": 0.998371422290802
+    },
+    {
+      "word_index": 20,
+      "word": "at",
+      "surface": " at",
+      "start_time_wav_s": 8.32,
+      "end_time_wav_s": 8.74,
+      "start_time_source_s": 8.32,
+      "end_time_source_s": 8.74,
+      "probability": 0.9967648983001709
+    },
+    {
+      "word_index": 21,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 8.74,
+      "end_time_wav_s": 8.94,
+      "start_time_source_s": 8.74,
+      "end_time_source_s": 8.94,
+      "probability": 0.995392918586731
+    },
+    {
+      "word_index": 22,
+      "word": "annual",
+      "surface": " annual",
+      "start_time_wav_s": 8.94,
+      "end_time_wav_s": 9.4,
+      "start_time_source_s": 8.94,
+      "end_time_source_s": 9.4,
+      "probability": 0.9364872574806213
+    },
+    {
+      "word_index": 23,
+      "word": "Bio",
+      "surface": " Bio",
+      "start_time_wav_s": 9.4,
+      "end_time_wav_s": 9.92,
+      "start_time_source_s": 9.4,
+      "end_time_source_s": 9.92,
+      "probability": 0.7866565585136414
+    },
+    {
+      "word_index": 24,
+      "word": "International",
+      "surface": " International",
+      "start_time_wav_s": 9.92,
+      "end_time_wav_s": 10.62,
+      "start_time_source_s": 9.92,
+      "end_time_source_s": 10.62,
+      "probability": 0.5995573997497559
+    },
+    {
+      "word_index": 25,
+      "word": "Convention,",
+      "surface": " Convention,",
+      "start_time_wav_s": 10.62,
+      "end_time_wav_s": 11.14,
+      "start_time_source_s": 10.62,
+      "end_time_source_s": 11.14,
+      "probability": 0.9161333441734314
+    },
+    {
+      "word_index": 26,
+      "word": "which",
+      "surface": " which",
+      "start_time_wav_s": 11.74,
+      "end_time_wav_s": 12.04,
+      "start_time_source_s": 11.74,
+      "end_time_source_s": 12.04,
+      "probability": 0.9975305199623108
+    },
+    {
+      "word_index": 27,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 12.04,
+      "end_time_wav_s": 12.44,
+      "start_time_source_s": 12.04,
+      "end_time_source_s": 12.44,
+      "probability": 0.9978874325752258
+    },
+    {
+      "word_index": 28,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 12.44,
+      "end_time_wav_s": 12.66,
+      "start_time_source_s": 12.44,
+      "end_time_source_s": 12.66,
+      "probability": 0.9904864430427551
+    },
+    {
+      "word_index": 29,
+      "word": "other",
+      "surface": " other",
+      "start_time_wav_s": 12.66,
+      "end_time_wav_s": 12.94,
+      "start_time_source_s": 12.66,
+      "end_time_source_s": 12.94,
+      "probability": 0.9950591325759888
+    },
+    {
+      "word_index": 30,
+      "word": "state",
+      "surface": " state",
+      "start_time_wav_s": 12.94,
+      "end_time_wav_s": 13.18,
+      "start_time_source_s": 12.94,
+      "end_time_source_s": 13.18,
+      "probability": 0.9842007756233215
+    },
+    {
+      "word_index": 31,
+      "word": "officials",
+      "surface": " officials",
+      "start_time_wav_s": 13.18,
+      "end_time_wav_s": 13.58,
+      "start_time_source_s": 13.18,
+      "end_time_source_s": 13.58,
+      "probability": 0.9986031651496887
+    },
+    {
+      "word_index": 32,
+      "word": "attended",
+      "surface": " attended",
+      "start_time_wav_s": 13.58,
+      "end_time_wav_s": 14.02,
+      "start_time_source_s": 13.58,
+      "end_time_source_s": 14.02,
+      "probability": 0.99906986951828
+    },
+    {
+      "word_index": 33,
+      "word": "this",
+      "surface": " this",
+      "start_time_wav_s": 14.02,
+      "end_time_wav_s": 14.32,
+      "start_time_source_s": 14.02,
+      "end_time_source_s": 14.32,
+      "probability": 0.9919798374176025
+    },
+    {
+      "word_index": 34,
+      "word": "week",
+      "surface": " week",
+      "start_time_wav_s": 14.32,
+      "end_time_wav_s": 14.6,
+      "start_time_source_s": 14.32,
+      "end_time_source_s": 14.6,
+      "probability": 0.9986037611961365
+    },
+    {
+      "word_index": 35,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 14.6,
+      "end_time_wav_s": 14.94,
+      "start_time_source_s": 14.6,
+      "end_time_source_s": 14.94,
+      "probability": 0.9827864170074463
+    },
+    {
+      "word_index": 36,
+      "word": "Chicago.",
+      "surface": " Chicago.",
+      "start_time_wav_s": 14.94,
+      "end_time_wav_s": 15.28,
+      "start_time_source_s": 14.94,
+      "end_time_source_s": 15.28,
+      "probability": 0.9978814721107483
+    }
+  ],
+  "word_count": 36,
+  "mean_word_probability": 0.9561508629057143,
+  "issues": [],
+  "official_transcript_loaded": false
+}

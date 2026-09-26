@@ -1,0 +1,73 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$9",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-iRBcNs9oI8$_$9.wav",
+  "audio_sha256": "a3c9cc78d25811313001d222baed35f27e8397c99ea864a0162a0e2e86f86936",
+  "audio_duration_s": 3.374,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "of Power Pose.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 2.3,
+      "text": " of Power Pose.",
+      "no_speech_probability": 0.005562744103372097,
+      "average_log_probability": -0.5146475008555821
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.36,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.36,
+      "probability": 0.8948835730552673
+    },
+    {
+      "word_index": 2,
+      "word": "Power",
+      "surface": " Power",
+      "start_time_wav_s": 0.36,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 0.36,
+      "end_time_source_s": 1.66,
+      "probability": 0.7613272070884705
+    },
+    {
+      "word_index": 3,
+      "word": "Pose.",
+      "surface": " Pose.",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 2.3,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 2.3,
+      "probability": 0.7083793878555298
+    }
+  ],
+  "word_count": 3,
+  "mean_word_probability": 0.7881967226664225,
+  "issues": [],
+  "official_transcript_loaded": false
+}

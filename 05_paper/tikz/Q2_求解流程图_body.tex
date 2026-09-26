@@ -1,0 +1,45 @@
+% 问题二 求解流程图（蛇形横向，现代柔和 6 色）—— 仅含 tikzpicture，供
+% _build_Q2_flow.tex 编成独立 PDF，再由图 
+% \includegraphics{figure/Q2_求解流程图.pdf} 引入，避免内联 TikZ 被版面体检误判。
+\begin{tikzpicture}[
+    node/.style={rounded corners=3pt, align=center, font=\footnotesize,
+                 minimum width=2.9cm, minimum height=1.05cm,
+                 text=black!82, draw=#1!60!black, fill=#1!18},
+    cCoral/.style={node={coral}},  % 珊瑚红
+    cTeal/.style={node={teal}},    % 青绿
+    cSky/.style={node={sky}},      % 天蓝
+    cMint/.style={node={mint}},    % 薄荷绿
+    cWarm/.style={node={warm}},    % 暖黄
+    cLilac/.style={node={lilac}},  % 淡紫
+    arr/.style={-{Stealth[length=2.2mm]}, thick, gray!65}
+  ]
+  \definecolor{coral}{RGB}{244,151,142}
+  \definecolor{teal}{RGB}{77,182,172}
+  \definecolor{sky}{RGB}{100,181,246}
+  \definecolor{mint}{RGB}{152,216,200}
+  \definecolor{warm}{RGB}{255,213,158}
+  \definecolor{lilac}{RGB}{197,176,230}
+
+  % ---- 第 1 行 左→右 (y=0) ----
+  \node[cCoral] (s1) at (-6, 0) {读入附件 2\\对齐特征};
+  \node[cTeal]  (s2) at (-2, 0) {缺失检测与\\有效长度推断};
+  \node[cSky]   (s3) at ( 2, 0) {掩码感知编码\\与动态专家门控};
+
+  % ---- 第 2 行 右→左 折返 (y=-2) ----
+  \node[cMint]  (s4) at ( 2,-2) {掩码加权池化\\与模态融合};
+  \node[cWarm]  (s5) at (-2,-2) {教师--学生蒸馏\\＋课程学习};
+  \node[cLilac] (s6) at (-6,-2) {验证集上选\\阈值与超参数};
+
+  % ---- 第 3 行 左→右 (y=-4) ----
+  \node[cCoral] (s7) at (-6,-4) {缺失场景扫描\\类型$\times$位置$\times$率};
+  \node[cTeal]  (s8) at (-2,-4) {错误归因与\\不确定性分析};
+  \node[cSky]   (s9) at ( 2,-4) {附件 3/4 推理\\输出提交 CSV};
+
+  % ---- 行内箭头（第 2 行视觉向左，箭头指向左侧节点）----
+  \draw[arr] (s1)--(s2) (s2)--(s3);
+  \draw[arr] (s4)--(s5) (s5)--(s6);
+  \draw[arr] (s7)--(s8) (s8)--(s9);
+  % ---- 行末折返（竖直向下转行）----
+  \draw[arr] (s3)--(s4);
+  \draw[arr] (s6)--(s7);
+\end{tikzpicture}

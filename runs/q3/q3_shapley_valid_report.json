@@ -1,0 +1,93 @@
+{
+ "meta": {
+  "model_files": [
+   "student_s42.pt",
+   "student_s43.pt"
+  ],
+  "n_ckpt": 2,
+  "ckpt_dir": "D:\\数学建模\\数学建模\\runs\\ens_top2",
+  "theta": 0.325,
+  "extra": {
+   "pkl": "附件2\\aligned_50.pkl",
+   "split": "valid",
+   "n": 728
+  }
+ },
+ "data": "runs\\q3\\q3_shapley_valid.npz",
+ "phi_mean": {
+  "mu_miss": [
+   -0.028,
+   0.0012,
+   -0.0048
+  ],
+  "mu_pad": [
+   0.3535,
+   0.2846,
+   -0.5838
+  ],
+  "p_pol_miss": [
+   0.0305,
+   0.001,
+   -0.002
+  ],
+  "p_pol_pad": [
+   0.2662,
+   0.1756,
+   -0.4058
+  ]
+ },
+ "pi_soft_mean": [
+  0.462,
+  0.2627,
+  0.2754
+ ],
+ "pi_relu_mean": [
+  0.5021,
+  0.1318,
+  0.1463
+ ],
+ "pi_relu_degenerate": 160,
+ "v_mean_mu_miss": {
+  "none": 0.1663,
+  "text": 0.1385,
+  "audio": 0.1677,
+  "text+audio": 0.1395,
+  "vision": 0.1615,
+  "text+vision": 0.1336,
+  "audio+vision": 0.163,
+  "all": 0.1347
+ },
+ "global": {
+  "target": "mu",
+  "v_negmae": {
+   "none": -0.7816,
+   "text": -0.5936,
+   "audio": -0.7808,
+   "text+audio": -0.5933,
+   "vision": -0.7676,
+   "text+vision": -0.5867,
+   "audio+vision": -0.767,
+   "all": -0.5866
+  },
+  "v_macrof1": {
+   "none": 0.246,
+   "text": 0.6091,
+   "audio": 0.256,
+   "text+audio": 0.6089,
+   "vision": 0.3111,
+   "text+vision": 0.6184,
+   "audio+vision": 0.3111,
+   "all": 0.6158
+  },
+  "phi_negmae": [
+   0.1842,
+   0.0004,
+   0.0103
+  ],
+  "phi_macrof1": [
+   0.3327,
+   0.0024,
+   0.0348
+  ]
+ }
+}

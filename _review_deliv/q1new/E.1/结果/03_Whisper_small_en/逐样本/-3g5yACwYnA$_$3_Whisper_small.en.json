@@ -1,0 +1,403 @@
+{
+  "sample_id": "-3g5yACwYnA$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-3g5yACwYnA$_$3.wav",
+  "audio_sha256": "01d778bbe9b72bc396a0f5e0084f69129af802c1f5387a725867d2639bdf7831",
+  "audio_duration_s": 14.327875,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "We're a huge user of adhesives for our operation called flocking, and we don't have the technical insight in for compounding or the technical expertise to do these types of things. So, key brings.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 7.86,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 7.86,
+      "text": " We're a huge user of adhesives for our operation called flocking, and we don't have the technical",
+      "no_speech_probability": 0.03326820954680443,
+      "average_log_probability": -0.25005078580644396
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 7.86,
+      "end_time_wav_s": 12.36,
+      "start_time_source_s": 7.86,
+      "end_time_source_s": 12.36,
+      "text": " insight in for compounding or the technical expertise to do these types of things.",
+      "no_speech_probability": 0.03326820954680443,
+      "average_log_probability": -0.25005078580644396
+    },
+    {
+      "segment_index": 3,
+      "start_time_wav_s": 12.36,
+      "end_time_wav_s": 14.22,
+      "start_time_source_s": 12.36,
+      "end_time_source_s": 14.22,
+      "text": " So, key brings.",
+      "no_speech_probability": 0.8823304176330566,
+      "average_log_probability": -0.7567908838391304
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "We're",
+      "surface": " We're",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 1.06,
+      "probability": 0.7139979004859924
+    },
+    {
+      "word_index": 2,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.32,
+      "probability": 0.9906180500984192
+    },
+    {
+      "word_index": 3,
+      "word": "huge",
+      "surface": " huge",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.7,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.7,
+      "probability": 0.9983129501342773
+    },
+    {
+      "word_index": 4,
+      "word": "user",
+      "surface": " user",
+      "start_time_wav_s": 1.7,
+      "end_time_wav_s": 2.84,
+      "start_time_source_s": 1.7,
+      "end_time_source_s": 2.84,
+      "probability": 0.9808989763259888
+    },
+    {
+      "word_index": 5,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.84,
+      "end_time_wav_s": 3.04,
+      "start_time_source_s": 2.84,
+      "end_time_source_s": 3.04,
+      "probability": 0.9947952628135681
+    },
+    {
+      "word_index": 6,
+      "word": "adhesives",
+      "surface": " adhesives",
+      "start_time_wav_s": 3.04,
+      "end_time_wav_s": 3.54,
+      "start_time_source_s": 3.04,
+      "end_time_source_s": 3.54,
+      "probability": 0.8776948054631551
+    },
+    {
+      "word_index": 7,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 3.54,
+      "end_time_wav_s": 4.38,
+      "start_time_source_s": 3.54,
+      "end_time_source_s": 4.38,
+      "probability": 0.9803305268287659
+    },
+    {
+      "word_index": 8,
+      "word": "our",
+      "surface": " our",
+      "start_time_wav_s": 4.38,
+      "end_time_wav_s": 4.64,
+      "start_time_source_s": 4.38,
+      "end_time_source_s": 4.64,
+      "probability": 0.9925064444541931
+    },
+    {
+      "word_index": 9,
+      "word": "operation",
+      "surface": " operation",
+      "start_time_wav_s": 4.64,
+      "end_time_wav_s": 5.16,
+      "start_time_source_s": 4.64,
+      "end_time_source_s": 5.16,
+      "probability": 0.9917328357696533
+    },
+    {
+      "word_index": 10,
+      "word": "called",
+      "surface": " called",
+      "start_time_wav_s": 5.16,
+      "end_time_wav_s": 5.8,
+      "start_time_source_s": 5.16,
+      "end_time_source_s": 5.8,
+      "probability": 0.8860669732093811
+    },
+    {
+      "word_index": 11,
+      "word": "flocking,",
+      "surface": " flocking,",
+      "start_time_wav_s": 5.8,
+      "end_time_wav_s": 6.12,
+      "start_time_source_s": 5.8,
+      "end_time_source_s": 6.12,
+      "probability": 0.9220274686813354
+    },
+    {
+      "word_index": 12,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.76,
+      "end_time_wav_s": 6.76,
+      "start_time_source_s": 6.76,
+      "end_time_source_s": 6.76,
+      "probability": 0.9867089986801147
+    },
+    {
+      "word_index": 13,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 6.76,
+      "end_time_wav_s": 7.12,
+      "start_time_source_s": 6.76,
+      "end_time_source_s": 7.12,
+      "probability": 0.9961199760437012
+    },
+    {
+      "word_index": 14,
+      "word": "don't",
+      "surface": " don't",
+      "start_time_wav_s": 7.12,
+      "end_time_wav_s": 7.22,
+      "start_time_source_s": 7.12,
+      "end_time_source_s": 7.22,
+      "probability": 0.9982568323612213
+    },
+    {
+      "word_index": 15,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 7.22,
+      "end_time_wav_s": 7.36,
+      "start_time_source_s": 7.22,
+      "end_time_source_s": 7.36,
+      "probability": 0.9978431463241577
+    },
+    {
+      "word_index": 16,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 7.36,
+      "end_time_wav_s": 7.48,
+      "start_time_source_s": 7.36,
+      "end_time_source_s": 7.48,
+      "probability": 0.9909272193908691
+    },
+    {
+      "word_index": 17,
+      "word": "technical",
+      "surface": " technical",
+      "start_time_wav_s": 7.48,
+      "end_time_wav_s": 7.86,
+      "start_time_source_s": 7.48,
+      "end_time_source_s": 7.86,
+      "probability": 0.9918262958526611
+    },
+    {
+      "word_index": 18,
+      "word": "insight",
+      "surface": " insight",
+      "start_time_wav_s": 7.86,
+      "end_time_wav_s": 8.58,
+      "start_time_source_s": 7.86,
+      "end_time_source_s": 8.58,
+      "probability": 0.8575566411018372
+    },
+    {
+      "word_index": 19,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 8.58,
+      "end_time_wav_s": 8.76,
+      "start_time_source_s": 8.58,
+      "end_time_source_s": 8.76,
+      "probability": 0.2818634510040283
+    },
+    {
+      "word_index": 20,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 8.76,
+      "end_time_wav_s": 8.92,
+      "start_time_source_s": 8.76,
+      "end_time_source_s": 8.92,
+      "probability": 0.45166924595832825
+    },
+    {
+      "word_index": 21,
+      "word": "compounding",
+      "surface": " compounding",
+      "start_time_wav_s": 8.92,
+      "end_time_wav_s": 9.92,
+      "start_time_source_s": 8.92,
+      "end_time_source_s": 9.92,
+      "probability": 0.9790051281452179
+    },
+    {
+      "word_index": 22,
+      "word": "or",
+      "surface": " or",
+      "start_time_wav_s": 9.92,
+      "end_time_wav_s": 10.26,
+      "start_time_source_s": 9.92,
+      "end_time_source_s": 10.26,
+      "probability": 0.7336360216140747
+    },
+    {
+      "word_index": 23,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 10.26,
+      "end_time_wav_s": 10.4,
+      "start_time_source_s": 10.26,
+      "end_time_source_s": 10.4,
+      "probability": 0.9854888319969177
+    },
+    {
+      "word_index": 24,
+      "word": "technical",
+      "surface": " technical",
+      "start_time_wav_s": 10.4,
+      "end_time_wav_s": 10.76,
+      "start_time_source_s": 10.4,
+      "end_time_source_s": 10.76,
+      "probability": 0.994305431842804
+    },
+    {
+      "word_index": 25,
+      "word": "expertise",
+      "surface": " expertise",
+      "start_time_wav_s": 10.76,
+      "end_time_wav_s": 11.08,
+      "start_time_source_s": 10.76,
+      "end_time_source_s": 11.08,
+      "probability": 0.9915185570716858
+    },
+    {
+      "word_index": 26,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 11.08,
+      "end_time_wav_s": 11.4,
+      "start_time_source_s": 11.08,
+      "end_time_source_s": 11.4,
+      "probability": 0.9790787696838379
+    },
+    {
+      "word_index": 27,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 11.4,
+      "end_time_wav_s": 11.52,
+      "start_time_source_s": 11.4,
+      "end_time_source_s": 11.52,
+      "probability": 0.992275059223175
+    },
+    {
+      "word_index": 28,
+      "word": "these",
+      "surface": " these",
+      "start_time_wav_s": 11.52,
+      "end_time_wav_s": 11.72,
+      "start_time_source_s": 11.52,
+      "end_time_source_s": 11.72,
+      "probability": 0.9908506274223328
+    },
+    {
+      "word_index": 29,
+      "word": "types",
+      "surface": " types",
+      "start_time_wav_s": 11.72,
+      "end_time_wav_s": 11.9,
+      "start_time_source_s": 11.72,
+      "end_time_source_s": 11.9,
+      "probability": 0.9458610415458679
+    },
+    {
+      "word_index": 30,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 11.9,
+      "end_time_wav_s": 12.06,
+      "start_time_source_s": 11.9,
+      "end_time_source_s": 12.06,
+      "probability": 0.9977680444717407
+    },
+    {
+      "word_index": 31,
+      "word": "things.",
+      "surface": " things.",
+      "start_time_wav_s": 12.06,
+      "end_time_wav_s": 12.36,
+      "start_time_source_s": 12.06,
+      "end_time_source_s": 12.36,
+      "probability": 0.9963802695274353
+    },
+    {
+      "word_index": 32,
+      "word": "So,",
+      "surface": " So,",
+      "start_time_wav_s": 12.36,
+      "end_time_wav_s": 13.12,
+      "start_time_source_s": 12.36,
+      "end_time_source_s": 13.12,
+      "probability": 0.33693787455558777
+    },
+    {
+      "word_index": 33,
+      "word": "key",
+      "surface": " key",
+      "start_time_wav_s": 13.62,
+      "end_time_wav_s": 14.0,
+      "start_time_source_s": 13.62,
+      "end_time_source_s": 14.0,
+      "probability": 0.4070114493370056
+    },
+    {
+      "word_index": 34,
+      "word": "brings.",
+      "surface": " brings.",
+      "start_time_wav_s": 14.0,
+      "end_time_wav_s": 14.22,
+      "start_time_source_s": 14.0,
+      "end_time_source_s": 14.22,
+      "probability": 0.5320762395858765
+    }
+  ],
+  "word_count": 34,
+  "mean_word_probability": 0.8748219807942709,
+  "issues": [],
+  "official_transcript_loaded": false
+}

@@ -1,0 +1,293 @@
+{
+  "sample_id": "-tPCytz4rww$_$18",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-tPCytz4rww$_$18.wav",
+  "audio_sha256": "bf50b1480ef2eaee2e2eed1355b628885cba574492687e897177d8301bf1448b",
+  "audio_duration_s": 6.5688125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "out, do so, and as well, you'll also want to remove any clutter from the home that you've accumulated over a period of time.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.34,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.34,
+      "text": " out, do so, and as well, you'll also want to remove any clutter from the home that you've",
+      "no_speech_probability": 0.02996586076915264,
+      "average_log_probability": -0.3175493223326547
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.34,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 5.34,
+      "end_time_source_s": 6.54,
+      "text": " accumulated over a period of time.",
+      "no_speech_probability": 0.02996586076915264,
+      "average_log_probability": -0.3175493223326547
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "out,",
+      "surface": " out,",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.2,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.2,
+      "probability": 0.8346676826477051
+    },
+    {
+      "word_index": 2,
+      "word": "do",
+      "surface": " do",
+      "start_time_wav_s": 0.42,
+      "end_time_wav_s": 0.66,
+      "start_time_source_s": 0.42,
+      "end_time_source_s": 0.66,
+      "probability": 0.9838528633117676
+    },
+    {
+      "word_index": 3,
+      "word": "so,",
+      "surface": " so,",
+      "start_time_wav_s": 0.66,
+      "end_time_wav_s": 0.98,
+      "start_time_source_s": 0.66,
+      "end_time_source_s": 0.98,
+      "probability": 0.9969848990440369
+    },
+    {
+      "word_index": 4,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 1.34,
+      "end_time_wav_s": 1.62,
+      "start_time_source_s": 1.34,
+      "end_time_source_s": 1.62,
+      "probability": 0.9885764718055725
+    },
+    {
+      "word_index": 5,
+      "word": "as",
+      "surface": " as",
+      "start_time_wav_s": 1.62,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.62,
+      "end_time_source_s": 1.76,
+      "probability": 0.9615252614021301
+    },
+    {
+      "word_index": 6,
+      "word": "well,",
+      "surface": " well,",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 2.06,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 2.06,
+      "probability": 0.9986240863800049
+    },
+    {
+      "word_index": 7,
+      "word": "you'll",
+      "surface": " you'll",
+      "start_time_wav_s": 2.28,
+      "end_time_wav_s": 2.76,
+      "start_time_source_s": 2.28,
+      "end_time_source_s": 2.76,
+      "probability": 0.925558477640152
+    },
+    {
+      "word_index": 8,
+      "word": "also",
+      "surface": " also",
+      "start_time_wav_s": 2.76,
+      "end_time_wav_s": 3.02,
+      "start_time_source_s": 2.76,
+      "end_time_source_s": 3.02,
+      "probability": 0.9946458339691162
+    },
+    {
+      "word_index": 9,
+      "word": "want",
+      "surface": " want",
+      "start_time_wav_s": 3.02,
+      "end_time_wav_s": 3.3,
+      "start_time_source_s": 3.02,
+      "end_time_source_s": 3.3,
+      "probability": 0.9931962490081787
+    },
+    {
+      "word_index": 10,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.3,
+      "end_time_wav_s": 3.56,
+      "start_time_source_s": 3.3,
+      "end_time_source_s": 3.56,
+      "probability": 0.9979730248451233
+    },
+    {
+      "word_index": 11,
+      "word": "remove",
+      "surface": " remove",
+      "start_time_wav_s": 3.56,
+      "end_time_wav_s": 3.88,
+      "start_time_source_s": 3.56,
+      "end_time_source_s": 3.88,
+      "probability": 0.9987711310386658
+    },
+    {
+      "word_index": 12,
+      "word": "any",
+      "surface": " any",
+      "start_time_wav_s": 3.88,
+      "end_time_wav_s": 4.1,
+      "start_time_source_s": 3.88,
+      "end_time_source_s": 4.1,
+      "probability": 0.9959582686424255
+    },
+    {
+      "word_index": 13,
+      "word": "clutter",
+      "surface": " clutter",
+      "start_time_wav_s": 4.1,
+      "end_time_wav_s": 4.44,
+      "start_time_source_s": 4.1,
+      "end_time_source_s": 4.44,
+      "probability": 0.9963366985321045
+    },
+    {
+      "word_index": 14,
+      "word": "from",
+      "surface": " from",
+      "start_time_wav_s": 4.44,
+      "end_time_wav_s": 4.68,
+      "start_time_source_s": 4.44,
+      "end_time_source_s": 4.68,
+      "probability": 0.9950980544090271
+    },
+    {
+      "word_index": 15,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.68,
+      "end_time_wav_s": 4.8,
+      "start_time_source_s": 4.68,
+      "end_time_source_s": 4.8,
+      "probability": 0.9956680536270142
+    },
+    {
+      "word_index": 16,
+      "word": "home",
+      "surface": " home",
+      "start_time_wav_s": 4.8,
+      "end_time_wav_s": 4.96,
+      "start_time_source_s": 4.8,
+      "end_time_source_s": 4.96,
+      "probability": 0.9946712851524353
+    },
+    {
+      "word_index": 17,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 4.96,
+      "end_time_wav_s": 5.14,
+      "start_time_source_s": 4.96,
+      "end_time_source_s": 5.14,
+      "probability": 0.9733683466911316
+    },
+    {
+      "word_index": 18,
+      "word": "you've",
+      "surface": " you've",
+      "start_time_wav_s": 5.14,
+      "end_time_wav_s": 5.34,
+      "start_time_source_s": 5.14,
+      "end_time_source_s": 5.34,
+      "probability": 0.9883977472782135
+    },
+    {
+      "word_index": 19,
+      "word": "accumulated",
+      "surface": " accumulated",
+      "start_time_wav_s": 5.34,
+      "end_time_wav_s": 5.86,
+      "start_time_source_s": 5.34,
+      "end_time_source_s": 5.86,
+      "probability": 0.9898937344551086
+    },
+    {
+      "word_index": 20,
+      "word": "over",
+      "surface": " over",
+      "start_time_wav_s": 5.86,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 5.86,
+      "end_time_source_s": 6.54,
+      "probability": 0.6519677639007568
+    },
+    {
+      "word_index": 21,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.54,
+      "probability": 0.1023733988404274
+    },
+    {
+      "word_index": 22,
+      "word": "period",
+      "surface": " period",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.54,
+      "probability": 0.17116135358810425
+    },
+    {
+      "word_index": 23,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.54,
+      "probability": 0.983130693435669
+    },
+    {
+      "word_index": 24,
+      "word": "time.",
+      "surface": " time.",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.54,
+      "probability": 0.7538908123970032
+    }
+  ],
+  "word_count": 24,
+  "mean_word_probability": 0.8860955080017447,
+  "issues": [],
+  "official_transcript_loaded": false
+}

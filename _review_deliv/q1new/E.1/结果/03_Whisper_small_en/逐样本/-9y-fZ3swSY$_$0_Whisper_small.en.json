@@ -1,0 +1,303 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-9y-fZ3swSY$_$0.wav",
+  "audio_sha256": "7eef60cbf8382322bf1063ced81c56029aca20f5e8b29b3dfed8bb404714107d",
+  "audio_duration_s": 6.757,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "you can say hey you know what I really like baby's kid they're so soft they don't have any hair on their face it's so",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.74,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.74,
+      "text": " you can say hey you know what I really like baby's kid they're so soft they",
+      "no_speech_probability": 0.1538695991039276,
+      "average_log_probability": -0.27668770183535185
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 4.74,
+      "end_time_wav_s": 6.68,
+      "start_time_source_s": 4.74,
+      "end_time_source_s": 6.68,
+      "text": " don't have any hair on their face it's so",
+      "no_speech_probability": 0.1538695991039276,
+      "average_log_probability": -0.27668770183535185
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.22,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.22,
+      "probability": 0.13792508840560913
+    },
+    {
+      "word_index": 2,
+      "word": "can",
+      "surface": " can",
+      "start_time_wav_s": 0.22,
+      "end_time_wav_s": 0.36,
+      "start_time_source_s": 0.22,
+      "end_time_source_s": 0.36,
+      "probability": 0.7259125709533691
+    },
+    {
+      "word_index": 3,
+      "word": "say",
+      "surface": " say",
+      "start_time_wav_s": 0.36,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.36,
+      "end_time_source_s": 0.62,
+      "probability": 0.9470964074134827
+    },
+    {
+      "word_index": 4,
+      "word": "hey",
+      "surface": " hey",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 1.04,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 1.04,
+      "probability": 0.3938555121421814
+    },
+    {
+      "word_index": 5,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 1.04,
+      "end_time_wav_s": 1.56,
+      "start_time_source_s": 1.04,
+      "end_time_source_s": 1.56,
+      "probability": 0.777749240398407
+    },
+    {
+      "word_index": 6,
+      "word": "know",
+      "surface": " know",
+      "start_time_wav_s": 1.56,
+      "end_time_wav_s": 1.66,
+      "start_time_source_s": 1.56,
+      "end_time_source_s": 1.66,
+      "probability": 0.986486554145813
+    },
+    {
+      "word_index": 7,
+      "word": "what",
+      "surface": " what",
+      "start_time_wav_s": 1.66,
+      "end_time_wav_s": 1.76,
+      "start_time_source_s": 1.66,
+      "end_time_source_s": 1.76,
+      "probability": 0.9228167533874512
+    },
+    {
+      "word_index": 8,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 1.76,
+      "end_time_wav_s": 1.98,
+      "start_time_source_s": 1.76,
+      "end_time_source_s": 1.98,
+      "probability": 0.6747955679893494
+    },
+    {
+      "word_index": 9,
+      "word": "really",
+      "surface": " really",
+      "start_time_wav_s": 1.98,
+      "end_time_wav_s": 2.22,
+      "start_time_source_s": 1.98,
+      "end_time_source_s": 2.22,
+      "probability": 0.9981145858764648
+    },
+    {
+      "word_index": 10,
+      "word": "like",
+      "surface": " like",
+      "start_time_wav_s": 2.22,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.22,
+      "end_time_source_s": 2.74,
+      "probability": 0.9979591369628906
+    },
+    {
+      "word_index": 11,
+      "word": "baby's",
+      "surface": " baby's",
+      "start_time_wav_s": 2.74,
+      "end_time_wav_s": 3.42,
+      "start_time_source_s": 2.74,
+      "end_time_source_s": 3.42,
+      "probability": 0.6417172402143478
+    },
+    {
+      "word_index": 12,
+      "word": "kid",
+      "surface": " kid",
+      "start_time_wav_s": 3.42,
+      "end_time_wav_s": 3.62,
+      "start_time_source_s": 3.42,
+      "end_time_source_s": 3.62,
+      "probability": 0.7642698884010315
+    },
+    {
+      "word_index": 13,
+      "word": "they're",
+      "surface": " they're",
+      "start_time_wav_s": 3.62,
+      "end_time_wav_s": 3.86,
+      "start_time_source_s": 3.62,
+      "end_time_source_s": 3.86,
+      "probability": 0.8473886847496033
+    },
+    {
+      "word_index": 14,
+      "word": "so",
+      "surface": " so",
+      "start_time_wav_s": 3.86,
+      "end_time_wav_s": 4.04,
+      "start_time_source_s": 3.86,
+      "end_time_source_s": 4.04,
+      "probability": 0.9980124235153198
+    },
+    {
+      "word_index": 15,
+      "word": "soft",
+      "surface": " soft",
+      "start_time_wav_s": 4.04,
+      "end_time_wav_s": 4.56,
+      "start_time_source_s": 4.04,
+      "end_time_source_s": 4.56,
+      "probability": 0.9983285069465637
+    },
+    {
+      "word_index": 16,
+      "word": "they",
+      "surface": " they",
+      "start_time_wav_s": 4.56,
+      "end_time_wav_s": 4.74,
+      "start_time_source_s": 4.56,
+      "end_time_source_s": 4.74,
+      "probability": 0.945493221282959
+    },
+    {
+      "word_index": 17,
+      "word": "don't",
+      "surface": " don't",
+      "start_time_wav_s": 4.74,
+      "end_time_wav_s": 4.94,
+      "start_time_source_s": 4.74,
+      "end_time_source_s": 4.94,
+      "probability": 0.9995715320110321
+    },
+    {
+      "word_index": 18,
+      "word": "have",
+      "surface": " have",
+      "start_time_wav_s": 4.94,
+      "end_time_wav_s": 5.22,
+      "start_time_source_s": 4.94,
+      "end_time_source_s": 5.22,
+      "probability": 0.9993808269500732
+    },
+    {
+      "word_index": 19,
+      "word": "any",
+      "surface": " any",
+      "start_time_wav_s": 5.22,
+      "end_time_wav_s": 5.42,
+      "start_time_source_s": 5.22,
+      "end_time_source_s": 5.42,
+      "probability": 0.9990947246551514
+    },
+    {
+      "word_index": 20,
+      "word": "hair",
+      "surface": " hair",
+      "start_time_wav_s": 5.42,
+      "end_time_wav_s": 5.68,
+      "start_time_source_s": 5.42,
+      "end_time_source_s": 5.68,
+      "probability": 0.9991855025291443
+    },
+    {
+      "word_index": 21,
+      "word": "on",
+      "surface": " on",
+      "start_time_wav_s": 5.68,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 5.68,
+      "end_time_source_s": 5.84,
+      "probability": 0.9961751699447632
+    },
+    {
+      "word_index": 22,
+      "word": "their",
+      "surface": " their",
+      "start_time_wav_s": 5.84,
+      "end_time_wav_s": 5.98,
+      "start_time_source_s": 5.84,
+      "end_time_source_s": 5.98,
+      "probability": 0.7638338804244995
+    },
+    {
+      "word_index": 23,
+      "word": "face",
+      "surface": " face",
+      "start_time_wav_s": 5.98,
+      "end_time_wav_s": 6.22,
+      "start_time_source_s": 5.98,
+      "end_time_source_s": 6.22,
+      "probability": 0.9860501885414124
+    },
+    {
+      "word_index": 24,
+      "word": "it's",
+      "surface": " it's",
+      "start_time_wav_s": 6.22,
+      "end_time_wav_s": 6.5,
+      "start_time_source_s": 6.22,
+      "end_time_source_s": 6.5,
+      "probability": 0.917999655008316
+    },
+    {
+      "word_index": 25,
+      "word": "so",
+      "surface": " so",
+      "start_time_wav_s": 6.5,
+      "end_time_wav_s": 6.68,
+      "start_time_source_s": 6.5,
+      "end_time_source_s": 6.68,
+      "probability": 0.895591139793396
+    }
+  ],
+  "word_count": 25,
+  "mean_word_probability": 0.8525921601057053,
+  "issues": [],
+  "official_transcript_loaded": false
+}

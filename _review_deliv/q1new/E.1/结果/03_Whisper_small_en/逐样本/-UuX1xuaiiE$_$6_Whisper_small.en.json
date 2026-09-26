@@ -1,0 +1,283 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$6",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-UuX1xuaiiE$_$6.wav",
+  "audio_sha256": "08b5fa73f5581e4f9a54dfe4945fb42bb085b7ac5cf29df58c848163b5b75145",
+  "audio_duration_s": 7.9438125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "I ended up going to work for the U.S. government as an intelligence analyst, specializing in war crimes and human rights issues.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 5.84,
+      "text": " I ended up going to work for the U.S. government as an intelligence analyst, specializing in",
+      "no_speech_probability": 0.01138325221836567,
+      "average_log_probability": -0.19892595242708921
+    },
+    {
+      "segment_index": 2,
+      "start_time_wav_s": 5.84,
+      "end_time_wav_s": 7.2,
+      "start_time_source_s": 5.84,
+      "end_time_source_s": 7.2,
+      "text": " war crimes and human rights issues.",
+      "no_speech_probability": 0.01138325221836567,
+      "average_log_probability": -0.19892595242708921
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "I",
+      "surface": " I",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.62,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.62,
+      "probability": 0.8849377632141113
+    },
+    {
+      "word_index": 2,
+      "word": "ended",
+      "surface": " ended",
+      "start_time_wav_s": 0.62,
+      "end_time_wav_s": 0.76,
+      "start_time_source_s": 0.62,
+      "end_time_source_s": 0.76,
+      "probability": 0.9876305460929871
+    },
+    {
+      "word_index": 3,
+      "word": "up",
+      "surface": " up",
+      "start_time_wav_s": 0.76,
+      "end_time_wav_s": 0.92,
+      "start_time_source_s": 0.76,
+      "end_time_source_s": 0.92,
+      "probability": 0.9938347339630127
+    },
+    {
+      "word_index": 4,
+      "word": "going",
+      "surface": " going",
+      "start_time_wav_s": 0.92,
+      "end_time_wav_s": 1.06,
+      "start_time_source_s": 0.92,
+      "end_time_source_s": 1.06,
+      "probability": 0.9930207133293152
+    },
+    {
+      "word_index": 5,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.06,
+      "end_time_wav_s": 1.24,
+      "start_time_source_s": 1.06,
+      "end_time_source_s": 1.24,
+      "probability": 0.9931939840316772
+    },
+    {
+      "word_index": 6,
+      "word": "work",
+      "surface": " work",
+      "start_time_wav_s": 1.24,
+      "end_time_wav_s": 1.4,
+      "start_time_source_s": 1.24,
+      "end_time_source_s": 1.4,
+      "probability": 0.9972647428512573
+    },
+    {
+      "word_index": 7,
+      "word": "for",
+      "surface": " for",
+      "start_time_wav_s": 1.4,
+      "end_time_wav_s": 1.78,
+      "start_time_source_s": 1.4,
+      "end_time_source_s": 1.78,
+      "probability": 0.990712583065033
+    },
+    {
+      "word_index": 8,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 1.78,
+      "end_time_wav_s": 1.94,
+      "start_time_source_s": 1.78,
+      "end_time_source_s": 1.94,
+      "probability": 0.9952524900436401
+    },
+    {
+      "word_index": 9,
+      "word": "U",
+      "surface": " U",
+      "start_time_wav_s": 1.94,
+      "end_time_wav_s": 2.04,
+      "start_time_source_s": 1.94,
+      "end_time_source_s": 2.04,
+      "probability": 0.5347975492477417
+    },
+    {
+      "word_index": 10,
+      "word": ".S.",
+      "surface": ".S.",
+      "start_time_wav_s": 2.04,
+      "end_time_wav_s": 2.2,
+      "start_time_source_s": 2.04,
+      "end_time_source_s": 2.2,
+      "probability": 0.9888890087604523
+    },
+    {
+      "word_index": 11,
+      "word": "government",
+      "surface": " government",
+      "start_time_wav_s": 2.38,
+      "end_time_wav_s": 2.52,
+      "start_time_source_s": 2.38,
+      "end_time_source_s": 2.52,
+      "probability": 0.764135479927063
+    },
+    {
+      "word_index": 12,
+      "word": "as",
+      "surface": " as",
+      "start_time_wav_s": 2.52,
+      "end_time_wav_s": 2.92,
+      "start_time_source_s": 2.52,
+      "end_time_source_s": 2.92,
+      "probability": 0.9671818614006042
+    },
+    {
+      "word_index": 13,
+      "word": "an",
+      "surface": " an",
+      "start_time_wav_s": 2.92,
+      "end_time_wav_s": 3.08,
+      "start_time_source_s": 2.92,
+      "end_time_source_s": 3.08,
+      "probability": 0.9751185178756714
+    },
+    {
+      "word_index": 14,
+      "word": "intelligence",
+      "surface": " intelligence",
+      "start_time_wav_s": 3.08,
+      "end_time_wav_s": 3.4,
+      "start_time_source_s": 3.08,
+      "end_time_source_s": 3.4,
+      "probability": 0.9652872681617737
+    },
+    {
+      "word_index": 15,
+      "word": "analyst,",
+      "surface": " analyst,",
+      "start_time_wav_s": 3.4,
+      "end_time_wav_s": 4.04,
+      "start_time_source_s": 3.4,
+      "end_time_source_s": 4.04,
+      "probability": 0.9988464117050171
+    },
+    {
+      "word_index": 16,
+      "word": "specializing",
+      "surface": " specializing",
+      "start_time_wav_s": 4.6,
+      "end_time_wav_s": 5.44,
+      "start_time_source_s": 4.6,
+      "end_time_source_s": 5.44,
+      "probability": 0.9772650599479675
+    },
+    {
+      "word_index": 17,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 5.44,
+      "end_time_wav_s": 5.84,
+      "start_time_source_s": 5.44,
+      "end_time_source_s": 5.84,
+      "probability": 0.997680127620697
+    },
+    {
+      "word_index": 18,
+      "word": "war",
+      "surface": " war",
+      "start_time_wav_s": 5.84,
+      "end_time_wav_s": 6.06,
+      "start_time_source_s": 5.84,
+      "end_time_source_s": 6.06,
+      "probability": 0.9810996651649475
+    },
+    {
+      "word_index": 19,
+      "word": "crimes",
+      "surface": " crimes",
+      "start_time_wav_s": 6.06,
+      "end_time_wav_s": 6.34,
+      "start_time_source_s": 6.06,
+      "end_time_source_s": 6.34,
+      "probability": 0.9941927790641785
+    },
+    {
+      "word_index": 20,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.34,
+      "end_time_wav_s": 6.5,
+      "start_time_source_s": 6.34,
+      "end_time_source_s": 6.5,
+      "probability": 0.9900009632110596
+    },
+    {
+      "word_index": 21,
+      "word": "human",
+      "surface": " human",
+      "start_time_wav_s": 6.5,
+      "end_time_wav_s": 6.62,
+      "start_time_source_s": 6.5,
+      "end_time_source_s": 6.62,
+      "probability": 0.99679034948349
+    },
+    {
+      "word_index": 22,
+      "word": "rights",
+      "surface": " rights",
+      "start_time_wav_s": 6.62,
+      "end_time_wav_s": 6.86,
+      "start_time_source_s": 6.62,
+      "end_time_source_s": 6.86,
+      "probability": 0.9892618656158447
+    },
+    {
+      "word_index": 23,
+      "word": "issues.",
+      "surface": " issues.",
+      "start_time_wav_s": 6.86,
+      "end_time_wav_s": 7.2,
+      "start_time_source_s": 6.86,
+      "end_time_source_s": 7.2,
+      "probability": 0.995909571647644
+    }
+  ],
+  "word_count": 23,
+  "mean_word_probability": 0.9544480015402255,
+  "issues": [],
+  "official_transcript_loaded": false
+}

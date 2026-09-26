@@ -1,0 +1,233 @@
+{
+  "sample_id": "-uywlfIYOS8$_$4",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-uywlfIYOS8$_$4.wav",
+  "audio_sha256": "fc6212a9f511c5c9a95ce38d0b62e658d167749f0379db426c0b95334554635a",
+  "audio_duration_s": 5.881125,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "And then from a brand point of view, we need to make sure that we're driving the relevant insights.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.5600000000000005,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 0.5600000000000005,
+      "end_time_source_s": 5.24,
+      "text": " And then from a brand point of view, we need to make sure that we're driving the relevant insights.",
+      "no_speech_probability": 0.18478624522686005,
+      "average_log_probability": -0.3008565616607666
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "And",
+      "surface": " And",
+      "start_time_wav_s": 0.5600000000000005,
+      "end_time_wav_s": 0.96,
+      "start_time_source_s": 0.5600000000000005,
+      "end_time_source_s": 0.96,
+      "probability": 0.08284266293048859
+    },
+    {
+      "word_index": 2,
+      "word": "then",
+      "surface": " then",
+      "start_time_wav_s": 0.96,
+      "end_time_wav_s": 1.28,
+      "start_time_source_s": 0.96,
+      "end_time_source_s": 1.28,
+      "probability": 0.8529114723205566
+    },
+    {
+      "word_index": 3,
+      "word": "from",
+      "surface": " from",
+      "start_time_wav_s": 1.28,
+      "end_time_wav_s": 1.46,
+      "start_time_source_s": 1.28,
+      "end_time_source_s": 1.46,
+      "probability": 0.841929018497467
+    },
+    {
+      "word_index": 4,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.46,
+      "end_time_wav_s": 1.62,
+      "start_time_source_s": 1.46,
+      "end_time_source_s": 1.62,
+      "probability": 0.9922996163368225
+    },
+    {
+      "word_index": 5,
+      "word": "brand",
+      "surface": " brand",
+      "start_time_wav_s": 1.62,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.62,
+      "end_time_source_s": 2.0,
+      "probability": 0.993636965751648
+    },
+    {
+      "word_index": 6,
+      "word": "point",
+      "surface": " point",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.24,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.24,
+      "probability": 0.9808863997459412
+    },
+    {
+      "word_index": 7,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 2.24,
+      "end_time_wav_s": 2.44,
+      "start_time_source_s": 2.24,
+      "end_time_source_s": 2.44,
+      "probability": 0.9921060800552368
+    },
+    {
+      "word_index": 8,
+      "word": "view,",
+      "surface": " view,",
+      "start_time_wav_s": 2.44,
+      "end_time_wav_s": 2.58,
+      "start_time_source_s": 2.44,
+      "end_time_source_s": 2.58,
+      "probability": 0.994026780128479
+    },
+    {
+      "word_index": 9,
+      "word": "we",
+      "surface": " we",
+      "start_time_wav_s": 2.72,
+      "end_time_wav_s": 2.74,
+      "start_time_source_s": 2.72,
+      "end_time_source_s": 2.74,
+      "probability": 0.9931519031524658
+    },
+    {
+      "word_index": 10,
+      "word": "need",
+      "surface": " need",
+      "start_time_wav_s": 2.74,
+      "end_time_wav_s": 3.0,
+      "start_time_source_s": 2.74,
+      "end_time_source_s": 3.0,
+      "probability": 0.9956263303756714
+    },
+    {
+      "word_index": 11,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 3.0,
+      "end_time_wav_s": 3.14,
+      "start_time_source_s": 3.0,
+      "end_time_source_s": 3.14,
+      "probability": 0.9971592426300049
+    },
+    {
+      "word_index": 12,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 3.14,
+      "end_time_wav_s": 3.32,
+      "start_time_source_s": 3.14,
+      "end_time_source_s": 3.32,
+      "probability": 0.9966785907745361
+    },
+    {
+      "word_index": 13,
+      "word": "sure",
+      "surface": " sure",
+      "start_time_wav_s": 3.32,
+      "end_time_wav_s": 3.5,
+      "start_time_source_s": 3.32,
+      "end_time_source_s": 3.5,
+      "probability": 0.9978894591331482
+    },
+    {
+      "word_index": 14,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 3.5,
+      "end_time_wav_s": 3.66,
+      "start_time_source_s": 3.5,
+      "end_time_source_s": 3.66,
+      "probability": 0.9214649796485901
+    },
+    {
+      "word_index": 15,
+      "word": "we're",
+      "surface": " we're",
+      "start_time_wav_s": 3.66,
+      "end_time_wav_s": 3.86,
+      "start_time_source_s": 3.66,
+      "end_time_source_s": 3.86,
+      "probability": 0.9667292535305023
+    },
+    {
+      "word_index": 16,
+      "word": "driving",
+      "surface": " driving",
+      "start_time_wav_s": 3.86,
+      "end_time_wav_s": 4.16,
+      "start_time_source_s": 3.86,
+      "end_time_source_s": 4.16,
+      "probability": 0.9961316585540771
+    },
+    {
+      "word_index": 17,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.16,
+      "end_time_wav_s": 4.32,
+      "start_time_source_s": 4.16,
+      "end_time_source_s": 4.32,
+      "probability": 0.9857881665229797
+    },
+    {
+      "word_index": 18,
+      "word": "relevant",
+      "surface": " relevant",
+      "start_time_wav_s": 4.32,
+      "end_time_wav_s": 4.64,
+      "start_time_source_s": 4.32,
+      "end_time_source_s": 4.64,
+      "probability": 0.9987959861755371
+    },
+    {
+      "word_index": 19,
+      "word": "insights.",
+      "surface": " insights.",
+      "start_time_wav_s": 4.64,
+      "end_time_wav_s": 5.24,
+      "start_time_source_s": 4.64,
+      "end_time_source_s": 5.24,
+      "probability": 0.8724075555801392
+    }
+  ],
+  "word_count": 19,
+  "mean_word_probability": 0.9185506379918048,
+  "issues": [],
+  "official_transcript_loaded": false
+}

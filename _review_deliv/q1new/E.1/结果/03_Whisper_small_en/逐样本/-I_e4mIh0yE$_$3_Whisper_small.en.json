@@ -1,0 +1,253 @@
+{
+  "sample_id": "-I_e4mIh0yE$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-I_e4mIh0yE$_$3.wav",
+  "audio_sha256": "c8e0b78c631b7adce271ad7d62aabb6d4afb8a39db8a20a9ee53c6b59b3e3ffd",
+  "audio_duration_s": 8.994375,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "It's perceived that you've actually learned something over the course of your career and that you won't make the mistake twice.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 8.34,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 8.34,
+      "text": " It's perceived that you've actually learned something over the course of your career and that you won't make the mistake twice.",
+      "no_speech_probability": 0.07577762752771378,
+      "average_log_probability": -0.21101869908826693
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "It's",
+      "surface": " It's",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.84,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.84,
+      "probability": 0.6841390132904053
+    },
+    {
+      "word_index": 2,
+      "word": "perceived",
+      "surface": " perceived",
+      "start_time_wav_s": 0.84,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 0.84,
+      "end_time_source_s": 1.32,
+      "probability": 0.9748018980026245
+    },
+    {
+      "word_index": 3,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 3.18,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 3.18,
+      "probability": 0.9832661151885986
+    },
+    {
+      "word_index": 4,
+      "word": "you've",
+      "surface": " you've",
+      "start_time_wav_s": 3.18,
+      "end_time_wav_s": 3.36,
+      "start_time_source_s": 3.18,
+      "end_time_source_s": 3.36,
+      "probability": 0.9739894270896912
+    },
+    {
+      "word_index": 5,
+      "word": "actually",
+      "surface": " actually",
+      "start_time_wav_s": 3.36,
+      "end_time_wav_s": 3.64,
+      "start_time_source_s": 3.36,
+      "end_time_source_s": 3.64,
+      "probability": 0.9833942651748657
+    },
+    {
+      "word_index": 6,
+      "word": "learned",
+      "surface": " learned",
+      "start_time_wav_s": 3.64,
+      "end_time_wav_s": 3.96,
+      "start_time_source_s": 3.64,
+      "end_time_source_s": 3.96,
+      "probability": 0.7698283195495605
+    },
+    {
+      "word_index": 7,
+      "word": "something",
+      "surface": " something",
+      "start_time_wav_s": 3.96,
+      "end_time_wav_s": 4.66,
+      "start_time_source_s": 3.96,
+      "end_time_source_s": 4.66,
+      "probability": 0.9989635944366455
+    },
+    {
+      "word_index": 8,
+      "word": "over",
+      "surface": " over",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 5.58,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 5.58,
+      "probability": 0.9456380009651184
+    },
+    {
+      "word_index": 9,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 5.58,
+      "end_time_wav_s": 5.72,
+      "start_time_source_s": 5.58,
+      "end_time_source_s": 5.72,
+      "probability": 0.9974489808082581
+    },
+    {
+      "word_index": 10,
+      "word": "course",
+      "surface": " course",
+      "start_time_wav_s": 5.72,
+      "end_time_wav_s": 5.86,
+      "start_time_source_s": 5.72,
+      "end_time_source_s": 5.86,
+      "probability": 0.9983988404273987
+    },
+    {
+      "word_index": 11,
+      "word": "of",
+      "surface": " of",
+      "start_time_wav_s": 5.86,
+      "end_time_wav_s": 6.06,
+      "start_time_source_s": 5.86,
+      "end_time_source_s": 6.06,
+      "probability": 0.9974901676177979
+    },
+    {
+      "word_index": 12,
+      "word": "your",
+      "surface": " your",
+      "start_time_wav_s": 6.06,
+      "end_time_wav_s": 6.16,
+      "start_time_source_s": 6.06,
+      "end_time_source_s": 6.16,
+      "probability": 0.9947282671928406
+    },
+    {
+      "word_index": 13,
+      "word": "career",
+      "surface": " career",
+      "start_time_wav_s": 6.16,
+      "end_time_wav_s": 6.42,
+      "start_time_source_s": 6.16,
+      "end_time_source_s": 6.42,
+      "probability": 0.9983982443809509
+    },
+    {
+      "word_index": 14,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.42,
+      "end_time_wav_s": 6.54,
+      "start_time_source_s": 6.42,
+      "end_time_source_s": 6.54,
+      "probability": 0.7000452876091003
+    },
+    {
+      "word_index": 15,
+      "word": "that",
+      "surface": " that",
+      "start_time_wav_s": 6.54,
+      "end_time_wav_s": 6.66,
+      "start_time_source_s": 6.54,
+      "end_time_source_s": 6.66,
+      "probability": 0.965099573135376
+    },
+    {
+      "word_index": 16,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 6.66,
+      "end_time_wav_s": 6.8,
+      "start_time_source_s": 6.66,
+      "end_time_source_s": 6.8,
+      "probability": 0.9985779523849487
+    },
+    {
+      "word_index": 17,
+      "word": "won't",
+      "surface": " won't",
+      "start_time_wav_s": 6.8,
+      "end_time_wav_s": 7.04,
+      "start_time_source_s": 6.8,
+      "end_time_source_s": 7.04,
+      "probability": 0.9960319995880127
+    },
+    {
+      "word_index": 18,
+      "word": "make",
+      "surface": " make",
+      "start_time_wav_s": 7.04,
+      "end_time_wav_s": 7.44,
+      "start_time_source_s": 7.04,
+      "end_time_source_s": 7.44,
+      "probability": 0.9956674575805664
+    },
+    {
+      "word_index": 19,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 7.44,
+      "end_time_wav_s": 7.62,
+      "start_time_source_s": 7.44,
+      "end_time_source_s": 7.62,
+      "probability": 0.9869408011436462
+    },
+    {
+      "word_index": 20,
+      "word": "mistake",
+      "surface": " mistake",
+      "start_time_wav_s": 7.62,
+      "end_time_wav_s": 7.9,
+      "start_time_source_s": 7.62,
+      "end_time_source_s": 7.9,
+      "probability": 0.996600329875946
+    },
+    {
+      "word_index": 21,
+      "word": "twice.",
+      "surface": " twice.",
+      "start_time_wav_s": 7.9,
+      "end_time_wav_s": 8.34,
+      "start_time_source_s": 7.9,
+      "end_time_source_s": 8.34,
+      "probability": 0.9983982443809509
+    }
+  ],
+  "word_count": 21,
+  "mean_word_probability": 0.9494212752296811,
+  "issues": [],
+  "official_transcript_loaded": false
+}

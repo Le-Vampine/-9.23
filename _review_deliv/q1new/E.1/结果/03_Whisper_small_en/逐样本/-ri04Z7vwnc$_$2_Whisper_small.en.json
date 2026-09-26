@@ -1,0 +1,73 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$2",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-ri04Z7vwnc$_$2.wav",
+  "audio_sha256": "ae337a607ca5cccc61d65ad7e462654b16b7a76f66d646bddf5f08cbcd91516e",
+  "audio_duration_s": 5.913375,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Hi, I'm Ajanta.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 3.6400000000000006,
+      "end_time_wav_s": 5.36,
+      "start_time_source_s": 3.6400000000000006,
+      "end_time_source_s": 5.36,
+      "text": " Hi, I'm Ajanta.",
+      "no_speech_probability": 0.1816577911376953,
+      "average_log_probability": -0.3819533228874207
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Hi,",
+      "surface": " Hi,",
+      "start_time_wav_s": 3.6400000000000006,
+      "end_time_wav_s": 4.4,
+      "start_time_source_s": 3.6400000000000006,
+      "end_time_source_s": 4.4,
+      "probability": 0.8698785901069641
+    },
+    {
+      "word_index": 2,
+      "word": "I'm",
+      "surface": " I'm",
+      "start_time_wav_s": 4.66,
+      "end_time_wav_s": 5.04,
+      "start_time_source_s": 4.66,
+      "end_time_source_s": 5.04,
+      "probability": 0.9245230257511139
+    },
+    {
+      "word_index": 3,
+      "word": "Ajanta.",
+      "surface": " Ajanta.",
+      "start_time_wav_s": 5.04,
+      "end_time_wav_s": 5.36,
+      "start_time_source_s": 5.04,
+      "end_time_source_s": 5.36,
+      "probability": 0.9333138465881348
+    }
+  ],
+  "word_count": 3,
+  "mean_word_probability": 0.9092384874820709,
+  "issues": [],
+  "official_transcript_loaded": false
+}

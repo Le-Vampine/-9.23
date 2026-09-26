@@ -1,0 +1,203 @@
+{
+  "sample_id": "-aqamKhZ1Ec$_$0",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-aqamKhZ1Ec$_$0.wav",
+  "audio_sha256": "1653cb1a5fa3caa9943794a4c34f5db5745ebb298a8cdba83532c648d185ec6a",
+  "audio_duration_s": 10.89,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "In 2008, there were very serious tribal warfare in Kenya and even following a disputed election.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 10.38,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 10.38,
+      "text": " In 2008, there were very serious tribal warfare in Kenya and even following a disputed election.",
+      "no_speech_probability": 0.04991162568330765,
+      "average_log_probability": -0.43390379065559026
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "In",
+      "surface": " In",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.36,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.36,
+      "probability": 0.7604144811630249
+    },
+    {
+      "word_index": 2,
+      "word": "2008,",
+      "surface": " 2008,",
+      "start_time_wav_s": 0.36,
+      "end_time_wav_s": 1.42,
+      "start_time_source_s": 0.36,
+      "end_time_source_s": 1.42,
+      "probability": 0.9796323180198669
+    },
+    {
+      "word_index": 3,
+      "word": "there",
+      "surface": " there",
+      "start_time_wav_s": 1.92,
+      "end_time_wav_s": 3.0,
+      "start_time_source_s": 1.92,
+      "end_time_source_s": 3.0,
+      "probability": 0.9876747131347656
+    },
+    {
+      "word_index": 4,
+      "word": "were",
+      "surface": " were",
+      "start_time_wav_s": 3.0,
+      "end_time_wav_s": 3.14,
+      "start_time_source_s": 3.0,
+      "end_time_source_s": 3.14,
+      "probability": 0.8188649415969849
+    },
+    {
+      "word_index": 5,
+      "word": "very",
+      "surface": " very",
+      "start_time_wav_s": 3.14,
+      "end_time_wav_s": 3.5,
+      "start_time_source_s": 3.14,
+      "end_time_source_s": 3.5,
+      "probability": 0.9805330038070679
+    },
+    {
+      "word_index": 6,
+      "word": "serious",
+      "surface": " serious",
+      "start_time_wav_s": 3.5,
+      "end_time_wav_s": 4.06,
+      "start_time_source_s": 3.5,
+      "end_time_source_s": 4.06,
+      "probability": 0.9968198537826538
+    },
+    {
+      "word_index": 7,
+      "word": "tribal",
+      "surface": " tribal",
+      "start_time_wav_s": 4.06,
+      "end_time_wav_s": 4.48,
+      "start_time_source_s": 4.06,
+      "end_time_source_s": 4.48,
+      "probability": 0.9861040711402893
+    },
+    {
+      "word_index": 8,
+      "word": "warfare",
+      "surface": " warfare",
+      "start_time_wav_s": 4.48,
+      "end_time_wav_s": 5.14,
+      "start_time_source_s": 4.48,
+      "end_time_source_s": 5.14,
+      "probability": 0.9956067204475403
+    },
+    {
+      "word_index": 9,
+      "word": "in",
+      "surface": " in",
+      "start_time_wav_s": 5.14,
+      "end_time_wav_s": 5.6,
+      "start_time_source_s": 5.14,
+      "end_time_source_s": 5.6,
+      "probability": 0.9855753183364868
+    },
+    {
+      "word_index": 10,
+      "word": "Kenya",
+      "surface": " Kenya",
+      "start_time_wav_s": 5.6,
+      "end_time_wav_s": 6.3,
+      "start_time_source_s": 5.6,
+      "end_time_source_s": 6.3,
+      "probability": 0.9933607578277588
+    },
+    {
+      "word_index": 11,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 6.3,
+      "end_time_wav_s": 7.18,
+      "start_time_source_s": 6.3,
+      "end_time_source_s": 7.18,
+      "probability": 0.28534480929374695
+    },
+    {
+      "word_index": 12,
+      "word": "even",
+      "surface": " even",
+      "start_time_wav_s": 7.18,
+      "end_time_wav_s": 7.84,
+      "start_time_source_s": 7.18,
+      "end_time_source_s": 7.84,
+      "probability": 0.8158186674118042
+    },
+    {
+      "word_index": 13,
+      "word": "following",
+      "surface": " following",
+      "start_time_wav_s": 7.84,
+      "end_time_wav_s": 9.16,
+      "start_time_source_s": 7.84,
+      "end_time_source_s": 9.16,
+      "probability": 0.22640760242938995
+    },
+    {
+      "word_index": 14,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 9.16,
+      "end_time_wav_s": 9.48,
+      "start_time_source_s": 9.16,
+      "end_time_source_s": 9.48,
+      "probability": 0.902585506439209
+    },
+    {
+      "word_index": 15,
+      "word": "disputed",
+      "surface": " disputed",
+      "start_time_wav_s": 9.48,
+      "end_time_wav_s": 9.82,
+      "start_time_source_s": 9.48,
+      "end_time_source_s": 9.82,
+      "probability": 0.9891669750213623
+    },
+    {
+      "word_index": 16,
+      "word": "election.",
+      "surface": " election.",
+      "start_time_wav_s": 9.82,
+      "end_time_wav_s": 10.38,
+      "start_time_source_s": 9.82,
+      "end_time_source_s": 10.38,
+      "probability": 0.9824302196502686
+    }
+  ],
+  "word_count": 16,
+  "mean_word_probability": 0.8553962474688888,
+  "issues": [],
+  "official_transcript_loaded": false
+}

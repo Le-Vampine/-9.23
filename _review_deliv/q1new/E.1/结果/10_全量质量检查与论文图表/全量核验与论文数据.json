@@ -1,0 +1,175 @@
+{
+  "sample_count": 100,
+  "word_count": 1934,
+  "tier_a_words": 520,
+  "tier_b_words": 901,
+  "audio_valid_words": 1421,
+  "visual_valid_words": 1228,
+  "null_time_words": 513,
+  "audio_frame_count": 77755,
+  "visual_sampled_frame_count": 7889,
+  "samples_without_primary_time": 16,
+  "samples_without_primary_visual": 21,
+  "samples_without_any_valid_face": 13,
+  "word_count_distribution": {
+    "min": 5.0,
+    "median": 18.0,
+    "mean": 19.34,
+    "max": 65.0
+  },
+  "video_duration_distribution_s": {
+    "min": 2.257,
+    "median": 6.722493500000001,
+    "mean": 7.87482,
+    "max": 29.288021
+  },
+  "wav_duration_distribution_s": {
+    "min": 2.228125,
+    "median": 6.5862187500000005,
+    "mean": 7.770905625,
+    "max": 29.109
+  },
+  "transcript_groups": {
+    "text_mismatch": 69,
+    "exact_text": 29,
+    "empty_asr": 2
+  },
+  "timestamp_status_counts": {
+    "official_word_unmatched_or_ambiguous_in_asr": 272,
+    "mfa_primary_unique_word_overlap_auto_qc_pass": 901,
+    "mfa_whisper_discrepancy_over_0_5s_null_primary": 99,
+    "mfa_primary_exact_transcript_auto_qc_pass": 520,
+    "asr_empty_no_timestamp": 65,
+    "mfa_alignment_output_missing": 77
+  },
+  "annotation_counts": {
+    "Positive": 57,
+    "Neutral": 25,
+    "Negative": 18
+  },
+  "complete_file_and_mask_checks": true,
+  "timestamp_accuracy_requires_gold_boundaries": true,
+  "no_gold_boundaries_available": true,
+  "visual_sampling_approx_fps": 10,
+  "source_hashes": {
+    "manifest": "bb82428e0b04beb35f49cd557fbd7fc299f038540de28d8c1b23248ca6d9e1ee",
+    "word_times": "dba1387bd012458b0732e44570677bf9c9c2c9974f8460d6217d4b97e058d64e",
+    "alignment_index": "bea4dfa3ec58151d20e601d80e5a4971253eeecffa0b67673b35c571bff51974"
+  },
+  "typical_sample": {
+    "sample_id": "-vxjVxOeScU$_$4",
+    "annotation": "Positive",
+    "label": 1.0,
+    "text": "You're going to talk about their life, their marriage and usually how amazing it is that they've stayed together this long.",
+    "detail": [
+      {
+        "word_index": 11,
+        "word": "usually",
+        "start_s": 4.860000133514404,
+        "end_s": 5.510000228881836,
+        "audio_frames": 65,
+        "visual_valid_frames": 7,
+        "text_norm": 14.684457778930664,
+        "audio_rms_mean": 0.04036571830511093,
+        "visual_mouth_smile_left_mean": 0.01987542398273945,
+        "visual_jaw_open_mean": 0.10764266550540924
+      },
+      {
+        "word_index": 12,
+        "word": "how",
+        "start_s": 5.510000228881836,
+        "end_s": 5.909999847412109,
+        "audio_frames": 39,
+        "visual_valid_frames": 4,
+        "text_norm": 16.009647369384766,
+        "audio_rms_mean": 0.03864318132400513,
+        "visual_mouth_smile_left_mean": 0.006755370646715164,
+        "visual_jaw_open_mean": 0.07965303212404251
+      },
+      {
+        "word_index": 13,
+        "word": "amazing",
+        "start_s": 5.909999847412109,
+        "end_s": 6.409999847412109,
+        "audio_frames": 50,
+        "visual_valid_frames": 5,
+        "text_norm": 14.641844749450684,
+        "audio_rms_mean": 0.029829729348421097,
+        "visual_mouth_smile_left_mean": 0.11029727756977081,
+        "visual_jaw_open_mean": 0.07897593080997467
+      },
+      {
+        "word_index": 14,
+        "word": "it",
+        "start_s": 6.409999847412109,
+        "end_s": 6.53000020980835,
+        "audio_frames": 13,
+        "visual_valid_frames": 1,
+        "text_norm": 15.772156715393066,
+        "audio_rms_mean": 0.02718462608754635,
+        "visual_mouth_smile_left_mean": 0.5144459009170532,
+        "visual_jaw_open_mean": 0.12112727761268616
+      },
+      {
+        "word_index": 15,
+        "word": "is",
+        "start_s": 6.53000020980835,
+        "end_s": 6.800000190734863,
+        "audio_frames": 27,
+        "visual_valid_frames": 3,
+        "text_norm": 16.379650115966797,
+        "audio_rms_mean": 0.031490225344896317,
+        "visual_mouth_smile_left_mean": 0.26116135716438293,
+        "visual_jaw_open_mean": 0.08941742032766342
+      },
+      {
+        "word_index": 16,
+        "word": "that",
+        "start_s": 6.800000190734863,
+        "end_s": 6.960000038146973,
+        "audio_frames": 16,
+        "visual_valid_frames": 1,
+        "text_norm": 15.422550201416016,
+        "audio_rms_mean": 0.02201548032462597,
+        "visual_mouth_smile_left_mean": 0.10584178566932678,
+        "visual_jaw_open_mean": 0.09865835309028625
+      },
+      {
+        "word_index": 17,
+        "word": "they've",
+        "start_s": 6.960000038146973,
+        "end_s": 7.139999866485596,
+        "audio_frames": 17,
+        "visual_valid_frames": 2,
+        "text_norm": 10.273404121398926,
+        "audio_rms_mean": 0.028850147500634193,
+        "visual_mouth_smile_left_mean": 0.005193205550312996,
+        "visual_jaw_open_mean": 0.0830792784690857
+      },
+      {
+        "word_index": 18,
+        "word": "stayed",
+        "start_s": 7.139999866485596,
+        "end_s": 7.480000019073486,
+        "audio_frames": 35,
+        "visual_valid_frames": 3,
+        "text_norm": 14.63239574432373,
+        "audio_rms_mean": 0.02636779099702835,
+        "visual_mouth_smile_left_mean": 0.27884793281555176,
+        "visual_jaw_open_mean": 0.13903477787971497
+      },
+      {
+        "word_index": 19,
+        "word": "together",
+        "start_s": 7.480000019073486,
+        "end_s": 7.889999866485596,
+        "audio_frames": 40,
+        "visual_valid_frames": 4,
+        "text_norm": 14.593133926391602,
+        "audio_rms_mean": 0.04109499230980873,
+        "visual_mouth_smile_left_mean": 0.29897773265838623,
+        "visual_jaw_open_mean": 0.22539982199668884
+      }
+    ]
+  }
+}

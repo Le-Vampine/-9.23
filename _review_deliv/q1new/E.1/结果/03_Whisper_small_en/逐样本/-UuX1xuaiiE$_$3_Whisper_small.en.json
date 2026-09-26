@@ -1,0 +1,133 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$3",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-UuX1xuaiiE$_$3.wav",
+  "audio_sha256": "e30c5f4541a60031864b5d8379a8de30641ac7ba8d025b6512c727cb3a2a47bb",
+  "audio_duration_s": 4.038,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "My goal is to become a human rights lawyer.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 3.52,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 3.52,
+      "text": " My goal is to become a human rights lawyer.",
+      "no_speech_probability": 0.09068266302347183,
+      "average_log_probability": -0.2395953765282264
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "My",
+      "surface": " My",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.64,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.64,
+      "probability": 0.5187836289405823
+    },
+    {
+      "word_index": 2,
+      "word": "goal",
+      "surface": " goal",
+      "start_time_wav_s": 0.64,
+      "end_time_wav_s": 0.9,
+      "start_time_source_s": 0.64,
+      "end_time_source_s": 0.9,
+      "probability": 0.9955464601516724
+    },
+    {
+      "word_index": 3,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 0.9,
+      "end_time_wav_s": 1.32,
+      "start_time_source_s": 0.9,
+      "end_time_source_s": 1.32,
+      "probability": 0.9939642548561096
+    },
+    {
+      "word_index": 4,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.32,
+      "end_time_wav_s": 1.62,
+      "start_time_source_s": 1.32,
+      "end_time_source_s": 1.62,
+      "probability": 0.9961504936218262
+    },
+    {
+      "word_index": 5,
+      "word": "become",
+      "surface": " become",
+      "start_time_wav_s": 1.62,
+      "end_time_wav_s": 2.0,
+      "start_time_source_s": 1.62,
+      "end_time_source_s": 2.0,
+      "probability": 0.9922659993171692
+    },
+    {
+      "word_index": 6,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 2.0,
+      "end_time_wav_s": 2.66,
+      "start_time_source_s": 2.0,
+      "end_time_source_s": 2.66,
+      "probability": 0.9969910383224487
+    },
+    {
+      "word_index": 7,
+      "word": "human",
+      "surface": " human",
+      "start_time_wav_s": 2.66,
+      "end_time_wav_s": 2.82,
+      "start_time_source_s": 2.66,
+      "end_time_source_s": 2.82,
+      "probability": 0.9622267484664917
+    },
+    {
+      "word_index": 8,
+      "word": "rights",
+      "surface": " rights",
+      "start_time_wav_s": 2.82,
+      "end_time_wav_s": 3.14,
+      "start_time_source_s": 2.82,
+      "end_time_source_s": 3.14,
+      "probability": 0.9816442131996155
+    },
+    {
+      "word_index": 9,
+      "word": "lawyer.",
+      "surface": " lawyer.",
+      "start_time_wav_s": 3.14,
+      "end_time_wav_s": 3.52,
+      "start_time_source_s": 3.14,
+      "end_time_source_s": 3.52,
+      "probability": 0.995281994342804
+    }
+  ],
+  "word_count": 9,
+  "mean_word_probability": 0.9369838701354133,
+  "issues": [],
+  "official_transcript_loaded": false
+}

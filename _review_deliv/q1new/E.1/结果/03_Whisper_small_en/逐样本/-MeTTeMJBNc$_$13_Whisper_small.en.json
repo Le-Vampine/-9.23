@@ -1,0 +1,203 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$13",
+  "status": "已完成",
+  "audio_path": "C:\\Users\\Administrator\\Desktop\\23华为杯\\E.1\\输入\\音频WAV\\-MeTTeMJBNc$_$13.wav",
+  "audio_sha256": "a63ac2114b0c624997cfad82368961f4424ba51923c0d30118e1f18ab12be6eb",
+  "audio_duration_s": 5.255,
+  "source_audio_start_s": 0.0,
+  "source_time_mapping": "source_time_s = wav_time_s + source_audio_start_s",
+  "tool": "faster-whisper",
+  "model": "Systran/faster-whisper-small.en",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "language": "en",
+  "language_probability": 1.0,
+  "timestamp_method": "Whisper word_timestamps; approximate ASR timestamps, not forced alignment",
+  "parameters": {
+    "task": "transcribe",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "transcription_text": "Whatever it is just needs to be a simple statement and then you present the gift.",
+  "segments": [
+    {
+      "segment_index": 1,
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 4.72,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 4.72,
+      "text": " Whatever it is just needs to be a simple statement and then you present the gift.",
+      "no_speech_probability": 0.007695505861192942,
+      "average_log_probability": -0.23340909853577613
+    }
+  ],
+  "word_timestamps": [
+    {
+      "word_index": 1,
+      "word": "Whatever",
+      "surface": " Whatever",
+      "start_time_wav_s": 0.0,
+      "end_time_wav_s": 0.06,
+      "start_time_source_s": 0.0,
+      "end_time_source_s": 0.06,
+      "probability": 0.33347249031066895
+    },
+    {
+      "word_index": 2,
+      "word": "it",
+      "surface": " it",
+      "start_time_wav_s": 0.06,
+      "end_time_wav_s": 0.18,
+      "start_time_source_s": 0.06,
+      "end_time_source_s": 0.18,
+      "probability": 0.9905738234519958
+    },
+    {
+      "word_index": 3,
+      "word": "is",
+      "surface": " is",
+      "start_time_wav_s": 0.18,
+      "end_time_wav_s": 0.54,
+      "start_time_source_s": 0.18,
+      "end_time_source_s": 0.54,
+      "probability": 0.9979040622711182
+    },
+    {
+      "word_index": 4,
+      "word": "just",
+      "surface": " just",
+      "start_time_wav_s": 0.54,
+      "end_time_wav_s": 1.26,
+      "start_time_source_s": 0.54,
+      "end_time_source_s": 1.26,
+      "probability": 0.6961185932159424
+    },
+    {
+      "word_index": 5,
+      "word": "needs",
+      "surface": " needs",
+      "start_time_wav_s": 1.26,
+      "end_time_wav_s": 1.58,
+      "start_time_source_s": 1.26,
+      "end_time_source_s": 1.58,
+      "probability": 0.980409562587738
+    },
+    {
+      "word_index": 6,
+      "word": "to",
+      "surface": " to",
+      "start_time_wav_s": 1.58,
+      "end_time_wav_s": 1.8,
+      "start_time_source_s": 1.58,
+      "end_time_source_s": 1.8,
+      "probability": 0.997148334980011
+    },
+    {
+      "word_index": 7,
+      "word": "be",
+      "surface": " be",
+      "start_time_wav_s": 1.8,
+      "end_time_wav_s": 1.94,
+      "start_time_source_s": 1.8,
+      "end_time_source_s": 1.94,
+      "probability": 0.9981433153152466
+    },
+    {
+      "word_index": 8,
+      "word": "a",
+      "surface": " a",
+      "start_time_wav_s": 1.94,
+      "end_time_wav_s": 2.1,
+      "start_time_source_s": 1.94,
+      "end_time_source_s": 2.1,
+      "probability": 0.993121325969696
+    },
+    {
+      "word_index": 9,
+      "word": "simple",
+      "surface": " simple",
+      "start_time_wav_s": 2.1,
+      "end_time_wav_s": 2.5,
+      "start_time_source_s": 2.1,
+      "end_time_source_s": 2.5,
+      "probability": 0.9959850311279297
+    },
+    {
+      "word_index": 10,
+      "word": "statement",
+      "surface": " statement",
+      "start_time_wav_s": 2.5,
+      "end_time_wav_s": 3.12,
+      "start_time_source_s": 2.5,
+      "end_time_source_s": 3.12,
+      "probability": 0.9986532926559448
+    },
+    {
+      "word_index": 11,
+      "word": "and",
+      "surface": " and",
+      "start_time_wav_s": 3.12,
+      "end_time_wav_s": 3.68,
+      "start_time_source_s": 3.12,
+      "end_time_source_s": 3.68,
+      "probability": 0.7874725461006165
+    },
+    {
+      "word_index": 12,
+      "word": "then",
+      "surface": " then",
+      "start_time_wav_s": 3.68,
+      "end_time_wav_s": 3.78,
+      "start_time_source_s": 3.68,
+      "end_time_source_s": 3.78,
+      "probability": 0.9680339694023132
+    },
+    {
+      "word_index": 13,
+      "word": "you",
+      "surface": " you",
+      "start_time_wav_s": 3.78,
+      "end_time_wav_s": 3.92,
+      "start_time_source_s": 3.78,
+      "end_time_source_s": 3.92,
+      "probability": 0.9938919544219971
+    },
+    {
+      "word_index": 14,
+      "word": "present",
+      "surface": " present",
+      "start_time_wav_s": 3.92,
+      "end_time_wav_s": 4.26,
+      "start_time_source_s": 3.92,
+      "end_time_source_s": 4.26,
+      "probability": 0.9937437176704407
+    },
+    {
+      "word_index": 15,
+      "word": "the",
+      "surface": " the",
+      "start_time_wav_s": 4.26,
+      "end_time_wav_s": 4.5,
+      "start_time_source_s": 4.26,
+      "end_time_source_s": 4.5,
+      "probability": 0.9920068383216858
+    },
+    {
+      "word_index": 16,
+      "word": "gift.",
+      "surface": " gift.",
+      "start_time_wav_s": 4.5,
+      "end_time_wav_s": 4.72,
+      "start_time_source_s": 4.5,
+      "end_time_source_s": 4.72,
+      "probability": 0.9923845529556274
+    }
+  ],
+  "word_count": 16,
+  "mean_word_probability": 0.9193164631724358,
+  "issues": [],
+  "official_transcript_loaded": false
+}

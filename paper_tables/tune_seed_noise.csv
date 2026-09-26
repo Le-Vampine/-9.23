@@ -1,0 +1,4 @@
+﻿run,n,sd_valid_mae,sd_valid_f1_head,sd_valid_acc_head
+ablate_a2_nomask,3,0.006015,0.008337,0.012464
+ens_e1,3,0.006416,0.018041,0.018171
+q2v3,3,0.005494,0.004838,0.008393
